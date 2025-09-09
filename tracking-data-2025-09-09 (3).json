@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "id": 1757433666818,
+      "timestamp": 1757433666562,
+      "sessionId": "android_session_1757433614496_ab7be8db",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Lentilles Vertes.",
+          "cartAction": "-15% Mardi PASS",
+          "productName": "-15% Mardi PASS",
+          "allTexts": [
+            "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Lentilles Vertes.",
+            "-15% Mardi PASS"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757433666817,
+      "timestamp": 1757433666560,
+      "sessionId": "android_session_1757433614496_ab7be8db",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,04€ cagnottés",
+          "cartAction": "2,04€ cagnottés",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés2.04€. produits concernés: Œufs bio moyen.",
+            "-10% Club",
+            "2,04€ cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757433666812,
+      "timestamp": 1757433666555,
+      "sessionId": "android_session_1757433614496_ab7be8db",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Samon sauce teriyaki ONIGIRI",
+          "allTexts": [
+            "Samon sauce teriyaki ONIGIRI"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757433666811,
+      "timestamp": 1757433666546,
+      "sessionId": "android_session_1757433614496_ab7be8db",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+          "cartAction": "-15% Mardi PASS",
+          "productName": "-15% Mardi PASS",
+          "allTexts": [
+            "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+            "-15% Mardi PASS"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757433666805,
+      "timestamp": 1757433666534,
+      "sessionId": "android_session_1757433614496_ab7be8db",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,44€",
+          "cartAction": "2,44€",
+          "productName": "cagnottés",
+          "allTexts": [
+            "2,44€",
+            "cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 5,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 5
+  },
+  "exportedAt": "2025-09-09T16:02:20.103Z"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "web-tracking-system",
+  "version": "1.0.0",
+  "description": "Version web browser du système de tracking pour comparaison avec la version mobile",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

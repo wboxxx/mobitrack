@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tracking System - Demo Site</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .nav-menu {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .nav-menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            background-color: #667eea;
+            color: white;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .product-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+        }
+
+        .search-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: #f8f9fa;
+            border: 2px solid #e0e0e0;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .dashboard-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 1rem;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .dashboard-link:hover {
+            transform: scale(1.1);
+        }
+
+        .tracking-info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <a href="/dashboard" class="dashboard-link">📊 Dashboard</a>
+    
+    <div class="tracking-info">
+        <div>Session ID: <span id="sessionId">-</span></div>
+        <div>Events tracked: <span id="eventCount">0</span></div>
+    </div>
+
+    <header>
+        <h1>🛒 E-Commerce Demo Site</h1>
+        <p>Site de démonstration pour tester le système de tracking web</p>
+    </header>
+
+    <div class="container">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" data-nav="accueil">🏠 Accueil</a></li>
+                <li><a href="#" data-nav="produits">📦 Produits</a></li>
+                <li><a href="#" data-nav="promotions">🏷️ Promotions</a></li>
+                <li><a href="#" data-nav="favoris">❤️ Favoris</a></li>
+                <li><a href="#" data-nav="panier">🛒 Panier</a></li>
+            </ul>
+        </nav>
+
+        <section class="search-section">
+            <h2>🔍 Recherche</h2>
+            <input type="text" class="search-input" placeholder="Rechercher un produit..." id="searchInput">
+            <div class="filters">
+                <button class="filter-btn" data-filter="tous">Tous</button>
+                <button class="filter-btn" data-filter="electronique">Électronique</button>
+                <button class="filter-btn" data-filter="vetements">Vêtements</button>
+                <button class="filter-btn" data-filter="maison">Maison</button>
+                <button class="filter-btn" data-filter="sport">Sport</button>
+            </div>
+        </section>
+
+        <section class="product-grid" id="productGrid">
+            <!-- Products will be generated by JavaScript -->
+        </section>
+    </div>
+
+    <script src="/js/tracking.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.Leclerc Drive - Courses en ligne</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Header Leclerc */
+        .header-leclerc {
+            background: #0066cc;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        #aWCSD333_PL {
+            background: white;
+            color: #0066cc;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        /* Search Bar */
+        #WRSL301_FormRecherche {
+            display: flex;
+            margin: 1rem auto;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+
+        #inputWRSL301_rechercheTexte {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-right: none;
+            font-size: 16px;
+        }
+
+        #inputWRSL301_rechercheBouton {
+            background: #0066cc;
+            color: white;
+            border: 2px solid #0066cc;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Navigation */
+        .drive {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            padding: 0 20px;
+        }
+
+        .rayon-droite-titre {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-right: 1px solid #ddd;
+            cursor: pointer;
+            font-weight: bold;
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+        .rayon-droite-titre:hover {
+            background: #e9ecef;
+        }
+
+        .famille-lien {
+            display: none;
+            position: absolute;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 100;
+            min-width: 200px;
+        }
+
+        .famille-lien.active {
+            display: block;
+        }
+
+        .famille-lien-libelle {
+            display: block;
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        .famille-lien-libelle:hover {
+            background: #f8f9fa;
+        }
+
+        /* Breadcrumb */
+        .ulWCAD307_FilAriane {
+            list-style: none;
+            display: flex;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            margin: 0;
+        }
+
+        .ulWCAD307_FilAriane li {
+            margin-right: 10px;
+        }
+
+        .ulWCAD307_FilAriane li:after {
+            content: " > ";
+            margin-left: 10px;
+            color: #666;
+        }
+
+        .ulWCAD307_FilAriane li:last-child:after {
+            content: "";
+        }
+
+        .ulWCAD307_FilAriane li h1 .Termes {
+            font-size: 16px;
+            color: #0066cc;
+            font-weight: normal;
+        }
+
+        /* Main Content */
+        #sectionWCRS001_MainContent {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Sidebar */
+        #ctl00_ctl00_mainMutiUnivers_main_divContenuGauche {
+            width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        .estPromotions {
+            background: #ff6b35;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .estPromotions.estActif {
+            background: #e55a2b;
+        }
+
+        .bandeau-lien.estCoursesPlusVite {
+            background: #28a745;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .liValeurFiltre {
+            list-style: none;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        .liValeurFiltre:hover {
+            background: #f8f9fa;
+        }
+
+        /* Products */
+        #divContenuCentre {
+            flex: 1;
+        }
+
+        .products-header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .liWCRS310_Product {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .liWCRS310_Product:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .liWCRS310_Product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .pWCRS310_Desc {
+            margin-bottom: 10px;
+        }
+
+        .aWCRS310_Product {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .divWCRS310_PrixUnitaire {
+            margin-bottom: 15px;
+        }
+
+        .pWCRS319_Prix {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .add-to-cart-btn {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .add-to-cart-btn:hover {
+            background: #0052a3;
+        }
+
+        /* Cart */
+        #ulWCRS319_Produits {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100vh;
+            background: white;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            transition: right 0.3s;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        #ulWCRS319_Produits.open {
+            right: 0;
+        }
+
+        #ulWCRS319_Produits.visible {
+            right: 0;
+        }
+
+        .cart-header {
+            padding: 20px;
+            background: #0066cc;
+            color: white;
+            font-weight: bold;
+        }
+
+        .cart-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .spanWCRS319_count {
+            background: #f8f9fa;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        #ctl00_main_ctl01_rptOngletPaiement_ctl01_ctl00_lkbContinuerPaiement {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 20px;
+            width: calc(100% - 40px);
+        }
+
+        /* Filters */
+        .divWCRS001_BlocFiltre.divWCRS315_Filtres.divWCRS315_FiltresNavigation {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .divWCRS001_BlocFiltre.divWCRS315_Filtres.divWCRS315_FiltresNavigation li {
+            list-style: none;
+            padding: 8px 12px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .divWCRS001_BlocFiltre.divWCRS315_Filtres.divWCRS315_FiltresNavigation li:hover {
+            background: #e9ecef;
+        }
+
+        .cart-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 999;
+        }
+
+        .dashboard-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 998;
+        }
+
+        .tracking-info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 998;
+        }
+    </style>
+</head>
+<body>
+    <a href="/dashboard" class="dashboard-link">📊 Dashboard</a>
+    
+    <div class="tracking-info">
+        <div>Session: <span id="sessionId">-</span></div>
+        <div>Events: <span id="eventCount">0</span></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header-leclerc">
+        <div class="header-content">
+            <div class="logo">E.Leclerc DRIVE</div>
+            <a href="#" id="aWCSD333_PL">📍 Magasin de Metz</a>
+        </div>
+    </header>
+
+    <!-- Search -->
+    <form id="WRSL301_FormRecherche">
+        <input type="text" id="inputWRSL301_rechercheTexte" placeholder="Rechercher un produit, une marque...">
+        <button type="submit" id="inputWRSL301_rechercheBouton">🔍</button>
+    </form>
+
+    <!-- Navigation -->
+    <nav class="drive">
+        <div class="nav-container">
+            <div class="rayon-droite-titre" data-category="fruits-legumes">
+                🥕 Fruits & Légumes
+                <div class="famille-lien">
+                    <span class="famille-lien-libelle">Fruits frais</span>
+                    <span class="famille-lien-libelle">Légumes frais</span>
+                    <span class="famille-lien-libelle">Fruits secs</span>
+                </div>
+            </div>
+            <div class="rayon-droite-titre" data-category="boucherie">
+                🥩 Boucherie Charcuterie
+                <div class="famille-lien">
+                    <span class="famille-lien-libelle">Viande de bœuf</span>
+                    <span class="famille-lien-libelle">Viande de porc</span>
+                    <span class="famille-lien-libelle">Charcuterie</span>
+                </div>
+            </div>
+            <div class="rayon-droite-titre" data-category="epicerie">
+                🥫 Épicerie
+                <div class="famille-lien">
+                    <span class="famille-lien-libelle">Conserves</span>
+                    <span class="famille-lien-libelle">Pâtes & Riz</span>
+                    <span class="famille-lien-libelle">Huiles & Vinaigres</span>
+                </div>
+            </div>
+            <div class="rayon-droite-titre" data-category="produits-laitiers">
+                🧀 Produits Laitiers
+                <div class="famille-lien">
+                    <span class="famille-lien-libelle">Fromages</span>
+                    <span class="famille-lien-libelle">Yaourts</span>
+                    <span class="famille-lien-libelle">Beurre & Crème</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <ul class="ulWCAD307_FilAriane">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Épicerie</a></li>
+        <li><h1><span class="Termes">Pâtes & Riz</span></h1></li>
+    </ul>
+
+    <!-- Main Content -->
+    <main id="sectionWCRS001_MainContent">
+        <!-- Sidebar -->
+        <aside id="ctl00_ctl00_mainMutiUnivers_main_divContenuGauche">
+            <div class="estPromotions">🏷️ Promotions</div>
+            <div class="bandeau-lien estCoursesPlusVite">⚡ Mes courses + vite</div>
+            
+            <h3>Filtres</h3>
+            <ul>
+                <li class="liValeurFiltre">Marque Repère (15)</li>
+                <li class="liValeurFiltre">Barilla (8)</li>
+                <li class="liValeurFiltre">Panzani (12)</li>
+                <li class="liValeurFiltre">Uncle Ben's (6)</li>
+                <li class="liValeurFiltre">Lustucru (9)</li>
+            </ul>
+
+            <!-- Navigation Filters -->
+            <div class="divWCRS001_BlocFiltre divWCRS315_Filtres divWCRS315_FiltresNavigation">
+                <h4>Catégories</h4>
+                <ul>
+                    <li>Pâtes fraîches</li>
+                    <li>Pâtes sèches</li>
+                    <li>Riz blanc</li>
+                    <li>Riz complet</li>
+                    <li>Semoule</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Products -->
+        <div id="divContenuCentre">
+            <div class="products-header">
+                <h2>Pâtes & Riz (48 produits)</h2>
+                <p>Découvrez notre sélection de pâtes et riz de qualité</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product items will be generated by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart -->
+    <div id="ulWCRS319_Produits">
+        <div class="cart-header">
+            🛒 Mon Panier
+            <button onclick="toggleCart()" style="float: right; background: none; border: none; color: white; font-size: 18px;">✕</button>
+        </div>
+        <div id="cart-items">
+            <p style="padding: 20px; text-align: center; color: #666;">Votre panier est vide</p>
+        </div>
+        <button id="ctl00_main_ctl01_rptOngletPaiement_ctl01_ctl00_lkbContinuerPaiement">
+            Continuer vers le paiement
+        </button>
+    </div>
+
+    <button class="cart-toggle" onclick="toggleCart()">🛒</button>
+
+    <script>
+        // Global function for cart toggle
+        function toggleCart() {
+            console.log('Toggle cart clicked');
+            const cart = document.getElementById('ulWCRS319_Produits');
+            if (cart) {
+                cart.classList.toggle('open');
+                console.log('Cart classes:', cart.className);
+            } else {
+                console.error('Cart element not found');
+            }
+        }
+        
+        // Debug function to test cart
+        function testCart() {
+            console.log('Testing cart functionality...');
+            const cart = document.getElementById('ulWCRS319_Produits');
+            if (cart) {
+                cart.style.right = '0px';
+                console.log('Cart should be visible now');
+            }
+        }
+    </script>
+    <script src="/js/leclerc-tracking.js"></script>
+    <script src="/js/leclerc-app.js"></script>
+    
+    <script>
+        // Additional debugging after page load
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Page loaded, checking elements...');
+            
+            // Check cart button
+            const cartButton = document.querySelector('.cart-toggle');
+            console.log('Cart button found:', !!cartButton);
+            
+            // Check cart panel
+            const cartPanel = document.getElementById('ulWCRS319_Produits');
+            console.log('Cart panel found:', !!cartPanel);
+            
+            // Check add to cart buttons
+            const addButtons = document.querySelectorAll('.add-to-cart-btn');
+            console.log('Add to cart buttons found:', addButtons.length);
+            
+            // Add click listeners to buttons for debugging
+            addButtons.forEach((btn, index) => {
+                btn.addEventListener('click', (e) => {
+                    console.log(`Add to cart button ${index} clicked`);
+                    console.log('Button disabled:', btn.disabled);
+                    console.log('Event target:', e.target);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

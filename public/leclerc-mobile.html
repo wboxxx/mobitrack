@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>E.Leclerc Drive Mobile - Courses en ligne</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            overflow-x: hidden;
+        }
+
+        /* Mobile-first design */
+        .mobile-header {
+            background: #0066cc;
+            color: white;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .logo-mobile {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .store-selector {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+        }
+
+        /* Mobile search */
+        .mobile-search {
+            display: flex;
+            background: white;
+            border-radius: 25px;
+            padding: 8px 15px;
+            align-items: center;
+        }
+
+        #inputWRSL301_rechercheTexte {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            color: #333;
+        }
+
+        #inputWRSL301_rechercheBouton {
+            background: none;
+            border: none;
+            color: #0066cc;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* Mobile navigation tabs */
+        .mobile-nav-tabs {
+            display: flex;
+            background: white;
+            overflow-x: auto;
+            padding: 0 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .nav-tab {
+            flex-shrink: 0;
+            padding: 15px 20px;
+            text-align: center;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 14px;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .nav-tab.active {
+            color: #0066cc;
+            border-bottom-color: #0066cc;
+        }
+
+        /* Breadcrumb mobile */
+        .mobile-breadcrumb {
+            padding: 10px 15px;
+            background: #f8f9fa;
+            font-size: 12px;
+            color: #666;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        /* Mobile filters */
+        .mobile-filters {
+            display: flex;
+            padding: 10px 15px;
+            gap: 10px;
+            overflow-x: auto;
+            background: white;
+        }
+
+        .filter-chip {
+            flex-shrink: 0;
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-chip.active {
+            background: #0066cc;
+            color: white;
+            border-color: #0066cc;
+        }
+
+        /* Mobile product grid */
+        .mobile-products {
+            padding: 15px;
+        }
+
+        .products-grid-mobile {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .liWCRS310_Product {
+            background: white;
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .liWCRS310_Product:active {
+            transform: scale(0.98);
+        }
+
+        .liWCRS310_Product img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .pWCRS310_Desc {
+            margin-bottom: 8px;
+        }
+
+        .aWCRS310_Product {
+            color: #333;
+            text-decoration: none;
+            font-size: 13px;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .divWCRS310_PrixUnitaire {
+            margin-bottom: 10px;
+        }
+
+        .pWCRS319_Prix {
+            font-size: 16px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .add-to-cart-btn {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 12px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .add-to-cart-btn:active {
+            background: #0052a3;
+        }
+
+        /* Mobile cart */
+        .mobile-cart-fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,102,204,0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #ff4444;
+            color: white;
+            border-radius: 10px;
+            padding: 2px 6px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #ulWCRS319_Produits {
+            position: fixed;
+            bottom: -100vh;
+            left: 0;
+            width: 100vw;
+            height: 70vh;
+            background: white;
+            border-radius: 20px 20px 0 0;
+            transition: bottom 0.3s ease-out;
+            z-index: 2000;
+            overflow-y: auto;
+        }
+
+        #ulWCRS319_Produits.open {
+            bottom: 0;
+        }
+
+        .cart-header-mobile {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .cart-handle {
+            width: 40px;
+            height: 4px;
+            background: #ddd;
+            border-radius: 2px;
+            margin: 0 auto 15px;
+        }
+
+        .cart-item-mobile {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .cart-item-image {
+            width: 50px;
+            height: 50px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .cart-item-details {
+            flex: 1;
+        }
+
+        .cart-item-name {
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .cart-item-price {
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .quantity-btn {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spanWCRS319_count {
+            font-weight: bold;
+            min-width: 20px;
+            text-align: center;
+        }
+
+        .checkout-btn-mobile {
+            position: sticky;
+            bottom: 0;
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Touch feedback */
+        .touchable {
+            -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+        }
+
+        /* Tracking info mobile */
+        .tracking-info-mobile {
+            position: fixed;
+            top: 70px;
+            left: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            z-index: 999;
+        }
+
+        /* Dashboard link mobile */
+        .dashboard-link-mobile {
+            position: fixed;
+            top: 70px;
+            right: 10px;
+            background: #28a745;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 12px;
+            z-index: 999;
+        }
+
+        @media (max-width: 480px) {
+            .products-grid-mobile {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="/dashboard" class="dashboard-link-mobile">📊</a>
+    
+    <div class="tracking-info-mobile">
+        <div>Session: <span id="sessionId">-</span></div>
+        <div>Events: <span id="eventCount">0</span></div>
+    </div>
+
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <div class="header-top">
+            <div class="logo-mobile">E.Leclerc DRIVE</div>
+            <div class="store-selector" id="aWCSD333_PL">📍 Metz</div>
+        </div>
+        <form id="WRSL301_FormRecherche" class="mobile-search">
+            <input type="text" id="inputWRSL301_rechercheTexte" placeholder="Rechercher...">
+            <button type="submit" id="inputWRSL301_rechercheBouton">🔍</button>
+        </form>
+    </header>
+
+    <!-- Mobile Navigation Tabs -->
+    <nav class="mobile-nav-tabs">
+        <div class="nav-tab rayon-droite-titre active" data-category="fruits-legumes">🥕 Fruits & Légumes</div>
+        <div class="nav-tab rayon-droite-titre" data-category="boucherie">🥩 Boucherie</div>
+        <div class="nav-tab rayon-droite-titre" data-category="epicerie">🥫 Épicerie</div>
+        <div class="nav-tab rayon-droite-titre" data-category="produits-laitiers">🧀 Laitiers</div>
+    </nav>
+
+    <!-- Mobile Breadcrumb -->
+    <div class="mobile-breadcrumb ulWCAD307_FilAriane">
+        Accueil > Épicerie > <span class="Termes">Pâtes & Riz</span>
+    </div>
+
+    <!-- Mobile Filters -->
+    <div class="mobile-filters">
+        <div class="filter-chip liValeurFiltre active">Tous</div>
+        <div class="filter-chip liValeurFiltre">Barilla</div>
+        <div class="filter-chip liValeurFiltre">Panzani</div>
+        <div class="filter-chip liValeurFiltre">Uncle Ben's</div>
+        <div class="filter-chip liValeurFiltre">Lustucru</div>
+    </div>
+
+    <!-- Mobile Products -->
+    <main class="mobile-products" id="sectionWCRS001_MainContent">
+        <div class="products-grid-mobile" id="divContenuCentre">
+            <!-- Products will be generated by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Mobile Cart -->
+    <div id="ulWCRS319_Produits">
+        <div class="cart-header-mobile">
+            <div class="cart-handle"></div>
+            <div>🛒 Mon Panier</div>
+        </div>
+        <div id="cart-items-mobile">
+            <p style="padding: 40px 20px; text-align: center; color: #666;">Votre panier est vide</p>
+        </div>
+        <button class="checkout-btn-mobile" id="ctl00_main_ctl01_rptOngletPaiement_ctl01_ctl00_lkbContinuerPaiement">
+            Continuer vers le paiement
+        </button>
+    </div>
+
+    <!-- Mobile Cart FAB -->
+    <button class="mobile-cart-fab touchable" onclick="toggleMobileCart()">
+        🛒
+        <span class="cart-badge" id="cart-badge" style="display: none;">0</span>
+    </button>
+
+    <script>
+        // Mobile-specific functions
+        function toggleMobileCart() {
+            const cart = document.getElementById('ulWCRS319_Produits');
+            cart.classList.toggle('open');
+        }
+
+        // Touch event handling for mobile
+        document.addEventListener('touchstart', function(e) {
+            // Add touch feedback
+            if (e.target.classList.contains('touchable')) {
+                e.target.style.opacity = '0.7';
+            }
+        });
+
+        document.addEventListener('touchend', function(e) {
+            // Remove touch feedback
+            if (e.target.classList.contains('touchable')) {
+                setTimeout(() => {
+                    e.target.style.opacity = '1';
+                }, 100);
+            }
+        });
+    </script>
+    <script src="/js/leclerc-mobile-tracking.js"></script>
+    <script src="/js/leclerc-mobile-app.js"></script>
+</body>
+</html>

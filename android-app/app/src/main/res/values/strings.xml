@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bascule Cross-App Tracking</string>
+    <string name="accessibility_service_description">Service de tracking cross-app pour analyser les interactions e-commerce sur différentes applications après consentement utilisateur. Aucune donnée personnelle collectée.</string>
+    <string name="action_comparison">Comparaison</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_clear_data">Effacer données</string>
+    <string name="action_export">Exporter</string>
+</resources>
