@@ -1,0 +1,2836 @@
+{
+  "events": [
+    {
+      "id": 1757664590241,
+      "timestamp": 1757664589577,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664589074
+      }
+    },
+    {
+      "id": 1757664628759,
+      "timestamp": 1757664628134,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 18 new notifications",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757664627632
+      }
+    },
+    {
+      "id": 1757664629210,
+      "timestamp": 1757664628586,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757664629524,
+      "timestamp": 1757664628898,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664628397
+      }
+    },
+    {
+      "id": 1757664629620,
+      "timestamp": 1757664628988,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664628486
+      }
+    },
+    {
+      "id": 1757664629633,
+      "timestamp": 1757664628997,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE",
+          "allTexts": [
+            "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757664629671,
+      "timestamp": 1757664629044,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,20€ cagnottés",
+          "cartAction": "0,20€ cagnottés",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.2€. produits concernés: Bananes Max Havelaar.",
+            "-10% Club",
+            "0,20€ cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757664629734,
+      "timestamp": 1757664629108,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664628606
+      }
+    },
+    {
+      "id": 1757664629866,
+      "timestamp": 1757664629239,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664628739
+      }
+    },
+    {
+      "id": 1757664629869,
+      "timestamp": 1757664629242,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757664628741
+      }
+    },
+    {
+      "id": 1757665122949,
+      "timestamp": 1757665122324,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 37,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665123403,
+      "timestamp": 1757665122777,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 343,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665123867,
+      "timestamp": 1757665123242,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 511,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665124020,
+      "timestamp": 1757665123395,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 594,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665124218,
+      "timestamp": 1757665123593,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Lentilles Vertes.",
+          "cartAction": "€",
+          "productName": "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE",
+          "allTexts": [
+            "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE",
+            "Supprimer",
+            "Bouton de substitution",
+            "Samon sauce teriyaki ONIGIRI",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.2€. produits concernés: Bananes Max Havelaar.",
+            "-10% Club",
+            "0,20€ cagnottés",
+            "Bananes Max Havelaar"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665124234,
+      "timestamp": 1757665123597,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,53€ cagnottés",
+          "cartAction": "1,53€ cagnottés",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés1.53€. produits concernés: Œufs bio moyen.",
+            "-10% Club",
+            "1,53€ cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665124385,
+      "timestamp": 1757665123760,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 536,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665124534,
+      "timestamp": 1757665123909,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 532,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665125877,
+      "timestamp": 1757665125249,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 545,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126098,
+      "timestamp": 1757665125474,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1517,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126279,
+      "timestamp": 1757665125654,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2052,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126443,
+      "timestamp": 1757665125817,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2133,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126666,
+      "timestamp": 1757665126042,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2144,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126841,
+      "timestamp": 1757665126217,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2138,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665126979,
+      "timestamp": 1757665126354,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2135,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665127201,
+      "timestamp": 1757665126577,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2130,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665127270,
+      "timestamp": 1757665126646,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "62,42€",
+          "price": "62,42€",
+          "productName": "Saumon Norvège Fumage Bois Châtaignier Français & Hêtre",
+          "allTexts": [
+            "ORIGINE PAYS TIERS",
+            "Retirer un produit du panier",
+            "la boite de 10",
+            "Retirer un produit du panier",
+            "3",
+            "3 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier",
+            "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+            "-15% Mardi PASS",
+            "Emmental râpé fondant"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346015,
+      "timestamp": 1757665345386,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2133,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665346106,
+      "timestamp": 1757665345481,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 3119,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665346268,
+      "timestamp": 1757665345643,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 4054,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665346395,
+      "timestamp": 1757665345770,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 5122,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665346519,
+      "timestamp": 1757665345888,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3",
+          "productName": "Saumon Norvège Fumage Bois Châtaignier Français & Hêtre",
+          "allTexts": [
+            "le sachet de 500g",
+            "le paquet de 500g",
+            "Retirer un produit du panier",
+            "6",
+            "6 produits déjà ajoutés au panier",
+            "MAX",
+            "Saumon Norvège Fumage Bois Châtaignier Français & Hêtre",
+            "la barquette de 4 tranches",
+            "8,50",
+            "8 euros et 50 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346536,
+      "timestamp": 1757665345906,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3",
+          "productName": "Boisson Lactée Orange Banane Fraise Sans Sucres Ajoutés",
+          "allTexts": [
+            "Boisson Lactée Orange Banane Fraise Sans Sucres Ajoutés",
+            "la bouteille de 900mL",
+            "10,17",
+            "10 euros et 17 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "3",
+            "3 produits déjà ajoutés au panier",
+            "MAX"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346620,
+      "timestamp": 1757665345979,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346667,
+      "timestamp": 1757665346041,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "+0,85€",
+          "cartAction": "+0,85€",
+          "productName": "Cagnotté en payant avec votre carte PASS",
+          "allTexts": [
+            "Cagnotté en payant avec votre carte PASS",
+            "+0,85€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346726,
+      "timestamp": 1757665346100,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Détail commande (18 articles)",
+          "allTexts": [
+            "Détail commande (18 articles)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346735,
+      "timestamp": 1757665346109,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "+1,73€",
+          "price": "+1,73€",
+          "productName": "Cagnotté avec votre panier",
+          "allTexts": [
+            "Cagnotté avec votre panier",
+            "+1,73€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346768,
+      "timestamp": 1757665346141,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "62,42€",
+          "price": "62,42€",
+          "productName": "Total panier avant remise",
+          "allTexts": [
+            "Total panier avant remise",
+            "62,42€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346770,
+      "timestamp": 1757665346143,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Information",
+          "allTexts": [
+            "Information"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665346820,
+      "timestamp": 1757665346194,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "62,42€",
+          "cartAction": "62,42€",
+          "productName": "Total",
+          "allTexts": [
+            "Total",
+            "62,42€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665348544,
+      "timestamp": 1757665347915,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665348554,
+      "timestamp": 1757665347926,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Annuler",
+          "allTexts": [
+            "Annuler"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665349935,
+      "timestamp": 1757665349310,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00€",
+          "cartAction": "Votre panier Alimentaire a bien été vidé",
+          "productName": "Votre panier Alimentaire a bien été vidé",
+          "allTexts": [
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665350165,
+      "timestamp": 1757665349539,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665349037
+      }
+    },
+    {
+      "id": 1757665350427,
+      "timestamp": 1757665349799,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Votre panier est vide ...",
+          "productName": "Votre panier est vide ...",
+          "allTexts": [
+            "Votre panier est vide ...",
+            "Votre panier est vide ...",
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665350438,
+      "timestamp": 1757665349806,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665349303
+      }
+    },
+    {
+      "id": 1757665350439,
+      "timestamp": 1757665349809,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes promos",
+          "allTexts": [
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353199,
+      "timestamp": 1757665352573,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Votre panier Alimentaire a bien été vidé",
+          "productName": "Votre panier Alimentaire a bien été vidé",
+          "allTexts": [
+            "Votre panier Alimentaire a bien été vidé"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353760,
+      "timestamp": 1757665353134,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353762,
+      "timestamp": 1757665353134,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Rechercher",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/departments_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 216,
+            "top": 2190,
+            "right": 432,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665352573
+      }
+    },
+    {
+      "id": 1757665353763,
+      "timestamp": 1757665353135,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353824,
+      "timestamp": 1757665353198,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353857,
+      "timestamp": 1757665353232,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353867,
+      "timestamp": 1757665353241,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665353870,
+      "timestamp": 1757665353244,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665352744
+      }
+    },
+    {
+      "id": 1757665354022,
+      "timestamp": 1757665353392,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665352889
+      }
+    },
+    {
+      "id": 1757665354028,
+      "timestamp": 1757665353396,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mon Traiteur (5)",
+          "allTexts": [
+            "Mon Traiteur (5)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665354034,
+      "timestamp": 1757665353403,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665354042,
+      "timestamp": 1757665353407,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665352904
+      }
+    },
+    {
+      "id": 1757665355536,
+      "timestamp": 1757665354909,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665354406
+      }
+    },
+    {
+      "id": 1757665358381,
+      "timestamp": 1757665357753,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 1 new notification",
+          "allTexts": [
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 1 new notification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665358427,
+      "timestamp": 1757665357800,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 1 new notification",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665357297
+      }
+    },
+    {
+      "id": 1757665358503,
+      "timestamp": 1757665357878,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665357378
+      }
+    },
+    {
+      "id": 1757665358777,
+      "timestamp": 1757665358148,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665358791,
+      "timestamp": 1757665358164,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes promos",
+          "allTexts": [
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665358792,
+      "timestamp": 1757665358163,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Votre panier est vide ...",
+          "productName": "Votre panier est vide ...",
+          "allTexts": [
+            "Votre panier est vide ...",
+            "Votre panier est vide ...",
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665358797,
+      "timestamp": 1757665358170,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665361838,
+      "timestamp": 1757665361212,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rechercher",
+          "allTexts": [
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665361841,
+      "timestamp": 1757665361213,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 1 new notification",
+          "allTexts": [
+            "Panier, 1 new notification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665361843,
+      "timestamp": 1757665361214,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Rechercher",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/departments_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 216,
+            "top": 2190,
+            "right": 432,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665360690
+      }
+    },
+    {
+      "id": 1757665361871,
+      "timestamp": 1757665361246,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665361962,
+      "timestamp": 1757665361336,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665361969,
+      "timestamp": 1757665361342,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mon Traiteur (5)",
+          "allTexts": [
+            "Mon Traiteur (5)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665362061,
+      "timestamp": 1757665361435,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665362065,
+      "timestamp": 1757665361439,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665360938
+      }
+    },
+    {
+      "id": 1757665362066,
+      "timestamp": 1757665361442,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665360941
+      }
+    },
+    {
+      "id": 1757665362085,
+      "timestamp": 1757665361460,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665362090,
+      "timestamp": 1757665361463,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665360962
+      }
+    },
+    {
+      "id": 1757665362125,
+      "timestamp": 1757665361499,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665363556,
+      "timestamp": 1757665362927,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665362424
+      }
+    },
+    {
+      "id": 1757665366152,
+      "timestamp": 1757665365527,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 2 new notifications",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665365026
+      }
+    },
+    {
+      "id": 1757665366182,
+      "timestamp": 1757665365546,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665365039
+      }
+    },
+    {
+      "id": 1757665366576,
+      "timestamp": 1757665365944,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665366579,
+      "timestamp": 1757665365947,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Votre panier est vide ...",
+          "productName": "Votre panier est vide ...",
+          "allTexts": [
+            "Votre panier est vide ...",
+            "Votre panier est vide ...",
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665366582,
+      "timestamp": 1757665365954,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665366594,
+      "timestamp": 1757665365966,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes promos",
+          "allTexts": [
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370688,
+      "timestamp": 1757665370062,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Accueil",
+          "allTexts": [
+            "Accueil"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370691,
+      "timestamp": 1757665370063,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Accueil",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/home_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 0,
+            "top": 2190,
+            "right": 216,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665369412
+      }
+    },
+    {
+      "id": 1757665370701,
+      "timestamp": 1757665370072,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369569
+      }
+    },
+    {
+      "id": 1757665370743,
+      "timestamp": 1757665370116,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "€\n00",
+          "productName": "Voir tout, ouvre la page fidélité",
+          "allTexts": [
+            "Voir tout, ouvre la page fidélité",
+            "0",
+            "€\n00"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370745,
+      "timestamp": 1757665370117,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Drive & Livraison",
+          "allTexts": [
+            "Drive & Livraison",
+            "Magasin"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370839,
+      "timestamp": 1757665370212,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369710
+      }
+    },
+    {
+      "id": 1757665370841,
+      "timestamp": 1757665370214,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Content de vous revoir !",
+          "allTexts": [
+            "Content de vous revoir !"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370848,
+      "timestamp": 1757665370220,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369718
+      }
+    },
+    {
+      "id": 1757665370873,
+      "timestamp": 1757665370248,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369745
+      }
+    },
+    {
+      "id": 1757665370906,
+      "timestamp": 1757665370280,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mon compte",
+          "allTexts": [
+            "Mon compte"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370910,
+      "timestamp": 1757665370285,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369785
+      }
+    },
+    {
+      "id": 1757665370926,
+      "timestamp": 1757665370299,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Vincent 👋",
+          "allTexts": [
+            "Vincent 👋"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665370931,
+      "timestamp": 1757665370306,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369803
+      }
+    },
+    {
+      "id": 1757665371063,
+      "timestamp": 1757665370437,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369936
+      }
+    },
+    {
+      "id": 1757665371070,
+      "timestamp": 1757665370444,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369943
+      }
+    },
+    {
+      "id": 1757665371118,
+      "timestamp": 1757665370491,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369990
+      }
+    },
+    {
+      "id": 1757665371123,
+      "timestamp": 1757665370496,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369995
+      }
+    },
+    {
+      "id": 1757665371125,
+      "timestamp": 1757665370498,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665369998
+      }
+    },
+    {
+      "id": 1757665371143,
+      "timestamp": 1757665370517,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370017
+      }
+    },
+    {
+      "id": 1757665371152,
+      "timestamp": 1757665370526,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370026
+      }
+    },
+    {
+      "id": 1757665371154,
+      "timestamp": 1757665370528,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370028
+      }
+    },
+    {
+      "id": 1757665371156,
+      "timestamp": 1757665370530,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370030
+      }
+    },
+    {
+      "id": 1757665371184,
+      "timestamp": 1757665370559,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370058
+      }
+    },
+    {
+      "id": 1757665371186,
+      "timestamp": 1757665370561,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370060
+      }
+    },
+    {
+      "id": 1757665371187,
+      "timestamp": 1757665370562,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370062
+      }
+    },
+    {
+      "id": 1757665371219,
+      "timestamp": 1757665370594,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370093
+      }
+    },
+    {
+      "id": 1757665371226,
+      "timestamp": 1757665370600,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370100
+      }
+    },
+    {
+      "id": 1757665371237,
+      "timestamp": 1757665370611,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370110
+      }
+    },
+    {
+      "id": 1757665371239,
+      "timestamp": 1757665370613,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370112
+      }
+    },
+    {
+      "id": 1757665371242,
+      "timestamp": 1757665370617,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665370116
+      }
+    },
+    {
+      "id": 1757665372209,
+      "timestamp": 1757665371583,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 4,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665372608,
+      "timestamp": 1757665371982,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 48,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665372821,
+      "timestamp": 1757665372195,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 64,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373167,
+      "timestamp": 1757665372542,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 206,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373227,
+      "timestamp": 1757665372602,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 758,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373302,
+      "timestamp": 1757665372676,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00 €",
+          "cartAction": "€\n00",
+          "productName": "Voir tout, ouvre la page fidélité",
+          "allTexts": [
+            "City Paris Lacépède",
+            "Ouvert ferme à 22h00",
+            "Facilitez vos courses",
+            "Afficher ma carte",
+            "0,00 €",
+            "Vérifier le prix d'un produit",
+            "Afficher mes tickets de caisse",
+            "Content de vous revoir !",
+            "Vincent 👋",
+            "Voir tout, ouvre la page fidélité"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665373304,
+      "timestamp": 1757665372677,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Jeu concours Carrefour Voyages",
+          "allTexts": [
+            "Facilitez vos courses",
+            "Le menu 3,2,1 frais ? Partez",
+            "Jeu concours Carrefour Voyages"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665373355,
+      "timestamp": 1757665372730,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2104,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373473,
+      "timestamp": 1757665372847,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 3198,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373597,
+      "timestamp": 1757665372972,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !",
+          "allTexts": [
+            "Préparez vos courses",
+            "Ajouter un produit à une liste de courses",
+            "Feuilletez vos catalogues",
+            "Voir tout",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "En cours",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "Du 09/09 au 21/09",
+            "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665373642,
+      "timestamp": 1757665373017,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 3901,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373767,
+      "timestamp": 1757665373142,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 4723,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665373790,
+      "timestamp": 1757665373162,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Magasin City Paris Lacépède",
+          "allTexts": [
+            "Magasin City Paris Lacépède"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665373829,
+      "timestamp": 1757665373203,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665372680
+      }
+    },
+    {
+      "id": 1757665373943,
+      "timestamp": 1757665373318,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+          "allTexts": [
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "En cours",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "Du 09/09 au 21/09"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374031,
+      "timestamp": 1757665373401,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "VOYAGEZ TOUT SIMPLEMENT",
+          "allTexts": [
+            "VOYAGEZ TOUT SIMPLEMENT",
+            "VOYAGEZ TOUT SIMPLEMENT",
+            "VOYAGEZ TOUT SIMPLEMENT",
+            "Du 01/07 au 12/10"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374034,
+      "timestamp": 1757665373403,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374036,
+      "timestamp": 1757665373406,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665372904
+      }
+    },
+    {
+      "id": 1757665374098,
+      "timestamp": 1757665373473,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Feuilletez vos catalogues",
+          "allTexts": [
+            "Feuilletez vos catalogues"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374156,
+      "timestamp": 1757665373528,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes vignettes digitales",
+          "allTexts": [
+            "Mes vignettes digitales"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374160,
+      "timestamp": 1757665373529,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Et encore plus d’avantages !",
+          "allTexts": [
+            "Et encore plus d’avantages !"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665374162,
+      "timestamp": 1757665373533,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665373031
+      }
+    },
+    {
+      "id": 1757665374277,
+      "timestamp": 1757665373648,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665373148
+      }
+    },
+    {
+      "id": 1757665374285,
+      "timestamp": 1757665373659,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665373158
+      }
+    },
+    {
+      "id": 1757665374289,
+      "timestamp": 1757665373662,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665373160
+      }
+    },
+    {
+      "id": 1757665374298,
+      "timestamp": 1757665373672,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665373171
+      }
+    },
+    {
+      "id": 1757665376299,
+      "timestamp": 1757665375674,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 5016,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665376619,
+      "timestamp": 1757665375993,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 6402,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757665376802,
+      "timestamp": 1757665376174,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !",
+          "allTexts": [
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "En cours",
+            "J'PEUX PAS, J'AI LES PROMOS DU 9 AU 21 SEPTEMBRE !",
+            "Du 09/09 au 21/09",
+            "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !",
+            "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !",
+            "En cours",
+            "LA FIDÉLITÉ, CA PAYE... SURTOUT EN PROMOS EN SEPTEMBRE !",
+            "Du 01/09 au 30/09"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665376823,
+      "timestamp": 1757665376194,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Et encore plus d’avantages !",
+          "allTexts": [
+            "Et encore plus d’avantages !"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665376849,
+      "timestamp": 1757665376223,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes vignettes digitales",
+          "allTexts": [
+            "Mes vignettes digitales"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665376881,
+      "timestamp": 1757665376253,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665375752
+      }
+    },
+    {
+      "id": 1757665377154,
+      "timestamp": 1757665376515,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665376009
+      }
+    },
+    {
+      "id": 1757665377830,
+      "timestamp": 1757665377203,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Rechercher",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/departments_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 216,
+            "top": 2190,
+            "right": 432,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665376687
+      }
+    },
+    {
+      "id": 1757665377873,
+      "timestamp": 1757665377246,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665377909,
+      "timestamp": 1757665377283,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665377950,
+      "timestamp": 1757665377325,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665378027,
+      "timestamp": 1757665377402,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665376901
+      }
+    },
+    {
+      "id": 1757665378032,
+      "timestamp": 1757665377406,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mon Traiteur (5)",
+          "allTexts": [
+            "Mon Traiteur (5)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665378051,
+      "timestamp": 1757665377425,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665378054,
+      "timestamp": 1757665377429,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665378122,
+      "timestamp": 1757665377496,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665376995
+      }
+    },
+    {
+      "id": 1757665378124,
+      "timestamp": 1757665377497,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665376997
+      }
+    },
+    {
+      "id": 1757665381306,
+      "timestamp": 1757665380678,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665380178
+      }
+    },
+    {
+      "id": 1757665382149,
+      "timestamp": 1757665381525,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665381023
+      }
+    },
+    {
+      "id": 1757665383666,
+      "timestamp": 1757665383041,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 5 new notifications",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757665382540
+      }
+    },
+    {
+      "id": 1757665383787,
+      "timestamp": 1757665383162,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757665382661
+      }
+    },
+    {
+      "id": 1757665384101,
+      "timestamp": 1757665383473,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665384107,
+      "timestamp": 1757665383477,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Votre panier est vide ...",
+          "productName": "Votre panier est vide ...",
+          "allTexts": [
+            "Votre panier est vide ..."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665384125,
+      "timestamp": 1757665383494,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757665384126,
+      "timestamp": 1757665383485,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes promos",
+          "allTexts": [
+            "Mes promos",
+            "Mes promos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 167,
+    "activeSessions": 0,
+    "productClicks": 8,
+    "conversions": 74
+  },
+  "exportedAt": "2025-09-12T08:23:42.251Z",
+  "exportedBy": "dashboard"
+}

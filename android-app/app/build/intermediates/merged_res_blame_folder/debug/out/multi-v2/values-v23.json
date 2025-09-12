@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bascule.leclerctracking.app-mergeDebugResources-33:/values-v23/values-v23.xml",
+            "outputFile": "com.bascule.leclerctracking.app-mergeDebugResources-2:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vincent B\\.gradle\\caches\\transforms-3\\22652d94db8e17d2ae7c571402ef55a6\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\gradle-home\\caches\\transforms-3\\22652d94db8e17d2ae7c571402ef55a6\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vincent B\\.gradle\\caches\\transforms-3\\130f4e1c958bd91b92a85d358e8891a9\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\gradle-home\\caches\\transforms-3\\130f4e1c958bd91b92a85d358e8891a9\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vincent B\\.gradle\\caches\\transforms-3\\827e824386667c33c4d66f8b3feab771\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\gradle-home\\caches\\transforms-3\\827e824386667c33c4d66f8b3feab771\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

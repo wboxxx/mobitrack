@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bascule.leclerctracking.app-mergeDebugResources-33:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.bascule.leclerctracking.app-mergeDebugResources-2:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vincent B\\.gradle\\caches\\transforms-3\\130f4e1c958bd91b92a85d358e8891a9\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\gradle-home\\caches\\transforms-3\\130f4e1c958bd91b92a85d358e8891a9\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

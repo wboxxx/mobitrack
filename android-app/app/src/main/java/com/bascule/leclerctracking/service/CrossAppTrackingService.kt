@@ -93,7 +93,9 @@ class CrossAppTrackingService : AccessibilityService() {
     }
     
     private fun isTargetApp(packageName: String): Boolean {
-        return targetApps.contains(packageName)
+        // Pour l'instant, surveiller toutes les apps pour collecter des données
+        // Plus tard on pourra filtrer sur targetApps seulement
+        return true // targetApps.contains(packageName)
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {

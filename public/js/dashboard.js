@@ -9,7 +9,15 @@ class TrackingDashboard {
             totalEvents: 0,
             activeSessions: 0,
             productClicks: 0,
-            conversions: 0
+            conversions: 0,
+            filteredSystem: 0,
+            filteredPromotion: 0,
+            filteredGeneric: 0
+        };
+        this.filteredEvents = {
+            system: [],
+            promotion: [],
+            generic: []
         };
         
         this.init();
@@ -19,6 +27,7 @@ class TrackingDashboard {
         this.setupSocketListeners();
         this.setupEventFilters();
         this.loadInitialData();
+        this.loadCartAnalysis();
         this.updateConnectionStatus(true);
     }
 
@@ -35,6 +44,24 @@ class TrackingDashboard {
 
         this.socket.on('newTrackingEvent', (event) => {
             this.addEvent(event);
+            this.updateStats();
+            this.updateLastUpdate();
+            this.loadCartAnalysis(); // Recharger l'analyse du panier
+        });
+
+        this.socket.on('dataCleared', () => {
+            console.log('Server data cleared - refreshing dashboard');
+            this.events = [];
+            this.sessions = [];
+            this.stats = {
+                totalEvents: 0,
+                activeSessions: 0,
+                productClicks: 0,
+                conversions: 0
+            };
+            this.renderEvents();
+            this.renderSessions();
+            this.renderProducts();
             this.updateStats();
             this.updateLastUpdate();
         });
@@ -65,6 +92,11 @@ class TrackingDashboard {
             const sessions = await sessionsResponse.json();
             this.sessions = sessions;
 
+            // Load filtered events
+            const filteredResponse = await fetch('/api/filtered-events');
+            const filteredData = await filteredResponse.json();
+            this.filteredEvents = filteredData.all || { system: [], promotion: [], generic: [] };
+            
             this.renderEvents();
             this.renderSessions();
             this.renderProducts();
@@ -177,6 +209,12 @@ class TrackingDashboard {
             return this.events;
         }
         
+        // Gestion des événements filtrés
+        if (this.currentFilter.startsWith('filtered-')) {
+            const category = this.currentFilter.replace('filtered-', '');
+            return this.filteredEvents[category] || [];
+        }
+        
         // Gestion des filtres groupés pour les événements similaires
         const filterMappings = {
             'product_click': ['product_click', 'VIEW_CLICKED'],
@@ -218,6 +256,17 @@ class TrackingDashboard {
 
     formatEventData(event) {
         const data = event.data || {};
+        
+        // Affichage spécial pour les événements filtrés
+        if (event.filterCategory) {
+            const productName = data.productInfo?.productName || data.element?.text || '';
+            const categoryEmoji = {
+                'system': '🤖',
+                'promotion': '🎯', 
+                'generic': '📦'
+            };
+            return `${categoryEmoji[event.filterCategory] || '🚫'} <span style="color: #dc3545;">[FILTRÉ]</span> ${productName.substring(0, 80)}${productName.length > 80 ? '...' : ''}`;
+        }
         
         switch (event.eventType) {
             case 'navigation':
@@ -292,11 +341,18 @@ class TrackingDashboard {
         this.stats.conversions = this.events.filter(e => 
             e.eventType === 'add_to_cart' || e.eventType === 'ADD_TO_CART'
         ).length;
+        
+        // Compter les événements filtrés
+        this.stats.filteredSystem = this.filteredEvents.system.length;
+        this.stats.filteredPromotion = this.filteredEvents.promotion.length;
+        this.stats.filteredGeneric = this.filteredEvents.generic.length;
 
         document.getElementById('totalEvents').textContent = this.stats.totalEvents;
         document.getElementById('activeSessions').textContent = this.stats.activeSessions;
         document.getElementById('productClicks').textContent = this.stats.productClicks;
         document.getElementById('conversions').textContent = this.stats.conversions;
+        document.getElementById('filteredSystem').textContent = this.stats.filteredSystem;
+        document.getElementById('filteredPromotion').textContent = this.stats.filteredPromotion;
     }
 
     updateConnectionStatus(connected) {
@@ -313,6 +369,85 @@ class TrackingDashboard {
     updateLastUpdate() {
         document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('fr-FR');
     }
+
+    async loadCartAnalysis() {
+        try {
+            const response = await fetch('/api/cart-analysis');
+            const data = await response.json();
+            
+            if (data.success) {
+                this.renderCartAnalysis(data.cartAnalysis);
+            }
+        } catch (error) {
+            console.error('Failed to load cart analysis:', error);
+        }
+    }
+
+    renderCartAnalysis(cartData) {
+        // Render products
+        const productsContainer = document.getElementById('cartProducts');
+        if (cartData.products.length === 0) {
+            productsContainer.innerHTML = '<p style="color: #666; text-align: center; padding: 1rem;">Aucun produit détecté</p>';
+        } else {
+            productsContainer.innerHTML = cartData.products.map(product => `
+                <div class="product-item">
+                    <div class="product-name">${product.name}</div>
+                    <div class="product-details">
+                        Quantité: ${product.quantity} | 
+                        <span class="product-price">${product.price.toFixed(2)}€</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render replacements
+        const replacementsContainer = document.getElementById('cartReplacements');
+        if (cartData.replacements.length === 0) {
+            replacementsContainer.innerHTML = '<p style="color: #666; text-align: center; padding: 1rem;">Aucun produit à remplacer</p>';
+        } else {
+            replacementsContainer.innerHTML = cartData.replacements.map(replacement => `
+                <div class="product-item replacement-item">
+                    <div class="product-name">🔄 ${replacement.count} produit(s) à remplacer</div>
+                    <div class="product-details">${replacement.description.substring(0, 100)}...</div>
+                </div>
+            `).join('');
+        }
+
+        // Render promotions
+        const promotionsContainer = document.getElementById('cartPromotions');
+        if (cartData.promotions.length === 0) {
+            promotionsContainer.innerHTML = '<p style="color: #666; text-align: center; padding: 1rem;">Aucune promotion</p>';
+        } else {
+            promotionsContainer.innerHTML = cartData.promotions.map(promotion => `
+                <div class="product-item promotion-item">
+                    <div class="product-name">🎯 ${promotion.name.substring(0, 50)}</div>
+                    <div class="product-details">
+                        Cagnotte: <span class="product-price">${promotion.cagnotte.toFixed(2)}€</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render suggestions
+        const suggestionsContainer = document.getElementById('cartSuggestions');
+        if (cartData.suggestions.length === 0) {
+            suggestionsContainer.innerHTML = '<p style="color: #666; text-align: center; padding: 1rem;">Aucune suggestion</p>';
+        } else {
+            suggestionsContainer.innerHTML = cartData.suggestions.map(suggestion => `
+                <div class="product-item suggestion-item">
+                    <div class="product-name">💡 ${suggestion.name}</div>
+                    <div class="product-details">
+                        Prix suggéré: <span class="product-price">${suggestion.price.toFixed(2)}€</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Update totals
+        document.getElementById('cartSubtotal').textContent = `${cartData.totals.subtotal.toFixed(2)}€`;
+        document.getElementById('cartCagnotte').textContent = `${cartData.totals.cagnotte.toFixed(2)}€`;
+        document.getElementById('cartFinalTotal').textContent = `${cartData.totals.finalTotal.toFixed(2)}€`;
+    }
 }
 
 // Global functions for dashboard controls
@@ -321,58 +456,29 @@ function refreshData() {
 }
 
 async function clearData() {
-    if (confirm('Êtes-vous sûr de vouloir effacer toutes les données de tracking ?')) {
+    if (confirm('Êtes-vous sûr de vouloir effacer toutes les données de tracking ?\n\nLes données actuelles seront automatiquement sauvegardées avant le vidage.')) {
         try {
-            // Vider toutes les données du dashboard
-            window.dashboard.events = [];
-            window.dashboard.sessions = [];
+            // Appeler l'endpoint serveur pour vider les données
+            const response = await fetch('/api/clear-data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
             
-            // Réinitialiser les stats
-            window.dashboard.stats = {
-                totalEvents: 0,
-                activeSessions: 0,
-                productClicks: 0,
-                conversions: 0
-            };
+            const result = await response.json();
             
-            // Nettoyer tous les panneaux
-            window.dashboard.renderEvents();
-            window.dashboard.renderSessions();
-            window.dashboard.renderProducts();
-            window.dashboard.updateStats();
-            
-            // Vider complètement le contenu des panneaux
-            document.getElementById('eventsPanel').innerHTML = `
-                <p style="color: #666; text-align: center; padding: 2rem;">
-                    En attente d'événements...
-                </p>
-            `;
-            
-            document.getElementById('sessionsPanel').innerHTML = `
-                <p style="color: #666; text-align: center; padding: 2rem;">
-                    Aucune session active
-                </p>
-            `;
-            
-            document.getElementById('productsPanel').innerHTML = `
-                <p style="color: #666; text-align: center; padding: 2rem;">
-                    Aucun produit détecté
-                </p>
-            `;
-            
-            // Réinitialiser les compteurs à zéro
-            document.getElementById('totalEvents').textContent = '0';
-            document.getElementById('activeSessions').textContent = '0';
-            document.getElementById('productClicks').textContent = '0';
-            document.getElementById('conversions').textContent = '0';
-            
-            // Mettre à jour l'heure de dernière mise à jour
-            window.dashboard.updateLastUpdate();
-            
-            alert('✅ Toutes les données du dashboard ont été effacées !');
+            if (result.success) {
+                // Les données côté client seront automatiquement mises à jour
+                // via l'événement Socket.io 'dataCleared'
+                alert('✅ ' + result.message);
+                console.log('🗑️ Données vidées avec succès côté serveur');
+            } else {
+                alert('❌ Erreur lors du vidage: ' + result.error);
+            }
         } catch (error) {
             console.error('Failed to clear data:', error);
-            alert('Erreur lors de l\'effacement des données');
+            alert('❌ Erreur lors de la communication avec le serveur');
         }
     }
 }
@@ -398,6 +504,10 @@ async function exportData() {
         console.error('Erreur lors de l\'export:', error);
         alert('❌ Erreur lors de l\'export des données');
     }
+}
+
+async function refreshCartAnalysis() {
+    window.dashboard.loadCartAnalysis();
 }
 
 // Initialize dashboard when page loads

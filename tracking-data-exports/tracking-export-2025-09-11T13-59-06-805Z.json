@@ -1,0 +1,1055 @@
+{
+  "events": [
+    {
+      "id": 1757598720551,
+      "timestamp": 1757598719849,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "SESSION_START",
+      "platform": "android_native",
+      "data": {
+        "platform": "android_native",
+        "sessionId": "android_session_1757598719832_822436fb",
+        "deviceInfo": {
+          "manufacturer": "Google",
+          "model": "sdk_gphone64_x86_64",
+          "version": "16",
+          "sdk": 36,
+          "screenDensity": 2.625,
+          "screenWidth": 1080,
+          "screenHeight": 2337
+        }
+      }
+    },
+    {
+      "id": 1757598721184,
+      "timestamp": 1757598720651,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:52 PM",
+          "allTexts": [
+            "3:52",
+            "3:52 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598723131,
+      "timestamp": 1757598722600,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "element": {
+          "className": "android.widget.ImageButton",
+          "contentDescription": "Navigate up",
+          "text": "",
+          "resourceId": "",
+          "clickable": true,
+          "bounds": {
+            "left": 0,
+            "top": 63,
+            "right": 147,
+            "bottom": 210
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757598721920
+      }
+    },
+    {
+      "id": 1757598723268,
+      "timestamp": 1757598722741,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Accessibility",
+            "Navigate up",
+            "Accessibility",
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598724099,
+      "timestamp": 1757598723566,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.bascule.leclerctracking",
+        "packageName": "com.bascule.leclerctracking",
+        "productInfo": {
+          "cartAction": "En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée.",
+          "productName": "Cette application peut analyser vos interactions sur les apps e-commerce \npour améliorer votre expérience d'achat.\n\nApps supportées:\n• E.Leclerc Drive\n• Carrefour\n• Auchan Drive  \n• Casino Drive\n• Amazon Shopping\n• Cdiscount\n• Monoprix\n\nVos données restent privées et anonymes.",
+          "allTexts": [
+            "Bascule Cross-App Tracking",
+            "✅ Service activé - Tracking cross-app fonctionnel",
+            "📱 Tracking Cross-App",
+            "Cette application peut analyser vos interactions sur les apps e-commerce \npour améliorer votre expérience d'achat.\n\nApps supportées:\n• E.Leclerc Drive\n• Carrefour\n• Auchan Drive  \n• Casino Drive\n• Amazon Shopping\n• Cdiscount\n• Monoprix\n\nVos données restent privées et anonymes.",
+            "🔒 Confidentialité et Permissions",
+            "Permissions requises:\n\n🔍 Service d'Accessibilité\nPermet de détecter les interactions dans les autres apps\n\n🔒 Confidentialité Garantie\n• Aucune donnée personnelle collectée\n• Pas d'accès aux mots de passe\n• Tracking anonyme uniquement\n• Données stockées localement",
+            "DÉSACTIVER LE SERVICE",
+            "OUVRIR PARAMÈTRES D'ACCESSIBILITÉ",
+            "MODE INTRA-APP SEULEMENT",
+            "En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598724393,
+      "timestamp": 1757598723864,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598731948,
+      "timestamp": 1757598731394,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Intermarché",
+            "Carrefour",
+            "Bascule Cross-App Tracking"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598734155,
+      "timestamp": 1757598733629,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Google Play Store Play Store",
+          "allTexts": [
+            "Clear all",
+            "Google Play Store Play Store",
+            "Intermarché",
+            "Carrefour",
+            "Bascule Cross-App Tracking",
+            "Screenshot",
+            "Select"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598734305,
+      "timestamp": 1757598733779,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "scrollX": 5726,
+        "scrollY": 0,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1757598735447,
+      "timestamp": 1757598734914,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "",
+          "text": "",
+          "resourceId": "com.google.android.apps.nexuslauncher:id/task_view_single",
+          "clickable": true,
+          "bounds": {
+            "left": 173,
+            "top": 174,
+            "right": 907,
+            "bottom": 1973
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757598734198
+      }
+    },
+    {
+      "id": 1757598735471,
+      "timestamp": 1757598734921,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Clear all",
+          "allTexts": [
+            "Clear all"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598738037,
+      "timestamp": 1757598737506,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757598736737
+      }
+    },
+    {
+      "id": 1757598742979,
+      "timestamp": 1757598742451,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Vos notifications",
+          "allTexts": [
+            "Vos notifications",
+            "Mon compte",
+            "Drive & Livraison"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598743142,
+      "timestamp": 1757598742601,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757598742099
+      }
+    },
+    {
+      "id": 1757598743151,
+      "timestamp": 1757598742615,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Drive & Livraison",
+          "allTexts": [
+            "Drive & Livraison"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598743432,
+      "timestamp": 1757598742902,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Par exemple si vous cumulez 10,48€ de remise fidélité Club grâce à l’achat de produits porteurs de l’offre vous recevrez le DOUBLE !, *Du mardi 9 septembre au Lundi 15 septembre 2025 pour tout chariot d'une valeur totale de 100 € minimum comprenant des produits porteurs de l'offre (signalés dans le catalogue) le montant total des remises fidélité\nobtenues grâce aux produits porteurs de l'offre sera doublé. Montant crédité sur votre Carte club Carrefour le lendemain de vos achats.",
+          "allTexts": [
+            "Par exemple si vous cumulez 10,48€ de remise fidélité Club grâce à l’achat de produits porteurs de l’offre vous recevrez le DOUBLE !, *Du mardi 9 septembre au Lundi 15 septembre 2025 pour tout chariot d'une valeur totale de 100 € minimum comprenant des produits porteurs de l'offre (signalés dans le catalogue) le montant total des remises fidélité\nobtenues grâce aux produits porteurs de l'offre sera doublé. Montant crédité sur votre Carte club Carrefour le lendemain de vos achats."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598744392,
+      "timestamp": 1757598743863,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598745887,
+      "timestamp": 1757598745357,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.ImageButton",
+          "contentDescription": "",
+          "text": "",
+          "resourceId": "",
+          "clickable": true,
+          "bounds": {
+            "left": 954,
+            "top": 63,
+            "right": 1080,
+            "bottom": 189
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757598744853
+      }
+    },
+    {
+      "id": 1757598750338,
+      "timestamp": 1757598749785,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00€",
+          "cartAction": "0,00€",
+          "allTexts": [
+            "0",
+            "0,00€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598750354,
+      "timestamp": 1757598749788,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757598749010
+      }
+    },
+    {
+      "id": 1757598751715,
+      "timestamp": 1757598751187,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Samon sauce teriyaki ONIGIRI",
+          "allTexts": [
+            "Samon sauce teriyaki ONIGIRI"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598751722,
+      "timestamp": 1757598751190,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,93€",
+          "cartAction": "1,93€",
+          "productName": "cagnottés",
+          "allTexts": [
+            "1,93€",
+            "cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598751730,
+      "timestamp": 1757598751195,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,40€ cagnottés",
+          "cartAction": "0,40€ cagnottés",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.4€. produits concernés: Bananes Max Havelaar.",
+            "-10% Club",
+            "0,40€ cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598751737,
+      "timestamp": 1757598751197,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE",
+          "allTexts": [
+            "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598751748,
+      "timestamp": 1757598751212,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "2 produits à remplacer",
+          "allTexts": [
+            "2 produits à remplacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598751907,
+      "timestamp": 1757598751381,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+          "cartAction": "-15% Mardi PASS",
+          "productName": "-15% Mardi PASS",
+          "allTexts": [
+            "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+            "-15% Mardi PASS"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598781197,
+      "timestamp": 1757598780653,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:53 PM",
+          "allTexts": [
+            "3:53",
+            "3:53 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598784397,
+      "timestamp": 1757598783871,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598824417,
+      "timestamp": 1757598823883,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598841193,
+      "timestamp": 1757598840650,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:54 PM",
+          "allTexts": [
+            "3:54",
+            "3:54 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598874401,
+      "timestamp": 1757598873857,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598901229,
+      "timestamp": 1757598900678,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:55 PM",
+          "allTexts": [
+            "3:55",
+            "3:55 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598904387,
+      "timestamp": 1757598903860,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598924441,
+      "timestamp": 1757598923885,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598961170,
+      "timestamp": 1757598960635,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:56 PM",
+          "allTexts": [
+            "3:56",
+            "3:56 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757598964390,
+      "timestamp": 1757598963863,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599004416,
+      "timestamp": 1757599003884,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599021180,
+      "timestamp": 1757599020640,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:57 PM",
+          "allTexts": [
+            "3:57",
+            "3:57 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599054429,
+      "timestamp": 1757599053876,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599081179,
+      "timestamp": 1757599080637,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:58 PM",
+          "allTexts": [
+            "3:58",
+            "3:58 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599084393,
+      "timestamp": 1757599083866,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599104404,
+      "timestamp": 1757599103862,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599132153,
+      "timestamp": 1757599131603,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00€",
+          "cartAction": "0,00€",
+          "allTexts": [
+            "0",
+            "0,00€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599132156,
+      "timestamp": 1757599131603,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757599131039
+      }
+    },
+    {
+      "id": 1757599132181,
+      "timestamp": 1757599131599,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 19 new notifications",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757599130918
+      }
+    },
+    {
+      "id": 1757599133527,
+      "timestamp": 1757599133001,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "2 produits à remplacer",
+          "allTexts": [
+            "2 produits à remplacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599133565,
+      "timestamp": 1757599133034,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,53€ cagnottés",
+          "cartAction": "1,53€ cagnottés",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés1.53€. produits concernés: Œufs bio moyen.",
+            "-10% Club",
+            "1,53€ cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599133681,
+      "timestamp": 1757599133155,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,73€",
+          "cartAction": "1,73€",
+          "productName": "cagnottés",
+          "allTexts": [
+            "1,73€",
+            "cagnottés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599133729,
+      "timestamp": 1757599133203,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+          "cartAction": "-15% Mardi PASS",
+          "productName": "-15% Mardi PASS",
+          "allTexts": [
+            "Promotion: -15% Mardi PASS. vous avez cagnottés0.0€. produits concernés: Emmental râpé fondant.",
+            "-15% Mardi PASS"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599133744,
+      "timestamp": 1757599133219,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE",
+          "allTexts": [
+            "Saucisses traditionnelles de Toulouse REFLETS DE FRANCE"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599133754,
+      "timestamp": 1757599133224,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Samon sauce teriyaki ONIGIRI",
+          "allTexts": [
+            "Samon sauce teriyaki ONIGIRI"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599141186,
+      "timestamp": 1757599140643,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "3:59 PM",
+          "allTexts": [
+            "3:59",
+            "3:59 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757599144392,
+      "timestamp": 1757599143863,
+      "sessionId": "android_session_1757598719832_822436fb",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 53,
+    "activeSessions": 0,
+    "productClicks": 4,
+    "conversions": 43
+  },
+  "exportedAt": "2025-09-11T13:59:06.795Z",
+  "exportedBy": "dashboard"
+}

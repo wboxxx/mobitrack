@@ -237,6 +237,108 @@
             border-color: #667eea;
         }
 
+        .cart-analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cart-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .cart-section h3 {
+            margin: 0 0 1rem 0;
+            color: #495057;
+            font-size: 1.1rem;
+        }
+
+        .cart-totals {
+            border-left-color: #28a745;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+        }
+
+        .product-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid #28a745;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .product-name {
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-details {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .product-price {
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        .replacement-item {
+            background: #fff3cd;
+            border-left-color: #ffc107;
+        }
+
+        .promotion-item {
+            background: #d1ecf1;
+            border-left-color: #17a2b8;
+        }
+
+        .suggestion-item {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+        }
+
+        .totals-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .total-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .total-item.promotion {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .total-item.final {
+            background: #667eea;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .total-label {
+            font-weight: 500;
+        }
+
+        .total-value {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
         @media (max-width: 768px) {
             .dashboard-grid {
                 grid-template-columns: 1fr;
@@ -245,6 +347,10 @@
             .controls {
                 flex-direction: column;
                 align-items: stretch;
+            }
+
+            .cart-analysis-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -276,6 +382,14 @@
                 <div class="stat-number" id="conversions">0</div>
                 <div class="stat-label">Conversions</div>
             </div>
+            <div class="stat-card">
+                <div class="stat-number" id="filteredSystem">0</div>
+                <div class="stat-label">Filtrés Système</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="filteredPromotion">0</div>
+                <div class="stat-label">Filtrés Promotion</div>
+            </div>
         </div>
 
         <div class="controls">
@@ -301,6 +415,9 @@
                         <button class="filter-btn" data-filter="add_to_cart">Panier Web</button>
                         <button class="filter-btn" data-filter="ADD_TO_CART">Panier Mobile</button>
                         <button class="filter-btn" data-filter="CONTENT_CHANGED">Contenu Modifié</button>
+                        <button class="filter-btn" data-filter="filtered-system" style="background: #ffc107; color: #212529;">🤖 Système</button>
+                        <button class="filter-btn" data-filter="filtered-promotion" style="background: #fd7e14; color: white;">🎯 Promotion</button>
+                        <button class="filter-btn" data-filter="filtered-generic" style="background: #6c757d; color: white;">📦 Générique</button>
                     </div>
                 </div>
                 <div class="panel-content" id="eventsPanel">
@@ -321,11 +438,63 @@
         </div>
 
         <div class="panel full-width">
-            <div class="panel-header">🛒 Produits détectés</div>
-            <div class="panel-content" id="productsPanel">
-                <p style="color: #666; text-align: center; padding: 2rem;">
-                    Aucun produit détecté
-                </p>
+            <div class="panel-header">
+                🛒 Vue Panier Utilisateur
+                <button class="btn" onclick="refreshCartAnalysis()" style="float: right; padding: 0.5rem 1rem; font-size: 0.8rem;">🔄 Actualiser</button>
+            </div>
+            <div class="panel-content" id="cartAnalysisPanel">
+                <div class="cart-analysis-grid">
+                    <!-- Produits dans le panier -->
+                    <div class="cart-section">
+                        <h3>📦 Produits dans le panier</h3>
+                        <div id="cartProducts">
+                            <p style="color: #666; text-align: center; padding: 1rem;">Aucun produit détecté</p>
+                        </div>
+                    </div>
+
+                    <!-- Produits à remplacer -->
+                    <div class="cart-section">
+                        <h3>🔄 Produits à remplacer</h3>
+                        <div id="cartReplacements">
+                            <p style="color: #666; text-align: center; padding: 1rem;">Aucun produit à remplacer</p>
+                        </div>
+                    </div>
+
+                    <!-- Promotions actives -->
+                    <div class="cart-section">
+                        <h3>🎯 Promotions actives</h3>
+                        <div id="cartPromotions">
+                            <p style="color: #666; text-align: center; padding: 1rem;">Aucune promotion</p>
+                        </div>
+                    </div>
+
+                    <!-- Suggestions -->
+                    <div class="cart-section">
+                        <h3>💡 Suggestions</h3>
+                        <div id="cartSuggestions">
+                            <p style="color: #666; text-align: center; padding: 1rem;">Aucune suggestion</p>
+                        </div>
+                    </div>
+
+                    <!-- Totaux -->
+                    <div class="cart-section cart-totals">
+                        <h3>💰 Récapitulatif</h3>
+                        <div class="totals-grid">
+                            <div class="total-item">
+                                <span class="total-label">Sous-total :</span>
+                                <span class="total-value" id="cartSubtotal">0,00€</span>
+                            </div>
+                            <div class="total-item promotion">
+                                <span class="total-label">Cagnotte :</span>
+                                <span class="total-value" id="cartCagnotte">0,00€</span>
+                            </div>
+                            <div class="total-item final">
+                                <span class="total-label">Total final :</span>
+                                <span class="total-value" id="cartFinalTotal">0,00€</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,38 +1,38 @@
-com.bascule.leclerctracking.app-material-1.11.0-0 C:\Users\Vincent B\.gradle\caches\transforms-3\130f4e1c958bd91b92a85d358e8891a9\transformed\material-1.11.0\res
-com.bascule.leclerctracking.app-lifecycle-livedata-2.7.0-1 C:\Users\Vincent B\.gradle\caches\transforms-3\1c119702e35bf0086a2bb1228c2099ae\transformed\lifecycle-livedata-2.7.0\res
-com.bascule.leclerctracking.app-cardview-1.0.0-2 C:\Users\Vincent B\.gradle\caches\transforms-3\22652d94db8e17d2ae7c571402ef55a6\transformed\cardview-1.0.0\res
-com.bascule.leclerctracking.app-transition-1.2.0-3 C:\Users\Vincent B\.gradle\caches\transforms-3\2b30e80e0e07e1feb7cc5fdff0d425c2\transformed\transition-1.2.0\res
-com.bascule.leclerctracking.app-startup-runtime-1.1.1-4 C:\Users\Vincent B\.gradle\caches\transforms-3\3d85109ff705a0df417387449b644943\transformed\startup-runtime-1.1.1\res
-com.bascule.leclerctracking.app-core-runtime-2.2.0-5 C:\Users\Vincent B\.gradle\caches\transforms-3\4026e713e800ba19a030409429e88ff3\transformed\core-runtime-2.2.0\res
-com.bascule.leclerctracking.app-annotation-experimental-1.3.0-6 C:\Users\Vincent B\.gradle\caches\transforms-3\4243778461b71f43d44f629be9477f0c\transformed\annotation-experimental-1.3.0\res
-com.bascule.leclerctracking.app-lifecycle-viewmodel-savedstate-2.7.0-7 C:\Users\Vincent B\.gradle\caches\transforms-3\4727c6a20ead7c6fc3b9ecabdfb88ddc\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
-com.bascule.leclerctracking.app-emoji2-1.2.0-8 C:\Users\Vincent B\.gradle\caches\transforms-3\57b96b20a5c4a2fbb61c76a6b93d82a6\transformed\emoji2-1.2.0\res
-com.bascule.leclerctracking.app-core-ktx-1.12.0-9 C:\Users\Vincent B\.gradle\caches\transforms-3\657cecb79f0d974dba1864d1be0a5666\transformed\core-ktx-1.12.0\res
-com.bascule.leclerctracking.app-webkit-1.8.0-10 C:\Users\Vincent B\.gradle\caches\transforms-3\6656eaf613e5fbd08ea5aded2c5eef8f\transformed\webkit-1.8.0\res
-com.bascule.leclerctracking.app-appcompat-resources-1.6.1-11 C:\Users\Vincent B\.gradle\caches\transforms-3\8231c60b12a41aa6453e28139812fccb\transformed\appcompat-resources-1.6.1\res
-com.bascule.leclerctracking.app-appcompat-1.6.1-12 C:\Users\Vincent B\.gradle\caches\transforms-3\827e824386667c33c4d66f8b3feab771\transformed\appcompat-1.6.1\res
-com.bascule.leclerctracking.app-lifecycle-runtime-2.7.0-13 C:\Users\Vincent B\.gradle\caches\transforms-3\875dee97d1a5d8c158384d9b38e104e3\transformed\lifecycle-runtime-2.7.0\res
-com.bascule.leclerctracking.app-lifecycle-livedata-core-ktx-2.7.0-14 C:\Users\Vincent B\.gradle\caches\transforms-3\9b0be1f2cbeb1b39cd334f101c155bb3\transformed\lifecycle-livedata-core-ktx-2.7.0\res
-com.bascule.leclerctracking.app-coordinatorlayout-1.1.0-15 C:\Users\Vincent B\.gradle\caches\transforms-3\a0dca84c973a58d8b2ee25ad25805776\transformed\coordinatorlayout-1.1.0\res
-com.bascule.leclerctracking.app-lifecycle-process-2.7.0-16 C:\Users\Vincent B\.gradle\caches\transforms-3\b4732959b0f6cd92512e90da58fab4aa\transformed\lifecycle-process-2.7.0\res
-com.bascule.leclerctracking.app-fragment-1.3.6-17 C:\Users\Vincent B\.gradle\caches\transforms-3\bb62b3224702d47211556c265da367a5\transformed\fragment-1.3.6\res
-com.bascule.leclerctracking.app-savedstate-1.2.1-18 C:\Users\Vincent B\.gradle\caches\transforms-3\bfca340b68ac7fe917ce73fd6469fdef\transformed\savedstate-1.2.1\res
-com.bascule.leclerctracking.app-lifecycle-livedata-core-2.7.0-19 C:\Users\Vincent B\.gradle\caches\transforms-3\c1ad656a3e8869a7342a7b133fd023e1\transformed\lifecycle-livedata-core-2.7.0\res
-com.bascule.leclerctracking.app-recyclerview-1.1.0-20 C:\Users\Vincent B\.gradle\caches\transforms-3\cc9d399aa1675339bf3b58d9f3dcd0bf\transformed\recyclerview-1.1.0\res
-com.bascule.leclerctracking.app-constraintlayout-2.1.4-21 C:\Users\Vincent B\.gradle\caches\transforms-3\d69f10cfd89fb482c338bb131b93142c\transformed\constraintlayout-2.1.4\res
-com.bascule.leclerctracking.app-core-1.12.0-22 C:\Users\Vincent B\.gradle\caches\transforms-3\dce4c7ffbfdb03438b21b1dfb0b5b1c2\transformed\core-1.12.0\res
-com.bascule.leclerctracking.app-emoji2-views-helper-1.2.0-23 C:\Users\Vincent B\.gradle\caches\transforms-3\dd320514717e5f5dae248217068c06ee\transformed\emoji2-views-helper-1.2.0\res
-com.bascule.leclerctracking.app-drawerlayout-1.1.1-24 C:\Users\Vincent B\.gradle\caches\transforms-3\e351d7c5a52c3de9daf3947a4fda580f\transformed\drawerlayout-1.1.1\res
-com.bascule.leclerctracking.app-lifecycle-viewmodel-ktx-2.7.0-25 C:\Users\Vincent B\.gradle\caches\transforms-3\e6069fb8c777c6a662dbee9e73440d44\transformed\lifecycle-viewmodel-ktx-2.7.0\res
-com.bascule.leclerctracking.app-lifecycle-viewmodel-2.7.0-26 C:\Users\Vincent B\.gradle\caches\transforms-3\e7f2641c4cb98801a35cd0192ddb0a68\transformed\lifecycle-viewmodel-2.7.0\res
-com.bascule.leclerctracking.app-profileinstaller-1.3.0-27 C:\Users\Vincent B\.gradle\caches\transforms-3\f0860d84251bf5bc86d23e4f70cb3d94\transformed\profileinstaller-1.3.0\res
-com.bascule.leclerctracking.app-activity-1.8.0-28 C:\Users\Vincent B\.gradle\caches\transforms-3\f7bdeadf29b7144ef5e911d1f0ff69e1\transformed\activity-1.8.0\res
-com.bascule.leclerctracking.app-lifecycle-livedata-ktx-2.7.0-29 C:\Users\Vincent B\.gradle\caches\transforms-3\f9533885a3ff8da190bcc8c145a9625a\transformed\lifecycle-livedata-ktx-2.7.0\res
-com.bascule.leclerctracking.app-viewpager2-1.0.0-30 C:\Users\Vincent B\.gradle\caches\transforms-3\fe460f5a34593fc1521371ea6cbe24e4\transformed\viewpager2-1.0.0\res
-com.bascule.leclerctracking.app-pngs-31 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\generated\res\pngs\debug
-com.bascule.leclerctracking.app-resValues-32 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\generated\res\resValues\debug
-com.bascule.leclerctracking.app-packageDebugResources-33 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.bascule.leclerctracking.app-packageDebugResources-34 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.bascule.leclerctracking.app-merged_res-35 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\merged_res\debug
-com.bascule.leclerctracking.app-debug-36 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\debug\res
-com.bascule.leclerctracking.app-main-37 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\res
+com.bascule.leclerctracking.app-pngs-0 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\generated\res\pngs\debug
+com.bascule.leclerctracking.app-resValues-1 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\generated\res\resValues\debug
+com.bascule.leclerctracking.app-packageDebugResources-2 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bascule.leclerctracking.app-packageDebugResources-3 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bascule.leclerctracking.app-merged_res-4 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\merged_res\debug
+com.bascule.leclerctracking.app-debug-5 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\debug\res
+com.bascule.leclerctracking.app-main-6 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\res
+com.bascule.leclerctracking.app-material-1.11.0-7 C:\gradle-home\caches\transforms-3\130f4e1c958bd91b92a85d358e8891a9\transformed\material-1.11.0\res
+com.bascule.leclerctracking.app-lifecycle-livedata-2.7.0-8 C:\gradle-home\caches\transforms-3\1c119702e35bf0086a2bb1228c2099ae\transformed\lifecycle-livedata-2.7.0\res
+com.bascule.leclerctracking.app-cardview-1.0.0-9 C:\gradle-home\caches\transforms-3\22652d94db8e17d2ae7c571402ef55a6\transformed\cardview-1.0.0\res
+com.bascule.leclerctracking.app-transition-1.2.0-10 C:\gradle-home\caches\transforms-3\2b30e80e0e07e1feb7cc5fdff0d425c2\transformed\transition-1.2.0\res
+com.bascule.leclerctracking.app-startup-runtime-1.1.1-11 C:\gradle-home\caches\transforms-3\3d85109ff705a0df417387449b644943\transformed\startup-runtime-1.1.1\res
+com.bascule.leclerctracking.app-core-runtime-2.2.0-12 C:\gradle-home\caches\transforms-3\4026e713e800ba19a030409429e88ff3\transformed\core-runtime-2.2.0\res
+com.bascule.leclerctracking.app-annotation-experimental-1.3.0-13 C:\gradle-home\caches\transforms-3\4243778461b71f43d44f629be9477f0c\transformed\annotation-experimental-1.3.0\res
+com.bascule.leclerctracking.app-lifecycle-viewmodel-savedstate-2.7.0-14 C:\gradle-home\caches\transforms-3\4727c6a20ead7c6fc3b9ecabdfb88ddc\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.bascule.leclerctracking.app-emoji2-1.2.0-15 C:\gradle-home\caches\transforms-3\57b96b20a5c4a2fbb61c76a6b93d82a6\transformed\emoji2-1.2.0\res
+com.bascule.leclerctracking.app-core-ktx-1.12.0-16 C:\gradle-home\caches\transforms-3\657cecb79f0d974dba1864d1be0a5666\transformed\core-ktx-1.12.0\res
+com.bascule.leclerctracking.app-webkit-1.8.0-17 C:\gradle-home\caches\transforms-3\6656eaf613e5fbd08ea5aded2c5eef8f\transformed\webkit-1.8.0\res
+com.bascule.leclerctracking.app-appcompat-resources-1.6.1-18 C:\gradle-home\caches\transforms-3\8231c60b12a41aa6453e28139812fccb\transformed\appcompat-resources-1.6.1\res
+com.bascule.leclerctracking.app-appcompat-1.6.1-19 C:\gradle-home\caches\transforms-3\827e824386667c33c4d66f8b3feab771\transformed\appcompat-1.6.1\res
+com.bascule.leclerctracking.app-lifecycle-runtime-2.7.0-20 C:\gradle-home\caches\transforms-3\875dee97d1a5d8c158384d9b38e104e3\transformed\lifecycle-runtime-2.7.0\res
+com.bascule.leclerctracking.app-lifecycle-livedata-core-ktx-2.7.0-21 C:\gradle-home\caches\transforms-3\9b0be1f2cbeb1b39cd334f101c155bb3\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.bascule.leclerctracking.app-coordinatorlayout-1.1.0-22 C:\gradle-home\caches\transforms-3\a0dca84c973a58d8b2ee25ad25805776\transformed\coordinatorlayout-1.1.0\res
+com.bascule.leclerctracking.app-lifecycle-process-2.7.0-23 C:\gradle-home\caches\transforms-3\b4732959b0f6cd92512e90da58fab4aa\transformed\lifecycle-process-2.7.0\res
+com.bascule.leclerctracking.app-fragment-1.3.6-24 C:\gradle-home\caches\transforms-3\bb62b3224702d47211556c265da367a5\transformed\fragment-1.3.6\res
+com.bascule.leclerctracking.app-savedstate-1.2.1-25 C:\gradle-home\caches\transforms-3\bfca340b68ac7fe917ce73fd6469fdef\transformed\savedstate-1.2.1\res
+com.bascule.leclerctracking.app-lifecycle-livedata-core-2.7.0-26 C:\gradle-home\caches\transforms-3\c1ad656a3e8869a7342a7b133fd023e1\transformed\lifecycle-livedata-core-2.7.0\res
+com.bascule.leclerctracking.app-recyclerview-1.1.0-27 C:\gradle-home\caches\transforms-3\cc9d399aa1675339bf3b58d9f3dcd0bf\transformed\recyclerview-1.1.0\res
+com.bascule.leclerctracking.app-constraintlayout-2.1.4-28 C:\gradle-home\caches\transforms-3\d69f10cfd89fb482c338bb131b93142c\transformed\constraintlayout-2.1.4\res
+com.bascule.leclerctracking.app-core-1.12.0-29 C:\gradle-home\caches\transforms-3\dce4c7ffbfdb03438b21b1dfb0b5b1c2\transformed\core-1.12.0\res
+com.bascule.leclerctracking.app-emoji2-views-helper-1.2.0-30 C:\gradle-home\caches\transforms-3\dd320514717e5f5dae248217068c06ee\transformed\emoji2-views-helper-1.2.0\res
+com.bascule.leclerctracking.app-drawerlayout-1.1.1-31 C:\gradle-home\caches\transforms-3\e351d7c5a52c3de9daf3947a4fda580f\transformed\drawerlayout-1.1.1\res
+com.bascule.leclerctracking.app-lifecycle-viewmodel-ktx-2.7.0-32 C:\gradle-home\caches\transforms-3\e6069fb8c777c6a662dbee9e73440d44\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.bascule.leclerctracking.app-lifecycle-viewmodel-2.7.0-33 C:\gradle-home\caches\transforms-3\e7f2641c4cb98801a35cd0192ddb0a68\transformed\lifecycle-viewmodel-2.7.0\res
+com.bascule.leclerctracking.app-profileinstaller-1.3.0-34 C:\gradle-home\caches\transforms-3\f0860d84251bf5bc86d23e4f70cb3d94\transformed\profileinstaller-1.3.0\res
+com.bascule.leclerctracking.app-activity-1.8.0-35 C:\gradle-home\caches\transforms-3\f7bdeadf29b7144ef5e911d1f0ff69e1\transformed\activity-1.8.0\res
+com.bascule.leclerctracking.app-lifecycle-livedata-ktx-2.7.0-36 C:\gradle-home\caches\transforms-3\f9533885a3ff8da190bcc8c145a9625a\transformed\lifecycle-livedata-ktx-2.7.0\res
+com.bascule.leclerctracking.app-viewpager2-1.0.0-37 C:\gradle-home\caches\transforms-3\fe460f5a34593fc1521371ea6cbe24e4\transformed\viewpager2-1.0.0\res
