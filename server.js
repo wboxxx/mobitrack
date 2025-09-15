@@ -526,23 +526,41 @@ class DashboardContentReader {
       const productName = event.data?.productInfo?.productName || event.data?.element?.text || '';
       const lowerName = productName.toLowerCase();
 
+      // Chercher le vrai produit dans allTexts si disponible
+      let realProductFromTexts = '';
+      if (event.data?.productInfo?.allTexts) {
+        // Chercher dans allTexts le vrai nom de produit (souvent le premier élément significatif)
+        for (const text of event.data.productInfo.allTexts) {
+          const cleaned = this.extractRealProductName(text);
+          if (cleaned && cleaned.length > 3 && !cleaned.toLowerCase().includes('€')) {
+            realProductFromTexts = cleaned;
+            break;
+          }
+        }
+      }
+
+      // Utiliser le produit trouvé dans allTexts ou le productName
+      const finalProductName = realProductFromTexts || productName;
+      const finalLowerName = finalProductName.toLowerCase();
+
       // Extraire les prix et quantités
-      const priceMatch = productName.match(/(\d+[,.]?\d*)\s*€/);
+      const priceMatch = finalProductName.match(/(\d+[,.]?\d*)\s*€/) || 
+                        (event.data?.productInfo?.allTexts?.join(' ').match(/(\d+[,.]?\d*)\s*€/));
       const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
       // Détecter les produits à remplacer
-      if (lowerName.includes('produits à remplacer') || lowerName.includes('alternatives')) {
-        const countMatch = productName.match(/(\d+)\s*produits?\s*à\s*remplacer/i);
+      if (finalLowerName.includes('produits à remplacer') || finalLowerName.includes('alternatives')) {
+        const countMatch = finalProductName.match(/(\d+)\s*produits?\s*à\s*remplacer/i);
         const count = countMatch ? parseInt(countMatch[1]) : 1;
         this.cartAnalysis.replacements.push({
           count: count,
-          description: productName,
+          description: finalProductName,
           timestamp: event.timestamp
         });
       }
       // Détecter les promotions et extraire les vrais produits concernés
-      else if (lowerName.includes('promotion') || lowerName.includes('club') || 
-               lowerName.includes('cagnottés') || lowerName.includes('%')) {
+      else if (finalLowerName.includes('promotion') || finalLowerName.includes('club') || 
+               finalLowerName.includes('cagnottés') || finalLowerName.includes('%')) {
         const cagnotteMatch = productName.match(/(\d+[,.]?\d*)\s*€\s*cagnottés/);
         const cagnotte = cagnotteMatch ? parseFloat(cagnotteMatch[1].replace(',', '.')) : 0;
         
@@ -587,11 +605,11 @@ class DashboardContentReader {
       }
       // Vrais produits du panier
       else {
-        const realName = this.extractRealProductName(productName);
+        const realName = this.extractRealProductName(finalProductName);
         if (realName && realName.length > 3) {
           // Détecter la quantité
-          const qtyMatch = productName.match(/(\d+)\s*(MAX|x)/i) || 
-                          productName.match(/la\s*(barquette|bouteille|boite|paquet)\s*de\s*(\d+)/i);
+          const qtyMatch = finalProductName.match(/(\d+)\s*(MAX|x)/i) || 
+                          finalProductName.match(/la\s*(barquette|bouteille|boite|paquet)\s*de\s*(\d+)/i);
           const quantity = qtyMatch ? parseInt(qtyMatch[1] || qtyMatch[2]) : 1;
 
           // Vérifier si ce produit n'est pas déjà dans le panier (éviter les doublons)
@@ -609,7 +627,7 @@ class DashboardContentReader {
               name: realName,
               price: price,
               quantity: quantity,
-              fullDescription: productName,
+              fullDescription: finalProductName,
               timestamp: event.timestamp
             });
           }
@@ -630,8 +648,19 @@ class DashboardContentReader {
     cleaned = cleaned.replace(/Prix N\/A/gi, '');
     cleaned = cleaned.replace(/\d+[,.]?\d*\s*€.*$/gi, ''); // Enlever prix à la fin
     cleaned = cleaned.replace(/\(\d+[,.]?\d*\s*€.*?\)/gi, ''); // Enlever prix entre parenthèses
-    cleaned = cleaned.trim();
     
+    // Filtrer les textes génériques qui ne sont pas des vrais produits
+    const genericTexts = [
+      'ajouter au panier', 'voir tout', 'information', 'accueil', 'rechercher',
+      'panier', 'notification', 'vinaigre d\'alcool', 'simpl'
+    ];
+    
+    const lowerCleaned = cleaned.toLowerCase();
+    if (genericTexts.some(generic => lowerCleaned.includes(generic))) {
+      return ''; // Retourner vide pour les textes génériques
+    }
+    
+    cleaned = cleaned.trim();
     return cleaned;
   }
 

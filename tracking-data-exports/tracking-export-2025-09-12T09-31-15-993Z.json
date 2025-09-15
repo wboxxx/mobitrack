@@ -1,0 +1,293 @@
+{
+  "events": [
+    {
+      "id": 1757669394260,
+      "timestamp": 1757669393626,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 1 new notification",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1757669393125
+      }
+    },
+    {
+      "id": 1757669394335,
+      "timestamp": 1757669393710,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00€",
+          "cartAction": "0,00€",
+          "productName": "Panier, 1 new notification",
+          "allTexts": [
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669394612,
+      "timestamp": 1757669393985,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757669393452
+      }
+    },
+    {
+      "id": 1757669395112,
+      "timestamp": 1757669394481,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395429,
+      "timestamp": 1757669394804,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "0,69€",
+          "productName": "Vinaigre d'alcool 8% d'acidité SIMPL",
+          "allTexts": [
+            "Pinsa thon",
+            "le paquet de 200g",
+            "2,70",
+            "2 euros et 70 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "1",
+            "1 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395603,
+      "timestamp": 1757669394959,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Information",
+          "allTexts": [
+            "Information"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395636,
+      "timestamp": 1757669394992,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Détail commande (1 article)",
+          "allTexts": [
+            "Détail commande (1 article)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395640,
+      "timestamp": 1757669395003,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395716,
+      "timestamp": 1757669395091,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "5,08€",
+          "productName": "Œufs bio moyen CARREFOUR BIO",
+          "allTexts": [
+            "LabelBio",
+            "10 œufs",
+            "-10% Club",
+            "5,08€",
+            "5 euros et 08 centimes.",
+            "Œufs bio moyen CARREFOUR BIO",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395724,
+      "timestamp": 1757669395098,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757669394597
+      }
+    },
+    {
+      "id": 1757669395728,
+      "timestamp": 1757669395102,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1757669394600
+      }
+    },
+    {
+      "id": 1757669395758,
+      "timestamp": 1757669395133,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395789,
+      "timestamp": 1757669395163,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rien oublié ?",
+          "allTexts": [
+            "Rien oublié ?"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1757669395791,
+      "timestamp": 1757669395165,
+      "sessionId": "android_session_1757662959242_f848e5e4",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 14,
+    "activeSessions": 0,
+    "productClicks": 1,
+    "conversions": 10
+  },
+  "exportedAt": "2025-09-12T09:31:15.992Z",
+  "exportedBy": "dashboard"
+}
