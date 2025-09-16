@@ -1,0 +1,374 @@
+{
+  "events": [
+    {
+      "id": 1758018982818,
+      "timestamp": 1758018982970,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018982977,
+      "timestamp": 1758018983128,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983047,
+      "timestamp": 1758018983198,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 3 new notifications",
+          "allTexts": [
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 3 new notifications"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983152,
+      "timestamp": 1758018983303,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Sauces d'accompagnement",
+          "allTexts": [
+            "Sauces d'accompagnement"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983173,
+      "timestamp": 1758018983322,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983197,
+      "timestamp": 1758018983338,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Poissonnerie",
+          "allTexts": [
+            "Poissonnerie"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983202,
+      "timestamp": 1758018983330,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "C'est la saison : Barbecue",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983219,
+      "timestamp": 1758018983343,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Volaille et Rôtisserie",
+          "allTexts": [
+            "Volaille et Rôtisserie"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983226,
+      "timestamp": 1758018983346,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Viandes et Poissons",
+          "allTexts": [
+            "Viandes et Poissons"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983230,
+      "timestamp": 1758018983354,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983234,
+      "timestamp": 1758018983375,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Boucherie",
+          "allTexts": [
+            "Boucherie"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983237,
+      "timestamp": 1758018983383,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983240,
+      "timestamp": 1758018983387,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Traiteur de la mer",
+          "allTexts": [
+            "Traiteur de la mer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983244,
+      "timestamp": 1758018983393,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983249,
+      "timestamp": 1758018983398,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983252,
+      "timestamp": 1758018983399,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018983260,
+      "timestamp": 1758018983412,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 17,
+    "activeSessions": 0,
+    "productClicks": 10,
+    "conversions": 7
+  },
+  "exportedAt": "2025-09-16T10:40:13.052Z",
+  "exportedBy": "auto-clear"
+}

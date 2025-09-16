@@ -1,0 +1,493 @@
+{
+  "events": [
+    {
+      "id": 1758017162726,
+      "timestamp": 1758017162878,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rechercher",
+          "allTexts": [
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017162929,
+      "timestamp": 1758017163081,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Rechercher",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/departments_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 216,
+            "top": 2190,
+            "right": 432,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1758017162581
+      }
+    },
+    {
+      "id": 1758017163007,
+      "timestamp": 1758017163160,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits et Légumes secs",
+          "allTexts": [
+            "Fruits et Légumes secs"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163062,
+      "timestamp": 1758017163215,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Fruits et Légumes",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163076,
+      "timestamp": 1758017163227,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits et Légumes Bio",
+          "allTexts": [
+            "Fruits et Légumes Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163084,
+      "timestamp": 1758017163230,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits",
+          "allTexts": [
+            "Fruits"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163086,
+      "timestamp": 1758017163233,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Jus de fruits frais et Gaspachos",
+          "allTexts": [
+            "Jus de fruits frais et Gaspachos"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163093,
+      "timestamp": 1758017163238,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163103,
+      "timestamp": 1758017163255,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits et Légumes",
+          "allTexts": [
+            "Fruits et Légumes"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163108,
+      "timestamp": 1758017163260,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Prêt à consommer",
+          "allTexts": [
+            "Prêt à consommer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163123,
+      "timestamp": 1758017163275,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Légumes",
+          "allTexts": [
+            "Légumes"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017163131,
+      "timestamp": 1758017163283,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017164010,
+      "timestamp": 1758017164160,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Accueil",
+          "allTexts": [
+            "Accueil"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017164096,
+      "timestamp": 1758017164246,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits secs et mélanges",
+          "allTexts": [
+            "Fruits secs et mélanges"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017164209,
+      "timestamp": 1758017164361,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pruneaux et Fruits séchés",
+          "allTexts": [
+            "Pruneaux et Fruits séchés"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017164289,
+      "timestamp": 1758017164441,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Graines",
+          "allTexts": [
+            "Graines"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017164376,
+      "timestamp": 1758017164516,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Légumes secs",
+          "allTexts": [
+            "Légumes secs"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017165564,
+      "timestamp": 1758017165716,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017165779,
+      "timestamp": 1758017165931,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1758017165311
+      }
+    },
+    {
+      "id": 1758017165782,
+      "timestamp": 1758017165931,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017165785,
+      "timestamp": 1758017165934,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017165805,
+      "timestamp": 1758017165940,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1758017165409
+      }
+    },
+    {
+      "id": 1758017166207,
+      "timestamp": 1758017166359,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017166213,
+      "timestamp": 1758017166359,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017166235,
+      "timestamp": 1758017166380,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Graines (2)",
+          "allTexts": [
+            "Graines (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758017166281,
+      "timestamp": 1758017166430,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1758017165907
+      }
+    },
+    {
+      "id": 1758017166291,
+      "timestamp": 1758017166441,
+      "sessionId": "android_session_1758016861445_3a3b380d",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1758017165920
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 27,
+    "activeSessions": 0,
+    "productClicks": 1,
+    "conversions": 22
+  },
+  "exportedAt": "2025-09-16T10:17:00.157Z",
+  "exportedBy": "auto-clear"
+}

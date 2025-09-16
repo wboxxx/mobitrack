@@ -64,6 +64,29 @@ class ServerEventFilter {
   shouldProcessEvent(event) {
     const currentTime = Date.now();
     
+    // Différencier clairement navigation vs vrais ajouts au panier
+    const productName = event.data?.productInfo?.productName || event.data?.element?.text || '';
+    const isNavigationElement = this.isNavigationElement(productName);
+    
+    if (event.eventType === 'ADD_TO_CART') {
+      if (isNavigationElement) {
+        // Convertir les faux ADD_TO_CART en VIEW_CLICKED pour la navigation
+        event.eventType = 'VIEW_CLICKED';
+        console.log(`🔄 Navigation détectée: ${productName.substring(0, 50)} - Converti en VIEW_CLICKED`);
+      } else {
+        // Vrai ajout au panier avec prix
+        const hasPrice = this.hasRealPrice(event);
+        if (hasPrice) {
+          console.log(`🛒 VRAI ajout panier détecté: ${productName.substring(0, 50)}`);
+        } else {
+          console.log(`⚠️ ADD_TO_CART sans prix: ${productName.substring(0, 50)}`);
+        }
+      }
+    }
+    
+    // DEBUG: Logger tous les événements avec leur type final
+    console.log(`🔍 ${event.eventType} - ${productName.substring(0, 50)}`);
+    
     // Traitement spécial pour les événements panier
     if (this.isCartEvent(event)) {
       return this.handleCartEvent(event, currentTime);
@@ -71,7 +94,6 @@ class ServerEventFilter {
     
     // Pour les événements non-panier, accepter tous les types d'événements mobiles
     if (event.eventType && ['VIEW_CLICKED', 'CONTENT_CHANGED', 'SCROLL', 'SEARCH', 'SESSION_START'].includes(event.eventType)) {
-      console.log(`✅ Événement mobile ${event.eventType} accepté directement`);
       return true;
     }
     
@@ -99,6 +121,44 @@ class ServerEventFilter {
     
     console.log(`✅ Événement ${event.eventType} accepté - score: ${qualityScore}`);
     return true;
+  }
+
+  isNavigationElement(productName) {
+    const navigationPatterns = [
+      'accueil', 'panier', 'rechercher', 'ouvre la page', 'mes promos',
+      'voir tout', 'filtrer & trier', 'magasin', 'fruits et légumes',
+      'pommes, poires et raisins', 'pommes (', 'graines (', 'bio',
+      'veuillez rentrer', 'predicted app', 'notification',
+      'viandes et poissons', 'boucherie', 'poissonnerie', 'volaille et rôtisserie',
+      'traiteur de la mer', 'sauces d\'accompagnement', 'c\'est la saison',
+      'barbecue', 'surgelés', 'crémerie et produits laitiers', 
+      'charcuterie et traiteur', 'bébé', 'mon marché frais', 'foire aux vins', 'coupons',
+      'glaces et sorbets', 'apéritifs', 'entrées et snacking', 'frites et pommes de terre',
+      'poissons et fruits de mer', 'pains', 'pâtisseries et viennoiseries',
+      'mon boucher', 'saucisses et merguez', 'colis du boucher', 'boeuf', 'viandes hachées'
+    ];
+    
+    const lowerName = productName.toLowerCase();
+    return navigationPatterns.some(pattern => lowerName.includes(pattern));
+  }
+
+  hasRealPrice(event) {
+    const productName = event.data?.productInfo?.productName || '';
+    const allTexts = event.data?.productInfo?.allTexts || [];
+    const price = event.data?.productInfo?.price || '';
+    const cartAction = event.data?.productInfo?.cartAction || '';
+    
+    // Chercher des patterns de prix réels (pas 0,00€)
+    const pricePattern = /(\d+[,.]?\d*)\s*€/;
+    const allContent = [productName, ...allTexts, price, cartAction].join(' ');
+    const priceMatch = allContent.match(pricePattern);
+    
+    if (priceMatch) {
+      const priceValue = parseFloat(priceMatch[1].replace(',', '.'));
+      return priceValue > 0; // Prix réel > 0
+    }
+    
+    return false;
   }
 
   isCartEvent(event) {
@@ -543,9 +603,22 @@ class DashboardContentReader {
       const finalProductName = realProductFromTexts || productName;
       const finalLowerName = finalProductName.toLowerCase();
 
-      // Extraire les prix et quantités
-      const priceMatch = finalProductName.match(/(\d+[,.]?\d*)\s*€/) || 
-                        (event.data?.productInfo?.allTexts?.join(' ').match(/(\d+[,.]?\d*)\s*€/));
+      // Extraire les prix et quantités - chercher dans plusieurs sources
+      let priceMatch = finalProductName.match(/(\d+[,.]?\d*)\s*€/);
+      
+      // Si pas de prix dans productName, chercher dans allTexts
+      if (!priceMatch && event.data?.productInfo?.allTexts) {
+        const allTextsString = event.data.productInfo.allTexts.join(' ');
+        priceMatch = allTextsString.match(/(\d+[,.]?\d*)\s*€/);
+      }
+      
+      // Si pas de prix trouvé, chercher dans price et cartAction
+      if (!priceMatch) {
+        const priceField = event.data?.productInfo?.price || '';
+        const cartAction = event.data?.productInfo?.cartAction || '';
+        priceMatch = priceField.match(/(\d+[,.]?\d*)\s*€/) || cartAction.match(/(\d+[,.]?\d*)\s*€/);
+      }
+      
       const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
       // Détecter les produits à remplacer
@@ -652,7 +725,8 @@ class DashboardContentReader {
     // Filtrer les textes génériques qui ne sont pas des vrais produits
     const genericTexts = [
       'ajouter au panier', 'voir tout', 'information', 'accueil', 'rechercher',
-      'panier', 'notification', 'vinaigre d\'alcool', 'simpl'
+      'panier', 'notification', 'vinaigre d\'alcool', 'simpl', 'ouvre la page',
+      'quantité:', 'filtrer & trier', 'acheter', 'veuillez rentrer'
     ];
     
     const lowerCleaned = cleaned.toLowerCase();

@@ -1,0 +1,103 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  1758027069853,
+                      "timestamp":  "2025-09-16T12:51:09.851Z",
+                      "sessionId":  "session_1758027066783_s2xuwos3h",
+                      "eventType":  "visibility_change",
+                      "url":  "http://localhost:3001/",
+                      "data":  {
+                                   "hidden":  true,
+                                   "visibilityState":  "hidden"
+                               }
+                  },
+                  {
+                      "id":  1758027229213,
+                      "timestamp":  1758027229285,
+                      "sessionId":  "android_session_1758027229281_89a161cf",
+                      "eventType":  "SESSION_START",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "platform":  "android_native",
+                                   "sessionId":  "android_session_1758027229281_89a161cf",
+                                   "deviceInfo":  {
+                                                      "manufacturer":  "Google",
+                                                      "model":  "sdk_gphone64_x86_64",
+                                                      "version":  "16",
+                                                      "sdk":  36,
+                                                      "screenDensity":  2.625,
+                                                      "screenWidth":  1080,
+                                                      "screenHeight":  2337
+                                                  }
+                               }
+                  },
+                  {
+                      "id":  1758027233166,
+                      "timestamp":  1758027233310,
+                      "sessionId":  "android_session_1758027229281_89a161cf",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "com.google.android.apps.nexuslauncher",
+                                   "packageName":  "com.google.android.apps.nexuslauncher",
+                                   "productInfo":  {
+                                                       "cartAction":  "Bascule Cross-App Tracking",
+                                                       "productName":  "Bascule Cross-App Tracking",
+                                                       "allTexts":  [
+                                                                        "Clear all",
+                                                                        "Chrome",
+                                                                        "Carrefour",
+                                                                        "Bascule Cross-App Tracking"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758027234853,
+                      "timestamp":  1758027234996,
+                      "sessionId":  "android_session_1758027229281_89a161cf",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "com.google.android.apps.nexuslauncher",
+                                   "packageName":  "com.google.android.apps.nexuslauncher",
+                                   "element":  {
+                                                   "className":  "android.widget.FrameLayout",
+                                                   "contentDescription":  "",
+                                                   "text":  "",
+                                                   "resourceId":  "com.google.android.apps.nexuslauncher:id/task_view_single",
+                                                   "clickable":  true,
+                                                   "bounds":  {
+                                                                  "left":  0,
+                                                                  "top":  174,
+                                                                  "right":  131,
+                                                                  "bottom":  1973
+                                                              }
+                                               },
+                                   "eventType":  "cross_app_click",
+                                   "timestamp":  1758027234481
+                               }
+                  },
+                  {
+                      "id":  1758027235221,
+                      "timestamp":  1758027235366,
+                      "sessionId":  "android_session_1758027229281_89a161cf",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "com.google.android.apps.nexuslauncher",
+                                   "packageName":  "com.google.android.apps.nexuslauncher",
+                                   "productInfo":  {
+                                                       "productName":  "Clear all",
+                                                       "allTexts":  [
+                                                                        "Clear all",
+                                                                        "Chrome"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  }
+              ],
+    "Count":  5
+}

@@ -1,0 +1,16 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  1758027069853,
+                      "timestamp":  "2025-09-16T12:51:09.851Z",
+                      "sessionId":  "session_1758027066783_s2xuwos3h",
+                      "eventType":  "visibility_change",
+                      "url":  "http://localhost:3001/",
+                      "data":  {
+                                   "hidden":  true,
+                                   "visibilityState":  "hidden"
+                               }
+                  }
+              ],
+    "Count":  1
+}

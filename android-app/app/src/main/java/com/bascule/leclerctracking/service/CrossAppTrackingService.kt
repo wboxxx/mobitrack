@@ -137,24 +137,51 @@ class CrossAppTrackingService : AccessibilityService() {
         val currentTime = System.currentTimeMillis()
         val contentHash = generateContentHash(elementInfo)
         
-        val eventSignature = EventSignature(
-            eventType = "VIEW_CLICKED",
-            productName = elementInfo["text"] as? String,
-            cartAction = null,
-            contentHash = contentHash,
-            timestamp = currentTime
-        )
+        // Détecter spécifiquement les clics sur boutons d'ajout au panier
+        val isCartButton = isCartAddButton(nodeInfo)
         
-        eventBuffer.bufferEvent(eventSignature) {
-            trackingManager.trackEvent(TrackingEventType.VIEW_CLICKED, mapOf(
-                "app" to getAppName(packageName),
-                "packageName" to packageName,
-                "element" to elementInfo,
-                "eventType" to "cross_app_click",
-                "timestamp" to currentTime
-            ))
+        if (isCartButton) {
+            // Traiter comme un ajout au panier
+            val productInfo = extractProductInfoFromClick(nodeInfo)
+            val eventSignature = EventSignature(
+                eventType = "ADD_TO_CART",
+                productName = productInfo["productName"] as? String,
+                cartAction = productInfo["cartAction"] as? String,
+                contentHash = contentHash,
+                timestamp = currentTime
+            )
             
-            Log.d("CrossAppTracking", "Click envoyé dans ${getAppName(packageName)}: $elementInfo")
+            eventBuffer.bufferEvent(eventSignature) {
+                trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                    "app" to getAppName(packageName),
+                    "packageName" to packageName,
+                    "productInfo" to productInfo,
+                    "eventType" to "cross_app_cart_update"
+                ))
+                
+                Log.d("CrossAppTracking", "🛒 Bouton panier cliqué: ${productInfo["productName"] ?: "Inconnu"} - Prix: ${productInfo["price"] ?: "N/A"}")
+            }
+        } else {
+            // Traiter comme un clic normal
+            val eventSignature = EventSignature(
+                eventType = "VIEW_CLICKED",
+                productName = elementInfo["text"] as? String,
+                cartAction = null,
+                contentHash = contentHash,
+                timestamp = currentTime
+            )
+            
+            eventBuffer.bufferEvent(eventSignature) {
+                trackingManager.trackEvent(TrackingEventType.VIEW_CLICKED, mapOf(
+                    "app" to getAppName(packageName),
+                    "packageName" to packageName,
+                    "element" to elementInfo,
+                    "eventType" to "cross_app_click",
+                    "timestamp" to currentTime
+                ))
+                
+                Log.d("CrossAppTracking", "Click envoyé dans ${getAppName(packageName)}: $elementInfo")
+            }
         }
     }
     
@@ -369,6 +396,199 @@ class CrossAppTrackingService : AccessibilityService() {
         } catch (e: Exception) {
             content.hashCode().toString()
         }
+    }
+    
+    private fun isCartAddButton(nodeInfo: AccessibilityNodeInfo?): Boolean {
+        if (nodeInfo == null) return false
+        
+        val text = nodeInfo.text?.toString()?.lowercase() ?: ""
+        val desc = nodeInfo.contentDescription?.toString()?.lowercase() ?: ""
+        val resourceId = nodeInfo.viewIdResourceName?.lowercase() ?: ""
+        
+        // Patterns TRÈS spécifiques pour les vrais boutons d'ajout au panier
+        val exactCartPatterns = listOf(
+            "ajouter au panier", "add to cart"
+        )
+        
+        // Vérifier EXACTEMENT "ajouter au panier" ou "add to cart"
+        val hasExactCartText = exactCartPatterns.any { pattern ->
+            text.contains(pattern) || desc.contains(pattern)
+        }
+        
+        // Vérifier les IDs de ressource spécifiques aux boutons panier
+        val hasCartResourceId = resourceId.contains("cart_add") || 
+                               resourceId.contains("add_cart") || 
+                               resourceId.contains("btn_add_cart")
+        
+        // Ne retourner true QUE si on a un texte exact OU un ID spécifique ET un contexte prix
+        return (hasExactCartText || hasCartResourceId) && hasProductPriceContext(nodeInfo)
+    }
+    
+    private fun hasProductPriceContext(nodeInfo: AccessibilityNodeInfo): Boolean {
+        // Chercher des indices de prix dans un rayon de 5 niveaux
+        fun searchForPriceContext(node: AccessibilityNodeInfo?, maxDepth: Int = 5): Boolean {
+            if (node == null || maxDepth <= 0) return false
+            
+            val text = node.text?.toString() ?: ""
+            val desc = node.contentDescription?.toString() ?: ""
+            
+            // Patterns de prix très spécifiques
+            val pricePatterns = listOf(
+                "€", "EUR", "€/KG", "€/kg", 
+                Regex("\\d+[,.]\\d+\\s*€"),
+                Regex("\\d+[,.]\\d+€/KG", RegexOption.IGNORE_CASE)
+            )
+            
+            // Vérifier si ce noeud contient un prix
+            val hasPrice = pricePatterns.any { pattern ->
+                when (pattern) {
+                    is Regex -> pattern.containsMatchIn(text) || pattern.containsMatchIn(desc)
+                    is String -> text.contains(pattern) || desc.contains(pattern)
+                    else -> false
+                }
+            }
+            
+            if (hasPrice) return true
+            
+            // Chercher dans les parents
+            if (searchForPriceContext(node.parent, maxDepth - 1)) return true
+            
+            // Chercher dans les enfants
+            for (i in 0 until (node.childCount ?: 0)) {
+                if (searchForPriceContext(node.getChild(i), maxDepth - 1)) return true
+            }
+            
+            return false
+        }
+        
+        return searchForPriceContext(nodeInfo)
+    }
+    
+    private fun isNearCartContext(nodeInfo: AccessibilityNodeInfo): Boolean {
+        // Chercher dans les éléments parents/enfants pour contexte panier
+        var parent = nodeInfo.parent
+        var depth = 0
+        
+        while (parent != null && depth < 3) {
+            val parentText = parent.text?.toString()?.lowercase() ?: ""
+            val parentDesc = parent.contentDescription?.toString()?.lowercase() ?: ""
+            
+            if (parentText.contains("panier") || parentText.contains("cart") ||
+                parentDesc.contains("panier") || parentDesc.contains("cart") ||
+                parentText.contains("€") || parentText.contains("prix")) {
+                return true
+            }
+            
+            parent = parent.parent
+            depth++
+        }
+        
+        return false
+    }
+    
+    private fun extractProductInfoFromClick(nodeInfo: AccessibilityNodeInfo?): Map<String, Any> {
+        val productInfo = mutableMapOf<String, Any>()
+        val allTexts = mutableListOf<String>()
+        val allPrices = mutableListOf<String>()
+        
+        // Chercher dans un rayon plus large pour trouver les infos produit
+        fun searchProductContext(node: AccessibilityNodeInfo?, maxDepth: Int = 8) {
+            if (node == null || maxDepth <= 0) return
+            
+            val text = node.text?.toString() ?: ""
+            val desc = node.contentDescription?.toString() ?: ""
+            val resourceId = node.viewIdResourceName ?: ""
+            
+            if (text.isNotEmpty()) allTexts.add(text)
+            if (desc.isNotEmpty()) allTexts.add(desc)
+            
+            // Patterns de prix étendus pour Carrefour
+            val pricePatterns = listOf(
+                Regex("(\\d+[,.]\\d+)\\s*€"),
+                Regex("(\\d+[,.]\\d+)€/KG"),
+                Regex("(\\d+[,.]\\d+)€/L"),
+                Regex("Prix:\\s*(\\d+[,.]\\d+)\\s*€"),
+                Regex("(\\d+[,.]\\d+)\\s*EUR"),
+                Regex("€\\s*(\\d+[,.]\\d+)"),
+                Regex("(\\d+)€(\\d+)"), // Format 3€99
+                Regex("(\\d{1,3}[,.]\\d{2})"), // Prix sans €
+                Regex("\\b(\\d+[,.]\\d+)\\b.*€") // Prix suivi de €
+            )
+            
+            // Chercher prix dans text, desc et resourceId
+            listOf(text, desc, resourceId).forEach { content ->
+                pricePatterns.forEach { pattern ->
+                    pattern.findAll(content).forEach { match ->
+                        val priceValue = match.value
+                        if (priceValue.isNotEmpty() && !allPrices.contains(priceValue)) {
+                            allPrices.add(priceValue)
+                        }
+                    }
+                }
+            }
+            
+            // Recherche spéciale pour éléments avec IDs prix
+            if (resourceId.contains("price", ignoreCase = true) || 
+                resourceId.contains("cost", ignoreCase = true) ||
+                resourceId.contains("amount", ignoreCase = true)) {
+                if (text.isNotEmpty()) allPrices.add(text)
+            }
+            
+            // Chercher dans les siblings (éléments frères)
+            node.parent?.let { parent ->
+                for (i in 0 until parent.childCount) {
+                    val sibling = parent.getChild(i)
+                    if (sibling != node && maxDepth > 1) {
+                        searchProductContext(sibling, 2) // Recherche limitée dans siblings
+                    }
+                }
+            }
+            
+            // Chercher dans les parents et enfants
+            if (maxDepth > 2) {
+                searchProductContext(node.parent, maxDepth - 1)
+            }
+            for (i in 0 until node.childCount) {
+                searchProductContext(node.getChild(i), maxDepth - 1)
+            }
+        }
+        
+        searchProductContext(nodeInfo)
+        
+        // Sélectionner le meilleur prix trouvé
+        if (allPrices.isNotEmpty()) {
+            val bestPrice = allPrices
+                .filter { it.matches(Regex(".*\\d+[,.]\\d+.*")) }
+                .maxByOrNull { price ->
+                    // Préférer les prix avec € explicite
+                    when {
+                        price.contains("€") -> 3
+                        price.matches(Regex("\\d+[,.]\\d+")) -> 2
+                        else -> 1
+                    }
+                }
+            
+            if (bestPrice != null) {
+                productInfo["price"] = bestPrice
+            }
+        }
+        
+        // Extraire le nom du produit (texte le plus long qui n'est pas un prix)
+        val productName = allTexts
+            .filter { it.length > 5 && !it.matches(Regex(".*\\d+[,.]\\d+.*€.*")) }
+            .filter { !it.lowercase().contains("ajouter") && !it.lowercase().contains("button") }
+            .filter { !it.lowercase().contains("scanner") && !it.lowercase().contains("code") }
+            .maxByOrNull { it.length }
+        
+        if (productName != null) {
+            productInfo["productName"] = productName
+        }
+        
+        productInfo["cartAction"] = "Ajout au panier via clic"
+        productInfo["allTexts"] = allTexts.take(15)
+        productInfo["foundPrices"] = allPrices.take(5) // Debug: voir tous les prix trouvés
+        
+        return productInfo
     }
     
     private fun getAppName(packageName: String): String {

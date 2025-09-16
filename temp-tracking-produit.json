@@ -1,0 +1,2484 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  1758020080412,
+                      "timestamp":  1758020080535,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080417,
+                      "timestamp":  1758020080531,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080420,
+                      "timestamp":  1758020080538,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080578,
+                      "timestamp":  1758020080730,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080612,
+                      "timestamp":  1758020080764,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080661,
+                      "timestamp":  1758020080811,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080681,
+                      "timestamp":  1758020080833,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080696,
+                      "timestamp":  1758020080846,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Coupons, Ouvre le rayon Coupons",
+                                                       "allTexts":  [
+                                                                        "Coupons, Ouvre le rayon Coupons",
+                                                                        "Coupons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080717,
+                      "timestamp":  1758020080868,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080788,
+                      "timestamp":  1758020080938,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080797,
+                      "timestamp":  1758020080948,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Recherche",
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080837,
+                      "timestamp":  1758020080988,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080848,
+                      "timestamp":  1758020080997,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080863,
+                      "timestamp":  1758020081013,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080868,
+                      "timestamp":  1758020081020,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080873,
+                      "timestamp":  1758020081020,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre le scanner de code barre",
+                                                       "allTexts":  [
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080878,
+                      "timestamp":  1758020081027,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020080525
+                               }
+                  },
+                  {
+                      "id":  1758020080881,
+                      "timestamp":  1758020081031,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Recherche",
+                                                       "allTexts":  [
+                                                                        "Recherche"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080899,
+                      "timestamp":  1758020081050,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080910,
+                      "timestamp":  1758020081062,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080961,
+                      "timestamp":  1758020081111,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080967,
+                      "timestamp":  1758020081119,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080973,
+                      "timestamp":  1758020081123,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080992,
+                      "timestamp":  1758020081140,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020080996,
+                      "timestamp":  1758020081141,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082056,
+                      "timestamp":  1758020082206,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082061,
+                      "timestamp":  1758020082213,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082068,
+                      "timestamp":  1758020082220,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ap??ritifs, Entr??es et Snacking",
+                                                       "allTexts":  [
+                                                                        "Ap??ritifs, Entr??es et Snacking"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082078,
+                      "timestamp":  1758020082229,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Glaces et Sorbets",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082125,
+                      "timestamp":  1758020082274,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pains, P??tisseries et Viennoiseries",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082131,
+                      "timestamp":  1758020082281,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Surgel??s",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082133,
+                      "timestamp":  1758020082286,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Poissons et Fruits de mer",
+                                                       "allTexts":  [
+                                                                        "Poissons et Fruits de mer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082140,
+                      "timestamp":  1758020082289,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082145,
+                      "timestamp":  1758020082297,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082148,
+                      "timestamp":  1758020082301,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes",
+                                                       "allTexts":  [
+                                                                        "Viandes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082156,
+                      "timestamp":  1758020082307,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082160,
+                      "timestamp":  1758020082311,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082169,
+                      "timestamp":  1758020082321,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Plats cuisin??s",
+                                                       "allTexts":  [
+                                                                        "Plats cuisin??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082177,
+                      "timestamp":  1758020082328,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pizzas, Quiches et Tartes",
+                                                       "allTexts":  [
+                                                                        "Pizzas, Quiches et Tartes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082185,
+                      "timestamp":  1758020082338,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Frites et Pommes de terre",
+                                                       "allTexts":  [
+                                                                        "Frites et Pommes de terre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082192,
+                      "timestamp":  1758020082342,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082205,
+                      "timestamp":  1758020082356,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082225,
+                      "timestamp":  1758020082375,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082261,
+                      "timestamp":  1758020082413,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020082326,
+                      "timestamp":  1758020082469,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338708,
+                      "timestamp":  1758020338853,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ap??ritifs, Entr??es et Snacking",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338717,
+                      "timestamp":  1758020338864,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338721,
+                      "timestamp":  1758020338862,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338799,
+                      "timestamp":  1758020338950,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338804,
+                      "timestamp":  1758020338954,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338813,
+                      "timestamp":  1758020338958,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Recherche",
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338827,
+                      "timestamp":  1758020338974,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338830,
+                      "timestamp":  1758020338968,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338833,
+                      "timestamp":  1758020338982,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338839,
+                      "timestamp":  1758020338986,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338854,
+                      "timestamp":  1758020339005,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338861,
+                      "timestamp":  1758020339012,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338869,
+                      "timestamp":  1758020339016,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338874,
+                      "timestamp":  1758020339022,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338877,
+                      "timestamp":  1758020339025,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Coupons, Ouvre le rayon Coupons",
+                                                       "allTexts":  [
+                                                                        "Coupons, Ouvre le rayon Coupons",
+                                                                        "Coupons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338882,
+                      "timestamp":  1758020339029,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Recherche",
+                                                       "allTexts":  [
+                                                                        "Recherche"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338896,
+                      "timestamp":  1758020339049,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020338547
+                               }
+                  },
+                  {
+                      "id":  1758020338900,
+                      "timestamp":  1758020339053,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre le scanner de code barre",
+                                                       "allTexts":  [
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338908,
+                      "timestamp":  1758020339059,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338913,
+                      "timestamp":  1758020339065,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338917,
+                      "timestamp":  1758020339069,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338927,
+                      "timestamp":  1758020339078,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338931,
+                      "timestamp":  1758020339083,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338945,
+                      "timestamp":  1758020339097,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020338976,
+                      "timestamp":  1758020339128,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348494,
+                      "timestamp":  1758020348646,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348516,
+                      "timestamp":  1758020348656,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348528,
+                      "timestamp":  1758020348669,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Volaille et R??tisserie",
+                                                       "allTexts":  [
+                                                                        "Volaille et R??tisserie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348532,
+                      "timestamp":  1758020348681,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348548,
+                      "timestamp":  1758020348701,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348553,
+                      "timestamp":  1758020348705,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Sauces d\u0027accompagnement",
+                                                       "allTexts":  [
+                                                                        "Sauces d\u0027accompagnement"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348581,
+                      "timestamp":  1758020348734,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "C\u0027est la saison : Barbecue",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348596,
+                      "timestamp":  1758020348749,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348606,
+                      "timestamp":  1758020348756,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Traiteur de la mer",
+                                                       "allTexts":  [
+                                                                        "Traiteur de la mer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348617,
+                      "timestamp":  1758020348766,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348626,
+                      "timestamp":  1758020348771,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "C\u0027est la saison : Barbecue",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348629,
+                      "timestamp":  1758020348779,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348634,
+                      "timestamp":  1758020348774,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348639,
+                      "timestamp":  1758020348785,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Boucherie",
+                                                       "allTexts":  [
+                                                                        "Boucherie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348643,
+                      "timestamp":  1758020348788,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Poissonnerie",
+                                                       "allTexts":  [
+                                                                        "Poissonnerie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348647,
+                      "timestamp":  1758020348795,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348695,
+                      "timestamp":  1758020348847,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348703,
+                      "timestamp":  1758020348853,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Volaille et R??tisserie",
+                                                       "allTexts":  [
+                                                                        "Volaille et R??tisserie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348711,
+                      "timestamp":  1758020348863,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "C\u0027est la saison : Barbecue",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348718,
+                      "timestamp":  1758020348870,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Traiteur de la mer",
+                                                       "allTexts":  [
+                                                                        "Traiteur de la mer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348725,
+                      "timestamp":  1758020348876,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Boucherie",
+                                                       "allTexts":  [
+                                                                        "Boucherie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348731,
+                      "timestamp":  1758020348884,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Poissonnerie",
+                                                       "allTexts":  [
+                                                                        "Poissonnerie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020348763,
+                      "timestamp":  1758020348916,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "C\u0027est la saison : Barbecue",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020349809,
+                      "timestamp":  1758020349957,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "C\u0027est la saison : Barbecue",
+                                                                        "Boucherie",
+                                                                        "Volaille et R??tisserie",
+                                                                        "Poissonnerie",
+                                                                        "Traiteur de la mer",
+                                                                        "Sauces d\u0027accompagnement",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Viandes et Poissons",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020349983,
+                      "timestamp":  1758020350134,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Mon boucher d\u0027Ile de France",
+                                                                        "Saucisses et Merguez",
+                                                                        "Colis du boucher",
+                                                                        "Boeuf",
+                                                                        "Viandes hach??es",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Boucherie",
+                                                                        "Veuillez rentrer une ville ou un code postal.",
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350112,
+                      "timestamp":  1758020350265,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350127,
+                      "timestamp":  1758020350275,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon boucher d\u0027Ile de France",
+                                                       "allTexts":  [
+                                                                        "Mon boucher d\u0027Ile de France",
+                                                                        "Saucisses et Merguez",
+                                                                        "Colis du boucher",
+                                                                        "Boeuf",
+                                                                        "Viandes hach??es",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350130,
+                      "timestamp":  1758020350282,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Colis du boucher",
+                                                       "allTexts":  [
+                                                                        "Colis du boucher"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350136,
+                      "timestamp":  1758020350286,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Boeuf",
+                                                       "allTexts":  [
+                                                                        "Boeuf"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350147,
+                      "timestamp":  1758020350299,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Boucherie",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350162,
+                      "timestamp":  1758020350314,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Saucisses et Merguez",
+                                                       "allTexts":  [
+                                                                        "Saucisses et Merguez"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350168,
+                      "timestamp":  1758020350321,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Mon boucher d\u0027Ile de France",
+                                                                        "Saucisses et Merguez",
+                                                                        "Colis du boucher",
+                                                                        "Boeuf",
+                                                                        "Viandes hach??es",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Boucherie",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350185,
+                      "timestamp":  1758020350337,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes hach??es",
+                                                       "allTexts":  [
+                                                                        "Viandes hach??es"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350192,
+                      "timestamp":  1758020350343,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350198,
+                      "timestamp":  1758020350350,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350203,
+                      "timestamp":  1758020350355,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350213,
+                      "timestamp":  1758020350365,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Mon boucher d\u0027Ile de France",
+                                                                        "Saucisses et Merguez",
+                                                                        "Colis du boucher",
+                                                                        "Boeuf",
+                                                                        "Viandes hach??es",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Boucherie",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350215,
+                      "timestamp":  1758020350366,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Boucherie",
+                                                       "allTexts":  [
+                                                                        "Boucherie"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020350229,
+                      "timestamp":  1758020350381,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Mon boucher d\u0027Ile de France",
+                                                                        "Saucisses et Merguez",
+                                                                        "Colis du boucher",
+                                                                        "Boeuf",
+                                                                        "Viandes hach??es",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Boucherie",
+                                                                        "Veuillez rentrer une ville ou un code postal.",
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020400569,
+                      "timestamp":  1758020400720,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "com.android.systemui",
+                                   "packageName":  "com.android.systemui",
+                                   "productInfo":  {
+                                                       "productName":  "Security \u0026 privacy notification: ",
+                                                       "allTexts":  [
+                                                                        "1:00",
+                                                                        "1:00???PM",
+                                                                        "Find Hub notification: ",
+                                                                        "Security \u0026 privacy notification: ",
+                                                                        "Google Play Store notification: "
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454063,
+                      "timestamp":  1758020454216,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454077,
+                      "timestamp":  1758020454229,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454173,
+                      "timestamp":  1758020454321,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre le scanner de code barre",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pain, lait, ??ufs???",
+                                                                        "Ouvre le scanner de code barre",
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454193,
+                      "timestamp":  1758020454325,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020453819
+                               }
+                  },
+                  {
+                      "id":  1758020454227,
+                      "timestamp":  1758020454370,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454233,
+                      "timestamp":  1758020454382,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pain, lait, ??ufs???",
+                                                       "allTexts":  [
+                                                                        "Pain, lait, ??ufs???"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020454278,
+                      "timestamp":  1758020454418,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020453915
+                               }
+                  },
+                  {
+                      "id":  1758020455733,
+                      "timestamp":  1758020455886,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viande Bovine: Tartare 5% MG et sa sauce",
+                                                       "allTexts":  [
+                                                                        "Drapeau fran??ais",
+                                                                        "CHARAL",
+                                                                        "Viande Bovine: Tartare 5% MG et sa sauce",
+                                                                        "FRANCE"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020455824,
+                      "timestamp":  1758020455970,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Filtrer \u0026 trier",
+                                                       "allTexts":  [
+                                                                        "Filtrer \u0026 trier"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020455847,
+                      "timestamp":  1758020455992,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Boeuf (3)",
+                                                       "allTexts":  [
+                                                                        "Boeuf (3)"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020455900,
+                      "timestamp":  1758020456051,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020455905,
+                      "timestamp":  1758020456053,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020455553
+                               }
+                  },
+                  {
+                      "id":  1758020455912,
+                      "timestamp":  1758020456063,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758020455561
+                               }
+                  },
+                  {
+                      "id":  1758020455915,
+                      "timestamp":  1758020456068,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "cartAction":  "Ajouter au panier",
+                                                       "productName":  "Ajouter au panier",
+                                                       "allTexts":  [
+                                                                        "Ajouter au panier",
+                                                                        "Acheter"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020455932,
+                      "timestamp":  1758020456084,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "cartAction":  "Ajouter au panier",
+                                                       "productName":  "Ajouter au panier",
+                                                       "allTexts":  [
+                                                                        "Ajouter au panier",
+                                                                        "Acheter"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020458080,
+                      "timestamp":  1758020458231,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viande Bovine: Tartare 5% MG et sa sauce",
+                                                       "allTexts":  [
+                                                                        "Drapeau fran??ais",
+                                                                        "CHARAL",
+                                                                        "Viande Bovine: Tartare 5% MG et sa sauce"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758020458084,
+                      "timestamp":  1758020458236,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "cartAction":  "Retirer un produit du panier",
+                                                       "productName":  "Retirer un produit du panier",
+                                                       "allTexts":  [
+                                                                        "Retirer un produit du panier"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  }
+              ],
+    "Count":  127
+}

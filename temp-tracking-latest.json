@@ -1,0 +1,2072 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  1758019828681,
+                      "timestamp":  1758019828819,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758019828314
+                               }
+                  },
+                  {
+                      "id":  1758019828732,
+                      "timestamp":  1758019828885,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828807,
+                      "timestamp":  1758019828959,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828887,
+                      "timestamp":  1758019829039,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828948,
+                      "timestamp":  1758019829100,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828973,
+                      "timestamp":  1758019829125,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828991,
+                      "timestamp":  1758019829142,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "L??gumes",
+                                                       "allTexts":  [
+                                                                        "L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019828998,
+                      "timestamp":  1758019829150,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pr??t ?? consommer",
+                                                       "allTexts":  [
+                                                                        "Pr??t ?? consommer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829009,
+                      "timestamp":  1758019829161,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Jus de fruits frais et Gaspachos",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829014,
+                      "timestamp":  1758019829166,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes Bio",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829023,
+                      "timestamp":  1758019829174,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829028,
+                      "timestamp":  1758019829180,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes secs",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes secs"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829043,
+                      "timestamp":  1758019829194,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits",
+                                                       "allTexts":  [
+                                                                        "Fruits"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829048,
+                      "timestamp":  1758019829200,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829051,
+                      "timestamp":  1758019829204,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829062,
+                      "timestamp":  1758019829214,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829096,
+                      "timestamp":  1758019829248,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829109,
+                      "timestamp":  1758019829260,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes Bio",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829112,
+                      "timestamp":  1758019829264,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes secs",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes secs"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829158,
+                      "timestamp":  1758019829301,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes secs",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes secs"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019829170,
+                      "timestamp":  1758019829320,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes Bio",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019837951,
+                      "timestamp":  1758019838091,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019837999,
+                      "timestamp":  1758019838150,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838101,
+                      "timestamp":  1758019838250,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838137,
+                      "timestamp":  1758019838288,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Herbes aromatiques et Epices",
+                                                       "allTexts":  [
+                                                                        "Herbes aromatiques et Epices"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838235,
+                      "timestamp":  1758019838387,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pur??es fra??ches",
+                                                       "allTexts":  [
+                                                                        "Pur??es fra??ches"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838289,
+                      "timestamp":  1758019838441,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "L??gumes d??coup??s et Crudit??s",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet",
+                                                                        "L??gumes d??coup??s et Crudit??s",
+                                                                        "Soupes fra??ches et Gaspachos",
+                                                                        "Olives et Tapenades",
+                                                                        "Herbes aromatiques et Epices",
+                                                                        "Pur??es fra??ches",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838308,
+                      "timestamp":  1758019838460,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Olives et Tapenades",
+                                                       "allTexts":  [
+                                                                        "Olives et Tapenades"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838357,
+                      "timestamp":  1758019838508,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet",
+                                                                        "L??gumes d??coup??s et Crudit??s",
+                                                                        "Soupes fra??ches et Gaspachos",
+                                                                        "Olives et Tapenades",
+                                                                        "Herbes aromatiques et Epices",
+                                                                        "Pur??es fra??ches",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838374,
+                      "timestamp":  1758019838524,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Salades en sachet",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838381,
+                      "timestamp":  1758019838532,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Soupes fra??ches et Gaspachos",
+                                                       "allTexts":  [
+                                                                        "Soupes fra??ches et Gaspachos"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838392,
+                      "timestamp":  1758019838540,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838401,
+                      "timestamp":  1758019838549,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pr??t ?? consommer",
+                                                       "allTexts":  [
+                                                                        "Pr??t ?? consommer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838416,
+                      "timestamp":  1758019838546,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838422,
+                      "timestamp":  1758019838563,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet",
+                                                                        "L??gumes d??coup??s et Crudit??s",
+                                                                        "Soupes fra??ches et Gaspachos",
+                                                                        "Olives et Tapenades",
+                                                                        "Herbes aromatiques et Epices",
+                                                                        "Pur??es fra??ches",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838428,
+                      "timestamp":  1758019838559,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019838432,
+                      "timestamp":  1758019838577,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet",
+                                                                        "L??gumes d??coup??s et Crudit??s",
+                                                                        "Soupes fra??ches et Gaspachos",
+                                                                        "Olives et Tapenades",
+                                                                        "Herbes aromatiques et Epices",
+                                                                        "Pur??es fra??ches",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019922490,
+                      "timestamp":  "2025-09-16T10:52:02.485Z",
+                      "sessionId":  "session_1758019919132_h4urzm055",
+                      "eventType":  "mouse_move",
+                      "url":  "http://127.0.0.1:6496/",
+                      "data":  {
+                                   "x":  331,
+                                   "y":  302,
+                                   "target":  "DIV"
+                               }
+                  },
+                  {
+                      "id":  1758019927328,
+                      "timestamp":  "2025-09-16T10:52:07.322Z",
+                      "sessionId":  "session_1758019919132_h4urzm055",
+                      "eventType":  "scroll",
+                      "url":  "http://127.0.0.1:6496/",
+                      "data":  {
+                                   "scrollY":  0,
+                                   "scrollPercent":  0
+                               }
+                  },
+                  {
+                      "id":  1758019933500,
+                      "timestamp":  "2025-09-16T10:52:13.486Z",
+                      "sessionId":  "session_1758019919132_h4urzm055",
+                      "eventType":  "mouse_move",
+                      "url":  "http://127.0.0.1:6496/",
+                      "data":  {
+                                   "x":  293,
+                                   "y":  327,
+                                   "target":  "SECTION"
+                               }
+                  },
+                  {
+                      "id":  1758019935306,
+                      "timestamp":  "2025-09-16T10:52:15.303Z",
+                      "sessionId":  "session_1758019919132_h4urzm055",
+                      "eventType":  "scroll",
+                      "url":  "http://127.0.0.1:6496/",
+                      "data":  {
+                                   "scrollY":  2583.60009765625,
+                                   "scrollPercent":  100
+                               }
+                  },
+                  {
+                      "id":  1758019936501,
+                      "timestamp":  "2025-09-16T10:52:16.489Z",
+                      "sessionId":  "session_1758019919132_h4urzm055",
+                      "eventType":  "visibility_change",
+                      "url":  "http://127.0.0.1:6496/",
+                      "data":  {
+                                   "hidden":  true,
+                                   "visibilityState":  "hidden"
+                               }
+                  },
+                  {
+                      "id":  1758019990137,
+                      "timestamp":  1758019990272,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Salades en sachet",
+                                                                        "L??gumes d??coup??s et Crudit??s",
+                                                                        "Soupes fra??ches et Gaspachos",
+                                                                        "Olives et Tapenades",
+                                                                        "Herbes aromatiques et Epices",
+                                                                        "Pur??es fra??ches",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990195,
+                      "timestamp":  1758019990347,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990214,
+                      "timestamp":  1758019990355,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990240,
+                      "timestamp":  1758019990389,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes Bio",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990248,
+                      "timestamp":  1758019990370,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "L??gumes",
+                                                       "allTexts":  [
+                                                                        "L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990261,
+                      "timestamp":  1758019990399,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990277,
+                      "timestamp":  1758019990415,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pr??t ?? consommer",
+                                                       "allTexts":  [
+                                                                        "Pr??t ?? consommer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990281,
+                      "timestamp":  1758019990430,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Jus de fruits frais et Gaspachos",
+                                                       "allTexts":  [
+                                                                        "Jus de fruits frais et Gaspachos"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990288,
+                      "timestamp":  1758019990438,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990291,
+                      "timestamp":  1758019990433,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990298,
+                      "timestamp":  1758019990449,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990300,
+                      "timestamp":  1758019990447,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes secs",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes secs"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990303,
+                      "timestamp":  1758019990452,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990312,
+                      "timestamp":  1758019990464,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990316,
+                      "timestamp":  1758019990453,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits",
+                                                       "allTexts":  [
+                                                                        "Fruits"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990319,
+                      "timestamp":  1758019990454,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990325,
+                      "timestamp":  1758019990475,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990347,
+                      "timestamp":  1758019990500,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes secs",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes secs"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019990354,
+                      "timestamp":  1758019990506,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes Bio",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019991832,
+                      "timestamp":  1758019991985,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes Bio",
+                                                                        "Fruits",
+                                                                        "L??gumes",
+                                                                        "Pr??t ?? consommer",
+                                                                        "Jus de fruits frais et Gaspachos",
+                                                                        "Fruits et L??gumes secs",
+                                                                        "Voir tout",
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Fruits et L??gumes",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019991944,
+                      "timestamp":  1758019992096,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Accueil",
+                                                       "allTexts":  [
+                                                                        "Accueil"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019991977,
+                      "timestamp":  1758019992130,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992204,
+                      "timestamp":  1758019992354,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992212,
+                      "timestamp":  1758019992362,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992222,
+                      "timestamp":  1758019992368,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992228,
+                      "timestamp":  1758019992374,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992232,
+                      "timestamp":  1758019992382,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992238,
+                      "timestamp":  1758019992389,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992244,
+                      "timestamp":  1758019992396,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992248,
+                      "timestamp":  1758019992399,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992273,
+                      "timestamp":  1758019992422,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page recherche de produits",
+                                                       "allTexts":  [
+                                                                        "Recherche",
+                                                                        "Ouvre la page recherche de produits",
+                                                                        "Trouver un article ou une offre",
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992277,
+                      "timestamp":  1758019992428,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992284,
+                      "timestamp":  1758019992434,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Coupons, Ouvre le rayon Coupons",
+                                                       "allTexts":  [
+                                                                        "Coupons, Ouvre le rayon Coupons",
+                                                                        "Coupons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992301,
+                      "timestamp":  1758019992454,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Recherche",
+                                                       "allTexts":  [
+                                                                        "Recherche"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992309,
+                      "timestamp":  1758019992461,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "CONTENT_CHANGED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "eventType":  "cross_app_content_change",
+                                   "timestamp":  1758019991960
+                               }
+                  },
+                  {
+                      "id":  1758019992316,
+                      "timestamp":  1758019992467,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992319,
+                      "timestamp":  1758019992468,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre le scanner de code barre",
+                                                       "allTexts":  [
+                                                                        "Ouvre le scanner de code barre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992346,
+                      "timestamp":  1758019992497,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "B??b??",
+                                                       "allTexts":  [
+                                                                        "B??b??"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992349,
+                      "timestamp":  1758019992500,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Foire aux Vins",
+                                                       "allTexts":  [
+                                                                        "Foire aux Vins"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992353,
+                      "timestamp":  1758019992505,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes et Poissons",
+                                                       "allTexts":  [
+                                                                        "Viandes et Poissons"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992373,
+                      "timestamp":  1758019992522,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992377,
+                      "timestamp":  1758019992529,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Charcuterie et Traiteur",
+                                                       "allTexts":  [
+                                                                        "Charcuterie et Traiteur"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992381,
+                      "timestamp":  1758019992533,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Mon march?? frais",
+                                                       "allTexts":  [
+                                                                        "Mon march?? frais"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019992384,
+                      "timestamp":  1758019992537,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994296,
+                      "timestamp":  1758019994443,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994329,
+                      "timestamp":  1758019994476,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Panier, 3 new notifications",
+                                                       "allTexts":  [
+                                                                        "Accueil",
+                                                                        "Rechercher",
+                                                                        "Mes produits",
+                                                                        "Promotions",
+                                                                        "Panier, 3 new notifications"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994429,
+                      "timestamp":  1758019994579,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994446,
+                      "timestamp":  1758019994597,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Poissons et Fruits de mer",
+                                                       "allTexts":  [
+                                                                        "Poissons et Fruits de mer"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994452,
+                      "timestamp":  1758019994604,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Glaces et Sorbets",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994471,
+                      "timestamp":  1758019994621,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente",
+                                                                        "Surgel??s",
+                                                                        "Veuillez rentrer une ville ou un code postal."
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994477,
+                      "timestamp":  1758019994629,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Plats cuisin??s",
+                                                       "allTexts":  [
+                                                                        "Plats cuisin??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994490,
+                      "timestamp":  1758019994639,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994500,
+                      "timestamp":  1758019994651,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Frites et Pommes de terre",
+                                                       "allTexts":  [
+                                                                        "Frites et Pommes de terre"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994507,
+                      "timestamp":  1758019994657,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pains, P??tisseries et Viennoiseries",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994513,
+                      "timestamp":  1758019994666,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Pizzas, Quiches et Tartes",
+                                                       "allTexts":  [
+                                                                        "Pizzas, Quiches et Tartes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994518,
+                      "timestamp":  1758019994670,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Viandes",
+                                                       "allTexts":  [
+                                                                        "Viandes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994523,
+                      "timestamp":  1758019994671,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Voir tout",
+                                                       "allTexts":  [
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994527,
+                      "timestamp":  1758019994677,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994540,
+                      "timestamp":  1758019994690,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994549,
+                      "timestamp":  1758019994699,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "ADD_TO_CART",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ap??ritifs, Entr??es et Snacking",
+                                                       "allTexts":  [
+                                                                        "Ap??ritifs, Entr??es et Snacking"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994553,
+                      "timestamp":  1758019994704,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Ouvre la page pr??c??dente",
+                                                       "allTexts":  [
+                                                                        "Ouvre la page pr??c??dente"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994559,
+                      "timestamp":  1758019994707,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Surgel??s",
+                                                       "allTexts":  [
+                                                                        "Surgel??s"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994571,
+                      "timestamp":  1758019994722,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Veuillez rentrer une ville ou un code postal.",
+                                                       "allTexts":  [
+                                                                        "Glaces et Sorbets",
+                                                                        "Ap??ritifs, Entr??es et Snacking",
+                                                                        "Frites et Pommes de terre",
+                                                                        "Poissons et Fruits de mer",
+                                                                        "Viandes",
+                                                                        "Pizzas, Quiches et Tartes",
+                                                                        "Plats cuisin??s",
+                                                                        "Fruits et L??gumes",
+                                                                        "Pains, P??tisseries et Viennoiseries",
+                                                                        "Voir tout"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  },
+                  {
+                      "id":  1758019994582,
+                      "timestamp":  1758019994734,
+                      "sessionId":  "android_session_1758017871383_fd0d884f",
+                      "eventType":  "VIEW_CLICKED",
+                      "platform":  "android_native",
+                      "data":  {
+                                   "app":  "Carrefour",
+                                   "packageName":  "com.carrefour.fid.android",
+                                   "productInfo":  {
+                                                       "productName":  "Fruits et L??gumes",
+                                                       "allTexts":  [
+                                                                        "Fruits et L??gumes"
+                                                                    ]
+                                                   },
+                                   "eventType":  "cross_app_cart_update"
+                               }
+                  }
+              ],
+    "Count":  106
+}

@@ -1,0 +1,334 @@
+{
+  "events": [
+    {
+      "id": 1758018773707,
+      "timestamp": 1758018773853,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "C'est la saison : Barbecue",
+            "Boucherie",
+            "Volaille et Rôtisserie",
+            "Poissonnerie",
+            "Traiteur de la mer",
+            "Sauces d'accompagnement",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Viandes et Poissons",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774027,
+      "timestamp": 1758018774180,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal.",
+            "Accueil",
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774037,
+      "timestamp": 1758018774189,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 3 new notifications",
+          "allTexts": [
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 3 new notifications"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774048,
+      "timestamp": 1758018774198,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774060,
+      "timestamp": 1758018774212,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774071,
+      "timestamp": 1758018774222,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Cordons bleus et Grignottes",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774087,
+      "timestamp": 1758018774239,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774092,
+      "timestamp": 1758018774244,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rôtisserie",
+          "allTexts": [
+            "Rôtisserie"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774111,
+      "timestamp": 1758018774263,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774124,
+      "timestamp": 1758018774270,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Canard",
+          "allTexts": [
+            "Canard"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774131,
+      "timestamp": 1758018774280,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Poulets",
+          "allTexts": [
+            "Poulets"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774136,
+      "timestamp": 1758018774277,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774139,
+      "timestamp": 1758018774285,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Volaille et Rôtisserie",
+          "allTexts": [
+            "Volaille et Rôtisserie"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774142,
+      "timestamp": 1758018774292,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1758018774152,
+      "timestamp": 1758018774303,
+      "sessionId": "android_session_1758017871383_fd0d884f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Veuillez rentrer une ville ou un code postal.",
+          "allTexts": [
+            "Poulets",
+            "Rôtisserie",
+            "Canard",
+            "Cordons bleus et Grignottes",
+            "Voir tout",
+            "Ouvre la page précédente",
+            "Volaille et Rôtisserie",
+            "Veuillez rentrer une ville ou un code postal.",
+            "Accueil",
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 15,
+    "activeSessions": 0,
+    "productClicks": 10,
+    "conversions": 5
+  },
+  "exportedAt": "2025-09-16T10:35:55.590Z",
+  "exportedBy": "auto-clear"
+}

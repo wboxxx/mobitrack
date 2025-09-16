@@ -184,23 +184,85 @@ class TrackingDashboard {
         productsPanel.innerHTML = productEvents.map(event => {
             const productInfo = event.data.productInfo || {};
             const productName = productInfo.productName || 'Produit inconnu';
-            const price = productInfo.price || 'Prix N/A';
-            const cartAction = productInfo.cartAction || '';
             const app = event.data.app || 'App inconnue';
             const allTexts = productInfo.allTexts || [];
             
-            return `
-                <div class="event-item" style="border-left-color: #28a745;">
-                    <div class="event-type">🛒 ${app}</div>
-                    <div class="event-data">
-                        <strong style="color: #28a745; font-size: 1.1em;">${productName}</strong><br>
-                        <span style="color: #667eea; font-weight: bold;">${price}</span>
-                        ${cartAction ? `<span style="color: #666;"> - ${cartAction}</span>` : ''}
-                        ${allTexts.length > 0 ? `<br><small style="color: #999;">Textes détectés: ${allTexts.slice(0, 3).join(', ')}${allTexts.length > 3 ? '...' : ''}</small>` : ''}
+            // Différencier navigation vs vrais ajouts au panier
+            if (event.eventType === 'VIEW_CLICKED') {
+                // Filtrer les messages parasites
+                const parasiteMessages = [
+                    'veuillez rentrer une ville', 'veuillez entrer', 'code postal',
+                    'new notifications', 'notification', 'ouvre la page précédente',
+                    'scanner de code', 'predicted app'
+                ];
+                
+                const lowerName = productName.toLowerCase();
+                const isParasite = parasiteMessages.some(msg => lowerName.includes(msg));
+                
+                if (isParasite || !productName.trim()) {
+                    return ''; // Ne pas afficher
+                }
+                
+                return `
+                    <div class="event-item" style="border-left-color: #17a2b8;">
+                        <div class="event-type">📂 Navigation ${app}</div>
+                        <div class="event-data">
+                            <strong style="color: #17a2b8; font-size: 1.1em;">${productName}</strong>
+                        </div>
+                        <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
                     </div>
-                    <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
-                </div>
-            `;
+                `;
+            } else {
+                // Filtrer les faux ajouts au panier qui sont en réalité de la navigation
+                const navigationCategories = [
+                    'viandes et poissons', 'boucherie', 'poissonnerie', 'volaille et rôtisserie',
+                    'traiteur de la mer', 'sauces d\'accompagnement', 'c\'est la saison',
+                    'barbecue', 'voir tout', 'fruits et légumes', 'bio', 'promotions',
+                    'surgelés', 'crémerie et produits laitiers', 'charcuterie et traiteur',
+                    'bébé', 'mon marché frais', 'foire aux vins', 'coupons',
+                    'glaces et sorbets', 'apéritifs', 'entrées et snacking', 'frites et pommes de terre',
+                    'poissons et fruits de mer', 'pains', 'pâtisseries et viennoiseries',
+                    'mon boucher', 'saucisses et merguez', 'colis du boucher', 'boeuf', 'viandes hachées'
+                ];
+                
+                const lowerName = productName.toLowerCase();
+                const isNavigationCategory = navigationCategories.some(cat => lowerName.includes(cat));
+                
+                if (isNavigationCategory) {
+                    return `
+                        <div class="event-item" style="border-left-color: #17a2b8;">
+                            <div class="event-type">📂 Catégorie ${app}</div>
+                            <div class="event-data">
+                                <strong style="color: #17a2b8; font-size: 1.1em;">${productName}</strong>
+                            </div>
+                            <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
+                        </div>
+                    `;
+                }
+                
+                // Vrai ajout au panier - chercher le prix réel
+                const price = productInfo.price || '';
+                const cartAction = productInfo.cartAction || '';
+                const allContent = [productName, ...allTexts, price, cartAction].join(' ');
+                const priceMatch = allContent.match(/(\d+[,.]?\d*)\s*€/);
+                const realPrice = priceMatch ? `${priceMatch[1]}€` : '';
+                
+                // Ne montrer que s'il y a un vrai prix
+                if (!realPrice) {
+                    return ''; // Ne pas afficher les ajouts sans prix
+                }
+                
+                return `
+                    <div class="event-item" style="border-left-color: #28a745;">
+                        <div class="event-type">🛒 Ajout Panier ${app}</div>
+                        <div class="event-data">
+                            <strong style="color: #28a745; font-size: 1.1em;">${productName}</strong>
+                            <br><span style="color: #667eea; font-weight: bold;">Prix: ${realPrice}</span>
+                        </div>
+                        <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
+                    </div>
+                `;
+            }
         }).join('');
     }
 
@@ -299,7 +361,23 @@ class TrackingDashboard {
                 return `📱 ${data.app || 'App'} - ${deviceInfo.manufacturer || 'N/A'} ${deviceInfo.model || 'N/A'}`;
             
             case 'VIEW_CLICKED':
-                return `👆 ${data.app || 'App'} - Élément: ${data.element?.text || data.element?.contentDescription || 'N/A'}`;
+                const elementText = data.element?.text || data.element?.contentDescription || data.productInfo?.productName || '';
+                
+                // Filtrer les messages parasites
+                const parasiteMessages = [
+                    'veuillez rentrer une ville', 'veuillez entrer', 'code postal',
+                    'new notifications', 'notification', 'ouvre la page précédente',
+                    'scanner de code', 'predicted app'
+                ];
+                
+                const lowerText = elementText.toLowerCase();
+                const isParasite = parasiteMessages.some(msg => lowerText.includes(msg));
+                
+                if (isParasite || !elementText.trim()) {
+                    return null; // Ne pas afficher
+                }
+                
+                return `📂 Navigation ${data.app || 'App'} - ${elementText}`;
             
             case 'CONTENT_CHANGED':
                 return `🔄 ${data.app || 'App'} - Contenu modifié`;
@@ -310,9 +388,16 @@ class TrackingDashboard {
             case 'ADD_TO_CART':
                 const productInfo = data.productInfo || {};
                 const productName = productInfo.productName || 'Produit inconnu';
-                const price = productInfo.price || 'Prix N/A';
+                const allTexts = productInfo.allTexts || [];
+                const priceField = productInfo.price || '';
                 const cartAction = productInfo.cartAction || '';
-                return `🛒 ${data.app || 'App'} - <strong>${productName}</strong> - ${price} ${cartAction ? `(${cartAction})` : ''}`;
+                
+                // Chercher prix réel dans tous les champs
+                const allContent = [productName, ...allTexts, priceField, cartAction].join(' ');
+                const priceMatch = allContent.match(/(\d+[,.]?\d*)\s*€/);
+                const realPrice = priceMatch ? `${priceMatch[1]}€` : '';
+                
+                return `🛒 ${data.app || 'App'} - ${productName}${realPrice ? ` - Prix: ${realPrice}` : ''}`;
             
             case 'SEARCH':
                 return `🔍 ${data.app || 'App'} - Recherche (${data.searchLength || 0} caractères)`;
