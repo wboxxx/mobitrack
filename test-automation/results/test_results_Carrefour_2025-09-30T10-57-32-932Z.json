@@ -1,0 +1,97 @@
+{
+  "flowName": "Acheter une banane - Flow complet",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T10:57:21.237Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T10:57:21.237Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:57:21.597Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:57:24.599Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Ouvre la page recherche de produits"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:57:27.713Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:57:29.714Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:57:30.977Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 1000
+      }
+    },
+    {
+      "action": "input",
+      "timestamp": "2025-09-30T10:57:31.981Z",
+      "success": false,
+      "error": "Cannot read properties of undefined (reading 'setValue')",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T10-57-26-589Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T10-57-26-589Z.png",
+      "timestamp": "2025-09-30T10-57-26-589Z"
+    },
+    {
+      "name": "step_5_click",
+      "filename": "step_5_click_2025-09-30T10-57-30-522Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_5_click_2025-09-30T10-57-30-522Z.png",
+      "timestamp": "2025-09-30T10-57-30-522Z"
+    },
+    {
+      "name": "step_7_input",
+      "filename": "step_7_input_2025-09-30T10-57-32-536Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_7_input_2025-09-30T10-57-32-536Z.png",
+      "timestamp": "2025-09-30T10-57-32-536Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "Cannot read properties of undefined (reading 'setValue')",
+  "duration": 11695,
+  "endTime": "2025-09-30T10:57:32.932Z"
+}

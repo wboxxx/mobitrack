@@ -61,7 +61,7 @@ class TrackingDashboard {
             };
             this.renderEvents();
             this.renderSessions();
-            this.renderProducts();
+            // this.renderProducts(); // Désactivé - pas de productsPanel
             this.updateStats();
             this.updateLastUpdate();
         });
@@ -99,7 +99,7 @@ class TrackingDashboard {
             
             this.renderEvents();
             this.renderSessions();
-            this.renderProducts();
+            // this.renderProducts(); // Désactivé - pas de productsPanel dans le nouveau dashboard
             this.updateStats();
             this.updateLastUpdate();
         } catch (error) {
@@ -116,29 +116,185 @@ class TrackingDashboard {
         }
         
         this.renderEvents();
-        this.renderProducts();
+        // this.renderProducts(); // Désactivé - pas de productsPanel
     }
 
     renderEvents() {
-        const eventsPanel = document.getElementById('eventsPanel');
-        const filteredEvents = this.getFilteredEvents();
+        this.renderAllEvents();
+        this.renderFilteredEvents();
+    }
+
+    renderAllEvents() {
+        const allEventsPanel = document.getElementById('allEventsPanel');
+        if (!allEventsPanel) return;
+
+        let filteredEvents = this.events;
         
+        // Apply basic filters for all events panel
+        if (this.currentFilter !== 'all') {
+            filteredEvents = this.events.filter(event => {
+                switch (this.currentFilter) {
+                    case 'VIEW_CLICKED':
+                        return event.eventType === 'VIEW_CLICKED';
+                    case 'ADD_TO_CART':
+                        return event.eventType === 'ADD_TO_CART';
+                    case 'SCROLL':
+                        return event.eventType === 'SCROLL';
+                    case 'CONTENT_CHANGED':
+                        return event.eventType === 'CONTENT_CHANGED';
+                    default:
+                        return true;
+                }
+            });
+        }
+
         if (filteredEvents.length === 0) {
-            eventsPanel.innerHTML = `
-                <p style="color: #666; text-align: center; padding: 2rem;">
-                    ${this.currentFilter === 'all' ? 'En attente d\'événements...' : 'Aucun événement de ce type'}
-                </p>
-            `;
+            allEventsPanel.innerHTML = '<p style="color: #666; text-align: center; padding: 2rem;">Aucun événement trouvé</p>';
             return;
         }
 
-        eventsPanel.innerHTML = filteredEvents.map(event => `
-            <div class="event-item">
-                <div class="event-type">${this.getEventTypeLabel(event.eventType)}</div>
-                <div class="event-data">${this.formatEventData(event)}</div>
-                <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
-            </div>
-        `).join('');
+        // Sort by timestamp (newest first)
+        filteredEvents.sort((a, b) => b.timestamp - a.timestamp);
+
+        allEventsPanel.innerHTML = filteredEvents.slice(0, 50).map(event => {
+            const timestamp = new Date(event.timestamp).toLocaleTimeString('fr-FR');
+            const eventIcon = this.getEventIcon(event.eventType);
+            const eventColor = this.getEventColor(event.eventType);
+            
+            return `
+                <div class="event-item" style="border-left-color: ${eventColor};">
+                    <div class="event-type">${eventIcon} ${event.eventType}</div>
+                    <div class="event-data">${this.formatEventData(event)}</div>
+                    <div class="event-timestamp">${timestamp}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    renderFilteredEvents() {
+        const filteredEventsPanel = document.getElementById('filteredEventsPanel');
+        if (!filteredEventsPanel) return;
+
+        // Filter only relevant events (real cart additions, product clicks, etc.)
+        const relevantEvents = this.events.filter(event => {
+            // Only show Carrefour events with real data
+            if (event.data && event.data.packageName === 'com.carrefour.fid.android') {
+                if (event.eventType === 'ADD_TO_CART') {
+                    // Only real cart additions with prices > 0
+                    const price = event.data.productInfo?.price || '';
+                    const productName = event.data.productInfo?.productName || '';
+                    
+                    // Filter out navigation elements
+                    const navigationTerms = ['accueil', 'rechercher', 'drive', 'livraison', 'compte', 'notification', 'ferme', 'ouvert'];
+                    const isNavigation = navigationTerms.some(term => productName.toLowerCase().includes(term));
+                    
+                    // Check for real price (not 0,00 € or corrupted)
+                    const hasRealPrice = price && !price.includes('0,00') && !price.includes('???') && price.match(/\d+[,.]?\d*\s*€/);
+                    
+                    return !isNavigation && hasRealPrice;
+                }
+                
+                if (event.eventType === 'VIEW_CLICKED') {
+                    // Only clicks on product elements
+                    const element = event.data.element;
+                    const clickTarget = element?.clickTarget || '';
+                    const isProductClick = clickTarget && !['accueil', 'rechercher', 'menu', 'navigation'].some(term => 
+                        clickTarget.toLowerCase().includes(term)
+                    );
+                    return isProductClick;
+                }
+                
+                if (event.eventType === 'SCROLL') {
+                    // Only scrolls in product contexts
+                    const scrollInfo = event.data.scrollInfo;
+                    return scrollInfo && scrollInfo.context && scrollInfo.context.includes('product');
+                }
+            }
+            
+            return false;
+        });
+
+        if (relevantEvents.length === 0) {
+            filteredEventsPanel.innerHTML = '<p style="color: #666; text-align: center; padding: 2rem;">Aucun événement pertinent détecté</p>';
+            return;
+        }
+
+        // Sort by timestamp (newest first)
+        relevantEvents.sort((a, b) => b.timestamp - a.timestamp);
+
+        filteredEventsPanel.innerHTML = relevantEvents.slice(0, 30).map(event => {
+            const timestamp = new Date(event.timestamp).toLocaleTimeString('fr-FR');
+            const eventIcon = this.getEventIcon(event.eventType);
+            const eventColor = this.getEventColor(event.eventType);
+            
+            return `
+                <div class="event-item" style="border-left-color: ${eventColor}; background: #f0fff0;">
+                    <div class="event-type">${eventIcon} ${event.eventType} ⭐</div>
+                    <div class="event-data">${this.formatEventData(event)}</div>
+                    <div class="event-timestamp">${timestamp}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    getEventIcon(eventType) {
+        const icons = {
+            'VIEW_CLICKED': '👆',
+            'ADD_TO_CART': '🛒',
+            'SCROLL': '📜',
+            'CONTENT_CHANGED': '🔄',
+            'SESSION_START': '🚀',
+            'product_click': '🖱️',
+            'add_to_cart': '🛒',
+            'navigation': '🧭',
+            'search': '🔍'
+        };
+        return icons[eventType] || '📌';
+    }
+
+    getEventColor(eventType) {
+        const colors = {
+            'VIEW_CLICKED': '#3498db',
+            'ADD_TO_CART': '#27ae60',
+            'SCROLL': '#9b59b6',
+            'CONTENT_CHANGED': '#f39c12',
+            'SESSION_START': '#e74c3c',
+            'product_click': '#3498db',
+            'add_to_cart': '#27ae60'
+        };
+        return colors[eventType] || '#667eea';
+    }
+
+    getAppDisplayName(appIdentifier) {
+        const appNames = {
+            'com.carrefour.fid.android': 'Carrefour',
+            'com.leclerc.drive': 'E.Leclerc',
+            'com.auchan.drive': 'Auchan',
+            'com.android.systemui': 'Système Android',
+            'Carrefour': 'Carrefour',
+            'E.Leclerc': 'E.Leclerc'
+        };
+        return appNames[appIdentifier] || appIdentifier;
+    }
+
+    formatEventData(event) {
+        const productInfo = event.data?.productInfo || {};
+        const element = event.data?.element || {};
+        const productName = productInfo.productName || element.text || 'N/A';
+        const price = productInfo.price || 'N/A';
+        const app = this.getAppDisplayName(event.data?.app || event.data?.packageName || 'Unknown');
+        
+        return `
+            <strong>App:</strong> ${app}<br>
+            <strong>Produit:</strong> ${productName}<br>
+            <strong>Prix:</strong> ${price}
+        `;
+    }
+
+    formatTimestamp(timestamp) {
+        if (!timestamp) return 'N/A';
+        const date = new Date(timestamp);
+        return date.toLocaleString('fr-FR');
     }
 
     renderSessions() {
@@ -182,18 +338,59 @@ class TrackingDashboard {
         }
 
         productsPanel.innerHTML = productEvents.map(event => {
-            const productInfo = event.data.productInfo || {};
-            const productName = productInfo.productName || 'Produit inconnu';
-            const app = event.data.app || 'App inconnue';
+            const eventType = event.eventType || 'UNKNOWN';
+            const app = this.getAppDisplayName(event.data?.app || event.data?.packageName || 'Unknown');
+            const productInfo = event.data?.productInfo || {};
+            const element = event.data?.element || {};
+            const scrollInfo = event.data?.scrollInfo || {};
+            const productName = productInfo.productName || element.text || 'Élément inconnu';
             const allTexts = productInfo.allTexts || [];
             
-            // Différencier navigation vs vrais ajouts au panier
-            if (event.eventType === 'VIEW_CLICKED') {
-                // Filtrer les messages parasites
+            if (eventType === 'SCROLL') {
+                const direction = scrollInfo.direction || 'unknown';
+                const context = scrollInfo.context || 'general';
+                const distance = scrollInfo.distance || 0;
+                const scrollDeltaX = scrollInfo.scrollDeltaX || 0;
+                const scrollDeltaY = scrollInfo.scrollDeltaY || 0;
+                
+                const directionIcon = {
+                    'up': '⬆️',
+                    'down': '⬇️', 
+                    'left': '⬅️',
+                    'right': '➡️',
+                    'unknown': '📜'
+                }[direction] || '📜';
+                
+                const contextDisplay = {
+                    'products': 'Produits',
+                    'categories': 'Catégories', 
+                    'cart': 'Panier',
+                    'search': 'Recherche',
+                    'home': 'Accueil',
+                    'list': 'Liste',
+                    'general': 'Navigation'
+                }[context] || 'Navigation';
+                
+                return `
+                    <div class="event-item" style="border-left-color: #6f42c1;">
+                        <div class="event-type">${directionIcon} Scroll ${app}</div>
+                        <div class="event-data">
+                            <strong style="color: #6f42c1; font-size: 1.1em;">Direction: ${direction.toUpperCase()}</strong>
+                            <br><span style="color: #6c757d;">Distance: ${distance}px (Δx:${scrollDeltaX}, Δy:${scrollDeltaY})</span>
+                            <br><span style="color: #6c757d;">Section: ${contextDisplay}</span>
+                        </div>
+                        <div class="event-timestamp">${this.formatTimestamp(event.timestamp)}</div>
+                    </div>
+                `;
+            } else if (eventType === 'VIEW_CLICKED') {
+                // Messages parasites à filtrer
                 const parasiteMessages = [
-                    'veuillez rentrer une ville', 'veuillez entrer', 'code postal',
-                    'new notifications', 'notification', 'ouvre la page précédente',
-                    'scanner de code', 'predicted app'
+                    'veuillez rentrer une ville',
+                    'facilitez vos courses',
+                    'faites des économies',
+                    'logo',
+                    'version',
+                    'new notifications'
                 ];
                 
                 const lowerName = productName.toLowerCase();
@@ -205,7 +402,7 @@ class TrackingDashboard {
                 
                 return `
                     <div class="event-item" style="border-left-color: #17a2b8;">
-                        <div class="event-type">📂 Navigation ${app}</div>
+                        <div class="event-type">👆 Click ${app}</div>
                         <div class="event-data">
                             <strong style="color: #17a2b8; font-size: 1.1em;">${productName}</strong>
                         </div>

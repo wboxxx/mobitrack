@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-test-automation",
+  "version": "1.0.0",
+  "description": "Automatisation des tests pour apps e-commerce avec Appium",
+  "main": "run-test.js",
+  "scripts": {
+    "test": "node run-test.js",
+    "test:carrefour": "node run-test.js carrefour addToCart",
+    "test:amazon": "node run-test.js amazon addToCart",
+    "test:fnac": "node run-test.js fnac addToCart",
+    "test:auchan": "node run-test.js auchan addToCart",
+    "test:leclerc": "node run-test.js leclerc addToCart",
+    "list": "node run-test.js --list",
+    "help": "node run-test.js --help"
+  },
+  "keywords": [
+    "appium",
+    "automation",
+    "testing",
+    "ecommerce",
+    "android"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^8.40.0",
+    "appium": "^2.11.0"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^3.7.0"
+  }
+}

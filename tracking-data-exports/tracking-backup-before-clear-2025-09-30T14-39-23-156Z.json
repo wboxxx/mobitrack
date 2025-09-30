@@ -1,0 +1,945 @@
+{
+  "events": [
+    {
+      "id": 1759243155288,
+      "timestamp": 1759243155251,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 5 new notifications",
+          "allTexts": [
+            "Panier",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 5 new notifications"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243155331,
+      "timestamp": 1759243155277,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243155350,
+      "timestamp": 1759243155308,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243155354,
+      "timestamp": 1759243155295,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243155380,
+      "timestamp": 1759243155324,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156412,
+      "timestamp": 1759243156371,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 5 new notifications",
+          "allTexts": [
+            "Panier",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 5 new notifications"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156422,
+      "timestamp": 1759243156380,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "19,15€",
+          "cartAction": "19,15€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156428,
+      "timestamp": 1759243156373,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Pommes Jaunes Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "7,38",
+            "7 euros et 38 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156438,
+      "timestamp": 1759243156396,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156450,
+      "timestamp": 1759243156388,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "1 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Raisin blanc sans pépins",
+            "la barquette de 500g",
+            "ORIGINE UE ET HORS U.E.",
+            "4,79",
+            "4 euros et 79 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "1",
+            "1 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243156880,
+      "timestamp": 1759243156841,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157140,
+      "timestamp": 1759243156848,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "19,15€",
+          "price": "19,15€",
+          "productName": "Valider mon panier",
+          "allTexts": [
+            "Valider mon panier",
+            "19,15€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157150,
+      "timestamp": 1759243156846,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "19,15€",
+          "cartAction": "19,15€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157165,
+      "timestamp": 1759243156849,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157175,
+      "timestamp": 1759243156855,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157182,
+      "timestamp": 1759243156861,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157197,
+      "timestamp": 1759243156866,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157226,
+      "timestamp": 1759243156874,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Raisin blanc sans pépins.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Raisin blanc sans pépins.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157233,
+      "timestamp": 1759243156884,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157240,
+      "timestamp": 1759243156880,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157244,
+      "timestamp": 1759243156890,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Pommes Jaunes Bio.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Pommes Jaunes Bio.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157564,
+      "timestamp": 1759243157525,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157570,
+      "timestamp": 1759243157529,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157576,
+      "timestamp": 1759243157533,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157585,
+      "timestamp": 1759243157536,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "19,15€",
+          "cartAction": "19,15€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157622,
+      "timestamp": 1759243157541,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "1 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Raisin blanc sans pépins",
+            "la barquette de 500g",
+            "ORIGINE UE ET HORS U.E.",
+            "4,79",
+            "4 euros et 79 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "1",
+            "1 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157630,
+      "timestamp": 1759243157554,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157645,
+      "timestamp": 1759243157570,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "3,59€",
+          "cartAction": "3,59€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157656,
+      "timestamp": 1759243157589,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Pommes Jaunes Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "7,38",
+            "7 euros et 38 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157662,
+      "timestamp": 1759243157605,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,49€",
+          "price": "3,49€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Drapeau français"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157671,
+      "timestamp": 1759243157598,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "1 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Raisin blanc sans pépins",
+            "la barquette de 500g",
+            "ORIGINE UE ET HORS U.E.",
+            "4,79",
+            "4 euros et 79 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "1",
+            "1 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157677,
+      "timestamp": 1759243157614,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,59€",
+          "price": "3,59€",
+          "productName": "3 euros et 59 centimes.",
+          "allTexts": [
+            "125g",
+            "-10% Club",
+            "3,59€",
+            "3 euros et 59 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157683,
+      "timestamp": 1759243157629,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "3,59€",
+          "cartAction": "3,59€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157765,
+      "timestamp": 1759243157730,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rien oublié ?",
+          "allTexts": [
+            "Rien oublié ?"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157801,
+      "timestamp": 1759243157757,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,59€",
+          "price": "3,59€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Drapeau français",
+            "125g",
+            "-10% Club",
+            "3,59€",
+            "3 euros et 59 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157813,
+      "timestamp": 1759243157763,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243157829,
+      "timestamp": 1759243157772,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,59€",
+          "price": "3,59€",
+          "productName": "3 euros et 59 centimes.",
+          "allTexts": [
+            "125g",
+            "-10% Club",
+            "3,59€",
+            "3 euros et 59 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243158022,
+      "timestamp": 1759243157982,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "3,59€",
+          "cartAction": "3,59€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Poires Bio.",
+            "-10% Club",
+            "Poires Bio",
+            "la barquette de 4 fruits",
+            "FRANCE",
+            "6,98",
+            "6 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243158042,
+      "timestamp": 1759243158001,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,49€",
+          "price": "3,49€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Drapeau français"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243158067,
+      "timestamp": 1759243158026,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,59€",
+          "price": "3,59€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Drapeau français",
+            "125g",
+            "-10% Club",
+            "3,59€",
+            "3 euros et 59 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 40,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 40
+  },
+  "exportedAt": "2025-09-30T14:39:23.155Z",
+  "exportedBy": "auto-clear"
+}

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "com.bascule.leclerctracking.app-mergeDebugResources-3:/layout/activity_consent.xml",
-        "source": "com.bascule.leclerctracking.app-main-6:/layout/activity_consent.xml"
+        "merged": "com.bascule.leclerctracking.app-mergeDebugResources-34:/layout/activity_consent.xml",
+        "source": "com.bascule.leclerctracking.app-main-37:/layout/activity_consent.xml"
     },
     {
-        "merged": "com.bascule.leclerctracking.app-mergeDebugResources-3:/layout/activity_main.xml",
-        "source": "com.bascule.leclerctracking.app-main-6:/layout/activity_main.xml"
+        "merged": "com.bascule.leclerctracking.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.bascule.leclerctracking.app-main-37:/layout/activity_main.xml"
     }
 ]

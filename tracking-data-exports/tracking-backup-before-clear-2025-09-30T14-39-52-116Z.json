@@ -1,0 +1,1553 @@
+{
+  "events": [
+    {
+      "id": 1759243184160,
+      "timestamp": 1759243184080,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes produits",
+          "allTexts": [
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184185,
+      "timestamp": 1759243184093,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184190,
+      "timestamp": 1759243184076,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rechercher",
+          "allTexts": [
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184194,
+      "timestamp": 1759243184082,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Rechercher",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/departments_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 216,
+            "top": 2190,
+            "right": 432,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1759243181738
+      }
+    },
+    {
+      "id": 1759243184199,
+      "timestamp": 1759243184078,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Mes produits",
+          "allTexts": [
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184207,
+      "timestamp": 1759243184110,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184213,
+      "timestamp": 1759243184100,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "3,49€/U",
+          "productName": "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184219,
+      "timestamp": 1759243184152,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184226,
+      "timestamp": 1759243184129,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184229,
+      "timestamp": 1759243184117,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "Raisin blanc sans pépins",
+            "origine UE et Hors U.E.",
+            "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+            "(55)",
+            "4,79€",
+            "4 euros et 79 centimes.",
+            "9,58€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184232,
+      "timestamp": 1759243184124,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184238,
+      "timestamp": 1759243184160,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(55)",
+          "allTexts": [
+            "(55)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184242,
+      "timestamp": 1759243184165,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243182968
+      }
+    },
+    {
+      "id": 1759243184249,
+      "timestamp": 1759243184172,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184253,
+      "timestamp": 1759243184176,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "(8)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184257,
+      "timestamp": 1759243184169,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184272,
+      "timestamp": 1759243184178,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184278,
+      "timestamp": 1759243184184,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Fruits de saison (2)",
+            "Filtrer & trier",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184283,
+      "timestamp": 1759243184193,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184287,
+      "timestamp": 1759243184201,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184293,
+      "timestamp": 1759243184186,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184300,
+      "timestamp": 1759243184206,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184305,
+      "timestamp": 1759243184209,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+            "(55)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184311,
+      "timestamp": 1759243184210,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184316,
+      "timestamp": 1759243184213,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184321,
+      "timestamp": 1759243184241,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184327,
+      "timestamp": 1759243184222,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243183358
+      }
+    },
+    {
+      "id": 1759243184331,
+      "timestamp": 1759243184245,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184336,
+      "timestamp": 1759243184249,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184345,
+      "timestamp": 1759243184259,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "3,49€/U",
+          "productName": "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184350,
+      "timestamp": 1759243184251,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184353,
+      "timestamp": 1759243184269,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184359,
+      "timestamp": 1759243184264,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184365,
+      "timestamp": 1759243184274,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184371,
+      "timestamp": 1759243184277,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184469,
+      "timestamp": 1759243184436,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "(8)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184474,
+      "timestamp": 1759243184437,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(55)",
+          "allTexts": [
+            "(55)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184507,
+      "timestamp": 1759243184474,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184536,
+      "timestamp": 1759243184503,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "Raisin blanc sans pépins",
+            "origine UE et Hors U.E.",
+            "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+            "(55)",
+            "4,79€",
+            "4 euros et 79 centimes.",
+            "9,58€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184615,
+      "timestamp": 1759243184577,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184844,
+      "timestamp": 1759243184805,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184853,
+      "timestamp": 1759243184815,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Fruits de saison (2)",
+          "allTexts": [
+            "Fruits de saison (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243184985,
+      "timestamp": 1759243184946,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "9,58€/KG",
+          "productName": "Ce produit est noté 4,42 sur 5 par les utilisateurs, 55 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "4 pièces",
+            "LabelBio",
+            "Poires Bio",
+            "FRANCE",
+            "Ce produit est noté 4,63 sur 5 par les utilisateurs, 8 avis, aller à la répartition des avis",
+            "(8)",
+            "3,49€",
+            "3 euros et 49 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186657,
+      "timestamp": 1759243186619,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186664,
+      "timestamp": 1759243186621,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186668,
+      "timestamp": 1759243186628,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186681,
+      "timestamp": 1759243186635,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186803,
+      "timestamp": 1759243186766,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186854,
+      "timestamp": 1759243186815,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186872,
+      "timestamp": 1759243186831,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186880,
+      "timestamp": 1759243186846,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186898,
+      "timestamp": 1759243186864,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186948,
+      "timestamp": 1759243186912,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186965,
+      "timestamp": 1759243186926,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243186969,
+      "timestamp": 1759243186922,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187011,
+      "timestamp": 1759243186976,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187022,
+      "timestamp": 1759243186989,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187047,
+      "timestamp": 1759243187006,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187075,
+      "timestamp": 1759243187038,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Effacer",
+          "allTexts": [
+            "Effacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187104,
+      "timestamp": 1759243187066,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187120,
+      "timestamp": 1759243187080,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187134,
+      "timestamp": 1759243187089,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187145,
+      "timestamp": 1759243187105,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187156,
+      "timestamp": 1759243187120,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187208,
+      "timestamp": 1759243187170,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187220,
+      "timestamp": 1759243187186,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187269,
+      "timestamp": 1759243187233,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187295,
+      "timestamp": 1759243187261,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243187308,
+      "timestamp": 1759243187270,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243186765
+      }
+    },
+    {
+      "id": 1759243189166,
+      "timestamp": 1759243189123,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "cartAction": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "productName": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "allTexts": [
+            "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+            "dashboard.js:799",
+            "dashboard.js:800",
+            "favicon.ico:1",
+            "http://localhost:3001/favicon.ico",
+            "404",
+            "dashboard.js:36",
+            "Use voice typing",
+            "Delete",
+            "Search"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243189194,
+      "timestamp": 1759243189155,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "cartAction": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "productName": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "allTexts": [
+            "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+            "dashboard.js:799",
+            "dashboard.js:800",
+            "favicon.ico:1",
+            "http://localhost:3001/favicon.ico",
+            "404",
+            "dashboard.js:36",
+            "Use voice typing",
+            "Delete",
+            "Search"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243189273,
+      "timestamp": 1759243189223,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "cartAction": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "productName": "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+          "allTexts": [
+            "dashboard.js:799 📊 Dashboard initialized dashboard.js:800 🔄 Real-time updates enabled favicon.ico:1  GET http://localhost:3001/favicon.ico 404 (Not Found) dashboard.js:36 Connected to tracking server ",
+            "dashboard.js:799",
+            "dashboard.js:800",
+            "favicon.ico:1",
+            "http://localhost:3001/favicon.ico",
+            "404",
+            "dashboard.js:36",
+            "Use voice typing",
+            "Delete",
+            "Search"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 72,
+    "activeSessions": 0,
+    "productClicks": 1,
+    "conversions": 68
+  },
+  "exportedAt": "2025-09-30T14:39:52.115Z",
+  "exportedBy": "auto-clear"
+}

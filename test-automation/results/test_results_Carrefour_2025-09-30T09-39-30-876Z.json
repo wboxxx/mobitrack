@@ -1,0 +1,45 @@
+{
+  "flowName": "Ajout produit au panier",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T09:39:20.554Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T09:39:20.554Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T09:39:20.698Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T09:39:23.698Z",
+      "success": false,
+      "error": "Can't call click on element with selector \"android=new UiSelector().text(\"Rechercher\")\" because element wasn't found",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T09-39-30-516Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T09-39-30-516Z.png",
+      "timestamp": "2025-09-30T09-39-30-516Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "Can't call click on element with selector \"android=new UiSelector().text(\"Rechercher\")\" because element wasn't found",
+  "duration": 10322,
+  "endTime": "2025-09-30T09:39:30.876Z"
+}

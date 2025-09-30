@@ -1,0 +1,3950 @@
+{
+  "events": [
+    {
+      "id": 1759243192669,
+      "timestamp": 1759243192633,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243192771,
+      "timestamp": 1759243192735,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243200716,
+      "timestamp": 1759243200631,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:40 PM",
+          "allTexts": [
+            "4:40",
+            "4:40 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243200764,
+      "timestamp": 1759243200727,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:40 PM",
+          "allTexts": [
+            "4:40",
+            "4:40 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205266,
+      "timestamp": 1759243205230,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205303,
+      "timestamp": 1759243205265,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205360,
+      "timestamp": 1759243205325,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205374,
+      "timestamp": 1759243205329,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243204828
+      }
+    },
+    {
+      "id": 1759243205378,
+      "timestamp": 1759243205340,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205395,
+      "timestamp": 1759243205354,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205400,
+      "timestamp": 1759243205364,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205409,
+      "timestamp": 1759243205371,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205414,
+      "timestamp": 1759243205378,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205427,
+      "timestamp": 1759243205390,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205457,
+      "timestamp": 1759243205422,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205470,
+      "timestamp": 1759243205436,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243205480,
+      "timestamp": 1759243205444,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243204941
+      }
+    },
+    {
+      "id": 1759243206515,
+      "timestamp": 1759243206482,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206519,
+      "timestamp": 1759243206481,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206539,
+      "timestamp": 1759243206483,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(67)",
+          "allTexts": [
+            "(67)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206546,
+      "timestamp": 1759243206485,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206550,
+      "timestamp": 1759243206491,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206560,
+      "timestamp": 1759243206497,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243205968
+      }
+    },
+    {
+      "id": 1759243206566,
+      "timestamp": 1759243206486,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206570,
+      "timestamp": 1759243206502,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206577,
+      "timestamp": 1759243206515,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206583,
+      "timestamp": 1759243206518,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206589,
+      "timestamp": 1759243206524,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Promotions",
+          "allTexts": [
+            "Promotions"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206593,
+      "timestamp": 1759243206532,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206599,
+      "timestamp": 1759243206533,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206603,
+      "timestamp": 1759243206537,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier",
+          "allTexts": [
+            "Filtrer & trier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206610,
+      "timestamp": 1759243206541,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206617,
+      "timestamp": 1759243206583,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (4)",
+            "Filtrer & trier",
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206625,
+      "timestamp": 1759243206589,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (4)",
+          "allTexts": [
+            "Résultat pour banane (4)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206634,
+      "timestamp": 1759243206596,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Produits Carrefour",
+          "allTexts": [
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206693,
+      "timestamp": 1759243206659,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206714,
+      "timestamp": 1759243206682,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206724,
+      "timestamp": 1759243206691,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206736,
+      "timestamp": 1759243206699,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (4)",
+          "allTexts": [
+            "Résultat pour banane (4)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206743,
+      "timestamp": 1759243206707,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206756,
+      "timestamp": 1759243206718,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243206215
+      }
+    },
+    {
+      "id": 1759243206772,
+      "timestamp": 1759243206735,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Produits Carrefour",
+          "allTexts": [
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206776,
+      "timestamp": 1759243206739,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206788,
+      "timestamp": 1759243206755,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206858,
+      "timestamp": 1759243206824,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206866,
+      "timestamp": 1759243206829,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(67)",
+          "allTexts": [
+            "(67)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206931,
+      "timestamp": 1759243206898,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206939,
+      "timestamp": 1759243206906,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243206950,
+      "timestamp": 1759243206917,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Produits Carrefour",
+          "allTexts": [
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243207011,
+      "timestamp": 1759243206974,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/KG",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Drapeau français",
+            "-10% Club",
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243207022,
+      "timestamp": 1759243206983,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243218215,
+      "timestamp": 1759243218151,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "Google Play services notification: ",
+          "allTexts": [
+            "4:40",
+            "4:40 PM",
+            "Google Play services notification: ",
+            "Security & privacy notification: ",
+            "Google notification: "
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243218268,
+      "timestamp": 1759243218234,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "Google Play services notification: ",
+          "allTexts": [
+            "4:40",
+            "4:40 PM",
+            "Google Play services notification: ",
+            "Security & privacy notification: ",
+            "Google notification: "
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243225755,
+      "timestamp": 1759243225700,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243260709,
+      "timestamp": 1759243260654,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:41 PM",
+          "allTexts": [
+            "4:41",
+            "4:41 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243260789,
+      "timestamp": 1759243260754,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:41 PM",
+          "allTexts": [
+            "4:41",
+            "4:41 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243265732,
+      "timestamp": 1759243265693,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243272575,
+      "timestamp": 1759243272528,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 648,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243272850,
+      "timestamp": 1759243272817,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 700,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243273158,
+      "timestamp": 1759243273122,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 784,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243273465,
+      "timestamp": 1759243273430,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 955,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243273721,
+      "timestamp": 1759243273688,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1052,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243273973,
+      "timestamp": 1759243273940,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1188,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243274213,
+      "timestamp": 1759243274178,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1047,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243274496,
+      "timestamp": 1759243274462,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1169,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243274749,
+      "timestamp": 1759243274715,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1170,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243274861,
+      "timestamp": 1759243274824,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "58,91€/KG",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€",
+            "1 euros et 99 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274894,
+      "timestamp": 1759243274826,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Filtrer & trier",
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274913,
+      "timestamp": 1759243274833,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274917,
+      "timestamp": 1759243274838,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Filtrer & trier",
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274922,
+      "timestamp": 1759243274830,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274928,
+      "timestamp": 1759243274850,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274934,
+      "timestamp": 1759243274866,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274945,
+      "timestamp": 1759243274870,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274951,
+      "timestamp": 1759243274857,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274958,
+      "timestamp": 1759243274873,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274964,
+      "timestamp": 1759243274874,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(4127)",
+          "allTexts": [
+            "(4127)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274969,
+      "timestamp": 1759243274880,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274975,
+      "timestamp": 1759243274888,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274981,
+      "timestamp": 1759243274884,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274986,
+      "timestamp": 1759243274893,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(4145)",
+          "allTexts": [
+            "(4145)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274990,
+      "timestamp": 1759243274896,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243274997,
+      "timestamp": 1759243274898,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243273130
+      }
+    },
+    {
+      "id": 1759243275001,
+      "timestamp": 1759243274903,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275008,
+      "timestamp": 1759243274908,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275024,
+      "timestamp": 1759243274916,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275031,
+      "timestamp": 1759243274921,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275035,
+      "timestamp": 1759243274923,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275040,
+      "timestamp": 1759243274925,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275046,
+      "timestamp": 1759243274929,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(4145)",
+          "allTexts": [
+            "(4145)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275051,
+      "timestamp": 1759243274934,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275060,
+      "timestamp": 1759243274938,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243273437
+      }
+    },
+    {
+      "id": 1759243275065,
+      "timestamp": 1759243274942,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275071,
+      "timestamp": 1759243274948,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275079,
+      "timestamp": 1759243274956,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275084,
+      "timestamp": 1759243274958,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275090,
+      "timestamp": 1759243274960,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275098,
+      "timestamp": 1759243274963,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275102,
+      "timestamp": 1759243274966,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275108,
+      "timestamp": 1759243274969,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275114,
+      "timestamp": 1759243274970,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275119,
+      "timestamp": 1759243274975,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275127,
+      "timestamp": 1759243274980,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275133,
+      "timestamp": 1759243274982,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275139,
+      "timestamp": 1759243274984,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275145,
+      "timestamp": 1759243274985,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(4145)",
+          "allTexts": [
+            "(4145)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275151,
+      "timestamp": 1759243274994,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275158,
+      "timestamp": 1759243274997,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275165,
+      "timestamp": 1759243275000,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275171,
+      "timestamp": 1759243275031,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275180,
+      "timestamp": 1759243275077,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275206,
+      "timestamp": 1759243275169,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275251,
+      "timestamp": 1759243275216,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275310,
+      "timestamp": 1759243275274,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "1,99€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+          "allTexts": [
+            "1Kg",
+            "Bananes Cavendish vrac",
+            "FRANCE",
+            "Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis",
+            "(67)",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243275363,
+      "timestamp": 1759243275327,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ce produit est noté 4,1 sur 5 par les utilisateurs, 4127 avis, aller à la répartition des avis",
+            "(4127)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243282285,
+      "timestamp": 1759243282221,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1181,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243282470,
+      "timestamp": 1759243282437,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1324,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243282697,
+      "timestamp": 1759243282662,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1582,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243282937,
+      "timestamp": 1759243282903,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 1938,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243283155,
+      "timestamp": 1759243283122,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2075,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243283588,
+      "timestamp": 1759243283554,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2161,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243284260,
+      "timestamp": 1759243284226,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2015,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243284479,
+      "timestamp": 1759243284447,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2160,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243284522,
+      "timestamp": 1759243284489,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "-10% Club",
+          "price": "58,91€/KG",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat noisettes FULFIL",
+            "Ajouter au panier",
+            "Acheter",
+            "55g",
+            "Sponsorisé",
+            "FULFIL"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284536,
+      "timestamp": 1759243284490,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284546,
+      "timestamp": 1759243284491,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284551,
+      "timestamp": 1759243284498,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284557,
+      "timestamp": 1759243284504,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284564,
+      "timestamp": 1759243284494,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284573,
+      "timestamp": 1759243284506,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284580,
+      "timestamp": 1759243284512,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243282673
+      }
+    },
+    {
+      "id": 1759243284587,
+      "timestamp": 1759243284514,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "4x90g",
+            "LabelSans sucres ajoutés",
+            "Nutriscore a",
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes.",
+            "8,22€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284593,
+      "timestamp": 1759243284517,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284603,
+      "timestamp": 1759243284521,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284611,
+      "timestamp": 1759243284525,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284619,
+      "timestamp": 1759243284529,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284627,
+      "timestamp": 1759243284533,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243282913
+      }
+    },
+    {
+      "id": 1759243284637,
+      "timestamp": 1759243284536,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284644,
+      "timestamp": 1759243284537,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284651,
+      "timestamp": 1759243284539,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284658,
+      "timestamp": 1759243284542,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "4x90g",
+            "LabelSans sucres ajoutés",
+            "Nutriscore a",
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes.",
+            "8,22€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284666,
+      "timestamp": 1759243284545,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284678,
+      "timestamp": 1759243284547,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284687,
+      "timestamp": 1759243284549,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284696,
+      "timestamp": 1759243284551,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "4x90g",
+            "LabelSans sucres ajoutés",
+            "Nutriscore a",
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes.",
+            "8,22€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284721,
+      "timestamp": 1759243284681,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284732,
+      "timestamp": 1759243284691,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284763,
+      "timestamp": 1759243284728,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284803,
+      "timestamp": 1759243284764,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "4x90g",
+            "LabelSans sucres ajoutés",
+            "Nutriscore a",
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes.",
+            "8,22€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284934,
+      "timestamp": 1759243284896,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284952,
+      "timestamp": 1759243284915,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243284985,
+      "timestamp": 1759243284949,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243285030,
+      "timestamp": 1759243284990,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "8,22€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "4x90g",
+            "LabelSans sucres ajoutés",
+            "Nutriscore a",
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes.",
+            "8,22€/KG",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286104,
+      "timestamp": 1759243286071,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2135,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243286318,
+      "timestamp": 1759243286285,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 2128,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243286349,
+      "timestamp": 1759243286315,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286355,
+      "timestamp": 1759243286316,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (4)",
+            "Filtrer & trier",
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286361,
+      "timestamp": 1759243286317,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (4)",
+          "allTexts": [
+            "Résultat pour banane (4)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286370,
+      "timestamp": 1759243286318,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286411,
+      "timestamp": 1759243286379,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286435,
+      "timestamp": 1759243286399,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286513,
+      "timestamp": 1759243286478,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286561,
+      "timestamp": 1759243286526,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (4)",
+            "Filtrer & trier",
+            "Promotions",
+            "Bio",
+            "Produits Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286569,
+      "timestamp": 1759243286532,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (4)",
+          "allTexts": [
+            "Résultat pour banane (4)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286578,
+      "timestamp": 1759243286534,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243286033
+      }
+    },
+    {
+      "id": 1759243286604,
+      "timestamp": 1759243286570,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286642,
+      "timestamp": 1759243286609,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286773,
+      "timestamp": 1759243286736,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286795,
+      "timestamp": 1759243286753,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286826,
+      "timestamp": 1759243286786,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "58,91€/KG",
+          "cartAction": "Ajouter au panier",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243286837,
+      "timestamp": 1759243286797,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243286290
+      }
+    },
+    {
+      "id": 1759243286853,
+      "timestamp": 1759243286817,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+          "allTexts": [
+            "POM'POTES",
+            "Compotes 5 fruits pomme abricot pêche poire banane sans sucres ajoutés POM'POTES",
+            "2,96€",
+            "2 euros et 96 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 172,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 143
+  },
+  "exportedAt": "2025-09-30T14:41:30.530Z",
+  "exportedBy": "auto-clear"
+}

@@ -405,23 +405,42 @@ class CrossAppTrackingService : AccessibilityService() {
         val desc = nodeInfo.contentDescription?.toString()?.lowercase() ?: ""
         val resourceId = nodeInfo.viewIdResourceName?.lowercase() ?: ""
         
-        // Patterns TRÈS spécifiques pour les vrais boutons d'ajout au panier
+        // Blacklist TRÈS stricte basée sur les logs - exclure TOUT ce qui n'est pas un vrai ajout
+        val strictBlacklist = listOf(
+            "vider", "supprimer", "annuler", "panier", "cart", "êtes vous sûr", 
+            "déjà ajoutés", "produits déjà", "votre panier", "panier est vide",
+            "mes promos", "cagnotté", "inconnu", "accueil", "rechercher", 
+            "drive", "livraison", "compte", "notification", "ferme", "ouvert",
+            "voir tout", "menu", "navigation", "retour", "back"
+        )
+        
+        // Vérifier si c'est dans la blacklist (à exclure absolument)
+        val isBlacklisted = strictBlacklist.any { blacklisted ->
+            text.contains(blacklisted) || desc.contains(blacklisted)
+        }
+        
+        if (isBlacklisted) return false
+        
+        // SEULS les patterns très spécifiques d'ajout au panier sont acceptés
         val exactCartPatterns = listOf(
             "ajouter au panier", "add to cart"
         )
         
-        // Vérifier EXACTEMENT "ajouter au panier" ou "add to cart"
+        // Vérifier EXACTEMENT ces patterns
         val hasExactCartText = exactCartPatterns.any { pattern ->
             text.contains(pattern) || desc.contains(pattern)
         }
         
-        // Vérifier les IDs de ressource spécifiques aux boutons panier
-        val hasCartResourceId = resourceId.contains("cart_add") || 
-                               resourceId.contains("add_cart") || 
-                               resourceId.contains("btn_add_cart")
+        // IDs de ressource TRÈS spécifiques
+        val hasExactCartResourceId = resourceId.contains("add_to_cart") || 
+                                    resourceId.contains("btn_add_cart") ||
+                                    resourceId.contains("cart_add_button")
         
-        // Ne retourner true QUE si on a un texte exact OU un ID spécifique ET un contexte prix
-        return (hasExactCartText || hasCartResourceId) && hasProductPriceContext(nodeInfo)
+        // Accepter SEULEMENT si:
+        // 1. Texte exact "ajouter au panier" OU ID très spécifique
+        // 2. ET contexte prix valide
+        // 3. ET pas dans la blacklist
+        return (hasExactCartText || hasExactCartResourceId) && hasProductPriceContext(nodeInfo)
     }
     
     private fun hasProductPriceContext(nodeInfo: AccessibilityNodeInfo): Boolean {
@@ -578,6 +597,10 @@ class CrossAppTrackingService : AccessibilityService() {
             .filter { it.length > 5 && !it.matches(Regex(".*\\d+[,.]\\d+.*€.*")) }
             .filter { !it.lowercase().contains("ajouter") && !it.lowercase().contains("button") }
             .filter { !it.lowercase().contains("scanner") && !it.lowercase().contains("code") }
+            .filter { !it.lowercase().contains("ce produit est noté") }
+            .filter { !it.lowercase().contains("par les utilisateur") }
+            .filter { !it.lowercase().contains("retirer un produit") }
+            .filter { !it.lowercase().contains("ajouter un produit") }
             .maxByOrNull { it.length }
         
         if (productName != null) {

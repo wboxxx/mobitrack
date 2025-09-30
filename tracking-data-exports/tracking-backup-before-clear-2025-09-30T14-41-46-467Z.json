@@ -1,0 +1,1664 @@
+{
+  "events": [
+    {
+      "id": 1759243297668,
+      "timestamp": 1759243297616,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298037,
+      "timestamp": 1759243298004,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298054,
+      "timestamp": 1759243298005,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane",
+          "allTexts": [
+            "Résultat pour banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298059,
+      "timestamp": 1759243298006,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier (1)",
+          "allTexts": [
+            "Filtrer & trier (1)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298063,
+      "timestamp": 1759243298008,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane",
+          "allTexts": [
+            "Résultat pour banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298467,
+      "timestamp": 1759243298427,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 0,
+        "eventType": "cross_app_scroll"
+      }
+    },
+    {
+      "id": 1759243298814,
+      "timestamp": 1759243298774,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "2,96€",
+          "cartAction": "2,96€",
+          "productName": "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+          "allTexts": [
+            "55g",
+            "Sponsorisé",
+            "FULFIL",
+            "Barre protéinée avec vitamines chocolat et caramel salé FULFIL",
+            "Ce produit est noté 4,14 sur 5 par les utilisateurs, 4145 avis, aller à la répartition des avis",
+            "(4145)",
+            "3,24€",
+            "3 euros et 24 centimes.",
+            "58,91€/KG",
+            "Ajouter au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298828,
+      "timestamp": 1759243298778,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298831,
+      "timestamp": 1759243298782,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier (1)",
+          "allTexts": [
+            "Filtrer & trier (1)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298842,
+      "timestamp": 1759243298789,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298849,
+      "timestamp": 1759243298803,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier (1)",
+          "allTexts": [
+            "Filtrer & trier (1)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298857,
+      "timestamp": 1759243298818,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298863,
+      "timestamp": 1759243298816,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298868,
+      "timestamp": 1759243298825,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298872,
+      "timestamp": 1759243298832,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298876,
+      "timestamp": 1759243298834,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298882,
+      "timestamp": 1759243298838,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298896,
+      "timestamp": 1759243298848,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298902,
+      "timestamp": 1759243298842,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298908,
+      "timestamp": 1759243298858,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243298321
+      }
+    },
+    {
+      "id": 1759243298912,
+      "timestamp": 1759243298860,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298916,
+      "timestamp": 1759243298856,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298961,
+      "timestamp": 1759243298926,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243298974,
+      "timestamp": 1759243298940,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243298438
+      }
+    },
+    {
+      "id": 1759243298991,
+      "timestamp": 1759243298955,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243299060,
+      "timestamp": 1759243299027,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243299170,
+      "timestamp": 1759243299137,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243299293,
+      "timestamp": 1759243299259,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243299312,
+      "timestamp": 1759243299276,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302639,
+      "timestamp": 1759243302601,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302645,
+      "timestamp": 1759243302597,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302650,
+      "timestamp": 1759243302606,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302659,
+      "timestamp": 1759243302613,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302673,
+      "timestamp": 1759243302622,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302680,
+      "timestamp": 1759243302635,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302687,
+      "timestamp": 1759243302639,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302694,
+      "timestamp": 1759243302655,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302698,
+      "timestamp": 1759243302652,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243302704,
+      "timestamp": 1759243302660,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303178,
+      "timestamp": 1759243303138,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303183,
+      "timestamp": 1759243303142,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303187,
+      "timestamp": 1759243303146,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303192,
+      "timestamp": 1759243303149,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303195,
+      "timestamp": 1759243303152,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303204,
+      "timestamp": 1759243303153,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303216,
+      "timestamp": 1759243303157,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303220,
+      "timestamp": 1759243303165,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303670,
+      "timestamp": 1759243303636,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303676,
+      "timestamp": 1759243303637,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303682,
+      "timestamp": 1759243303637,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243303686,
+      "timestamp": 1759243303640,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304051,
+      "timestamp": 1759243304013,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304057,
+      "timestamp": 1759243304010,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304061,
+      "timestamp": 1759243304006,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304066,
+      "timestamp": 1759243304017,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304361,
+      "timestamp": 1759243304325,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304369,
+      "timestamp": 1759243304326,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304377,
+      "timestamp": 1759243304333,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304391,
+      "timestamp": 1759243304339,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304738,
+      "timestamp": 1759243304700,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304746,
+      "timestamp": 1759243304694,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304753,
+      "timestamp": 1759243304716,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304760,
+      "timestamp": 1759243304704,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304774,
+      "timestamp": 1759243304732,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304781,
+      "timestamp": 1759243304720,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304786,
+      "timestamp": 1759243304740,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243304866,
+      "timestamp": 1759243304826,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243305086,
+      "timestamp": 1759243305043,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243305138,
+      "timestamp": 1759243305098,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243305219,
+      "timestamp": 1759243305185,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243305230,
+      "timestamp": 1759243305194,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 71,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 68
+  },
+  "exportedAt": "2025-09-30T14:41:46.467Z",
+  "exportedBy": "auto-clear"
+}

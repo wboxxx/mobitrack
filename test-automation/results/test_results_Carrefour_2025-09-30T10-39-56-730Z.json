@@ -1,0 +1,58 @@
+{
+  "flowName": "Voir le panier",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T10:39:48.884Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T10:39:48.884Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:39:48.997Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:39:51.998Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "id": "navigation_bar_item_icon_view"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:39:54.729Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T10-39-53-753Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T10-39-53-753Z.png",
+      "timestamp": "2025-09-30T10-39-53-753Z"
+    }
+  ],
+  "events": [],
+  "success": true,
+  "error": null,
+  "duration": 7845,
+  "endTime": "2025-09-30T10:39:56.729Z"
+}

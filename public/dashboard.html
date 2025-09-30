@@ -402,38 +402,51 @@
         </div>
 
         <div class="dashboard-grid">
+            <!-- Colonne 1: Tous les événements en temps réel -->
             <div class="panel">
                 <div class="panel-header">
-                    🔥 Événements en temps réel
+                    🌊 Flux complet (Temps réel)
                     <div class="event-filter">
                         <button class="filter-btn active" data-filter="all">Tous</button>
-                        <button class="filter-btn" data-filter="product_click">Produits Web</button>
-                        <button class="filter-btn" data-filter="VIEW_CLICKED">Clics Mobile</button>
-                        <button class="filter-btn" data-filter="navigation">Navigation</button>
-                        <button class="filter-btn" data-filter="search">Recherche Web</button>
-                        <button class="filter-btn" data-filter="SEARCH">Recherche Mobile</button>
-                        <button class="filter-btn" data-filter="add_to_cart">Panier Web</button>
-                        <button class="filter-btn" data-filter="ADD_TO_CART">Panier Mobile</button>
-                        <button class="filter-btn" data-filter="CONTENT_CHANGED">Contenu Modifié</button>
-                        <button class="filter-btn" data-filter="filtered-system" style="background: #ffc107; color: #212529;">🤖 Système</button>
-                        <button class="filter-btn" data-filter="filtered-promotion" style="background: #fd7e14; color: white;">🎯 Promotion</button>
-                        <button class="filter-btn" data-filter="filtered-generic" style="background: #6c757d; color: white;">📦 Générique</button>
+                        <button class="filter-btn" data-filter="VIEW_CLICKED">👆 Clics</button>
+                        <button class="filter-btn" data-filter="ADD_TO_CART">🛒 Panier</button>
+                        <button class="filter-btn" data-filter="SCROLL">📜 Scrolls</button>
+                        <button class="filter-btn" data-filter="CONTENT_CHANGED">🔄 Contenu</button>
                     </div>
                 </div>
-                <div class="panel-content" id="eventsPanel">
+                <div class="panel-content" id="allEventsPanel">
                     <p style="color: #666; text-align: center; padding: 2rem;">
                         En attente d'événements...
                     </p>
                 </div>
             </div>
 
+            <!-- Colonne 2: Événements filtrés (ce qui nous intéresse) -->
             <div class="panel">
-                <div class="panel-header">👥 Sessions utilisateur</div>
-                <div class="panel-content" id="sessionsPanel">
+                <div class="panel-header">
+                    ⭐ Événements pertinents (Filtrés)
+                    <div class="event-filter">
+                        <button class="filter-btn active" data-filter="relevant">Pertinents</button>
+                        <button class="filter-btn" data-filter="real-cart">🛒 Vrais ajouts</button>
+                        <button class="filter-btn" data-filter="real-clicks">👆 Clics produits</button>
+                        <button class="filter-btn" data-filter="real-scrolls">📜 Scrolls produits</button>
+                    </div>
+                </div>
+                <div class="panel-content" id="filteredEventsPanel">
                     <p style="color: #666; text-align: center; padding: 2rem;">
-                        Aucune session active
+                        En attente d'événements pertinents...
                     </p>
                 </div>
+            </div>
+        </div>
+
+        <!-- Sessions utilisateur en pleine largeur -->
+        <div class="panel full-width">
+            <div class="panel-header">👥 Sessions utilisateur</div>
+            <div class="panel-content" id="sessionsPanel">
+                <p style="color: #666; text-align: center; padding: 2rem;">
+                    Aucune session active
+                </p>
             </div>
         </div>
 

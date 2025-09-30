@@ -1,0 +1,6 @@
+com.bascule.leclerctracking.test.app-androidTest-0 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\generated\res\resValues\androidTest\debug
+com.bascule.leclerctracking.test.app-mergeDebugAndroidTestResources-1 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.bascule.leclerctracking.test.app-mergeDebugAndroidTestResources-2 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.bascule.leclerctracking.test.app-merged_res-3 C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\build\intermediates\merged_res\debugAndroidTest
+com.bascule.leclerctracking.test.app-core-1.5.0-4 C:\gradle-home\caches\transforms-3\31d230aadb0c2abd429a085b2dbfd5f6\transformed\core-1.5.0\res
+com.bascule.leclerctracking.test.app-annotation-experimental-1.3.0-5 C:\gradle-home\caches\transforms-3\4243778461b71f43d44f629be9477f0c\transformed\annotation-experimental-1.3.0\res

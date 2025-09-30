@@ -1,0 +1,298 @@
+{
+  "apps": {
+    "carrefour": {
+      "name": "Carrefour",
+      "packageName": "com.carrefour.fid.android",
+      "appName": "Carrefour",
+      "mainActivity": ".presentation.ui.splash.SplashActivity",
+      "buttonPatterns": {
+        "addToCart": ["ajouter au panier", "add to cart", "+", "plus"],
+        "removeFromCart": ["supprimer", "retirer", "vider"],
+        "search": ["rechercher", "search"],
+        "cart": ["panier", "cart", "mon panier"]
+      },
+      "pricePatterns": [
+        "\\d+[,.]\\d{2}\\s*€",
+        "\\d+[,.]\\d{2}€/KG",
+        "€\\s*\\d+[,.]\\d{2}",
+        "\\d+\\.\\d{2}\\s*EUR"
+      ],
+      "navigationCategories": [
+        "accueil", "rechercher", "panier", "mon compte", "mes promos",
+        "fruits", "légumes", "viande", "poisson", "boucherie", "surgelés",
+        "drive", "livraison", "catégories", "filtrer", "trier"
+      ],
+      "scrollContainers": [
+        "recyclerview", "scrollview", "listview", "viewpager", "nestedscrollview"
+      ],
+      "testFlows": {
+        "launchOnly": {
+          "name": "Lancer l'app seulement",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 5000}
+          ]
+        },
+        "exploreUI": {
+          "name": "Explorer l'interface",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 5000},
+            {"action": "scroll", "direction": "down", "count": 2},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "up", "count": 2},
+            {"action": "wait", "duration": 2000}
+          ]
+        },
+        "openSearch": {
+          "name": "Ouvrir la recherche",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"content-desc": "Ouvre la page recherche de produits"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        },
+        "addToCart": {
+          "name": "Ajout produit au panier (réel)",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"content-desc": "Ouvre la page recherche de produits"}},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 3},
+            {"action": "wait", "duration": 1000},
+            {"action": "click", "selector": {"index": 0}},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 2},
+            {"action": "wait", "duration": 1000},
+            {"action": "click", "selector": {"content-desc": "Ajouter au panier"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        },
+        "viewCart": {
+          "name": "Voir le panier",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"id": "navigation_bar_item_icon_view"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        },
+        "buyBanana": {
+          "name": "Acheter une banane - Flow complet",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"content-desc": "Ouvre la page recherche de produits"}},
+            {"action": "wait", "duration": 2000},
+            {"action": "input", "selector": {"class": "android.widget.EditText"}, "text": "banane"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"index": 0}},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 2},
+            {"action": "wait", "duration": 1000},
+            {"action": "click", "selector": {"content-desc": "Ajouter au panier"}},
+            {"action": "wait", "duration": 2000},
+            {"action": "click", "selector": {"content-desc": "Panier"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        },
+        "buyBananaSimple": {
+          "name": "Test simple - Juste ouvrir recherche",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"content-desc": "Ouvre la page recherche de produits"}},
+            {"action": "wait", "duration": 5000}
+          ]
+        },
+        "searchProduct": {
+          "name": "Recherche produit",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"text": "Rechercher"}},
+            {"action": "input", "selector": {"id": "search_input"}, "text": "{{productName}}"},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 3}
+          ]
+        },
+        "browseCategory": {
+          "name": "Navigation catégorie",
+          "steps": [
+            {"action": "launch", "target": "com.carrefour.fid.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"text": "Fruits et Légumes"}},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 5},
+            {"action": "wait", "duration": 1000}
+          ]
+        }
+      }
+    },
+    "amazon": {
+      "name": "Amazon",
+      "packageName": "com.amazon.mShop.android.shopping",
+      "appName": "Amazon Shopping",
+      "buttonPatterns": {
+        "addToCart": ["add to cart", "ajouter au panier", "add to basket"],
+        "removeFromCart": ["delete", "remove", "supprimer"],
+        "search": ["search", "rechercher"],
+        "cart": ["cart", "panier", "basket"]
+      },
+      "pricePatterns": [
+        "\\$\\d+\\.\\d{2}",
+        "\\d+[,.]\\d{2}\\s*€",
+        "€\\s*\\d+[,.]\\d{2}",
+        "USD\\s*\\d+\\.\\d{2}"
+      ],
+      "navigationCategories": [
+        "home", "accueil", "categories", "deals", "your orders",
+        "account", "menu", "departments", "filter", "sort"
+      ],
+      "scrollContainers": [
+        "recyclerview", "scrollview", "listview", "gridview"
+      ],
+      "testFlows": {
+        "addToCart": {
+          "name": "Ajout produit au panier",
+          "steps": [
+            {"action": "launch", "target": "com.amazon.mShop.android.shopping"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"id": "chrome_search_hint_view"}},
+            {"action": "input", "selector": {"id": "rs_search_src_text"}, "text": "wireless mouse"},
+            {"action": "pressKey", "key": "ENTER"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"index": 0, "class": "android.view.ViewGroup"}},
+            {"action": "wait", "duration": 2000},
+            {"action": "scroll", "direction": "down", "count": 2},
+            {"action": "click", "selector": {"text": "Add to Cart"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        }
+      }
+    },
+    "fnac": {
+      "name": "Fnac",
+      "packageName": "com.fnac.android",
+      "appName": "Fnac",
+      "buttonPatterns": {
+        "addToCart": ["ajouter au panier", "add to cart", "acheter"],
+        "removeFromCart": ["supprimer", "retirer"],
+        "search": ["rechercher", "search"],
+        "cart": ["panier", "mon panier"]
+      },
+      "pricePatterns": [
+        "\\d+[,.]\\d{2}\\s*€",
+        "€\\s*\\d+[,.]\\d{2}"
+      ],
+      "navigationCategories": [
+        "accueil", "rechercher", "panier", "compte", "catégories",
+        "livres", "high-tech", "jeux", "culture", "billetterie"
+      ],
+      "scrollContainers": [
+        "recyclerview", "scrollview", "listview"
+      ],
+      "testFlows": {
+        "addToCart": {
+          "name": "Ajout produit au panier",
+          "steps": [
+            {"action": "launch", "target": "com.fnac.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"id": "search_button"}},
+            {"action": "input", "selector": {"id": "search_src_text"}, "text": "livre python"},
+            {"action": "pressKey", "key": "ENTER"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"index": 0}},
+            {"action": "wait", "duration": 2000},
+            {"action": "click", "selector": {"text": "Ajouter au panier"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        }
+      }
+    },
+    "auchan": {
+      "name": "Auchan",
+      "packageName": "fr.auchan.mobile.android",
+      "appName": "Auchan",
+      "buttonPatterns": {
+        "addToCart": ["ajouter", "add", "+"],
+        "removeFromCart": ["supprimer", "retirer", "-"],
+        "search": ["rechercher"],
+        "cart": ["panier", "mon panier"]
+      },
+      "pricePatterns": [
+        "\\d+[,.]\\d{2}\\s*€",
+        "€\\s*\\d+[,.]\\d{2}"
+      ],
+      "navigationCategories": [
+        "accueil", "rechercher", "panier", "compte", "drive",
+        "fruits", "légumes", "viande", "épicerie"
+      ],
+      "scrollContainers": [
+        "recyclerview", "scrollview", "listview"
+      ],
+      "testFlows": {
+        "addToCart": {
+          "name": "Ajout produit au panier",
+          "steps": [
+            {"action": "launch", "target": "fr.auchan.mobile.android"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"text": "Rechercher"}},
+            {"action": "input", "selector": {"id": "search_field"}, "text": "pomme"},
+            {"action": "wait", "duration": 2000},
+            {"action": "click", "selector": {"index": 0}},
+            {"action": "wait", "duration": 1000},
+            {"action": "click", "selector": {"text": "Ajouter"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        }
+      }
+    },
+    "leclerc": {
+      "name": "E.Leclerc",
+      "packageName": "com.eleclerc.mobile",
+      "appName": "E.Leclerc",
+      "buttonPatterns": {
+        "addToCart": ["ajouter au panier", "+", "ajouter"],
+        "removeFromCart": ["supprimer", "retirer", "-"],
+        "search": ["rechercher"],
+        "cart": ["panier", "mon panier"]
+      },
+      "pricePatterns": [
+        "\\d+[,.]\\d{2}\\s*€",
+        "€\\s*\\d+[,.]\\d{2}"
+      ],
+      "navigationCategories": [
+        "accueil", "rechercher", "panier", "compte", "drive",
+        "fruits", "légumes", "boucherie", "épicerie"
+      ],
+      "scrollContainers": [
+        "recyclerview", "scrollview", "listview"
+      ],
+      "testFlows": {
+        "addToCart": {
+          "name": "Ajout produit au panier",
+          "steps": [
+            {"action": "launch", "target": "com.eleclerc.mobile"},
+            {"action": "wait", "duration": 3000},
+            {"action": "click", "selector": {"text": "Rechercher"}},
+            {"action": "input", "selector": {"id": "search_input"}, "text": "lait"},
+            {"action": "wait", "duration": 2000},
+            {"action": "click", "selector": {"index": 0}},
+            {"action": "wait", "duration": 1000},
+            {"action": "click", "selector": {"text": "Ajouter au panier"}},
+            {"action": "wait", "duration": 2000}
+          ]
+        }
+      }
+    }
+  },
+  "defaultConfig": {
+    "timeout": 10000,
+    "implicitWait": 5000,
+    "screenshotOnError": true,
+    "logLevel": "info"
+  }
+}

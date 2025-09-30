@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const http = require('http');
 const socketIo = require('socket.io');
+const AppConfigManager = require('./app-config-manager');
 
 const app = express();
 const server = http.createServer(app);
@@ -15,6 +16,9 @@ const io = socketIo(server, {
 });
 
 const PORT = process.env.PORT || 3001;
+
+// Initialiser le gestionnaire de configuration multi-apps
+const appConfigManager = new AppConfigManager('./app-configs.json');
 
 // Middleware
 app.use(cors());
@@ -49,6 +53,10 @@ app.get('/comparison', (req, res) => {
 
 app.get('/dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'dashboard.html'));
+});
+
+app.get('/test-dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'test-dashboard.html'));
 });
 
 // Système de filtrage intelligent côté serveur
@@ -92,8 +100,12 @@ class ServerEventFilter {
       return this.handleCartEvent(event, currentTime);
     }
     
-    // Pour les événements non-panier, accepter tous les types d'événements mobiles
+    // Pour les événements non-panier, accepter tous les types d'événements mobiles incluant SCROLL
     if (event.eventType && ['VIEW_CLICKED', 'CONTENT_CHANGED', 'SCROLL', 'SEARCH', 'SESSION_START'].includes(event.eventType)) {
+      // Traitement spécial pour les scrolls
+      if (event.eventType === 'SCROLL') {
+        return this.handleScrollEvent(event, currentTime);
+      }
       return true;
     }
     
@@ -159,6 +171,21 @@ class ServerEventFilter {
     }
     
     return false;
+  }
+
+  handleScrollEvent(event, currentTime) {
+    // Filtrage intelligent des scrolls pour éviter le spam
+    const scrollKey = `scroll_${event.data?.packageName || 'unknown'}`;
+    const lastScrollTime = this.recentEvents.get(scrollKey) || 0;
+    const minScrollInterval = 1000; // 1 seconde minimum entre scrolls
+    
+    if (currentTime - lastScrollTime < minScrollInterval) {
+      return false; // Filtrer les scrolls trop fréquents
+    }
+    
+    this.recentEvents.set(scrollKey, currentTime);
+    console.log(`📜 Scroll accepté: ${event.data?.scrollInfo?.direction || 'unknown'} dans ${event.data?.scrollInfo?.context || 'general'}`);
+    return true;
   }
 
   isCartEvent(event) {
@@ -358,21 +385,19 @@ app.post('/api/track', (req, res) => {
     ...req.body
   };
   
-  // Appliquer le filtrage intelligent côté serveur
-  if (eventFilter.shouldProcessEvent(rawEvent)) {
-    trackingData.push(rawEvent);
-    
-    // Mettre à jour le lecteur de dashboard
-    dashboardReader.updateDisplayedEvents(trackingData);
-    
-    // Emit to dashboard in real-time
-    io.emit('newTrackingEvent', rawEvent);
-    io.emit('dashboardContentUpdate', dashboardReader.getCurrentContent());
-    
-    console.log(`📊 Événement traité: ${rawEvent.eventType} - ${rawEvent.data?.app || 'Unknown'}`);
-  } else {
-    console.log(`🗑️ Événement filtré: ${rawEvent.eventType} - ${rawEvent.data?.app || 'Unknown'}`);
-  }
+  // TOUJOURS envoyer au dashboard - le filtrage se fait côté client
+  trackingData.push(rawEvent);
+  
+  // Mettre à jour le lecteur de dashboard
+  dashboardReader.updateDisplayedEvents(trackingData);
+  
+  // Emit to dashboard in real-time - TOUS les événements
+  io.emit('newTrackingEvent', rawEvent);
+  io.emit('dashboardContentUpdate', dashboardReader.getCurrentContent());
+  
+  // Logger simplifié
+  const productName = rawEvent.data?.productInfo?.productName || rawEvent.data?.element?.text || '';
+  console.log(`📊 ${rawEvent.eventType} - ${productName.substring(0, 40)}`);
   
   res.json({ success: true, eventId: rawEvent.id });
 });
@@ -645,8 +670,8 @@ class DashboardContentReader {
             if (product && product.length > 3) {
               // Ajouter le produit concerné par la promotion au panier
               this.cartAnalysis.products.push({
-                name: product,
-                price: 0, // Prix sera mis à jour si on trouve l'événement correspondant
+                name: this.extractRealProductName(product),
+                price: 0,
                 quantity: 1,
                 fullDescription: `${product} (via promotion)`,
                 timestamp: event.timestamp,
@@ -809,6 +834,169 @@ app.get('/api/cart-analysis', (req, res) => {
     cartAnalysis: cartData,
     timestamp: new Date().toISOString()
   });
+});
+
+// ========== ENDPOINTS MULTI-APPS ==========
+
+// Lister toutes les apps disponibles
+app.get('/api/apps', (req, res) => {
+  try {
+    const stats = appConfigManager.getStats();
+    res.json({
+      success: true,
+      apps: stats.apps,
+      totalApps: stats.totalApps
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Obtenir la configuration d'une app spécifique
+app.get('/api/apps/:appKey', (req, res) => {
+  try {
+    const { appKey } = req.params;
+    const appConfig = appConfigManager.getAppConfig(appKey);
+    
+    if (!appConfig) {
+      return res.status(404).json({
+        success: false,
+        error: `App "${appKey}" introuvable`
+      });
+    }
+    
+    res.json({
+      success: true,
+      app: appConfig
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Obtenir les flows de test d'une app
+app.get('/api/apps/:appKey/flows', (req, res) => {
+  try {
+    const { appKey } = req.params;
+    const flows = appConfigManager.getTestFlows(appKey);
+    
+    if (!flows || Object.keys(flows).length === 0) {
+      return res.json({
+        success: true,
+        flows: {},
+        message: `Aucun flow disponible pour "${appKey}"`
+      });
+    }
+    
+    res.json({
+      success: true,
+      flows: flows
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Obtenir un flow de test spécifique
+app.get('/api/apps/:appKey/flows/:flowKey', (req, res) => {
+  try {
+    const { appKey, flowKey } = req.params;
+    const flow = appConfigManager.getTestFlow(flowKey, appKey);
+    
+    if (!flow) {
+      return res.status(404).json({
+        success: false,
+        error: `Flow "${flowKey}" introuvable pour l'app "${appKey}"`
+      });
+    }
+    
+    res.json({
+      success: true,
+      flow: flow
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Lancer un test automatisé (endpoint pour intégration future avec Appium)
+app.post('/api/run-test', async (req, res) => {
+  try {
+    const { app, flow, variables } = req.body;
+    
+    if (!app || !flow) {
+      return res.status(400).json({
+        success: false,
+        error: 'Paramètres "app" et "flow" requis'
+      });
+    }
+    
+    // Vérifier que l'app et le flow existent
+    const appConfig = appConfigManager.getAppConfig(app);
+    if (!appConfig) {
+      return res.status(404).json({
+        success: false,
+        error: `App "${app}" introuvable`
+      });
+    }
+    
+    const testFlow = appConfigManager.getTestFlow(flow, app);
+    if (!testFlow) {
+      return res.status(404).json({
+        success: false,
+        error: `Flow "${flow}" introuvable pour l'app "${app}"`
+      });
+    }
+    
+    // TODO: Intégration avec Appium pour exécuter le test
+    // Pour l'instant, on retourne une réponse simulée
+    console.log(`🚀 Test lancé: ${app} - ${flow}`);
+    console.log(`⚙️ Variables:`, variables);
+    
+    res.json({
+      success: true,
+      message: 'Test lancé avec succès (simulation)',
+      app: appConfig.name,
+      flow: testFlow.name,
+      totalSteps: testFlow.steps.length,
+      stepsCompleted: testFlow.steps.length,
+      note: 'Pour exécuter réellement le test, utilisez: node test-automation/run-test.js ' + app + ' ' + flow
+    });
+    
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Recharger la configuration des apps
+app.post('/api/reload-config', (req, res) => {
+  try {
+    appConfigManager.reloadConfig();
+    res.json({
+      success: true,
+      message: 'Configuration rechargée avec succès'
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
 });
 
 // Socket.io for real-time updates

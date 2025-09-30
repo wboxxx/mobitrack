@@ -1,0 +1,95 @@
+{
+  "flowName": "Acheter une banane - Flow complet",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T11:03:54.335Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T11:03:54.335Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:03:54.722Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T11:03:57.723Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Ouvre la page recherche de produits"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:04:01.610Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    },
+    {
+      "action": "input",
+      "timestamp": "2025-09-30T11:04:03.611Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "text": "banane"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:04:05.010Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T11:04:08.011Z",
+      "success": false,
+      "error": "Can't call click on element with selector \"android=new UiSelector().text(\"Papier toilette\")\" because element wasn't found",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T11-04-00-219Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T11-04-00-219Z.png",
+      "timestamp": "2025-09-30T11-04-00-219Z"
+    },
+    {
+      "name": "step_5_input",
+      "filename": "step_5_input_2025-09-30T11-04-04-454Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_5_input_2025-09-30T11-04-04-454Z.png",
+      "timestamp": "2025-09-30T11-04-04-454Z"
+    },
+    {
+      "name": "step_7_click",
+      "filename": "step_7_click_2025-09-30T11-04-13-755Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_7_click_2025-09-30T11-04-13-755Z.png",
+      "timestamp": "2025-09-30T11-04-13-755Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "Can't call click on element with selector \"android=new UiSelector().text(\"Papier toilette\")\" because element wasn't found",
+  "duration": 19866,
+  "endTime": "2025-09-30T11:04:14.201Z"
+}

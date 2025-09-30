@@ -1,0 +1,121 @@
+{
+  "flowName": "Acheter une banane - Flow complet",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T11:07:29.630Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T11:07:29.630Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:07:30.001Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T11:07:33.002Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Ouvre la page recherche de produits"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:07:37.051Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    },
+    {
+      "action": "input",
+      "timestamp": "2025-09-30T11:07:39.052Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "text": "banane"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:07:40.431Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T11:07:43.433Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T11:07:45.148Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    },
+    {
+      "action": "scroll",
+      "timestamp": "2025-09-30T11:07:47.149Z",
+      "success": false,
+      "error": "The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource.",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T11-07-36-165Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T11-07-36-165Z.png",
+      "timestamp": "2025-09-30T11-07-36-165Z"
+    },
+    {
+      "name": "step_5_input",
+      "filename": "step_5_input_2025-09-30T11-07-39-924Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_5_input_2025-09-30T11-07-39-924Z.png",
+      "timestamp": "2025-09-30T11-07-39-924Z"
+    },
+    {
+      "name": "step_7_click",
+      "filename": "step_7_click_2025-09-30T11-07-44-559Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_7_click_2025-09-30T11-07-44-559Z.png",
+      "timestamp": "2025-09-30T11-07-44-559Z"
+    },
+    {
+      "name": "step_9_scroll",
+      "filename": "step_9_scroll_2025-09-30T11-07-47-708Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_9_scroll_2025-09-30T11-07-47-708Z.png",
+      "timestamp": "2025-09-30T11-07-47-708Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource.",
+  "duration": 18577,
+  "endTime": "2025-09-30T11:07:48.207Z"
+}

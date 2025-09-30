@@ -1,0 +1,58 @@
+{
+  "flowName": "Ouvrir la recherche",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T10:37:40.212Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T10:37:40.212Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:37:40.314Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:37:43.316Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Ouvre la page recherche de produits"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:37:45.577Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T10-37-44-969Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T10-37-44-969Z.png",
+      "timestamp": "2025-09-30T10-37-44-969Z"
+    }
+  ],
+  "events": [],
+  "success": true,
+  "error": null,
+  "duration": 7366,
+  "endTime": "2025-09-30T10:37:47.578Z"
+}

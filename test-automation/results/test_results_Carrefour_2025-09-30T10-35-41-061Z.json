@@ -1,0 +1,45 @@
+{
+  "flowName": "Ouvrir la recherche",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T10:35:36.734Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T10:35:36.734Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:35:36.869Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:35:39.871Z",
+      "success": false,
+      "error": "Sélecteur invalide",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T10-35-40-564Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T10-35-40-564Z.png",
+      "timestamp": "2025-09-30T10-35-40-564Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "Sélecteur invalide",
+  "duration": 4326,
+  "endTime": "2025-09-30T10:35:41.060Z"
+}

@@ -1,0 +1,71 @@
+{
+  "flowName": "Acheter une banane - Flow complet",
+  "appName": "Carrefour",
+  "startTime": "2025-09-30T10:50:27.173Z",
+  "steps": [
+    {
+      "action": "launch",
+      "timestamp": "2025-09-30T10:50:27.173Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "package": "com.carrefour.fid.android"
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:50:27.486Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 3000
+      }
+    },
+    {
+      "action": "click",
+      "timestamp": "2025-09-30T10:50:30.487Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "selector": {
+          "content-desc": "Ouvre la page recherche de produits"
+        }
+      }
+    },
+    {
+      "action": "wait",
+      "timestamp": "2025-09-30T10:50:34.832Z",
+      "success": true,
+      "error": null,
+      "data": {
+        "duration": 2000
+      }
+    },
+    {
+      "action": "input",
+      "timestamp": "2025-09-30T10:50:36.833Z",
+      "success": false,
+      "error": "Cannot set the element to 'banane'. Did you interact with the correct element?",
+      "data": {}
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "step_3_click",
+      "filename": "step_3_click_2025-09-30T10-50-33-293Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_3_click_2025-09-30T10-50-33-293Z.png",
+      "timestamp": "2025-09-30T10-50-33-293Z"
+    },
+    {
+      "name": "step_5_input",
+      "filename": "step_5_input_2025-09-30T10-50-38-224Z.png",
+      "filepath": "C:\\Users\\Vincent B\\CascadeProjects\\web-tracking-system\\test-automation\\screenshots\\step_5_input_2025-09-30T10-50-38-224Z.png",
+      "timestamp": "2025-09-30T10-50-38-224Z"
+    }
+  ],
+  "events": [],
+  "success": false,
+  "error": "Cannot set the element to 'banane'. Did you interact with the correct element?",
+  "duration": 11442,
+  "endTime": "2025-09-30T10:50:38.615Z"
+}
