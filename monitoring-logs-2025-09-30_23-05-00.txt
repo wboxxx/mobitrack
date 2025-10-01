@@ -1,0 +1,445 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-09-30 23:05:00
+Duration: 10 seconds
+========================================
+
+[23:05:00.030] [SYSTEM] Starting Node.js server...
+[23:05:03.227] [SYSTEM] Node.js server started (Job ID: 29)
+[23:05:03.233] [SYSTEM] Starting APK log capture...
+[23:05:04.417] [SYSTEM] APK log capture started (Job ID: 31)
+[23:05:04.423] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[23:05:04.436] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:04.442] [SERVER] node:events:496
+[23:05:04.446] [SERVER] throw er; // Unhandled 'error' event
+[23:05:04.449] [SERVER] ^
+[23:05:04.456] [SERVER] System.Management.Automation.RemoteException
+[23:05:04.461] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:04.465] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:04.470] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:04.475] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:04.479] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:04.483] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:04.490] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:04.497] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:04.503] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:04.510] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:04.514] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:04.519] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:04.526] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:04.543] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:04.548] [SERVER] code: 'EADDRINUSE',
+[23:05:04.553] [SERVER] errno: -4091,
+[23:05:04.558] [SERVER] syscall: 'listen',
+[23:05:04.563] [SERVER] address: '::',
+[23:05:04.567] [SERVER] port: 3001
+[23:05:04.575] [SERVER] }
+[23:05:04.580] [SERVER] System.Management.Automation.RemoteException
+[23:05:04.584] [SERVER] Node.js v22.14.0
+[23:05:05.093] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:05.096] [SERVER] node:events:496
+[23:05:05.098] [SERVER] throw er; // Unhandled 'error' event
+[23:05:05.100] [SERVER] ^
+[23:05:05.103] [SERVER] System.Management.Automation.RemoteException
+[23:05:05.107] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:05.110] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:05.114] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:05.116] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:05.122] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:05.127] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:05.132] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:05.137] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:05.143] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:05.149] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:05.154] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:05.159] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:05.163] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:05.166] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:05.170] [SERVER] code: 'EADDRINUSE',
+[23:05:05.175] [SERVER] errno: -4091,
+[23:05:05.179] [SERVER] syscall: 'listen',
+[23:05:05.182] [SERVER] address: '::',
+[23:05:05.186] [SERVER] port: 3001
+[23:05:05.191] [SERVER] }
+[23:05:05.194] [SERVER] System.Management.Automation.RemoteException
+[23:05:05.197] [SERVER] Node.js v22.14.0
+[23:05:05.701] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:05.708] [SERVER] node:events:496
+[23:05:05.713] [SERVER] throw er; // Unhandled 'error' event
+[23:05:05.721] [SERVER] ^
+[23:05:05.727] [SERVER] System.Management.Automation.RemoteException
+[23:05:05.731] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:05.735] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:05.740] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:05.743] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:05.748] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:05.753] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:05.758] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:05.763] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:05.767] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:05.773] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:05.778] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:05.781] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:05.785] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:05.791] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:05.795] [SERVER] code: 'EADDRINUSE',
+[23:05:05.798] [SERVER] errno: -4091,
+[23:05:05.803] [SERVER] syscall: 'listen',
+[23:05:05.810] [SERVER] address: '::',
+[23:05:05.813] [SERVER] port: 3001
+[23:05:05.817] [SERVER] }
+[23:05:05.822] [SERVER] System.Management.Automation.RemoteException
+[23:05:05.827] [SERVER] Node.js v22.14.0
+[23:05:06.333] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:06.341] [SERVER] node:events:496
+[23:05:06.348] [SERVER] throw er; // Unhandled 'error' event
+[23:05:06.353] [SERVER] ^
+[23:05:06.360] [SERVER] System.Management.Automation.RemoteException
+[23:05:06.366] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:06.371] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:06.377] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:06.384] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:06.391] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:06.398] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:06.404] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:06.413] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:06.421] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:06.429] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:06.435] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:06.440] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:06.446] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:06.453] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:06.459] [SERVER] code: 'EADDRINUSE',
+[23:05:06.465] [SERVER] errno: -4091,
+[23:05:06.470] [SERVER] syscall: 'listen',
+[23:05:06.477] [SERVER] address: '::',
+[23:05:06.482] [SERVER] port: 3001
+[23:05:06.487] [SERVER] }
+[23:05:06.496] [SERVER] System.Management.Automation.RemoteException
+[23:05:06.503] [SERVER] Node.js v22.14.0
+[23:05:07.013] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:07.017] [SERVER] node:events:496
+[23:05:07.033] [SERVER] throw er; // Unhandled 'error' event
+[23:05:07.041] [SERVER] ^
+[23:05:07.048] [SERVER] System.Management.Automation.RemoteException
+[23:05:07.062] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:07.069] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:07.078] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:07.084] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:07.092] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:07.100] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:07.109] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:07.115] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:07.121] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:07.128] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:07.133] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:07.139] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:07.146] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:07.151] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:07.157] [SERVER] code: 'EADDRINUSE',
+[23:05:07.163] [SERVER] errno: -4091,
+[23:05:07.166] [SERVER] syscall: 'listen',
+[23:05:07.171] [SERVER] address: '::',
+[23:05:07.175] [SERVER] port: 3001
+[23:05:07.180] [SERVER] }
+[23:05:07.184] [SERVER] System.Management.Automation.RemoteException
+[23:05:07.189] [SERVER] Node.js v22.14.0
+[23:05:07.697] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:07.703] [SERVER] node:events:496
+[23:05:07.709] [SERVER] throw er; // Unhandled 'error' event
+[23:05:07.714] [SERVER] ^
+[23:05:07.719] [SERVER] System.Management.Automation.RemoteException
+[23:05:07.728] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:07.735] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:07.743] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:07.748] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:07.755] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:07.763] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:07.770] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:07.778] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:07.786] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:07.792] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:07.797] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:07.802] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:07.809] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:07.814] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:07.821] [SERVER] code: 'EADDRINUSE',
+[23:05:07.827] [SERVER] errno: -4091,
+[23:05:07.832] [SERVER] syscall: 'listen',
+[23:05:07.839] [SERVER] address: '::',
+[23:05:07.845] [SERVER] port: 3001
+[23:05:07.850] [SERVER] }
+[23:05:07.855] [SERVER] System.Management.Automation.RemoteException
+[23:05:07.860] [SERVER] Node.js v22.14.0
+[23:05:08.367] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:08.375] [SERVER] node:events:496
+[23:05:08.382] [SERVER] throw er; // Unhandled 'error' event
+[23:05:08.389] [SERVER] ^
+[23:05:08.396] [SERVER] System.Management.Automation.RemoteException
+[23:05:08.402] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:08.408] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:08.413] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:08.420] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:08.428] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:08.436] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:08.445] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:08.452] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:08.461] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:08.468] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:08.476] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:08.483] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:08.491] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:08.497] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:08.503] [SERVER] code: 'EADDRINUSE',
+[23:05:08.510] [SERVER] errno: -4091,
+[23:05:08.517] [SERVER] syscall: 'listen',
+[23:05:08.522] [SERVER] address: '::',
+[23:05:08.526] [SERVER] port: 3001
+[23:05:08.534] [SERVER] }
+[23:05:08.541] [SERVER] System.Management.Automation.RemoteException
+[23:05:08.554] [SERVER] Node.js v22.14.0
+[23:05:09.065] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:09.068] [SERVER] node:events:496
+[23:05:09.074] [SERVER] throw er; // Unhandled 'error' event
+[23:05:09.079] [SERVER] ^
+[23:05:09.084] [SERVER] System.Management.Automation.RemoteException
+[23:05:09.091] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:09.096] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:09.100] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:09.104] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:09.110] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:09.114] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:09.118] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:09.125] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:09.132] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:09.137] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:09.143] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:09.148] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:09.157] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:09.163] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:09.166] [SERVER] code: 'EADDRINUSE',
+[23:05:09.179] [SERVER] errno: -4091,
+[23:05:09.182] [SERVER] syscall: 'listen',
+[23:05:09.185] [SERVER] address: '::',
+[23:05:09.190] [SERVER] port: 3001
+[23:05:09.194] [SERVER] }
+[23:05:09.198] [SERVER] System.Management.Automation.RemoteException
+[23:05:09.203] [SERVER] Node.js v22.14.0
+[23:05:09.710] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:09.716] [SERVER] node:events:496
+[23:05:09.724] [SERVER] throw er; // Unhandled 'error' event
+[23:05:09.729] [SERVER] ^
+[23:05:09.735] [SERVER] System.Management.Automation.RemoteException
+[23:05:09.742] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:09.748] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:09.753] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:09.758] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:09.765] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:09.776] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:09.787] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:09.796] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:09.803] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:09.810] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:09.816] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:09.824] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:09.829] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:09.834] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:09.841] [SERVER] code: 'EADDRINUSE',
+[23:05:09.848] [SERVER] errno: -4091,
+[23:05:09.854] [SERVER] syscall: 'listen',
+[23:05:09.862] [SERVER] address: '::',
+[23:05:09.869] [SERVER] port: 3001
+[23:05:09.876] [SERVER] }
+[23:05:09.883] [SERVER] System.Management.Automation.RemoteException
+[23:05:09.890] [SERVER] Node.js v22.14.0
+[23:05:10.399] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:10.405] [SERVER] node:events:496
+[23:05:10.411] [SERVER] throw er; // Unhandled 'error' event
+[23:05:10.416] [SERVER] ^
+[23:05:10.423] [SERVER] System.Management.Automation.RemoteException
+[23:05:10.431] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:10.436] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:10.444] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:10.452] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:10.461] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:10.468] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:10.477] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:10.483] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:10.488] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:10.496] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:10.503] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:10.513] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:10.521] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:10.528] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:10.535] [SERVER] code: 'EADDRINUSE',
+[23:05:10.545] [SERVER] errno: -4091,
+[23:05:10.552] [SERVER] syscall: 'listen',
+[23:05:10.560] [SERVER] address: '::',
+[23:05:10.567] [SERVER] port: 3001
+[23:05:10.575] [SERVER] }
+[23:05:10.581] [SERVER] System.Management.Automation.RemoteException
+[23:05:10.585] [SERVER] Node.js v22.14.0
+[23:05:11.094] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:11.099] [SERVER] node:events:496
+[23:05:11.104] [SERVER] throw er; // Unhandled 'error' event
+[23:05:11.110] [SERVER] ^
+[23:05:11.115] [SERVER] System.Management.Automation.RemoteException
+[23:05:11.122] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:11.126] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:11.129] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:11.133] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:11.139] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:11.143] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:11.146] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:11.149] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:11.154] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:11.159] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:11.162] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:11.165] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:11.169] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:11.173] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:11.178] [SERVER] code: 'EADDRINUSE',
+[23:05:11.181] [SERVER] errno: -4091,
+[23:05:11.184] [SERVER] syscall: 'listen',
+[23:05:11.188] [SERVER] address: '::',
+[23:05:11.192] [SERVER] port: 3001
+[23:05:11.196] [SERVER] }
+[23:05:11.198] [SERVER] System.Management.Automation.RemoteException
+[23:05:11.201] [SERVER] Node.js v22.14.0
+[23:05:11.707] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:11.712] [SERVER] node:events:496
+[23:05:11.716] [SERVER] throw er; // Unhandled 'error' event
+[23:05:11.722] [SERVER] ^
+[23:05:11.726] [SERVER] System.Management.Automation.RemoteException
+[23:05:11.729] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:11.734] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:11.749] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:11.756] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:11.763] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:11.771] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:11.778] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:11.784] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:11.792] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:11.801] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:11.810] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:11.818] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:11.826] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:11.831] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:11.835] [SERVER] code: 'EADDRINUSE',
+[23:05:11.843] [SERVER] errno: -4091,
+[23:05:11.850] [SERVER] syscall: 'listen',
+[23:05:11.856] [SERVER] address: '::',
+[23:05:11.861] [SERVER] port: 3001
+[23:05:11.866] [SERVER] }
+[23:05:11.870] [SERVER] System.Management.Automation.RemoteException
+[23:05:11.876] [SERVER] Node.js v22.14.0
+[23:05:12.386] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:12.396] [SERVER] node:events:496
+[23:05:12.403] [SERVER] throw er; // Unhandled 'error' event
+[23:05:12.410] [SERVER] ^
+[23:05:12.418] [SERVER] System.Management.Automation.RemoteException
+[23:05:12.428] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:12.434] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:12.441] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:12.445] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:12.451] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:12.458] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:12.462] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:12.465] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:12.472] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:12.477] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:12.481] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:12.484] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:12.490] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:12.494] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:12.500] [SERVER] code: 'EADDRINUSE',
+[23:05:12.504] [SERVER] errno: -4091,
+[23:05:12.508] [SERVER] syscall: 'listen',
+[23:05:12.513] [SERVER] address: '::',
+[23:05:12.517] [SERVER] port: 3001
+[23:05:12.523] [SERVER] }
+[23:05:12.528] [SERVER] System.Management.Automation.RemoteException
+[23:05:12.531] [SERVER] Node.js v22.14.0
+[23:05:13.037] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:13.047] [SERVER] node:events:496
+[23:05:13.053] [SERVER] throw er; // Unhandled 'error' event
+[23:05:13.060] [SERVER] ^
+[23:05:13.067] [SERVER] System.Management.Automation.RemoteException
+[23:05:13.073] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:13.078] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:13.081] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:13.086] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:13.091] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:13.096] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:13.098] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:13.101] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:13.108] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:13.114] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:13.121] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:13.128] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:13.131] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:13.138] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:13.145] [SERVER] code: 'EADDRINUSE',
+[23:05:13.152] [SERVER] errno: -4091,
+[23:05:13.159] [SERVER] syscall: 'listen',
+[23:05:13.164] [SERVER] address: '::',
+[23:05:13.171] [SERVER] port: 3001
+[23:05:13.178] [SERVER] }
+[23:05:13.183] [SERVER] System.Management.Automation.RemoteException
+[23:05:13.190] [SERVER] Node.js v22.14.0
+[23:05:13.700] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:13.711] [SERVER] node:events:496
+[23:05:13.718] [SERVER] throw er; // Unhandled 'error' event
+[23:05:13.728] [SERVER] ^
+[23:05:13.735] [SERVER] System.Management.Automation.RemoteException
+[23:05:13.743] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:13.751] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:13.760] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:13.766] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:13.770] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:13.780] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:13.786] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:13.793] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:13.797] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:13.804] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:13.811] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:13.814] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:13.820] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:13.828] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:13.834] [SERVER] code: 'EADDRINUSE',
+[23:05:13.839] [SERVER] errno: -4091,
+[23:05:13.843] [SERVER] syscall: 'listen',
+[23:05:13.847] [SERVER] address: '::',
+[23:05:13.859] [SERVER] port: 3001
+[23:05:13.863] [SERVER] }
+[23:05:13.870] [SERVER] System.Management.Automation.RemoteException
+[23:05:13.878] [SERVER] Node.js v22.14.0
+[23:05:14.385] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[23:05:14.391] [SERVER] node:events:496
+[23:05:14.398] [SERVER] throw er; // Unhandled 'error' event
+[23:05:14.400] [SERVER] ^
+[23:05:14.407] [SERVER] System.Management.Automation.RemoteException
+[23:05:14.413] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[23:05:14.418] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[23:05:14.427] [SERVER] at listenInCluster (node:net:1994:12)
+[23:05:14.432] [SERVER] at Server.listen (node:net:2099:7)
+[23:05:14.436] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[23:05:14.443] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[23:05:14.450] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[23:05:14.457] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[23:05:14.463] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[23:05:14.469] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[23:05:14.477] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[23:05:14.484] [SERVER] Emitted 'error' event on Server instance at:
+[23:05:14.490] [SERVER] at emitErrorNT (node:net:1973:8)
+[23:05:14.496] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[23:05:14.502] [SERVER] code: 'EADDRINUSE',
+[23:05:14.510] [SERVER] errno: -4091,
+[23:05:14.516] [SERVER] syscall: 'listen',
+[23:05:14.523] [SERVER] address: '::',
+[23:05:14.528] [SERVER] port: 3001
+[23:05:14.534] [SERVER] }
+[23:05:14.542] [SERVER] System.Management.Automation.RemoteException
+[23:05:14.548] [SERVER] Node.js v22.14.0
+[23:05:15.054] [SYSTEM] Stopping monitoring...
+[23:05:39.290] [SYSTEM] Monitoring completed

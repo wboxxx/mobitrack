@@ -39,8 +39,8 @@ Pop-Location
 Write-Host ""
 
 # Attendre un peu pour capturer les logs
-Write-Host "3. Attente de 5 secondes pour capture des logs..." -ForegroundColor Yellow
-Start-Sleep -Seconds 5
+Write-Host "3. Attente de 10 secondes pour capture des logs..." -ForegroundColor Yellow
+Start-Sleep -Seconds 10
 
 # Arreter le monitoring
 Stop-Job -Job $monitorJob

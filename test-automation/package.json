@@ -6,10 +6,13 @@
   "scripts": {
     "test": "node run-test.js",
     "test:carrefour": "node run-test.js carrefour addToCart",
+    "test:carrefour-banana": "node test-carrefour-banana.js",
+    "test:carrefour-banana-cart": "node test-carrefour-banana-from-cart.js",
     "test:amazon": "node run-test.js amazon addToCart",
     "test:fnac": "node run-test.js fnac addToCart",
     "test:auchan": "node run-test.js auchan addToCart",
     "test:leclerc": "node run-test.js leclerc addToCart",
+    "restart-accessibility": "node restart-accessibility.js",
     "list": "node run-test.js --list",
     "help": "node run-test.js --help"
   },

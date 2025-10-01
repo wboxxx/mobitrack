@@ -1,0 +1,3983 @@
+{
+  "events": [
+    {
+      "id": 1759243314862,
+      "timestamp": 1759243314809,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243314865,
+      "timestamp": 1759243314807,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Produits les plus recherchés",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher",
+            "Mes produits"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243314894,
+      "timestamp": 1759243314860,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243314951,
+      "timestamp": 1759243314916,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243314997,
+      "timestamp": 1759243314963,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315049,
+      "timestamp": 1759243315011,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315058,
+      "timestamp": 1759243315017,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315066,
+      "timestamp": 1759243315025,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315078,
+      "timestamp": 1759243315042,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315107,
+      "timestamp": 1759243315070,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315136,
+      "timestamp": 1759243315101,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315154,
+      "timestamp": 1759243315119,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315158,
+      "timestamp": 1759243315123,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315177,
+      "timestamp": 1759243315141,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315187,
+      "timestamp": 1759243315152,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Effacer",
+          "allTexts": [
+            "Effacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315196,
+      "timestamp": 1759243315161,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315204,
+      "timestamp": 1759243315171,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315216,
+      "timestamp": 1759243315175,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315226,
+      "timestamp": 1759243315187,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315236,
+      "timestamp": 1759243315200,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315245,
+      "timestamp": 1759243315210,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315280,
+      "timestamp": 1759243315244,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315287,
+      "timestamp": 1759243315252,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315292,
+      "timestamp": 1759243315255,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243314754
+      }
+    },
+    {
+      "id": 1759243315312,
+      "timestamp": 1759243315277,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315327,
+      "timestamp": 1759243315289,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315341,
+      "timestamp": 1759243315300,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "price": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "cartAction": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options",
+            "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+            "5",
+            "67",
+            "16:40:06",
+            "249"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315348,
+      "timestamp": 1759243315309,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "price": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "cartAction": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options",
+            "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+            "5",
+            "67",
+            "16:40:06",
+            "249"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315378,
+      "timestamp": 1759243315341,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "price": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "cartAction": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options",
+            "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+            "5",
+            "67",
+            "16:40:06",
+            "249"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315397,
+      "timestamp": 1759243315362,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "price": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "cartAction": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options",
+            "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+            "5",
+            "67",
+            "16:40:06",
+            "249"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315435,
+      "timestamp": 1759243315399,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Use voice typing",
+          "allTexts": [
+            "Use voice typing"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315550,
+      "timestamp": 1759243315513,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "price": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "cartAction": "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options",
+            "🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,27 sur 5 par les utilisateurs, 67 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06 🛒 ADD_TO_CART ⭐ 🛒 Carrefour - Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis - Prix: 1,99€ 16:40:06",
+            "5",
+            "67",
+            "16:40:06",
+            "249"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243315741,
+      "timestamp": 1759243315703,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243317864,
+      "timestamp": 1759243317825,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243317951,
+      "timestamp": 1759243317914,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320744,
+      "timestamp": 1759243320699,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320751,
+      "timestamp": 1759243320701,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320776,
+      "timestamp": 1759243320726,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320782,
+      "timestamp": 1759243320737,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320788,
+      "timestamp": 1759243320717,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320796,
+      "timestamp": 1759243320712,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320801,
+      "timestamp": 1759243320734,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320805,
+      "timestamp": 1759243320742,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier (1)",
+          "allTexts": [
+            "Filtrer & trier (1)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320811,
+      "timestamp": 1759243320740,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320818,
+      "timestamp": 1759243320750,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243320121
+      }
+    },
+    {
+      "id": 1759243320822,
+      "timestamp": 1759243320751,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320828,
+      "timestamp": 1759243320757,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320832,
+      "timestamp": 1759243320765,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320837,
+      "timestamp": 1759243320769,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320841,
+      "timestamp": 1759243320772,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320847,
+      "timestamp": 1759243320776,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320852,
+      "timestamp": 1759243320780,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320856,
+      "timestamp": 1759243320803,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320903,
+      "timestamp": 1759243320870,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320908,
+      "timestamp": 1759243320873,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243320914,
+      "timestamp": 1759243320880,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759243320376
+      }
+    },
+    {
+      "id": 1759243320919,
+      "timestamp": 1759243320885,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321081,
+      "timestamp": 1759243321040,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321088,
+      "timestamp": 1759243321045,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321119,
+      "timestamp": 1759243321082,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321136,
+      "timestamp": 1759243321094,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321153,
+      "timestamp": 1759243321113,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321185,
+      "timestamp": 1759243321134,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321198,
+      "timestamp": 1759243321141,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321226,
+      "timestamp": 1759243321190,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321237,
+      "timestamp": 1759243321191,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:42 PM",
+          "allTexts": [
+            "4:42",
+            "4:42 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243321241,
+      "timestamp": 1759243321198,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:42 PM",
+          "allTexts": [
+            "4:42",
+            "4:42 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243345771,
+      "timestamp": 1759243345700,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243365759,
+      "timestamp": 1759243365709,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243380729,
+      "timestamp": 1759243380675,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:43 PM",
+          "allTexts": [
+            "4:43",
+            "4:43 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243380805,
+      "timestamp": 1759243380766,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:43 PM",
+          "allTexts": [
+            "4:43",
+            "4:43 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243405752,
+      "timestamp": 1759243405696,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243440866,
+      "timestamp": 1759243440759,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:44 PM",
+          "allTexts": [
+            "4:44",
+            "4:44 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243440887,
+      "timestamp": 1759243440816,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:44 PM",
+          "allTexts": [
+            "4:44",
+            "4:44 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243445746,
+      "timestamp": 1759243445707,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243495746,
+      "timestamp": 1759243495701,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243500688,
+      "timestamp": 1759243500651,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:45 PM",
+          "allTexts": [
+            "4:45",
+            "4:45 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243500796,
+      "timestamp": 1759243500760,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:45 PM",
+          "allTexts": [
+            "4:45",
+            "4:45 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243525777,
+      "timestamp": 1759243525724,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243545763,
+      "timestamp": 1759243545708,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243560729,
+      "timestamp": 1759243560676,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:46 PM",
+          "allTexts": [
+            "4:46",
+            "4:46 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243560795,
+      "timestamp": 1759243560760,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:46 PM",
+          "allTexts": [
+            "4:46",
+            "4:46 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243585759,
+      "timestamp": 1759243585707,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243620717,
+      "timestamp": 1759243620673,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:47 PM",
+          "allTexts": [
+            "4:47",
+            "4:47 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243620794,
+      "timestamp": 1759243620762,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:47 PM",
+          "allTexts": [
+            "4:47",
+            "4:47 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243625726,
+      "timestamp": 1759243625688,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243675757,
+      "timestamp": 1759243675700,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243680693,
+      "timestamp": 1759243680657,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:48 PM",
+          "allTexts": [
+            "4:48",
+            "4:48 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243680792,
+      "timestamp": 1759243680755,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:48 PM",
+          "allTexts": [
+            "4:48",
+            "4:48 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243705768,
+      "timestamp": 1759243705721,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243725764,
+      "timestamp": 1759243725713,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, one bar.",
+          "productName": "T-Mobile, one bar.",
+          "allTexts": [
+            "T-Mobile, one bar."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243740704,
+      "timestamp": 1759243740656,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:49 PM",
+          "allTexts": [
+            "4:49",
+            "4:49 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243740789,
+      "timestamp": 1759243740756,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:49 PM",
+          "allTexts": [
+            "4:49",
+            "4:49 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243765769,
+      "timestamp": 1759243765713,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, no signal.",
+          "productName": "T-Mobile, no signal.",
+          "allTexts": [
+            "T-Mobile, no signal."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243800728,
+      "timestamp": 1759243800672,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:50 PM",
+          "allTexts": [
+            "4:50",
+            "4:50 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243800797,
+      "timestamp": 1759243800762,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:50 PM",
+          "allTexts": [
+            "4:50",
+            "4:50 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243805752,
+      "timestamp": 1759243805716,
+      "sessionId": "android_session_1759242109691_5510704c",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, signal full.",
+          "productName": "T-Mobile, signal full.",
+          "allTexts": [
+            "T-Mobile, signal full."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243994472,
+      "timestamp": 1759243994136,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "SESSION_START",
+      "platform": "android_native",
+      "data": {
+        "platform": "android_native",
+        "sessionId": "android_session_1759243994104_35133e2f",
+        "deviceInfo": {
+          "manufacturer": "Google",
+          "model": "sdk_gphone64_x86_64",
+          "version": "16",
+          "sdk": 36,
+          "screenDensity": 2.625,
+          "screenWidth": 1080,
+          "screenHeight": 2337
+        }
+      }
+    },
+    {
+      "id": 1759243997017,
+      "timestamp": 1759243996969,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "element": {
+          "className": "android.widget.ImageButton",
+          "contentDescription": "Navigate up",
+          "text": "",
+          "resourceId": "",
+          "clickable": true,
+          "bounds": {
+            "left": 0,
+            "top": 63,
+            "right": 147,
+            "bottom": 210
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1759243995776
+      }
+    },
+    {
+      "id": 1759243997035,
+      "timestamp": 1759243996976,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Accessibility",
+            "Navigate up",
+            "Accessibility",
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243997235,
+      "timestamp": 1759243997186,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Accessibility",
+            "Navigate up",
+            "Accessibility",
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243997348,
+      "timestamp": 1759243997308,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display",
+            "Display size and text",
+            "Color and motion",
+            "Magnification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243997515,
+      "timestamp": 1759243997470,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display",
+            "Display size and text",
+            "Color and motion",
+            "Magnification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243997694,
+      "timestamp": 1759243997649,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display",
+            "Display size and text",
+            "Color and motion",
+            "Magnification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759243997727,
+      "timestamp": 1759243997688,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Off / Control device via large menu",
+          "allTexts": [
+            "Downloaded apps",
+            "Bascule Cross-App Tracking",
+            "On",
+            "Screen reader",
+            "TalkBack",
+            "Off / Speak items on screen",
+            "Display",
+            "Display size and text",
+            "Color and motion",
+            "Magnification"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244035782,
+      "timestamp": 1759244035718,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, three bars.",
+          "productName": "T-Mobile, three bars.",
+          "allTexts": [
+            "T-Mobile, three bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244040697,
+      "timestamp": 1759244040652,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:54 PM",
+          "allTexts": [
+            "4:54",
+            "4:54 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244040797,
+      "timestamp": 1759244040751,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "productName": "4:54 PM",
+          "allTexts": [
+            "4:54",
+            "4:54 PM"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244056294,
+      "timestamp": 1759244056224,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.settings",
+        "packageName": "com.android.settings",
+        "element": {},
+        "eventType": "cross_app_click",
+        "timestamp": 1759244055719
+      }
+    },
+    {
+      "id": 1759244056360,
+      "timestamp": 1759244056324,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.bascule.leclerctracking",
+        "packageName": "com.bascule.leclerctracking",
+        "productInfo": {
+          "cartAction": "En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée.",
+          "productName": "Cette application peut analyser vos interactions sur les apps e-commerce \npour améliorer votre expérience d'achat.\n\nApps supportées:\n• E.Leclerc Drive\n• Carrefour\n• Auchan Drive  \n• Casino Drive\n• Amazon Shopping\n• Cdiscount\n• Monoprix\n\nVos données restent privées et anonymes.",
+          "allTexts": [
+            "Bascule Cross-App Tracking",
+            "✅ Service activé - Tracking cross-app fonctionnel",
+            "📱 Tracking Cross-App",
+            "Cette application peut analyser vos interactions sur les apps e-commerce \npour améliorer votre expérience d'achat.\n\nApps supportées:\n• E.Leclerc Drive\n• Carrefour\n• Auchan Drive  \n• Casino Drive\n• Amazon Shopping\n• Cdiscount\n• Monoprix\n\nVos données restent privées et anonymes.",
+            "🔒 Confidentialité et Permissions",
+            "Permissions requises:\n\n🔍 Service d'Accessibilité\nPermet de détecter les interactions dans les autres apps\n\n🔒 Confidentialité Garantie\n• Aucune donnée personnelle collectée\n• Pas d'accès aux mots de passe\n• Tracking anonyme uniquement\n• Données stockées localement",
+            "DÉSACTIVER LE SERVICE",
+            "OUVRIR PARAMÈTRES D'ACCESSIBILITÉ",
+            "MODE INTRA-APP SEULEMENT",
+            "En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244063447,
+      "timestamp": 1759244063402,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Chrome",
+            "Carrefour",
+            "Bascule Cross-App Tracking"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244063613,
+      "timestamp": 1759244063573,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Chrome",
+            "Carrefour",
+            "Bascule Cross-App Tracking"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244063719,
+      "timestamp": 1759244063678,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Chrome",
+            "Carrefour",
+            "Bascule Cross-App Tracking"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244063768,
+      "timestamp": 1759244063726,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Chrome",
+            "Carrefour",
+            "Bascule Cross-App Tracking",
+            "Screenshot",
+            "Select"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244063797,
+      "timestamp": 1759244063759,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "cartAction": "Bascule Cross-App Tracking",
+          "productName": "Bascule Cross-App Tracking",
+          "allTexts": [
+            "Clear all",
+            "Chrome",
+            "Carrefour",
+            "Bascule Cross-App Tracking"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066008,
+      "timestamp": 1759244065969,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.android.systemui",
+        "packageName": "com.android.systemui",
+        "productInfo": {
+          "cartAction": "T-Mobile, two bars.",
+          "productName": "T-Mobile, two bars.",
+          "allTexts": [
+            "T-Mobile, two bars."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066458,
+      "timestamp": 1759244066420,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "Phone",
+            "Phone",
+            "Messages",
+            "Messages",
+            "Chrome",
+            "Chrome",
+            "Carrefour",
+            "Predicted app: Carrefour",
+            "Google search",
+            "Google app"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066507,
+      "timestamp": 1759244066468,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066559,
+      "timestamp": 1759244066519,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066583,
+      "timestamp": 1759244066549,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066613,
+      "timestamp": 1759244066578,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244066713,
+      "timestamp": 1759244066679,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244068128,
+      "timestamp": 1759244068085,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "Carrefour",
+            "Predicted app: Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244068171,
+      "timestamp": 1759244068090,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "Carrefour",
+            "Predicted app: Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244068177,
+      "timestamp": 1759244068095,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "element": {
+          "className": "android.widget.TextView",
+          "contentDescription": "Predicted app: Carrefour",
+          "text": "Carrefour",
+          "resourceId": "",
+          "clickable": true,
+          "bounds": {
+            "left": 822,
+            "top": 1869,
+            "right": 993,
+            "bottom": 2062
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1759244067317
+      }
+    },
+    {
+      "id": 1759244068193,
+      "timestamp": 1759244068099,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244068265,
+      "timestamp": 1759244068227,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Tue, Sep 30",
+            "Tue, Sep 30",
+            "Play Store",
+            "Play Store",
+            "Gmail",
+            "Gmail",
+            "Photos",
+            "Photos",
+            "YouTube"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244069537,
+      "timestamp": 1759244069500,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.apps.nexuslauncher",
+        "packageName": "com.google.android.apps.nexuslauncher",
+        "productInfo": {
+          "productName": "Predicted app: Carrefour",
+          "allTexts": [
+            "At a glance",
+            "Home",
+            "Phone",
+            "Phone",
+            "Messages",
+            "Messages",
+            "Chrome",
+            "Chrome",
+            "Carrefour",
+            "Predicted app: Carrefour"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244070044,
+      "timestamp": 1759244070002,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244073966,
+      "timestamp": 1759244073924,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244073984,
+      "timestamp": 1759244073942,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244073999,
+      "timestamp": 1759244073957,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Effacer",
+          "allTexts": [
+            "Effacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074021,
+      "timestamp": 1759244073983,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074034,
+      "timestamp": 1759244073992,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074087,
+      "timestamp": 1759244074050,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074125,
+      "timestamp": 1759244074089,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074158,
+      "timestamp": 1759244074119,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074181,
+      "timestamp": 1759244074144,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Icon suggestion",
+          "allTexts": [
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074194,
+      "timestamp": 1759244074146,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074209,
+      "timestamp": 1759244074165,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074217,
+      "timestamp": 1759244074178,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074277,
+      "timestamp": 1759244074244,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane",
+            "Ouvre la page précédente",
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074293,
+      "timestamp": 1759244074258,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074313,
+      "timestamp": 1759244074280,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+          "allTexts": [
+            "Une liste de suggestions est disponible sous le champ. Cette liste se met à jour lorsque vous entrez des caractères dans le champ. Balayez vers la droite sur l'écran pour accéder à la liste",
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074360,
+      "timestamp": 1759244074323,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Dernières recherches",
+          "allTexts": [
+            "Dernières recherches",
+            "Effacer",
+            "Icon suggestion",
+            "banane"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074393,
+      "timestamp": 1759244074357,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759244073838
+      }
+    },
+    {
+      "id": 1759244074696,
+      "timestamp": 1759244074646,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074780,
+      "timestamp": 1759244074735,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244074899,
+      "timestamp": 1759244074859,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "com.google.android.inputmethod.latin",
+        "packageName": "com.google.android.inputmethod.latin",
+        "productInfo": {
+          "productName": "Open more stylus options",
+          "allTexts": [
+            "Use voice typing",
+            "Delete",
+            "Search",
+            "Show emoji keyboard",
+            "Open more stylus options"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076127,
+      "timestamp": 1759244076086,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759244075367
+      }
+    },
+    {
+      "id": 1759244076137,
+      "timestamp": 1759244076090,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076167,
+      "timestamp": 1759244076101,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076174,
+      "timestamp": 1759244076109,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076182,
+      "timestamp": 1759244076120,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076191,
+      "timestamp": 1759244076145,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076205,
+      "timestamp": 1759244076133,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076581,
+      "timestamp": 1759244076545,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076587,
+      "timestamp": 1759244076542,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076592,
+      "timestamp": 1759244076547,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076889,
+      "timestamp": 1759244076847,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076932,
+      "timestamp": 1759244076854,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Pain, lait, œufs…",
+          "allTexts": [
+            "Pain, lait, œufs…"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076942,
+      "timestamp": 1759244076851,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076956,
+      "timestamp": 1759244076862,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076966,
+      "timestamp": 1759244076909,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076978,
+      "timestamp": 1759244076869,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244076990,
+      "timestamp": 1759244076917,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "productName": "Ajouter au panier",
+          "allTexts": [
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077001,
+      "timestamp": 1759244076929,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077008,
+      "timestamp": 1759244076943,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077016,
+      "timestamp": 1759244076955,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077022,
+      "timestamp": 1759244076958,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077029,
+      "timestamp": 1759244076949,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Filtrer & trier (1)",
+          "allTexts": [
+            "Filtrer & trier (1)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077034,
+      "timestamp": 1759244076962,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759244076429
+      }
+    },
+    {
+      "id": 1759244077040,
+      "timestamp": 1759244076964,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077051,
+      "timestamp": 1759244076965,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre la page précédente",
+          "allTexts": [
+            "Ouvre la page précédente"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077056,
+      "timestamp": 1759244076968,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077064,
+      "timestamp": 1759244076969,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre le scanner de code barre"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077070,
+      "timestamp": 1759244076992,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ouvre le scanner de code barre",
+          "allTexts": [
+            "Ouvre la page précédente",
+            "Pain, lait, œufs…",
+            "Ouvre le scanner de code barre",
+            "Résultat pour banane (2)",
+            "Filtrer & trier (1)",
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077078,
+      "timestamp": 1759244077023,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077086,
+      "timestamp": 1759244077031,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759244076529
+      }
+    },
+    {
+      "id": 1759244077090,
+      "timestamp": 1759244077043,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Résultat pour banane (2)",
+          "allTexts": [
+            "Résultat pour banane (2)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077122,
+      "timestamp": 1759244077085,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "1 euros et 99 centimes.",
+          "allTexts": [
+            "-10% Club",
+            "LabelBio",
+            "Bananes Bio Cavendish",
+            "PEROU",
+            "1,99€",
+            "1 euros et 99 centimes.",
+            "1,99€/U",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077173,
+      "timestamp": 1759244077135,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077182,
+      "timestamp": 1759244077145,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "allTexts": [
+            "Bio"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077191,
+      "timestamp": 1759244077153,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "(249)",
+          "allTexts": [
+            "(249)"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077282,
+      "timestamp": 1759244077248,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759244077389,
+      "timestamp": 1759244077349,
+      "sessionId": "android_session_1759243994104_35133e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "1,99€/U",
+          "productName": "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+          "allTexts": [
+            "-10% Club",
+            "5 pièces",
+            "LabelCommerce équitable",
+            "LabelBio",
+            "CARREFOUR BIO",
+            "Bananes Max Havelaar",
+            "ORIGINE PAYS TIERS",
+            "Ce produit est noté 4,48 sur 5 par les utilisateurs, 249 avis, aller à la répartition des avis",
+            "(249)",
+            "1,99€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 186,
+    "activeSessions": 0,
+    "productClicks": 3,
+    "conversions": 175
+  },
+  "exportedAt": "2025-09-30T14:54:44.863Z",
+  "exportedBy": "auto-clear"
+}

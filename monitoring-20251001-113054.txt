@@ -1,0 +1,28 @@
+--------- beginning of main
+10-01 11:31:00.137 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:00.138 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:00.242 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:00.242 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:01.868 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:01.868 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:20.606 12202 12202 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759311080603_5bce7b1a, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:31:20.615 12202 12202 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:31:20.763 12202 12202 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:31:20.777 12202 12202 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:31:20.777 12202 12202 D CrossAppTracking: 📋 Event types: -1
+10-01 11:31:20.778 12202 12202 D CrossAppTracking: 📋 Flags: 80
+10-01 11:31:30.649 12202 13317 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 58626) after 10000ms
+10-01 11:31:41.860 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:41.860 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:00.127 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:00.127 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:00.229 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:00.229 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:21.875 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:21.875 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:00.122 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:00.122 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:00.225 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:00.225 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:11.865 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:11.865 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui

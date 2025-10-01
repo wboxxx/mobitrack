@@ -1,0 +1,1316 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-09-30 19:05:36
+Duration: 10 seconds
+========================================
+
+[19:05:36.923] [SYSTEM] Starting Node.js server...
+[19:05:40.110] [SYSTEM] Node.js server started (Job ID: 5)
+[19:05:40.116] [SYSTEM] Starting APK log capture...
+[19:05:41.278] [SYSTEM] APK log capture started (Job ID: 7)
+[19:05:41.281] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[19:05:41.291] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:41.296] [SERVER] node:events:496
+[19:05:41.301] [SERVER] throw er; // Unhandled 'error' event
+[19:05:41.309] [SERVER] ^
+[19:05:41.311] [SERVER] System.Management.Automation.RemoteException
+[19:05:41.314] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:41.318] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:41.322] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:41.327] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:41.330] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:41.333] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:41.335] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:41.339] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:41.342] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:41.346] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:41.350] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:41.355] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:41.361] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:41.363] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:41.367] [SERVER] code: 'EADDRINUSE',
+[19:05:41.371] [SERVER] errno: -4091,
+[19:05:41.376] [SERVER] syscall: 'listen',
+[19:05:41.381] [SERVER] address: '::',
+[19:05:41.384] [SERVER] port: 3001
+[19:05:41.388] [SERVER] }
+[19:05:41.394] [SERVER] System.Management.Automation.RemoteException
+[19:05:41.398] [SERVER] Node.js v22.14.0
+[19:05:41.405] [APK] --------- beginning of main
+[19:05:41.410] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:41.413] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:41.416] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:41.420] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:41.423] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:41.427] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:41.429] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:41.433] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:41.436] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.440] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.444] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.449] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.452] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.455] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.460] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.463] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.466] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:41.469] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.474] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.479] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.482] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:41.487] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:41.493] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.498] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.500] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.503] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.509] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.512] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:41.515] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:41.519] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:41.524] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:41.528] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:41.531] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:41.535] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:41.539] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:41.543] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:41.546] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:41.549] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:41.554] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:41.559] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:41.563] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:41.567] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:41.570] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:41.578] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:41.582] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:41.586] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:41.591] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:41.601] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:41.606] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:41.610] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:41.613] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:41.616] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:41.619] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:41.625] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:41.629] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:41.643] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:41.651] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:41.657] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:41.662] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:41.666] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.173] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:42.180] [SERVER] node:events:496
+[19:05:42.186] [SERVER] throw er; // Unhandled 'error' event
+[19:05:42.192] [SERVER] ^
+[19:05:42.195] [SERVER] System.Management.Automation.RemoteException
+[19:05:42.197] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:42.199] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:42.203] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:42.207] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:42.209] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:42.213] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:42.216] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:42.218] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:42.221] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:42.225] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:42.228] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:42.232] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:42.234] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:42.236] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:42.240] [SERVER] code: 'EADDRINUSE',
+[19:05:42.243] [SERVER] errno: -4091,
+[19:05:42.246] [SERVER] syscall: 'listen',
+[19:05:42.250] [SERVER] address: '::',
+[19:05:42.252] [SERVER] port: 3001
+[19:05:42.256] [SERVER] }
+[19:05:42.259] [SERVER] System.Management.Automation.RemoteException
+[19:05:42.261] [SERVER] Node.js v22.14.0
+[19:05:42.279] [APK] --------- beginning of main
+[19:05:42.284] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:42.288] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:42.291] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:42.293] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:42.296] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:42.298] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:42.301] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:42.304] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:42.307] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.311] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.315] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.322] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.330] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.338] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.343] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.347] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.352] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:42.358] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.361] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.365] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.368] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:42.371] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:42.373] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.377] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.379] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.382] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.385] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.388] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:42.391] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:42.395] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:42.398] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:42.401] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:42.403] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:42.406] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:42.409] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:42.411] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:42.413] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:42.415] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:42.418] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:42.422] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:42.425] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:42.428] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:42.431] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:42.435] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:42.444] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:42.449] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:42.455] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:42.458] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.462] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.465] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:42.468] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.470] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:42.474] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.479] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:42.483] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.486] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.490] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.495] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.498] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.502] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.506] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:42.511] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.513] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.517] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.520] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.525] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.529] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:42.531] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:42.534] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.040] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:43.043] [SERVER] node:events:496
+[19:05:43.047] [SERVER] throw er; // Unhandled 'error' event
+[19:05:43.051] [SERVER] ^
+[19:05:43.055] [SERVER] System.Management.Automation.RemoteException
+[19:05:43.059] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:43.063] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:43.067] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:43.070] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:43.076] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:43.080] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:43.083] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:43.086] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:43.090] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:43.093] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:43.096] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:43.099] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:43.103] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:43.107] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:43.110] [SERVER] code: 'EADDRINUSE',
+[19:05:43.113] [SERVER] errno: -4091,
+[19:05:43.117] [SERVER] syscall: 'listen',
+[19:05:43.120] [SERVER] address: '::',
+[19:05:43.123] [SERVER] port: 3001
+[19:05:43.128] [SERVER] }
+[19:05:43.131] [SERVER] System.Management.Automation.RemoteException
+[19:05:43.135] [SERVER] Node.js v22.14.0
+[19:05:43.156] [APK] --------- beginning of main
+[19:05:43.160] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:43.163] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:43.167] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:43.170] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:43.175] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:43.180] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:43.184] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:43.189] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:43.198] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.202] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.210] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.214] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.218] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.223] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.228] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.233] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.240] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:43.245] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.249] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.254] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.262] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:43.267] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:43.272] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.278] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.283] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.287] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.293] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.297] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:43.301] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:43.306] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:43.311] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:43.316] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:43.322] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:43.328] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:43.332] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:43.336] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:43.341] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:43.345] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:43.349] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:43.353] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:43.358] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:43.362] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:43.366] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:43.369] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:43.373] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:43.379] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:43.383] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:43.387] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.391] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.396] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:43.403] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.408] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:43.413] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.417] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:43.421] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.426] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.431] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.436] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.441] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.446] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.449] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:43.454] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.458] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.462] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.465] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.468] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.473] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.478] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.482] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.486] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:43.491] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:43.495] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:43.499] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:43.503] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:43.508] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.512] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:43.516] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:43.520] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.029] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:44.037] [SERVER] node:events:496
+[19:05:44.043] [SERVER] throw er; // Unhandled 'error' event
+[19:05:44.050] [SERVER] ^
+[19:05:44.056] [SERVER] System.Management.Automation.RemoteException
+[19:05:44.061] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:44.065] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:44.068] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:44.072] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:44.077] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:44.083] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:44.086] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:44.090] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:44.096] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:44.099] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:44.105] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:44.109] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:44.114] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:44.118] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:44.123] [SERVER] code: 'EADDRINUSE',
+[19:05:44.129] [SERVER] errno: -4091,
+[19:05:44.133] [SERVER] syscall: 'listen',
+[19:05:44.136] [SERVER] address: '::',
+[19:05:44.140] [SERVER] port: 3001
+[19:05:44.145] [SERVER] }
+[19:05:44.148] [SERVER] System.Management.Automation.RemoteException
+[19:05:44.152] [SERVER] Node.js v22.14.0
+[19:05:44.177] [APK] --------- beginning of main
+[19:05:44.182] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:44.186] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:44.192] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:44.198] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:44.204] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:44.211] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:44.216] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:44.221] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:44.226] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.233] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.240] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.247] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.253] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.259] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.265] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.268] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.273] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:44.279] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.287] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.293] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.297] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:44.301] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:44.306] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.311] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.316] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.321] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.326] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.332] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:44.338] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:44.343] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:44.348] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:44.354] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:44.359] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:44.363] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:44.368] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:44.373] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:44.378] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:44.382] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:44.387] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:44.392] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:44.396] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:44.401] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:44.405] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:44.410] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:44.414] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:44.418] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:44.423] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:44.426] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.431] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.436] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:44.441] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.445] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:44.449] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.452] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.457] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.462] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.466] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.470] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.475] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.480] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.485] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:44.489] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.493] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.498] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.503] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.509] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.514] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.518] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.523] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.526] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.530] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:44.534] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:44.539] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.544] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.549] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.553] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.558] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.562] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.567] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.572] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.578] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.582] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.586] [APK] 09-30 19:05:43.267 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.592] [APK] 09-30 19:05:43.268 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.596] [APK] 09-30 19:05:43.289 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.601] [APK] 09-30 19:05:43.290 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.606] [APK] 09-30 19:05:43.301 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.612] [APK] 09-30 19:05:43.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.616] [APK] 09-30 19:05:43.434 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:44.619] [APK] 09-30 19:05:43.435 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:44.624] [APK] 09-30 19:05:43.609 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.629] [APK] 09-30 19:05:43.627 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:44.633] [APK] 09-30 19:05:43.772 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.638] [APK] 09-30 19:05:43.792 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:44.643] [APK] 09-30 19:05:43.804 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:44.647] [APK] 09-30 19:05:43.940 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:44.652] [APK] 09-30 19:05:44.030 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.160] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:45.165] [SERVER] node:events:496
+[19:05:45.167] [SERVER] throw er; // Unhandled 'error' event
+[19:05:45.169] [SERVER] ^
+[19:05:45.172] [SERVER] System.Management.Automation.RemoteException
+[19:05:45.174] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:45.176] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:45.179] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:45.180] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:45.182] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:45.183] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:45.185] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:45.187] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:45.190] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:45.193] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:45.197] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:45.201] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:45.204] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:45.213] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:45.217] [SERVER] code: 'EADDRINUSE',
+[19:05:45.223] [SERVER] errno: -4091,
+[19:05:45.229] [SERVER] syscall: 'listen',
+[19:05:45.232] [SERVER] address: '::',
+[19:05:45.238] [SERVER] port: 3001
+[19:05:45.243] [SERVER] }
+[19:05:45.248] [SERVER] System.Management.Automation.RemoteException
+[19:05:45.252] [SERVER] Node.js v22.14.0
+[19:05:45.295] [APK] --------- beginning of main
+[19:05:45.303] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:45.309] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:45.313] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:45.321] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:45.326] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:45.333] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:45.339] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:45.344] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:45.348] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.353] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.359] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.363] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.368] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.374] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.379] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.384] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.389] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:45.394] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.399] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.404] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.409] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:45.414] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:45.418] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.423] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.428] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.432] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.436] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.442] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:45.446] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:45.451] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:45.456] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:45.460] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:45.465] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:45.471] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:45.476] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:45.482] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:45.486] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:45.493] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:45.497] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:45.501] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:45.505] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:45.511] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:45.516] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:45.521] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:45.526] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:45.532] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:45.536] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:45.542] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.546] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.552] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:45.558] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.563] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:45.568] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.574] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.579] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.583] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.587] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.592] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.596] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.602] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.608] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:45.613] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.618] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.623] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.627] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.631] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.637] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.643] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.646] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.651] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.656] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:45.661] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:45.665] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.668] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.675] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.680] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.684] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.690] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.694] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.699] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.703] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.709] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.713] [APK] 09-30 19:05:43.267 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.718] [APK] 09-30 19:05:43.268 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.723] [APK] 09-30 19:05:43.289 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.727] [APK] 09-30 19:05:43.290 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.732] [APK] 09-30 19:05:43.301 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.736] [APK] 09-30 19:05:43.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.742] [APK] 09-30 19:05:43.434 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.745] [APK] 09-30 19:05:43.435 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.750] [APK] 09-30 19:05:43.609 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.755] [APK] 09-30 19:05:43.627 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:45.761] [APK] 09-30 19:05:43.772 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.764] [APK] 09-30 19:05:43.792 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:45.768] [APK] 09-30 19:05:43.804 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:45.779] [APK] 09-30 19:05:43.940 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.783] [APK] 09-30 19:05:44.030 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:45.788] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.793] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.798] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.803] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.808] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.812] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:45.817] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:45.822] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.329] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:46.332] [SERVER] node:events:496
+[19:05:46.338] [SERVER] throw er; // Unhandled 'error' event
+[19:05:46.342] [SERVER] ^
+[19:05:46.346] [SERVER] System.Management.Automation.RemoteException
+[19:05:46.351] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:46.356] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:46.361] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:46.366] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:46.369] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:46.375] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:46.379] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:46.383] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:46.388] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:46.393] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:46.397] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:46.401] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:46.406] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:46.410] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:46.415] [SERVER] code: 'EADDRINUSE',
+[19:05:46.419] [SERVER] errno: -4091,
+[19:05:46.424] [SERVER] syscall: 'listen',
+[19:05:46.428] [SERVER] address: '::',
+[19:05:46.432] [SERVER] port: 3001
+[19:05:46.436] [SERVER] }
+[19:05:46.441] [SERVER] System.Management.Automation.RemoteException
+[19:05:46.448] [SERVER] Node.js v22.14.0
+[19:05:46.517] [APK] --------- beginning of main
+[19:05:46.523] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:46.527] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:46.532] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:46.536] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:46.541] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:46.545] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:46.550] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:46.556] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:46.561] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.565] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.570] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.576] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.580] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.584] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.590] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.593] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.599] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:46.602] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.606] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.611] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.615] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:46.618] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:46.623] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.626] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.631] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.635] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.639] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.643] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:46.646] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:46.650] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:46.654] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:46.659] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:46.663] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:46.667] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:46.674] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:46.679] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:46.683] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:46.686] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:46.691] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:46.695] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:46.702] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:46.707] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:46.711] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:46.716] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:46.720] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:46.725] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:46.730] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:46.734] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.740] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.745] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:46.749] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.753] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:46.759] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.763] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.767] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.770] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.775] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.779] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.783] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.787] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.792] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:46.796] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.800] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.804] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.809] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.815] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.819] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.824] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.828] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.831] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.836] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:46.841] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:46.845] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.849] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.853] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.857] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.860] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.863] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.868] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.872] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.875] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.879] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.883] [APK] 09-30 19:05:43.267 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.886] [APK] 09-30 19:05:43.268 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.891] [APK] 09-30 19:05:43.289 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.895] [APK] 09-30 19:05:43.290 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.899] [APK] 09-30 19:05:43.301 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.902] [APK] 09-30 19:05:43.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.906] [APK] 09-30 19:05:43.434 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.911] [APK] 09-30 19:05:43.435 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.915] [APK] 09-30 19:05:43.609 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.920] [APK] 09-30 19:05:43.627 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:46.924] [APK] 09-30 19:05:43.772 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.929] [APK] 09-30 19:05:43.792 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:46.934] [APK] 09-30 19:05:43.804 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:46.937] [APK] 09-30 19:05:43.940 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.942] [APK] 09-30 19:05:44.030 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:46.946] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.950] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.954] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.959] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.963] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.967] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.971] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.975] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.980] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.984] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.991] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:46.995] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:46.999] [APK] 09-30 19:05:45.342 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.003] [APK] 09-30 19:05:45.343 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.009] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.013] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.018] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.023] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.027] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.031] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.035] [APK] 09-30 19:05:45.922 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.040] [APK] 09-30 19:05:45.923 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.044] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.048] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.052] [APK] 09-30 19:05:46.021 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.056] [APK] 09-30 19:05:46.022 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.060] [APK] 09-30 19:05:46.058 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.063] [APK] 09-30 19:05:46.059 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.066] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.069] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.074] [APK] 09-30 19:05:46.161 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.078] [APK] 09-30 19:05:46.162 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.082] [APK] 09-30 19:05:46.190 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.088] [APK] 09-30 19:05:46.193 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.093] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.098] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.102] [APK] 09-30 19:05:46.282 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.108] [APK] 09-30 19:05:46.283 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.121] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.126] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.130] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.134] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.139] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:47.143] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:47.652] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:47.658] [SERVER] node:events:496
+[19:05:47.662] [SERVER] throw er; // Unhandled 'error' event
+[19:05:47.668] [SERVER] ^
+[19:05:47.675] [SERVER] System.Management.Automation.RemoteException
+[19:05:47.679] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:47.684] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:47.689] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:47.693] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:47.697] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:47.702] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:47.706] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:47.712] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:47.718] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:47.724] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:47.729] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:47.734] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:47.741] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:47.746] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:47.751] [SERVER] code: 'EADDRINUSE',
+[19:05:47.756] [SERVER] errno: -4091,
+[19:05:47.760] [SERVER] syscall: 'listen',
+[19:05:47.765] [SERVER] address: '::',
+[19:05:47.769] [SERVER] port: 3001
+[19:05:47.773] [SERVER] }
+[19:05:47.779] [SERVER] System.Management.Automation.RemoteException
+[19:05:47.783] [SERVER] Node.js v22.14.0
+[19:05:47.908] [APK] --------- beginning of main
+[19:05:47.912] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:47.916] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:47.922] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:47.926] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:47.930] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:47.935] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:47.939] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:47.944] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:47.949] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:47.955] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:47.960] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:47.964] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:47.970] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:47.975] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:47.979] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:47.984] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:47.993] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:47.998] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:48.003] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:48.009] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:48.013] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:48.017] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:48.022] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.028] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.032] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.038] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.043] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.047] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:48.052] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:48.057] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:48.062] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:48.066] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:48.070] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:48.077] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:48.081] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:48.086] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:48.091] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:48.094] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:48.098] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:48.102] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:48.108] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:48.112] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:48.117] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:48.122] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:48.127] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:48.131] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:48.135] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:48.141] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.145] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.148] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:48.153] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.158] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:48.162] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.167] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.171] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.176] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.180] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.184] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.188] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.193] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.198] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:48.201] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.207] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.211] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.215] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.219] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.224] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.229] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.233] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.239] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.243] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:48.247] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:48.252] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.258] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.261] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.266] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.271] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.276] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.280] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.285] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.289] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.293] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.297] [APK] 09-30 19:05:43.267 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.302] [APK] 09-30 19:05:43.268 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.307] [APK] 09-30 19:05:43.289 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.312] [APK] 09-30 19:05:43.290 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.316] [APK] 09-30 19:05:43.301 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.321] [APK] 09-30 19:05:43.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.327] [APK] 09-30 19:05:43.434 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.331] [APK] 09-30 19:05:43.435 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.334] [APK] 09-30 19:05:43.609 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.341] [APK] 09-30 19:05:43.627 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:48.345] [APK] 09-30 19:05:43.772 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.350] [APK] 09-30 19:05:43.792 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:48.355] [APK] 09-30 19:05:43.804 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:48.360] [APK] 09-30 19:05:43.940 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.365] [APK] 09-30 19:05:44.030 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:48.368] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.372] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.377] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.382] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.386] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.392] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.396] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.400] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.407] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.410] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.413] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.419] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.425] [APK] 09-30 19:05:45.342 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.429] [APK] 09-30 19:05:45.343 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.433] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.437] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.449] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.453] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.459] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.463] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.467] [APK] 09-30 19:05:45.922 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.471] [APK] 09-30 19:05:45.923 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.476] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.481] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.485] [APK] 09-30 19:05:46.021 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.489] [APK] 09-30 19:05:46.022 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.493] [APK] 09-30 19:05:46.058 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.498] [APK] 09-30 19:05:46.059 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.503] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.508] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.512] [APK] 09-30 19:05:46.161 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.517] [APK] 09-30 19:05:46.162 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.521] [APK] 09-30 19:05:46.190 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.526] [APK] 09-30 19:05:46.193 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.531] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.535] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.541] [APK] 09-30 19:05:46.282 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.545] [APK] 09-30 19:05:46.283 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.549] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.553] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.559] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.563] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.568] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.573] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.578] [APK] 09-30 19:05:46.427 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.582] [APK] 09-30 19:05:46.428 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.586] [APK] 09-30 19:05:46.446 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.591] [APK] 09-30 19:05:46.448 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.596] [APK] 09-30 19:05:46.472 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.600] [APK] 09-30 19:05:46.472 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.605] [APK] 09-30 19:05:46.500 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.610] [APK] 09-30 19:05:46.501 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.614] [APK] 09-30 19:05:46.537 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.617] [APK] 09-30 19:05:46.538 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.622] [APK] 09-30 19:05:46.550 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.626] [APK] 09-30 19:05:46.552 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.632] [APK] 09-30 19:05:46.572 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.636] [APK] 09-30 19:05:46.572 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.641] [APK] 09-30 19:05:46.584 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.645] [APK] 09-30 19:05:46.584 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.649] [APK] 09-30 19:05:46.592 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.653] [APK] 09-30 19:05:46.592 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.657] [APK] 09-30 19:05:46.601 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.662] [APK] 09-30 19:05:46.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.667] [APK] 09-30 19:05:46.610 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.671] [APK] 09-30 19:05:46.611 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.676] [APK] 09-30 19:05:46.622 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.679] [APK] 09-30 19:05:46.623 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.683] [APK] 09-30 19:05:46.634 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.688] [APK] 09-30 19:05:46.634 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.692] [APK] 09-30 19:05:46.637 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.697] [APK] 09-30 19:05:46.638 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.701] [APK] 09-30 19:05:46.647 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.707] [APK] 09-30 19:05:46.648 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.711] [APK] 09-30 19:05:46.657 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.716] [APK] 09-30 19:05:46.657 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.721] [APK] 09-30 19:05:46.667 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.725] [APK] 09-30 19:05:46.667 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.729] [APK] 09-30 19:05:46.676 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.733] [APK] 09-30 19:05:46.676 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.738] [APK] 09-30 19:05:46.684 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.743] [APK] 09-30 19:05:46.684 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.747] [APK] 09-30 19:05:46.692 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.752] [APK] 09-30 19:05:46.693 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.756] [APK] 09-30 19:05:46.697 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.761] [APK] 09-30 19:05:46.697 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.764] [APK] 09-30 19:05:46.701 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.768] [APK] 09-30 19:05:46.702 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.773] [APK] 09-30 19:05:46.708 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.778] [APK] 09-30 19:05:46.708 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.782] [APK] 09-30 19:05:46.717 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Smoothie Fraise Banane - Prix: N/A
+[19:05:48.786] [APK] 09-30 19:05:46.718 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[19:05:48.792] [APK] 09-30 19:05:46.726 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[19:05:48.795] [APK] 09-30 19:05:46.729 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/U
+[19:05:48.799] [APK] 09-30 19:05:46.740 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+[19:05:48.801] [APK] 09-30 19:05:46.749 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Promotions - Prix: N/A
+[19:05:48.804] [APK] 09-30 19:05:46.761 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (249) - Prix: N/A
+[19:05:48.808] [APK] 09-30 19:05:46.762 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+[19:05:48.811] [APK] 09-30 19:05:46.765 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.813] [APK] 09-30 19:05:46.766 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.817] [APK] 09-30 19:05:46.786 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.822] [APK] 09-30 19:05:46.787 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.827] [APK] 09-30 19:05:47.503 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.831] [APK] 09-30 19:05:47.503 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.834] [APK] 09-30 19:05:47.556 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.839] [APK] 09-30 19:05:47.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.842] [APK] 09-30 19:05:47.573 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.855] [APK] 09-30 19:05:47.573 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.859] [APK] 09-30 19:05:47.598 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.862] [APK] 09-30 19:05:47.598 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.865] [APK] 09-30 19:05:47.626 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.870] [APK] 09-30 19:05:47.626 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.876] [APK] 09-30 19:05:47.659 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.879] [APK] 09-30 19:05:47.660 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.884] [APK] 09-30 19:05:47.682 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.888] [APK] 09-30 19:05:47.682 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.893] [APK] 09-30 19:05:47.712 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.897] [APK] 09-30 19:05:47.713 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:48.902] [APK] 09-30 19:05:47.750 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:48.906] [APK] 09-30 19:05:47.751 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:49.413] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[19:05:49.418] [SERVER] node:events:496
+[19:05:49.424] [SERVER] throw er; // Unhandled 'error' event
+[19:05:49.430] [SERVER] ^
+[19:05:49.435] [SERVER] System.Management.Automation.RemoteException
+[19:05:49.442] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[19:05:49.447] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[19:05:49.454] [SERVER] at listenInCluster (node:net:1994:12)
+[19:05:49.460] [SERVER] at Server.listen (node:net:2099:7)
+[19:05:49.466] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[19:05:49.471] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[19:05:49.477] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[19:05:49.482] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[19:05:49.486] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[19:05:49.494] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[19:05:49.498] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[19:05:49.503] [SERVER] Emitted 'error' event on Server instance at:
+[19:05:49.508] [SERVER] at emitErrorNT (node:net:1973:8)
+[19:05:49.513] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[19:05:49.518] [SERVER] code: 'EADDRINUSE',
+[19:05:49.523] [SERVER] errno: -4091,
+[19:05:49.527] [SERVER] syscall: 'listen',
+[19:05:49.532] [SERVER] address: '::',
+[19:05:49.536] [SERVER] port: 3001
+[19:05:49.542] [SERVER] }
+[19:05:49.547] [SERVER] System.Management.Automation.RemoteException
+[19:05:49.552] [SERVER] Node.js v22.14.0
+[19:05:49.762] [APK] --------- beginning of main
+[19:05:49.768] [APK] 09-30 19:05:02.757 12065 12065 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[19:05:49.773] [APK] 09-30 19:05:02.818 12065 12065 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[19:05:49.778] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[19:05:49.783] [APK] 09-30 19:05:02.831 12065 12065 D CrossAppTracking: ≡ƒôï Event types: -1
+[19:05:49.789] [APK] 09-30 19:05:02.833 12065 12065 D CrossAppTracking: ≡ƒôï Flags: 80
+[19:05:49.793] [APK] 09-30 19:05:05.423 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[19:05:49.798] [APK] 09-30 19:05:05.424 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[19:05:49.804] [APK] 09-30 19:05:05.962 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, signal full. - Prix: N/A
+[19:05:49.809] [APK] 09-30 19:05:10.145 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.813] [APK] 09-30 19:05:10.146 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.818] [APK] 09-30 19:05:10.548 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.823] [APK] 09-30 19:05:10.549 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.827] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.832] [APK] 09-30 19:05:10.890 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.836] [APK] 09-30 19:05:10.937 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.842] [APK] 09-30 19:05:10.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.847] [APK] 09-30 19:05:10.980 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[19:05:49.851] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.855] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.860] [APK] 09-30 19:05:10.981 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.863] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[19:05:49.867] [APK] 09-30 19:05:11.068 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[19:05:49.872] [APK] 09-30 19:05:11.107 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.876] [APK] 09-30 19:05:11.393 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.882] [APK] 09-30 19:05:11.440 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.886] [APK] 09-30 19:05:11.482 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.890] [APK] 09-30 19:05:11.569 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.894] [APK] 09-30 19:05:11.606 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[19:05:49.897] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:49.902] [APK] 09-30 19:05:13.451 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:49.906] [APK] 09-30 19:05:13.917 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[19:05:49.910] [APK] 09-30 19:05:13.919 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:49.914] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[19:05:49.918] [APK] 09-30 19:05:14.132 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[19:05:49.924] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[19:05:49.928] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[19:05:49.932] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:49.936] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Apps support├⌐es:
+[19:05:49.941] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[19:05:49.945] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Carrefour
+[19:05:49.949] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Auchan Drive
+[19:05:49.953] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Casino Drive
+[19:05:49.958] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Amazon Shopping
+[19:05:49.963] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Cdiscount
+[19:05:49.967] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: ΓÇó Monoprix
+[19:05:49.972] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking:
+[19:05:49.981] [APK] 09-30 19:05:14.522 12065 12065 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[19:05:49.985] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:49.991] [APK] 09-30 19:05:16.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:49.996] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:49.999] [APK] 09-30 19:05:17.463 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.005] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[19:05:50.010] [APK] 09-30 19:05:17.474 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.013] [APK] 09-30 19:05:17.937 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.017] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.021] [APK] 09-30 19:05:40.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.026] [APK] 09-30 19:05:41.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.030] [APK] 09-30 19:05:41.040 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.035] [APK] 09-30 19:05:41.069 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.040] [APK] 09-30 19:05:41.070 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.045] [APK] 09-30 19:05:41.790 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:50.048] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.051] [APK] 09-30 19:05:41.879 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.056] [APK] 09-30 19:05:41.897 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.060] [APK] 09-30 19:05:41.898 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.063] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.068] [APK] 09-30 19:05:41.902 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.080] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.084] [APK] 09-30 19:05:41.979 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.089] [APK] 09-30 19:05:42.294 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.093] [APK] 09-30 19:05:42.402 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:50.097] [APK] 09-30 19:05:42.405 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:50.101] [APK] 09-30 19:05:42.455 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.106] [APK] 09-30 19:05:42.548 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.110] [APK] 09-30 19:05:42.554 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.113] [APK] 09-30 19:05:42.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.118] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.122] [APK] 09-30 19:05:43.106 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.126] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.130] [APK] 09-30 19:05:43.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.133] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.137] [APK] 09-30 19:05:43.133 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.142] [APK] 09-30 19:05:43.267 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.146] [APK] 09-30 19:05:43.268 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.150] [APK] 09-30 19:05:43.289 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.155] [APK] 09-30 19:05:43.290 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.160] [APK] 09-30 19:05:43.301 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.163] [APK] 09-30 19:05:43.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.167] [APK] 09-30 19:05:43.434 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.173] [APK] 09-30 19:05:43.435 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.177] [APK] 09-30 19:05:43.609 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.181] [APK] 09-30 19:05:43.627 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:50.184] [APK] 09-30 19:05:43.772 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.189] [APK] 09-30 19:05:43.792 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[19:05:50.193] [APK] 09-30 19:05:43.804 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[19:05:50.196] [APK] 09-30 19:05:43.940 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.199] [APK] 09-30 19:05:44.030 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pour des produits d'origine animale, la majeure partie des animaux peuvent consommer des v├⌐g├⌐taux issus d'OGM (colza, soja, ma├»sΓÇª) ├á un moment de leur cycle de vie la r├⌐glementation ne pr├⌐voit pas de donn├⌐es obligatoirement cette information au consommateur. L'administration Fran├ºaise a pr├⌐vu lΓÇÖall├⌐gation "Nourri sans OGM <0,9%" pour les fili├¿res qui font l'effort de supprimer les OGM de l'alimentation des animaux. M├¬me si aucun OGM n'est utilis├⌐ l'administration impose d'indiquer le seuil de 0,9% car une contamination fortuite ne peut-├¬tre totalement exclue. - Prix: N/A
+[19:05:50.203] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.207] [APK] 09-30 19:05:44.276 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.211] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.215] [APK] 09-30 19:05:44.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.219] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.223] [APK] 09-30 19:05:45.052 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.227] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.231] [APK] 09-30 19:05:45.160 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.235] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.240] [APK] 09-30 19:05:45.235 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.244] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.248] [APK] 09-30 19:05:45.329 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.250] [APK] 09-30 19:05:45.342 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.255] [APK] 09-30 19:05:45.343 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.259] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.263] [APK] 09-30 19:05:45.401 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.267] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.272] [APK] 09-30 19:05:45.523 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.276] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.280] [APK] 09-30 19:05:45.804 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.283] [APK] 09-30 19:05:45.922 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.288] [APK] 09-30 19:05:45.923 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.292] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.295] [APK] 09-30 19:05:45.986 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.299] [APK] 09-30 19:05:46.021 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.303] [APK] 09-30 19:05:46.022 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.308] [APK] 09-30 19:05:46.058 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.312] [APK] 09-30 19:05:46.059 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.315] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.319] [APK] 09-30 19:05:46.114 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.323] [APK] 09-30 19:05:46.161 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.329] [APK] 09-30 19:05:46.162 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.333] [APK] 09-30 19:05:46.190 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.338] [APK] 09-30 19:05:46.193 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.343] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.347] [APK] 09-30 19:05:46.221 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.350] [APK] 09-30 19:05:46.282 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.356] [APK] 09-30 19:05:46.283 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.361] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.372] [APK] 09-30 19:05:46.306 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.377] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.381] [APK] 09-30 19:05:46.344 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.384] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.388] [APK] 09-30 19:05:46.396 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.393] [APK] 09-30 19:05:46.427 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.396] [APK] 09-30 19:05:46.428 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.401] [APK] 09-30 19:05:46.446 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.406] [APK] 09-30 19:05:46.448 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.410] [APK] 09-30 19:05:46.472 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.414] [APK] 09-30 19:05:46.472 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.418] [APK] 09-30 19:05:46.500 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.422] [APK] 09-30 19:05:46.501 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.425] [APK] 09-30 19:05:46.537 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.430] [APK] 09-30 19:05:46.538 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.433] [APK] 09-30 19:05:46.550 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.437] [APK] 09-30 19:05:46.552 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.442] [APK] 09-30 19:05:46.572 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.445] [APK] 09-30 19:05:46.572 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.449] [APK] 09-30 19:05:46.584 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.453] [APK] 09-30 19:05:46.584 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.458] [APK] 09-30 19:05:46.592 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.463] [APK] 09-30 19:05:46.592 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.467] [APK] 09-30 19:05:46.601 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.471] [APK] 09-30 19:05:46.602 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.474] [APK] 09-30 19:05:46.610 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.478] [APK] 09-30 19:05:46.611 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.482] [APK] 09-30 19:05:46.622 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.489] [APK] 09-30 19:05:46.623 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.493] [APK] 09-30 19:05:46.634 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.496] [APK] 09-30 19:05:46.634 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.501] [APK] 09-30 19:05:46.637 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.505] [APK] 09-30 19:05:46.638 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.510] [APK] 09-30 19:05:46.647 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.514] [APK] 09-30 19:05:46.648 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.519] [APK] 09-30 19:05:46.657 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.524] [APK] 09-30 19:05:46.657 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.529] [APK] 09-30 19:05:46.667 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.535] [APK] 09-30 19:05:46.667 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.540] [APK] 09-30 19:05:46.676 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.545] [APK] 09-30 19:05:46.676 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.549] [APK] 09-30 19:05:46.684 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.553] [APK] 09-30 19:05:46.684 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.559] [APK] 09-30 19:05:46.692 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.563] [APK] 09-30 19:05:46.693 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.569] [APK] 09-30 19:05:46.697 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.575] [APK] 09-30 19:05:46.697 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.580] [APK] 09-30 19:05:46.701 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.584] [APK] 09-30 19:05:46.702 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.589] [APK] 09-30 19:05:46.708 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.593] [APK] 09-30 19:05:46.708 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.598] [APK] 09-30 19:05:46.717 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Smoothie Fraise Banane - Prix: N/A
+[19:05:50.603] [APK] 09-30 19:05:46.718 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[19:05:50.608] [APK] 09-30 19:05:46.726 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[19:05:50.612] [APK] 09-30 19:05:46.729 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/U
+[19:05:50.616] [APK] 09-30 19:05:46.740 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+[19:05:50.620] [APK] 09-30 19:05:46.749 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Promotions - Prix: N/A
+[19:05:50.626] [APK] 09-30 19:05:46.761 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (249) - Prix: N/A
+[19:05:50.631] [APK] 09-30 19:05:46.762 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+[19:05:50.636] [APK] 09-30 19:05:46.765 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.640] [APK] 09-30 19:05:46.766 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.645] [APK] 09-30 19:05:46.786 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.650] [APK] 09-30 19:05:46.787 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.654] [APK] 09-30 19:05:47.503 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.658] [APK] 09-30 19:05:47.503 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.662] [APK] 09-30 19:05:47.556 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.666] [APK] 09-30 19:05:47.556 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.669] [APK] 09-30 19:05:47.573 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.673] [APK] 09-30 19:05:47.573 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.677] [APK] 09-30 19:05:47.598 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.680] [APK] 09-30 19:05:47.598 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.685] [APK] 09-30 19:05:47.626 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.690] [APK] 09-30 19:05:47.626 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.694] [APK] 09-30 19:05:47.659 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.699] [APK] 09-30 19:05:47.660 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.702] [APK] 09-30 19:05:47.682 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.706] [APK] 09-30 19:05:47.682 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.710] [APK] 09-30 19:05:47.712 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.715] [APK] 09-30 19:05:47.713 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.718] [APK] 09-30 19:05:47.750 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.723] [APK] 09-30 19:05:47.751 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.727] [APK] 09-30 19:05:47.785 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.731] [APK] 09-30 19:05:47.785 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.735] [APK] 09-30 19:05:47.835 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.739] [APK] 09-30 19:05:47.835 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.745] [APK] 09-30 19:05:47.862 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.748] [APK] 09-30 19:05:47.862 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.755] [APK] 09-30 19:05:47.883 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.760] [APK] 09-30 19:05:47.883 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.765] [APK] 09-30 19:05:47.906 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.769] [APK] 09-30 19:05:47.906 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.774] [APK] 09-30 19:05:47.952 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.778] [APK] 09-30 19:05:47.952 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.783] [APK] 09-30 19:05:48.019 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.787] [APK] 09-30 19:05:48.019 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.793] [APK] 09-30 19:05:48.061 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.796] [APK] 09-30 19:05:48.061 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.809] [APK] 09-30 19:05:48.278 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.813] [APK] 09-30 19:05:48.278 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.817] [APK] 09-30 19:05:48.302 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.822] [APK] 09-30 19:05:48.302 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.829] [APK] 09-30 19:05:48.318 12065 12065 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Une liste de suggestions est disponible sous le champ. Cette liste se met ├á jour lorsque vous entrez des caract├¿res dans le champ. Balayez vers la droite sur l'├⌐cran pour acc├⌐der ├á la liste - Prix: N/A
+[19:05:50.835] [APK] 09-30 19:05:48.318 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.840] [APK] 09-30 19:05:48.318 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.844] [APK] 09-30 19:05:48.412 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 8 - com.carrefour.fid.android
+[19:05:50.848] [APK] 09-30 19:05:48.412 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.852] [APK] 09-30 19:05:48.412 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.857] [APK] 09-30 19:05:48.412 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.862] [APK] 09-30 19:05:48.430 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.867] [APK] 09-30 19:05:48.430 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.873] [APK] 09-30 19:05:48.486 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.879] [APK] 09-30 19:05:48.486 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.884] [APK] 09-30 19:05:48.490 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.891] [APK] 09-30 19:05:48.490 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.896] [APK] 09-30 19:05:48.501 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.901] [APK] 09-30 19:05:48.502 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.906] [APK] 09-30 19:05:48.514 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.910] [APK] 09-30 19:05:48.514 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.915] [APK] 09-30 19:05:48.533 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.919] [APK] 09-30 19:05:48.533 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.924] [APK] 09-30 19:05:48.546 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.929] [APK] 09-30 19:05:48.546 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.934] [APK] 09-30 19:05:48.553 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.939] [APK] 09-30 19:05:48.553 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.943] [APK] 09-30 19:05:48.565 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.947] [APK] 09-30 19:05:48.565 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.953] [APK] 09-30 19:05:48.574 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.958] [APK] 09-30 19:05:48.574 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.963] [APK] 09-30 19:05:48.582 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.967] [APK] 09-30 19:05:48.582 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.971] [APK] 09-30 19:05:48.585 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.977] [APK] 09-30 19:05:48.586 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.981] [APK] 09-30 19:05:48.590 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.985] [APK] 09-30 19:05:48.590 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:50.992] [APK] 09-30 19:05:48.603 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:50.997] [APK] 09-30 19:05:48.603 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.003] [APK] 09-30 19:05:48.611 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.008] [APK] 09-30 19:05:48.612 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.013] [APK] 09-30 19:05:48.620 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.017] [APK] 09-30 19:05:48.620 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.023] [APK] 09-30 19:05:48.623 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.028] [APK] 09-30 19:05:48.623 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.032] [APK] 09-30 19:05:48.632 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.037] [APK] 09-30 19:05:48.632 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.041] [APK] 09-30 19:05:48.638 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.046] [APK] 09-30 19:05:48.640 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.051] [APK] 09-30 19:05:48.789 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.056] [APK] 09-30 19:05:48.789 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.061] [APK] 09-30 19:05:48.792 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.067] [APK] 09-30 19:05:48.792 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.075] [APK] 09-30 19:05:48.798 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.079] [APK] 09-30 19:05:48.806 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.085] [APK] 09-30 19:05:48.815 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.090] [APK] 09-30 19:05:48.815 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.095] [APK] 09-30 19:05:48.933 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.099] [APK] 09-30 19:05:48.933 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.102] [APK] 09-30 19:05:48.938 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.inputmethod.latin
+[19:05:51.108] [APK] 09-30 19:05:48.938 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.inputmethod.latin
+[19:05:51.113] [APK] 09-30 19:05:48.939 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.118] [APK] 09-30 19:05:48.939 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.123] [APK] 09-30 19:05:48.988 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.128] [APK] 09-30 19:05:48.988 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.132] [APK] 09-30 19:05:48.997 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.136] [APK] 09-30 19:05:48.997 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.141] [APK] 09-30 19:05:49.001 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.146] [APK] 09-30 19:05:49.001 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.150] [APK] 09-30 19:05:49.004 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.155] [APK] 09-30 19:05:49.004 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.160] [APK] 09-30 19:05:49.038 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.165] [APK] 09-30 19:05:49.039 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.168] [APK] 09-30 19:05:49.112 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.174] [APK] 09-30 19:05:49.112 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.178] [APK] 09-30 19:05:49.125 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.181] [APK] 09-30 19:05:49.125 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.185] [APK] 09-30 19:05:49.138 12065 12065 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[19:05:51.191] [APK] 09-30 19:05:49.138 12065 12065 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[19:05:51.696] [SYSTEM] Stopping monitoring...
+[19:06:11.823] [SYSTEM] Monitoring completed

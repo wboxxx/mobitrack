@@ -1,0 +1,936 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-09-30 20:21:16
+Duration: 10 seconds
+========================================
+
+[20:21:16.808] [SYSTEM] Starting Node.js server...
+[20:21:19.962] [SYSTEM] Node.js server started (Job ID: 5)
+[20:21:19.965] [SYSTEM] Starting APK log capture...
+[20:21:21.109] [SYSTEM] APK log capture started (Job ID: 7)
+[20:21:21.111] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[20:21:21.116] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:21.118] [SERVER] node:events:496
+[20:21:21.122] [SERVER] throw er; // Unhandled 'error' event
+[20:21:21.124] [SERVER] ^
+[20:21:21.127] [SERVER] System.Management.Automation.RemoteException
+[20:21:21.131] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:21.134] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:21.138] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:21.141] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:21.145] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:21.149] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:21.153] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:21.156] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:21.159] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:21.165] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:21.169] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:21.173] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:21.175] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:21.179] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:21.183] [SERVER] code: 'EADDRINUSE',
+[20:21:21.186] [SERVER] errno: -4091,
+[20:21:21.190] [SERVER] syscall: 'listen',
+[20:21:21.195] [SERVER] address: '::',
+[20:21:21.201] [SERVER] port: 3001
+[20:21:21.205] [SERVER] }
+[20:21:21.208] [SERVER] System.Management.Automation.RemoteException
+[20:21:21.212] [SERVER] Node.js v22.14.0
+[20:21:21.218] [APK] --------- beginning of main
+[20:21:21.222] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:21.225] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:21.230] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:21.236] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:21.239] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:21.244] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:21.249] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:21.253] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:21.256] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:21.258] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:21.263] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:21.268] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:21.272] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:21.276] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:21.283] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:21.288] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:21.291] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:21.298] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:21.301] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:21.304] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:21.306] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:21.310] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:21.315] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:21.318] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:21.321] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:21.323] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:21.325] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:21.329] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:21.334] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:21.338] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:21.342] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:21.348] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:21.354] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:21.358] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:21.363] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:21.367] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:21.374] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:21.377] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:21.381] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:21.385] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:21.389] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:21.392] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:21.395] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:21.400] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:21.403] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:21.908] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:21.912] [SERVER] node:events:496
+[20:21:21.915] [SERVER] throw er; // Unhandled 'error' event
+[20:21:21.918] [SERVER] ^
+[20:21:21.921] [SERVER] System.Management.Automation.RemoteException
+[20:21:21.924] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:21.928] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:21.932] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:21.936] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:21.941] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:21.946] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:21.951] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:21.955] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:21.958] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:21.961] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:21.966] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:21.968] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:21.972] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:21.974] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:21.976] [SERVER] code: 'EADDRINUSE',
+[20:21:21.982] [SERVER] errno: -4091,
+[20:21:21.986] [SERVER] syscall: 'listen',
+[20:21:21.989] [SERVER] address: '::',
+[20:21:21.992] [SERVER] port: 3001
+[20:21:21.997] [SERVER] }
+[20:21:22.002] [SERVER] System.Management.Automation.RemoteException
+[20:21:22.005] [SERVER] Node.js v22.14.0
+[20:21:22.014] [APK] --------- beginning of main
+[20:21:22.018] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:22.022] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:22.025] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:22.032] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:22.037] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:22.043] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.051] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.055] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.058] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.061] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:22.066] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.070] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.073] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.077] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.082] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.087] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.090] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.093] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.098] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.102] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:22.106] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.110] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:22.115] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.119] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:22.123] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.129] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:22.134] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:22.140] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:22.146] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:22.151] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:22.155] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:22.158] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:22.162] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:22.168] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:22.172] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:22.175] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:22.181] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:22.193] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:22.196] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:22.203] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:22.208] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:22.215] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:22.220] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:22.224] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:22.229] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:22.735] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:22.739] [SERVER] node:events:496
+[20:21:22.742] [SERVER] throw er; // Unhandled 'error' event
+[20:21:22.746] [SERVER] ^
+[20:21:22.749] [SERVER] System.Management.Automation.RemoteException
+[20:21:22.751] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:22.754] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:22.756] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:22.759] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:22.764] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:22.768] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:22.771] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:22.774] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:22.777] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:22.780] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:22.783] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:22.785] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:22.787] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:22.791] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:22.796] [SERVER] code: 'EADDRINUSE',
+[20:21:22.801] [SERVER] errno: -4091,
+[20:21:22.806] [SERVER] syscall: 'listen',
+[20:21:22.810] [SERVER] address: '::',
+[20:21:22.817] [SERVER] port: 3001
+[20:21:22.821] [SERVER] }
+[20:21:22.824] [SERVER] System.Management.Automation.RemoteException
+[20:21:22.829] [SERVER] Node.js v22.14.0
+[20:21:22.855] [APK] --------- beginning of main
+[20:21:22.858] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:22.863] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:22.867] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:22.872] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:22.878] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:22.885] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.890] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.895] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.901] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.905] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:22.911] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.917] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.922] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.927] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:22.932] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:22.937] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.940] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.943] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.949] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:22.954] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:22.958] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.965] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:22.971] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.975] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:22.982] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:22.986] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:22.990] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:22.995] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:23.000] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:23.003] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:23.008] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:23.013] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:23.018] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:23.022] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:23.026] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:23.032] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:23.036] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:23.041] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:23.046] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:23.051] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.056] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:23.059] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.066] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:23.070] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.074] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:23.080] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:23.085] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.593] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:23.600] [SERVER] node:events:496
+[20:21:23.604] [SERVER] throw er; // Unhandled 'error' event
+[20:21:23.610] [SERVER] ^
+[20:21:23.616] [SERVER] System.Management.Automation.RemoteException
+[20:21:23.622] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:23.627] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:23.635] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:23.641] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:23.646] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:23.653] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:23.660] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:23.667] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:23.672] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:23.677] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:23.685] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:23.690] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:23.696] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:23.704] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:23.709] [SERVER] code: 'EADDRINUSE',
+[20:21:23.715] [SERVER] errno: -4091,
+[20:21:23.721] [SERVER] syscall: 'listen',
+[20:21:23.726] [SERVER] address: '::',
+[20:21:23.731] [SERVER] port: 3001
+[20:21:23.736] [SERVER] }
+[20:21:23.742] [SERVER] System.Management.Automation.RemoteException
+[20:21:23.748] [SERVER] Node.js v22.14.0
+[20:21:23.762] [APK] --------- beginning of main
+[20:21:23.767] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:23.771] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:23.775] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:23.781] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:23.786] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:23.790] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:23.796] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:23.802] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:23.806] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:23.811] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:23.816] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:23.820] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:23.834] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:23.839] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:23.843] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:23.848] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:23.853] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:23.858] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:23.863] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:23.869] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:23.875] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:23.881] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:23.886] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:23.890] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:23.893] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:23.900] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:23.905] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:23.909] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:23.915] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:23.920] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:23.924] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:23.929] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:23.934] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:23.938] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:23.942] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:23.946] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:23.950] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:23.954] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:23.958] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:23.964] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.968] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:23.973] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.979] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:23.983] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:23.988] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:23.993] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:23.998] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:24.002] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:24.508] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:24.514] [SERVER] node:events:496
+[20:21:24.518] [SERVER] throw er; // Unhandled 'error' event
+[20:21:24.525] [SERVER] ^
+[20:21:24.531] [SERVER] System.Management.Automation.RemoteException
+[20:21:24.536] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:24.541] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:24.546] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:24.552] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:24.557] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:24.562] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:24.567] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:24.572] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:24.577] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:24.583] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:24.588] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:24.593] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:24.599] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:24.604] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:24.609] [SERVER] code: 'EADDRINUSE',
+[20:21:24.615] [SERVER] errno: -4091,
+[20:21:24.619] [SERVER] syscall: 'listen',
+[20:21:24.626] [SERVER] address: '::',
+[20:21:24.632] [SERVER] port: 3001
+[20:21:24.636] [SERVER] }
+[20:21:24.640] [SERVER] System.Management.Automation.RemoteException
+[20:21:24.645] [SERVER] Node.js v22.14.0
+[20:21:24.659] [APK] --------- beginning of main
+[20:21:24.664] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:24.670] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:24.676] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:24.681] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:24.685] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:24.689] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:24.694] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:24.700] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:24.704] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:24.708] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:24.713] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:24.717] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:24.723] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:24.728] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:24.733] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:24.738] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:24.742] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:24.748] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:24.754] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:24.759] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:24.765] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:24.770] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:24.774] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:24.778] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:24.783] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:24.786] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:24.791] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:24.797] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:24.802] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:24.806] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:24.811] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:24.816] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:24.821] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:24.825] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:24.829] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:24.835] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:24.839] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:24.843] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:24.847] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:24.851] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:24.855] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:24.859] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:24.866] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:24.870] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:24.875] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:24.880] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:24.884] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:24.889] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:25.396] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:25.401] [SERVER] node:events:496
+[20:21:25.405] [SERVER] throw er; // Unhandled 'error' event
+[20:21:25.408] [SERVER] ^
+[20:21:25.413] [SERVER] System.Management.Automation.RemoteException
+[20:21:25.423] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:25.426] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:25.435] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:25.440] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:25.445] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:25.453] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:25.458] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:25.466] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:25.472] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:25.478] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:25.485] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:25.491] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:25.497] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:25.502] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:25.508] [SERVER] code: 'EADDRINUSE',
+[20:21:25.514] [SERVER] errno: -4091,
+[20:21:25.519] [SERVER] syscall: 'listen',
+[20:21:25.524] [SERVER] address: '::',
+[20:21:25.529] [SERVER] port: 3001
+[20:21:25.534] [SERVER] }
+[20:21:25.539] [SERVER] System.Management.Automation.RemoteException
+[20:21:25.544] [SERVER] Node.js v22.14.0
+[20:21:25.555] [APK] --------- beginning of main
+[20:21:25.558] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:25.563] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:25.568] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:25.572] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:25.575] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:25.581] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:25.585] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:25.589] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:25.593] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:25.598] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:25.603] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:25.607] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:25.612] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:25.617] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:25.621] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:25.625] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:25.632] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:25.636] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:25.641] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:25.645] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:25.650] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:25.654] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:25.658] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:25.664] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:25.669] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:25.673] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:25.679] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:25.683] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:25.688] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:25.693] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:25.698] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:25.702] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:25.706] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:25.710] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:25.717] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:25.721] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:25.726] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:25.731] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:25.736] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:25.741] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:25.747] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:25.752] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:25.756] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:25.761] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:25.767] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:25.771] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:25.775] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:25.780] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:26.287] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:26.293] [SERVER] node:events:496
+[20:21:26.300] [SERVER] throw er; // Unhandled 'error' event
+[20:21:26.306] [SERVER] ^
+[20:21:26.315] [SERVER] System.Management.Automation.RemoteException
+[20:21:26.321] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:26.328] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:26.334] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:26.340] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:26.346] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:26.353] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:26.357] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:26.364] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:26.369] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:26.375] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:26.381] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:26.385] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:26.391] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:26.396] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:26.403] [SERVER] code: 'EADDRINUSE',
+[20:21:26.408] [SERVER] errno: -4091,
+[20:21:26.413] [SERVER] syscall: 'listen',
+[20:21:26.418] [SERVER] address: '::',
+[20:21:26.423] [SERVER] port: 3001
+[20:21:26.428] [SERVER] }
+[20:21:26.433] [SERVER] System.Management.Automation.RemoteException
+[20:21:26.438] [SERVER] Node.js v22.14.0
+[20:21:26.451] [APK] --------- beginning of main
+[20:21:26.455] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:26.460] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:26.466] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:26.471] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:26.475] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:26.482] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:26.487] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:26.492] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:26.498] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:26.503] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:26.508] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:26.518] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:26.523] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:26.528] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:26.533] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:26.537] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:26.543] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:26.548] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:26.551] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:26.557] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:26.560] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:26.566] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:26.572] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:26.576] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:26.582] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:26.586] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:26.590] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:26.595] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:26.599] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:26.603] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:26.608] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:26.614] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:26.619] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:26.624] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:26.630] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:26.635] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:26.640] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:26.644] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:26.651] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:26.654] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:26.658] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:26.664] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:26.669] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:26.673] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:26.678] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:26.683] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:26.687] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:26.691] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:26.696] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:26.700] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:26.704] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:27.218] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:27.226] [SERVER] node:events:496
+[20:21:27.234] [SERVER] throw er; // Unhandled 'error' event
+[20:21:27.240] [SERVER] ^
+[20:21:27.246] [SERVER] System.Management.Automation.RemoteException
+[20:21:27.253] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:27.261] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:27.269] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:27.274] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:27.278] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:27.284] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:27.290] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:27.295] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:27.300] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:27.306] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:27.312] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:27.318] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:27.324] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:27.330] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:27.336] [SERVER] code: 'EADDRINUSE',
+[20:21:27.340] [SERVER] errno: -4091,
+[20:21:27.345] [SERVER] syscall: 'listen',
+[20:21:27.351] [SERVER] address: '::',
+[20:21:27.354] [SERVER] port: 3001
+[20:21:27.357] [SERVER] }
+[20:21:27.362] [SERVER] System.Management.Automation.RemoteException
+[20:21:27.367] [SERVER] Node.js v22.14.0
+[20:21:27.382] [APK] --------- beginning of main
+[20:21:27.388] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:27.391] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:27.393] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:27.398] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:27.403] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:27.407] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:27.411] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:27.416] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:27.420] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:27.425] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:27.430] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:27.434] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:27.438] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:27.441] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:27.446] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:27.451] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:27.455] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:27.459] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:27.465] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:27.469] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:27.473] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:27.478] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:27.484] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:27.488] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:27.493] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:27.497] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:27.501] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:27.504] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:27.508] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:27.515] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:27.518] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:27.523] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:27.527] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:27.532] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:27.537] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:27.541] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:27.548] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:27.551] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:27.555] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:27.558] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:27.563] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:27.567] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:27.571] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:27.575] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:27.580] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:27.585] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:27.590] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:27.594] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:27.600] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:27.604] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:27.607] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:28.112] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:28.118] [SERVER] node:events:496
+[20:21:28.126] [SERVER] throw er; // Unhandled 'error' event
+[20:21:28.134] [SERVER] ^
+[20:21:28.139] [SERVER] System.Management.Automation.RemoteException
+[20:21:28.145] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:28.151] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:28.156] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:28.162] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:28.170] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:28.175] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:28.182] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:28.191] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:28.196] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:28.203] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:28.210] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:28.215] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:28.222] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:28.227] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:28.230] [SERVER] code: 'EADDRINUSE',
+[20:21:28.236] [SERVER] errno: -4091,
+[20:21:28.242] [SERVER] syscall: 'listen',
+[20:21:28.250] [SERVER] address: '::',
+[20:21:28.257] [SERVER] port: 3001
+[20:21:28.262] [SERVER] }
+[20:21:28.268] [SERVER] System.Management.Automation.RemoteException
+[20:21:28.274] [SERVER] Node.js v22.14.0
+[20:21:28.290] [APK] --------- beginning of main
+[20:21:28.295] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:28.300] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:28.306] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:28.310] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:28.315] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:28.320] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:28.326] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:28.332] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:28.336] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:28.340] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:28.346] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:28.351] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:28.357] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:28.363] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:28.368] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:28.373] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:28.376] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:28.383] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:28.388] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:28.394] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:28.399] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:28.403] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:28.406] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:28.411] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:28.418] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:28.422] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:28.428] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:28.435] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:28.440] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:28.443] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:28.449] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:28.453] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:28.457] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:28.462] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:28.467] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:28.471] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:28.475] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:28.480] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:28.486] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:28.490] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:28.494] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:28.500] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:28.504] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:28.509] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:28.515] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:28.520] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:28.525] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:28.530] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:28.535] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:28.539] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:28.543] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:29.052] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:29.057] [SERVER] node:events:496
+[20:21:29.061] [SERVER] throw er; // Unhandled 'error' event
+[20:21:29.068] [SERVER] ^
+[20:21:29.076] [SERVER] System.Management.Automation.RemoteException
+[20:21:29.083] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:29.088] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:29.095] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:29.102] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:29.107] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:29.112] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:29.119] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:29.124] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:29.131] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:29.137] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:29.143] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:29.149] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:29.154] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:29.158] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:29.165] [SERVER] code: 'EADDRINUSE',
+[20:21:29.171] [SERVER] errno: -4091,
+[20:21:29.176] [SERVER] syscall: 'listen',
+[20:21:29.181] [SERVER] address: '::',
+[20:21:29.186] [SERVER] port: 3001
+[20:21:29.191] [SERVER] }
+[20:21:29.196] [SERVER] System.Management.Automation.RemoteException
+[20:21:29.202] [SERVER] Node.js v22.14.0
+[20:21:29.211] [APK] --------- beginning of main
+[20:21:29.216] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:29.222] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:29.227] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:29.233] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:29.237] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:29.241] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:29.247] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:29.253] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:29.258] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:29.261] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:29.267] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:29.271] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:29.276] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:29.281] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:29.286] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:29.291] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:29.296] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:29.300] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:29.305] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:29.309] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:29.314] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:29.320] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:29.326] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:29.332] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:29.336] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:29.340] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:29.343] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:29.347] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:29.353] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:29.357] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:29.361] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:29.367] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:29.371] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:29.374] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:29.379] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:29.387] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:29.391] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:29.397] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:29.402] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:29.406] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:29.411] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:29.417] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:29.421] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:29.426] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:29.431] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:29.435] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:29.440] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:29.443] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:29.448] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:29.453] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:29.458] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:29.969] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:29.975] [SERVER] node:events:496
+[20:21:29.982] [SERVER] throw er; // Unhandled 'error' event
+[20:21:29.989] [SERVER] ^
+[20:21:29.996] [SERVER] System.Management.Automation.RemoteException
+[20:21:30.002] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:30.010] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:30.015] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:30.021] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:30.027] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:30.035] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:30.041] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:30.050] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:30.056] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:30.063] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:30.070] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:30.076] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:30.084] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:30.089] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:30.094] [SERVER] code: 'EADDRINUSE',
+[20:21:30.102] [SERVER] errno: -4091,
+[20:21:30.109] [SERVER] syscall: 'listen',
+[20:21:30.114] [SERVER] address: '::',
+[20:21:30.119] [SERVER] port: 3001
+[20:21:30.123] [SERVER] }
+[20:21:30.128] [SERVER] System.Management.Automation.RemoteException
+[20:21:30.134] [SERVER] Node.js v22.14.0
+[20:21:30.147] [APK] --------- beginning of main
+[20:21:30.152] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:30.157] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:30.163] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:30.168] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:30.173] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:30.179] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:30.184] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:30.190] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:30.196] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:30.202] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:30.207] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:30.211] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:30.217] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:30.221] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:30.225] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:30.231] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:30.236] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:30.240] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:30.244] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:30.248] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:30.253] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:30.258] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:30.263] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:30.268] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:30.273] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:30.277] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:30.282] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:30.286] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:30.291] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:30.296] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:30.305] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:30.311] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:30.320] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:30.323] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:30.329] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:30.335] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:30.340] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:30.348] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:30.353] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:30.357] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:30.361] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:30.366] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:30.370] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:30.375] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:30.380] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:30.384] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:30.388] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:30.392] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:30.397] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:30.401] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:30.406] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:30.913] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[20:21:30.919] [SERVER] node:events:496
+[20:21:30.924] [SERVER] throw er; // Unhandled 'error' event
+[20:21:30.930] [SERVER] ^
+[20:21:30.936] [SERVER] System.Management.Automation.RemoteException
+[20:21:30.941] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[20:21:30.948] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[20:21:30.953] [SERVER] at listenInCluster (node:net:1994:12)
+[20:21:30.959] [SERVER] at Server.listen (node:net:2099:7)
+[20:21:30.965] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1014:8)
+[20:21:30.971] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[20:21:30.978] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[20:21:30.985] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[20:21:30.992] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[20:21:30.997] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[20:21:31.004] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[20:21:31.009] [SERVER] Emitted 'error' event on Server instance at:
+[20:21:31.016] [SERVER] at emitErrorNT (node:net:1973:8)
+[20:21:31.024] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[20:21:31.030] [SERVER] code: 'EADDRINUSE',
+[20:21:31.035] [SERVER] errno: -4091,
+[20:21:31.040] [SERVER] syscall: 'listen',
+[20:21:31.046] [SERVER] address: '::',
+[20:21:31.051] [SERVER] port: 3001
+[20:21:31.058] [SERVER] }
+[20:21:31.063] [SERVER] System.Management.Automation.RemoteException
+[20:21:31.068] [SERVER] Node.js v22.14.0
+[20:21:31.078] [APK] --------- beginning of main
+[20:21:31.085] [APK] 09-30 20:21:02.168 14413 14413 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[20:21:31.089] [APK] 09-30 20:21:02.291 14413 14413 D CrossAppTracking: ≡ƒÜÇ Accessibility Service connect├⌐ !
+[20:21:31.094] [APK] 09-30 20:21:02.301 14413 14413 D CrossAppTracking: Service d'accessibilit├⌐ configur├⌐ pour TOUTES les apps
+[20:21:31.100] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Event types: -1
+[20:21:31.104] [APK] 09-30 20:21:02.302 14413 14413 D CrossAppTracking: ≡ƒôï Flags: 80
+[20:21:31.108] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:31.112] [APK] 09-30 20:21:07.702 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:31.117] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:31.122] [APK] 09-30 20:21:08.089 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:31.127] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.google.android.apps.nexuslauncher
+[20:21:31.132] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:31.138] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:31.142] [APK] 09-30 20:21:08.175 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:31.148] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.google.android.apps.nexuslauncher
+[20:21:31.153] [APK] 09-30 20:21:08.235 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.google.android.apps.nexuslauncher
+[20:21:31.157] [APK] 09-30 20:21:08.594 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:31.164] [APK] 09-30 20:21:08.677 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:31.169] [APK] 09-30 20:21:08.738 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:31.174] [APK] 09-30 20:21:08.795 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Intermarch├⌐ has 1 notification - Prix: N/A
+[20:21:31.181] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:31.186] [APK] 09-30 20:21:10.650 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:31.190] [APK] 09-30 20:21:11.181 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.bascule.leclerctracking
+[20:21:31.195] [APK] 09-30 20:21:11.182 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:31.200] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[20:21:31.206] [APK] 09-30 20:21:11.378 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[20:21:31.214] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[20:21:31.219] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[20:21:31.222] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:31.227] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Apps support├⌐es:
+[20:21:31.233] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[20:21:31.236] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Carrefour
+[20:21:31.241] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Auchan Drive
+[20:21:31.246] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Casino Drive
+[20:21:31.251] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Amazon Shopping
+[20:21:31.255] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Cdiscount
+[20:21:31.259] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: ΓÇó Monoprix
+[20:21:31.265] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking:
+[20:21:31.269] [APK] 09-30 20:21:11.762 14413 14413 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[20:21:31.273] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:31.280] [APK] 09-30 20:21:13.698 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:31.284] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:31.289] [APK] 09-30 20:21:14.636 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:31.293] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[20:21:31.299] [APK] 09-30 20:21:14.644 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:31.303] [APK] 09-30 20:21:15.141 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:31.307] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[20:21:31.311] [APK] 09-30 20:21:22.440 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[20:21:31.316] [APK] 09-30 20:21:23.690 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,48 sur 5 par les utilisateurs, 249 avis, aller ├á la r├⌐partition des avis - Prix: 1,99Γé¼/KG
+[20:21:31.319] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.android.systemui
+[20:21:31.322] [APK] 09-30 20:21:25.537 14413 14413 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.android.systemui
+[20:21:31.327] [APK] 09-30 20:21:26.062 14413 14413 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: T-Mobile, two bars. - Prix: N/A
+[20:21:31.831] [SYSTEM] Stopping monitoring...
+[20:21:53.544] [SYSTEM] Monitoring completed
