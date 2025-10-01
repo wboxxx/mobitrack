@@ -1,0 +1,988 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 15:59:57
+Duration: 15 seconds
+========================================
+
+[15:59:57.443] [SYSTEM] Starting Node.js server...
+[16:00:00.672] [SYSTEM] Node.js server started (Job ID: 1)
+[16:00:00.675] [SYSTEM] Starting APK log capture...
+[16:00:01.818] [SYSTEM] APK log capture started (Job ID: 3)
+[16:00:01.820] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[16:00:02.183] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:02.186] [SERVER] node:events:496
+[16:00:02.189] [SERVER] throw er; // Unhandled 'error' event
+[16:00:02.192] [SERVER] ^
+[16:00:02.196] [SERVER] System.Management.Automation.RemoteException
+[16:00:02.224] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:02.226] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:02.229] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:02.230] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:02.232] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:02.233] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:02.235] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:02.238] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:02.240] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:02.242] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:02.245] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:02.246] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:02.247] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:02.250] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:02.252] [SERVER] code: 'EADDRINUSE',
+[16:00:02.255] [SERVER] errno: -4091,
+[16:00:02.257] [SERVER] syscall: 'listen',
+[16:00:02.259] [SERVER] address: '::',
+[16:00:02.260] [SERVER] port: 3001
+[16:00:02.262] [SERVER] }
+[16:00:02.264] [SERVER] System.Management.Automation.RemoteException
+[16:00:02.267] [SERVER] Node.js v22.14.0
+[16:00:02.270] [APK] --------- beginning of main
+[16:00:02.272] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.274] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:02.276] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:02.279] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.280] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.282] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:02.284] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:02.286] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:02.288] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.289] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:02.292] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:02.815] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:02.819] [SERVER] node:events:496
+[16:00:02.822] [SERVER] throw er; // Unhandled 'error' event
+[16:00:02.824] [SERVER] ^
+[16:00:02.827] [SERVER] System.Management.Automation.RemoteException
+[16:00:02.832] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:02.833] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:02.835] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:02.837] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:02.839] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:02.841] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:02.843] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:02.846] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:02.848] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:02.850] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:02.853] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:02.854] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:02.858] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:02.860] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:02.864] [SERVER] code: 'EADDRINUSE',
+[16:00:02.866] [SERVER] errno: -4091,
+[16:00:02.868] [SERVER] syscall: 'listen',
+[16:00:02.873] [SERVER] address: '::',
+[16:00:02.876] [SERVER] port: 3001
+[16:00:02.879] [SERVER] }
+[16:00:02.881] [SERVER] System.Management.Automation.RemoteException
+[16:00:02.884] [SERVER] Node.js v22.14.0
+[16:00:02.894] [APK] --------- beginning of main
+[16:00:02.897] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.900] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:02.903] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:02.907] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.910] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.913] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:02.916] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:02.917] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:02.919] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:02.922] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:02.925] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:03.430] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:03.434] [SERVER] node:events:496
+[16:00:03.436] [SERVER] throw er; // Unhandled 'error' event
+[16:00:03.438] [SERVER] ^
+[16:00:03.440] [SERVER] System.Management.Automation.RemoteException
+[16:00:03.442] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:03.445] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:03.448] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:03.449] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:03.451] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:03.454] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:03.457] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:03.461] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:03.464] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:03.465] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:03.468] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:03.471] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:03.481] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:03.484] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:03.486] [SERVER] code: 'EADDRINUSE',
+[16:00:03.488] [SERVER] errno: -4091,
+[16:00:03.490] [SERVER] syscall: 'listen',
+[16:00:03.491] [SERVER] address: '::',
+[16:00:03.495] [SERVER] port: 3001
+[16:00:03.497] [SERVER] }
+[16:00:03.499] [SERVER] System.Management.Automation.RemoteException
+[16:00:03.500] [SERVER] Node.js v22.14.0
+[16:00:03.502] [APK] --------- beginning of main
+[16:00:03.504] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:03.507] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:03.508] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:03.510] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:03.512] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:03.514] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:03.515] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:03.518] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:03.520] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:03.522] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:03.524] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:04.034] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:04.037] [SERVER] node:events:496
+[16:00:04.040] [SERVER] throw er; // Unhandled 'error' event
+[16:00:04.044] [SERVER] ^
+[16:00:04.047] [SERVER] System.Management.Automation.RemoteException
+[16:00:04.049] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:04.051] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:04.053] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:04.058] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:04.061] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:04.063] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:04.065] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:04.067] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:04.070] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:04.072] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:04.074] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:04.076] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:04.082] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:04.085] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:04.086] [SERVER] code: 'EADDRINUSE',
+[16:00:04.088] [SERVER] errno: -4091,
+[16:00:04.091] [SERVER] syscall: 'listen',
+[16:00:04.108] [SERVER] address: '::',
+[16:00:04.112] [SERVER] port: 3001
+[16:00:04.113] [SERVER] }
+[16:00:04.115] [SERVER] System.Management.Automation.RemoteException
+[16:00:04.116] [SERVER] Node.js v22.14.0
+[16:00:04.119] [APK] --------- beginning of main
+[16:00:04.122] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.124] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:04.125] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:04.127] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.130] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.132] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:04.132] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:04.135] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:04.137] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.139] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:04.140] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:04.658] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:04.661] [SERVER] node:events:496
+[16:00:04.663] [SERVER] throw er; // Unhandled 'error' event
+[16:00:04.665] [SERVER] ^
+[16:00:04.668] [SERVER] System.Management.Automation.RemoteException
+[16:00:04.669] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:04.672] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:04.675] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:04.676] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:04.679] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:04.680] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:04.682] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:04.684] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:04.686] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:04.687] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:04.694] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:04.695] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:04.699] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:04.700] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:04.702] [SERVER] code: 'EADDRINUSE',
+[16:00:04.703] [SERVER] errno: -4091,
+[16:00:04.707] [SERVER] syscall: 'listen',
+[16:00:04.709] [SERVER] address: '::',
+[16:00:04.711] [SERVER] port: 3001
+[16:00:04.712] [SERVER] }
+[16:00:04.714] [SERVER] System.Management.Automation.RemoteException
+[16:00:04.716] [SERVER] Node.js v22.14.0
+[16:00:04.718] [APK] --------- beginning of main
+[16:00:04.720] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.722] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:04.725] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:04.727] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.729] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.732] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:04.734] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:04.737] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:04.740] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:04.742] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:04.745] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:05.261] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:05.263] [SERVER] node:events:496
+[16:00:05.265] [SERVER] throw er; // Unhandled 'error' event
+[16:00:05.266] [SERVER] ^
+[16:00:05.268] [SERVER] System.Management.Automation.RemoteException
+[16:00:05.270] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:05.272] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:05.273] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:05.275] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:05.279] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:05.280] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:05.282] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:05.283] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:05.285] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:05.286] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:05.288] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:05.289] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:05.290] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:05.293] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:05.296] [SERVER] code: 'EADDRINUSE',
+[16:00:05.298] [SERVER] errno: -4091,
+[16:00:05.300] [SERVER] syscall: 'listen',
+[16:00:05.302] [SERVER] address: '::',
+[16:00:05.304] [SERVER] port: 3001
+[16:00:05.306] [SERVER] }
+[16:00:05.308] [SERVER] System.Management.Automation.RemoteException
+[16:00:05.309] [SERVER] Node.js v22.14.0
+[16:00:05.312] [APK] --------- beginning of main
+[16:00:05.315] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.317] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:05.318] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:05.320] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.321] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.324] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:05.325] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:05.326] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:05.328] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.330] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:05.331] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:05.841] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:05.846] [SERVER] node:events:496
+[16:00:05.850] [SERVER] throw er; // Unhandled 'error' event
+[16:00:05.854] [SERVER] ^
+[16:00:05.857] [SERVER] System.Management.Automation.RemoteException
+[16:00:05.860] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:05.864] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:05.865] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:05.868] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:05.871] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:05.872] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:05.874] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:05.875] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:05.887] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:05.890] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:05.892] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:05.894] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:05.897] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:05.899] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:05.901] [SERVER] code: 'EADDRINUSE',
+[16:00:05.902] [SERVER] errno: -4091,
+[16:00:05.905] [SERVER] syscall: 'listen',
+[16:00:05.907] [SERVER] address: '::',
+[16:00:05.908] [SERVER] port: 3001
+[16:00:05.910] [SERVER] }
+[16:00:05.912] [SERVER] System.Management.Automation.RemoteException
+[16:00:05.913] [SERVER] Node.js v22.14.0
+[16:00:05.916] [APK] --------- beginning of main
+[16:00:05.918] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.921] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:05.925] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:05.927] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.930] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.931] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:05.932] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:05.935] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:05.937] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:05.938] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:05.942] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:06.449] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:06.452] [SERVER] node:events:496
+[16:00:06.454] [SERVER] throw er; // Unhandled 'error' event
+[16:00:06.458] [SERVER] ^
+[16:00:06.460] [SERVER] System.Management.Automation.RemoteException
+[16:00:06.462] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:06.464] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:06.466] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:06.468] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:06.470] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:06.472] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:06.474] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:06.478] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:06.481] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:06.482] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:06.484] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:06.485] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:06.488] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:06.489] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:06.490] [SERVER] code: 'EADDRINUSE',
+[16:00:06.491] [SERVER] errno: -4091,
+[16:00:06.493] [SERVER] syscall: 'listen',
+[16:00:06.495] [SERVER] address: '::',
+[16:00:06.497] [SERVER] port: 3001
+[16:00:06.497] [SERVER] }
+[16:00:06.499] [SERVER] System.Management.Automation.RemoteException
+[16:00:06.501] [SERVER] Node.js v22.14.0
+[16:00:06.502] [APK] --------- beginning of main
+[16:00:06.505] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:06.506] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:06.508] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:06.511] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:06.512] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:06.513] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:06.514] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:06.515] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:06.517] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:06.518] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:06.520] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:07.031] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:07.033] [SERVER] node:events:496
+[16:00:07.033] [SERVER] throw er; // Unhandled 'error' event
+[16:00:07.036] [SERVER] ^
+[16:00:07.038] [SERVER] System.Management.Automation.RemoteException
+[16:00:07.039] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:07.041] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:07.042] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:07.042] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:07.045] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:07.045] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:07.047] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:07.048] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:07.049] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:07.050] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:07.051] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:07.053] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:07.054] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:07.056] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:07.057] [SERVER] code: 'EADDRINUSE',
+[16:00:07.059] [SERVER] errno: -4091,
+[16:00:07.060] [SERVER] syscall: 'listen',
+[16:00:07.062] [SERVER] address: '::',
+[16:00:07.064] [SERVER] port: 3001
+[16:00:07.065] [SERVER] }
+[16:00:07.066] [SERVER] System.Management.Automation.RemoteException
+[16:00:07.068] [SERVER] Node.js v22.14.0
+[16:00:07.071] [APK] --------- beginning of main
+[16:00:07.071] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.072] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:07.075] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:07.077] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.079] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.080] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:07.082] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:07.083] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:07.084] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.085] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:07.087] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:07.595] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:07.600] [SERVER] node:events:496
+[16:00:07.602] [SERVER] throw er; // Unhandled 'error' event
+[16:00:07.606] [SERVER] ^
+[16:00:07.609] [SERVER] System.Management.Automation.RemoteException
+[16:00:07.611] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:07.614] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:07.616] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:07.619] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:07.622] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:07.624] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:07.626] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:07.628] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:07.630] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:07.631] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:07.632] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:07.635] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:07.636] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:07.639] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:07.641] [SERVER] code: 'EADDRINUSE',
+[16:00:07.641] [SERVER] errno: -4091,
+[16:00:07.645] [SERVER] syscall: 'listen',
+[16:00:07.646] [SERVER] address: '::',
+[16:00:07.647] [SERVER] port: 3001
+[16:00:07.648] [SERVER] }
+[16:00:07.650] [SERVER] System.Management.Automation.RemoteException
+[16:00:07.651] [SERVER] Node.js v22.14.0
+[16:00:07.653] [APK] --------- beginning of main
+[16:00:07.655] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.657] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:07.658] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:07.660] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.661] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.662] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:07.663] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:07.665] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:07.666] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:07.667] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:07.668] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:08.184] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:08.187] [SERVER] node:events:496
+[16:00:08.191] [SERVER] throw er; // Unhandled 'error' event
+[16:00:08.194] [SERVER] ^
+[16:00:08.197] [SERVER] System.Management.Automation.RemoteException
+[16:00:08.199] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:08.200] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:08.202] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:08.205] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:08.206] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:08.208] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:08.210] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:08.212] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:08.213] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:08.215] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:08.219] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:08.221] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:08.222] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:08.225] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:08.226] [SERVER] code: 'EADDRINUSE',
+[16:00:08.228] [SERVER] errno: -4091,
+[16:00:08.230] [SERVER] syscall: 'listen',
+[16:00:08.232] [SERVER] address: '::',
+[16:00:08.233] [SERVER] port: 3001
+[16:00:08.235] [SERVER] }
+[16:00:08.236] [SERVER] System.Management.Automation.RemoteException
+[16:00:08.239] [SERVER] Node.js v22.14.0
+[16:00:08.241] [APK] --------- beginning of main
+[16:00:08.243] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.245] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:08.247] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:08.249] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.249] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.250] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:08.252] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:08.252] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:08.255] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.255] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:08.257] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:08.762] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:08.766] [SERVER] node:events:496
+[16:00:08.767] [SERVER] throw er; // Unhandled 'error' event
+[16:00:08.769] [SERVER] ^
+[16:00:08.772] [SERVER] System.Management.Automation.RemoteException
+[16:00:08.773] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:08.776] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:08.777] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:08.781] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:08.782] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:08.783] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:08.784] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:08.785] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:08.787] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:08.788] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:08.789] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:08.791] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:08.792] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:08.794] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:08.795] [SERVER] code: 'EADDRINUSE',
+[16:00:08.797] [SERVER] errno: -4091,
+[16:00:08.798] [SERVER] syscall: 'listen',
+[16:00:08.799] [SERVER] address: '::',
+[16:00:08.800] [SERVER] port: 3001
+[16:00:08.801] [SERVER] }
+[16:00:08.802] [SERVER] System.Management.Automation.RemoteException
+[16:00:08.804] [SERVER] Node.js v22.14.0
+[16:00:08.806] [APK] --------- beginning of main
+[16:00:08.808] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.808] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:08.810] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:08.811] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.812] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.814] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:08.815] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:08.816] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:08.818] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:08.819] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:08.821] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:09.327] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:09.329] [SERVER] node:events:496
+[16:00:09.334] [SERVER] throw er; // Unhandled 'error' event
+[16:00:09.336] [SERVER] ^
+[16:00:09.340] [SERVER] System.Management.Automation.RemoteException
+[16:00:09.342] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:09.343] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:09.345] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:09.347] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:09.349] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:09.350] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:09.353] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:09.354] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:09.356] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:09.358] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:09.359] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:09.361] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:09.363] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:09.364] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:09.365] [SERVER] code: 'EADDRINUSE',
+[16:00:09.366] [SERVER] errno: -4091,
+[16:00:09.369] [SERVER] syscall: 'listen',
+[16:00:09.371] [SERVER] address: '::',
+[16:00:09.374] [SERVER] port: 3001
+[16:00:09.375] [SERVER] }
+[16:00:09.376] [SERVER] System.Management.Automation.RemoteException
+[16:00:09.378] [SERVER] Node.js v22.14.0
+[16:00:09.380] [APK] --------- beginning of main
+[16:00:09.382] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.384] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:09.386] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:09.389] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.391] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.392] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:09.394] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:09.396] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:09.399] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.401] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:09.402] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:09.918] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:09.922] [SERVER] node:events:496
+[16:00:09.926] [SERVER] throw er; // Unhandled 'error' event
+[16:00:09.929] [SERVER] ^
+[16:00:09.933] [SERVER] System.Management.Automation.RemoteException
+[16:00:09.934] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:09.936] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:09.937] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:09.939] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:09.940] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:09.942] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:09.944] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:09.945] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:09.947] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:09.948] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:09.949] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:09.950] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:09.951] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:09.953] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:09.955] [SERVER] code: 'EADDRINUSE',
+[16:00:09.956] [SERVER] errno: -4091,
+[16:00:09.958] [SERVER] syscall: 'listen',
+[16:00:09.958] [SERVER] address: '::',
+[16:00:09.960] [SERVER] port: 3001
+[16:00:09.962] [SERVER] }
+[16:00:09.963] [SERVER] System.Management.Automation.RemoteException
+[16:00:09.965] [SERVER] Node.js v22.14.0
+[16:00:09.968] [APK] --------- beginning of main
+[16:00:09.970] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.973] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:09.980] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:09.981] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.983] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.985] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:09.987] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:09.989] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:09.990] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:09.991] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:09.992] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:10.511] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:10.514] [SERVER] node:events:496
+[16:00:10.516] [SERVER] throw er; // Unhandled 'error' event
+[16:00:10.518] [SERVER] ^
+[16:00:10.521] [SERVER] System.Management.Automation.RemoteException
+[16:00:10.523] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:10.526] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:10.528] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:10.529] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:10.530] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:10.532] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:10.533] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:10.534] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:10.536] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:10.537] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:10.539] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:10.540] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:10.541] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:10.543] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:10.545] [SERVER] code: 'EADDRINUSE',
+[16:00:10.545] [SERVER] errno: -4091,
+[16:00:10.547] [SERVER] syscall: 'listen',
+[16:00:10.548] [SERVER] address: '::',
+[16:00:10.549] [SERVER] port: 3001
+[16:00:10.550] [SERVER] }
+[16:00:10.551] [SERVER] System.Management.Automation.RemoteException
+[16:00:10.554] [SERVER] Node.js v22.14.0
+[16:00:10.557] [APK] --------- beginning of main
+[16:00:10.558] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:10.559] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:10.561] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:10.562] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:10.563] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:10.566] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:10.567] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:10.569] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:10.570] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:10.572] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:10.572] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:11.090] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:11.095] [SERVER] node:events:496
+[16:00:11.097] [SERVER] throw er; // Unhandled 'error' event
+[16:00:11.101] [SERVER] ^
+[16:00:11.104] [SERVER] System.Management.Automation.RemoteException
+[16:00:11.106] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:11.109] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:11.111] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:11.114] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:11.115] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:11.116] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:11.119] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:11.121] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:11.122] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:11.124] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:11.125] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:11.126] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:11.128] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:11.129] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:11.132] [SERVER] code: 'EADDRINUSE',
+[16:00:11.134] [SERVER] errno: -4091,
+[16:00:11.135] [SERVER] syscall: 'listen',
+[16:00:11.136] [SERVER] address: '::',
+[16:00:11.138] [SERVER] port: 3001
+[16:00:11.139] [SERVER] }
+[16:00:11.140] [SERVER] System.Management.Automation.RemoteException
+[16:00:11.142] [SERVER] Node.js v22.14.0
+[16:00:11.144] [APK] --------- beginning of main
+[16:00:11.145] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.147] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:11.147] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:11.149] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.150] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.152] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:11.152] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:11.154] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:11.156] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.157] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:11.157] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:11.668] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:11.671] [SERVER] node:events:496
+[16:00:11.673] [SERVER] throw er; // Unhandled 'error' event
+[16:00:11.677] [SERVER] ^
+[16:00:11.678] [SERVER] System.Management.Automation.RemoteException
+[16:00:11.679] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:11.680] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:11.685] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:11.686] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:11.688] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:11.689] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:11.690] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:11.691] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:11.694] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:11.695] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:11.697] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:11.699] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:11.700] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:11.701] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:11.703] [SERVER] code: 'EADDRINUSE',
+[16:00:11.704] [SERVER] errno: -4091,
+[16:00:11.705] [SERVER] syscall: 'listen',
+[16:00:11.707] [SERVER] address: '::',
+[16:00:11.708] [SERVER] port: 3001
+[16:00:11.709] [SERVER] }
+[16:00:11.712] [SERVER] System.Management.Automation.RemoteException
+[16:00:11.714] [SERVER] Node.js v22.14.0
+[16:00:11.716] [APK] --------- beginning of main
+[16:00:11.717] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.718] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:11.719] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:11.720] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.722] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.722] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:11.726] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:11.727] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:11.728] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:11.729] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:11.730] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:12.245] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:12.248] [SERVER] node:events:496
+[16:00:12.249] [SERVER] throw er; // Unhandled 'error' event
+[16:00:12.250] [SERVER] ^
+[16:00:12.251] [SERVER] System.Management.Automation.RemoteException
+[16:00:12.253] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:12.254] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:12.256] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:12.257] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:12.258] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:12.260] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:12.261] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:12.263] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:12.264] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:12.264] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:12.266] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:12.267] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:12.268] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:12.269] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:12.270] [SERVER] code: 'EADDRINUSE',
+[16:00:12.272] [SERVER] errno: -4091,
+[16:00:12.274] [SERVER] syscall: 'listen',
+[16:00:12.275] [SERVER] address: '::',
+[16:00:12.277] [SERVER] port: 3001
+[16:00:12.278] [SERVER] }
+[16:00:12.279] [SERVER] System.Management.Automation.RemoteException
+[16:00:12.280] [SERVER] Node.js v22.14.0
+[16:00:12.283] [APK] --------- beginning of main
+[16:00:12.285] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.286] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:12.287] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:12.288] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.290] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.293] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:12.297] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:12.298] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:12.300] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.302] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:12.303] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:12.819] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:12.824] [SERVER] node:events:496
+[16:00:12.827] [SERVER] throw er; // Unhandled 'error' event
+[16:00:12.829] [SERVER] ^
+[16:00:12.832] [SERVER] System.Management.Automation.RemoteException
+[16:00:12.834] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:12.836] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:12.838] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:12.841] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:12.841] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:12.842] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:12.844] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:12.845] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:12.847] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:12.849] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:12.850] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:12.852] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:12.853] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:12.854] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:12.855] [SERVER] code: 'EADDRINUSE',
+[16:00:12.857] [SERVER] errno: -4091,
+[16:00:12.858] [SERVER] syscall: 'listen',
+[16:00:12.858] [SERVER] address: '::',
+[16:00:12.861] [SERVER] port: 3001
+[16:00:12.863] [SERVER] }
+[16:00:12.864] [SERVER] System.Management.Automation.RemoteException
+[16:00:12.866] [SERVER] Node.js v22.14.0
+[16:00:12.867] [APK] --------- beginning of main
+[16:00:12.868] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.869] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:12.871] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:12.872] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.874] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.875] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:12.878] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:12.879] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:12.880] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:12.882] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:12.883] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:13.393] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:13.398] [SERVER] node:events:496
+[16:00:13.400] [SERVER] throw er; // Unhandled 'error' event
+[16:00:13.402] [SERVER] ^
+[16:00:13.406] [SERVER] System.Management.Automation.RemoteException
+[16:00:13.408] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:13.411] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:13.414] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:13.417] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:13.419] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:13.421] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:13.424] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:13.426] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:13.428] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:13.429] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:13.432] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:13.433] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:13.437] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:13.439] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:13.441] [SERVER] code: 'EADDRINUSE',
+[16:00:13.445] [SERVER] errno: -4091,
+[16:00:13.447] [SERVER] syscall: 'listen',
+[16:00:13.450] [SERVER] address: '::',
+[16:00:13.450] [SERVER] port: 3001
+[16:00:13.453] [SERVER] }
+[16:00:13.454] [SERVER] System.Management.Automation.RemoteException
+[16:00:13.455] [SERVER] Node.js v22.14.0
+[16:00:13.458] [APK] --------- beginning of main
+[16:00:13.458] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:13.460] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:13.462] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:13.462] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:13.464] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:13.465] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:13.468] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:13.468] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:13.470] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:13.471] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:13.472] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:13.984] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:13.988] [SERVER] node:events:496
+[16:00:13.991] [SERVER] throw er; // Unhandled 'error' event
+[16:00:13.994] [SERVER] ^
+[16:00:13.997] [SERVER] System.Management.Automation.RemoteException
+[16:00:14.000] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:14.002] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:14.003] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:14.004] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:14.006] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:14.008] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:14.010] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:14.012] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:14.014] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:14.015] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:14.016] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:14.018] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:14.019] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:14.021] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:14.025] [SERVER] code: 'EADDRINUSE',
+[16:00:14.026] [SERVER] errno: -4091,
+[16:00:14.028] [SERVER] syscall: 'listen',
+[16:00:14.029] [SERVER] address: '::',
+[16:00:14.031] [SERVER] port: 3001
+[16:00:14.034] [SERVER] }
+[16:00:14.036] [SERVER] System.Management.Automation.RemoteException
+[16:00:14.037] [SERVER] Node.js v22.14.0
+[16:00:14.039] [APK] --------- beginning of main
+[16:00:14.040] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.041] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:14.042] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:14.045] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.045] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.047] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:14.048] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:14.050] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:14.051] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.052] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:14.054] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:14.560] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:14.564] [SERVER] node:events:496
+[16:00:14.567] [SERVER] throw er; // Unhandled 'error' event
+[16:00:14.568] [SERVER] ^
+[16:00:14.570] [SERVER] System.Management.Automation.RemoteException
+[16:00:14.574] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:14.576] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:14.578] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:14.580] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:14.581] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:14.582] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:14.583] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:14.586] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:14.587] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:14.589] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:14.589] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:14.590] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:14.592] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:14.593] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:14.596] [SERVER] code: 'EADDRINUSE',
+[16:00:14.597] [SERVER] errno: -4091,
+[16:00:14.597] [SERVER] syscall: 'listen',
+[16:00:14.598] [SERVER] address: '::',
+[16:00:14.600] [SERVER] port: 3001
+[16:00:14.601] [SERVER] }
+[16:00:14.603] [SERVER] System.Management.Automation.RemoteException
+[16:00:14.605] [SERVER] Node.js v22.14.0
+[16:00:14.607] [APK] --------- beginning of main
+[16:00:14.608] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.609] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:14.610] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:14.612] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.613] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.615] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:14.615] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:14.616] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:14.618] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:14.619] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:14.621] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:15.139] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:15.142] [SERVER] node:events:496
+[16:00:15.147] [SERVER] throw er; // Unhandled 'error' event
+[16:00:15.149] [SERVER] ^
+[16:00:15.152] [SERVER] System.Management.Automation.RemoteException
+[16:00:15.154] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:15.157] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:15.158] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:15.160] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:15.162] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:15.162] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:15.164] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:15.166] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:15.168] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:15.168] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:15.170] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:15.171] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:15.172] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:15.173] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:15.175] [SERVER] code: 'EADDRINUSE',
+[16:00:15.176] [SERVER] errno: -4091,
+[16:00:15.177] [SERVER] syscall: 'listen',
+[16:00:15.179] [SERVER] address: '::',
+[16:00:15.181] [SERVER] port: 3001
+[16:00:15.182] [SERVER] }
+[16:00:15.184] [SERVER] System.Management.Automation.RemoteException
+[16:00:15.185] [SERVER] Node.js v22.14.0
+[16:00:15.187] [APK] --------- beginning of main
+[16:00:15.190] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.191] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:15.192] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:15.193] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.195] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.197] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:15.199] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:15.200] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:15.201] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.202] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:15.204] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:15.718] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:15.722] [SERVER] node:events:496
+[16:00:15.725] [SERVER] throw er; // Unhandled 'error' event
+[16:00:15.728] [SERVER] ^
+[16:00:15.731] [SERVER] System.Management.Automation.RemoteException
+[16:00:15.733] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:15.734] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:15.736] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:15.739] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:15.741] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:15.742] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:15.746] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:15.748] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:15.750] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:15.752] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:15.754] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:15.756] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:15.757] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:15.759] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:15.760] [SERVER] code: 'EADDRINUSE',
+[16:00:15.763] [SERVER] errno: -4091,
+[16:00:15.763] [SERVER] syscall: 'listen',
+[16:00:15.765] [SERVER] address: '::',
+[16:00:15.766] [SERVER] port: 3001
+[16:00:15.767] [SERVER] }
+[16:00:15.768] [SERVER] System.Management.Automation.RemoteException
+[16:00:15.769] [SERVER] Node.js v22.14.0
+[16:00:15.772] [APK] --------- beginning of main
+[16:00:15.774] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.775] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:15.777] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:15.779] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.780] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.782] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:15.784] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:15.785] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:15.786] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:15.787] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:15.789] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:16.309] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:00:16.315] [SERVER] node:events:496
+[16:00:16.318] [SERVER] throw er; // Unhandled 'error' event
+[16:00:16.321] [SERVER] ^
+[16:00:16.325] [SERVER] System.Management.Automation.RemoteException
+[16:00:16.326] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[16:00:16.327] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[16:00:16.328] [SERVER] at listenInCluster (node:net:1994:12)
+[16:00:16.330] [SERVER] at Server.listen (node:net:2099:7)
+[16:00:16.332] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[16:00:16.334] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[16:00:16.336] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[16:00:16.338] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[16:00:16.340] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[16:00:16.341] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[16:00:16.342] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[16:00:16.344] [SERVER] Emitted 'error' event on Server instance at:
+[16:00:16.346] [SERVER] at emitErrorNT (node:net:1973:8)
+[16:00:16.348] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[16:00:16.350] [SERVER] code: 'EADDRINUSE',
+[16:00:16.352] [SERVER] errno: -4091,
+[16:00:16.354] [SERVER] syscall: 'listen',
+[16:00:16.356] [SERVER] address: '::',
+[16:00:16.359] [SERVER] port: 3001
+[16:00:16.361] [SERVER] }
+[16:00:16.362] [SERVER] System.Management.Automation.RemoteException
+[16:00:16.364] [SERVER] Node.js v22.14.0
+[16:00:16.367] [APK] --------- beginning of main
+[16:00:16.368] [APK] 10-01 15:59:39.020 25834 25834 D CrossAppTracking: ========================================
+[16:00:16.370] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:00:16.371] [APK] 10-01 15:59:39.021 25834 25834 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:58 - Snapshot v2.1 Filtered
+[16:00:16.372] [APK] 10-01 15:59:39.022 25834 25834 D CrossAppTracking: ========================================
+[16:00:16.375] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ========================================
+[16:00:16.377] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[16:00:16.379] [APK] 10-01 15:59:39.290 25834 25834 D CrossAppTracking: ≡ƒöû Build: BUILD_1759327179
+[16:00:16.382] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[16:00:16.384] [APK] 10-01 15:59:39.291 25834 25834 D CrossAppTracking: ========================================
+[16:00:16.386] [APK] 10-01 15:59:39.519 25834 25834 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[16:00:16.387] [APK] 10-01 15:59:39.526 25834 25834 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[16:00:16.895] [SYSTEM] Stopping monitoring...
+[16:00:21.666] [SYSTEM] Monitoring completed

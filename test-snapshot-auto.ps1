@@ -26,30 +26,37 @@ Write-Host "2. Redémarrage du service..." -ForegroundColor Yellow
 Write-Host ""
 
 # 3. Attendre que Carrefour soit lancé
-Write-Host "3. Attente du lancement de Carrefour (3s)..." -ForegroundColor Yellow
-Start-Sleep -Seconds 3
+Write-Host "3. Attente du lancement de Carrefour (5s)..." -ForegroundColor Yellow
+Start-Sleep -Seconds 5
 Write-Host ""
 
-# 4. Lancer le monitoring en arrière-plan
-Write-Host "4. Demarrage du monitoring (15s)..." -ForegroundColor Yellow
+# 4. Arrêter le serveur existant (si actif)
+Write-Host "4. Arret du serveur existant..." -ForegroundColor Yellow
+Get-Process -Name node -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*node.exe*" } | Stop-Process -Force -ErrorAction SilentlyContinue
+Start-Sleep -Seconds 1
+Write-Host "   Serveur arrete" -ForegroundColor Green
+Write-Host ""
+
+# 5. Lancer le monitoring en arrière-plan
+Write-Host "5. Demarrage du monitoring (20s)..." -ForegroundColor Yellow
 $monitoringJob = Start-Job -ScriptBlock {
     Set-Location $using:PWD
-    .\start-monitoring.ps1 -DurationSeconds 15
+    .\start-monitoring.ps1 -DurationSeconds 20
 }
-Start-Sleep -Seconds 2
+Start-Sleep -Seconds 3
 Write-Host "   Monitoring actif" -ForegroundColor Green
 Write-Host ""
 
-# 5. Cliquer sur l'icône panier (pendant le monitoring)
-Write-Host "5. Clic sur le panier (tu verras le cercle blanc)..." -ForegroundColor Yellow
+# 6. Cliquer sur l'icône panier (pendant le monitoring)
+Write-Host "6. Clic sur le panier (tu verras le cercle blanc)..." -ForegroundColor Yellow
 # Coordonnées de l'icône panier (bas droite de l'écran)
 adb shell input tap 972 2263
-Write-Host "   Clic effectue - Attente du snapshot (3s)..." -ForegroundColor Green
-Start-Sleep -Seconds 3
+Write-Host "   Clic effectue - Attente du snapshot (5s)..." -ForegroundColor Green
+Start-Sleep -Seconds 5
 Write-Host ""
 
-# 6. Attendre la fin du monitoring
-Write-Host "6. Attente de la fin du monitoring..." -ForegroundColor Yellow
+# 7. Attendre la fin du monitoring
+Write-Host "7. Attente de la fin du monitoring..." -ForegroundColor Yellow
 Wait-Job $monitoringJob | Out-Null
 Receive-Job $monitoringJob
 Remove-Job $monitoringJob

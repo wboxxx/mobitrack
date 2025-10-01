@@ -1,0 +1,220 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 16:33:16
+Duration: 15 seconds
+========================================
+
+[16:33:16.308] [SYSTEM] Starting Node.js server...
+[16:33:19.707] [SYSTEM] Node.js server started (Job ID: 1)
+[16:33:19.710] [SYSTEM] Starting APK log capture...
+[16:33:20.920] [SYSTEM] APK log capture started (Job ID: 3)
+[16:33:20.926] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[16:33:21.731] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:21.736] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:21.743] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:22.271] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:22.278] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:22.282] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:22.288] [SERVER] Client connected to dashboard
+[16:33:22.797] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:22.803] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:22.808] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:22.814] [SERVER] Client connected to dashboard
+[16:33:23.371] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:23.379] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:23.385] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:23.388] [SERVER] Client connected to dashboard
+[16:33:23.909] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:23.914] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:23.919] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:23.922] [SERVER] Client connected to dashboard
+[16:33:24.436] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:24.440] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:24.447] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:24.454] [SERVER] Client connected to dashboard
+[16:33:24.974] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:24.978] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:24.983] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:24.989] [SERVER] Client connected to dashboard
+[16:33:25.497] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:25.504] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:25.508] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:25.513] [SERVER] Client connected to dashboard
+[16:33:26.035] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:26.039] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:26.045] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:26.049] [SERVER] Client connected to dashboard
+[16:33:26.055] [APK] --------- beginning of main
+[16:33:26.062] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:26.068] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:26.072] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:26.075] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:26.582] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:26.587] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:26.590] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:26.592] [SERVER] Client connected to dashboard
+[16:33:26.597] [APK] --------- beginning of main
+[16:33:26.601] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:26.605] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:26.610] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:26.614] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:27.127] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:27.132] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:27.136] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:27.140] [SERVER] Client connected to dashboard
+[16:33:27.147] [APK] --------- beginning of main
+[16:33:27.150] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:27.153] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:27.158] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:27.163] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:27.682] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:27.712] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:27.718] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:27.722] [SERVER] Client connected to dashboard
+[16:33:27.727] [APK] --------- beginning of main
+[16:33:27.730] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:27.735] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:27.739] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:27.745] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:28.258] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:28.263] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:28.267] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:28.273] [SERVER] Client connected to dashboard
+[16:33:28.277] [SERVER] Γ£à SESSION_START -
+[16:33:28.282] [APK] --------- beginning of main
+[16:33:28.287] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:28.292] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:28.297] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:28.302] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:28.814] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:28.817] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:28.824] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:28.828] [SERVER] Client connected to dashboard
+[16:33:28.832] [SERVER] Γ£à SESSION_START -
+[16:33:28.843] [APK] --------- beginning of main
+[16:33:28.847] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:28.852] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:28.857] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:28.862] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:29.370] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:29.376] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:29.386] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:29.391] [SERVER] Client connected to dashboard
+[16:33:29.395] [SERVER] Γ£à SESSION_START -
+[16:33:29.402] [APK] --------- beginning of main
+[16:33:29.407] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:29.413] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:29.416] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:29.421] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:29.942] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:29.948] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:29.953] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:29.958] [SERVER] Client connected to dashboard
+[16:33:29.963] [SERVER] Γ£à SESSION_START -
+[16:33:29.971] [APK] --------- beginning of main
+[16:33:29.976] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:29.980] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:29.985] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:29.988] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:30.498] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:30.503] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:30.505] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:30.511] [SERVER] Client connected to dashboard
+[16:33:30.516] [SERVER] Γ£à SESSION_START -
+[16:33:30.520] [APK] --------- beginning of main
+[16:33:30.525] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:30.529] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:30.538] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:30.543] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:31.058] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:31.062] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:31.066] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:31.074] [SERVER] Client connected to dashboard
+[16:33:31.078] [SERVER] Γ£à SESSION_START -
+[16:33:31.082] [APK] --------- beginning of main
+[16:33:31.086] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:31.089] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:31.094] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:31.098] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:31.615] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:31.620] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:31.622] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:31.624] [SERVER] Client connected to dashboard
+[16:33:31.628] [SERVER] Γ£à SESSION_START -
+[16:33:31.634] [APK] --------- beginning of main
+[16:33:31.637] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:31.639] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:31.642] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:31.646] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:32.158] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:32.165] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:32.169] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:32.174] [SERVER] Client connected to dashboard
+[16:33:32.180] [SERVER] Γ£à SESSION_START -
+[16:33:32.186] [APK] --------- beginning of main
+[16:33:32.189] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:32.193] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:32.196] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:32.201] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:32.715] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:32.720] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:32.724] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:32.728] [SERVER] Client connected to dashboard
+[16:33:32.733] [SERVER] Γ£à SESSION_START -
+[16:33:32.738] [APK] --------- beginning of main
+[16:33:32.743] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:32.749] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:32.754] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:32.759] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:33.274] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:33.279] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:33.284] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:33.288] [SERVER] Client connected to dashboard
+[16:33:33.292] [SERVER] Γ£à SESSION_START -
+[16:33:33.298] [APK] --------- beginning of main
+[16:33:33.303] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:33.306] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:33.309] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:33.314] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:33.829] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:33.837] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:33.843] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:33.848] [SERVER] Client connected to dashboard
+[16:33:33.852] [SERVER] Γ£à SESSION_START -
+[16:33:33.855] [APK] --------- beginning of main
+[16:33:33.859] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:33.861] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:33.863] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:33.867] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:34.376] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:34.381] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:34.384] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:34.388] [SERVER] Client connected to dashboard
+[16:33:34.394] [SERVER] Γ£à SESSION_START -
+[16:33:34.401] [APK] --------- beginning of main
+[16:33:34.406] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:34.409] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:34.413] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:34.418] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:34.935] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:34.939] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:34.944] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:34.946] [SERVER] Client connected to dashboard
+[16:33:34.951] [SERVER] Γ£à SESSION_START -
+[16:33:34.956] [APK] --------- beginning of main
+[16:33:34.960] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:34.965] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:34.970] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:34.976] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:35.489] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[16:33:35.497] [SERVER] Web tracking system running on http://localhost:3001
+[16:33:35.502] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[16:33:35.507] [SERVER] Client connected to dashboard
+[16:33:35.511] [SERVER] Γ£à SESSION_START -
+[16:33:35.518] [APK] --------- beginning of main
+[16:33:35.521] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: ========================================
+[16:33:35.524] [APK] 10-01 16:33:25.307 27775 27775 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[16:33:35.528] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 16:31 - Snapshot v2.3 SimpleFilter
+[16:33:35.532] [APK] 10-01 16:33:25.308 27775 27775 D CrossAppTracking: ========================================
+[16:33:36.046] [SYSTEM] Stopping monitoring...
+[16:33:54.898] [SYSTEM] Monitoring completed

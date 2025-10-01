@@ -78,7 +78,7 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 15:15 - Snapshot v2.0"
+        val buildTimestamp = "2025-10-01 16:56 - Snapshot v3.0 XPosition"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
@@ -233,14 +233,14 @@ class CrossAppTrackingService : AccessibilityService() {
         if (isCartPage) {
             Log.d("CrossAppTracking", "📸 Page panier détectée, attente du chargement des produits...")
             
-            // Attendre 2 secondes pour que les produits se chargent
+            // Attendre 3 secondes pour que les produits se chargent
             android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
                 val freshNodeInfo = rootInActiveWindow
                 if (freshNodeInfo != null) {
                     Log.d("CrossAppTracking", "📸 Capture du snapshot après chargement...")
                     captureCartSnapshot(freshNodeInfo, packageName)
                 }
-            }, 2000)
+            }, 3000)
             
             lastCartSnapshotTime = currentTime
         }
@@ -277,67 +277,67 @@ class CrossAppTrackingService : AccessibilityService() {
         
         // Chercher des patterns de produits (nom + prix + quantité)
         val texts = getAllTextsFromNode(node)
+        val bounds = android.graphics.Rect()
+        node.getBoundsInScreen(bounds)
         
-        // Blacklist : ignorer les sections non-panier
-        val blacklistPatterns = listOf(
-            "produits à remplacer",
-            "découvrez nos meilleurs alternatives",
-            "sponsorisé",
-            "rien oublié",
-            "voir tout",
-            "acheter",
-            "supprimer",
-            "vider tout le panier",
-            "valider mon panier",
-            "détail commande",
-            "total panier",
-            "provision produits",
-            "accueil",
-            "rechercher",
-            "mes produits",
-            "promotions"
-        )
+        // Chercher un prix avec € (format X,XX€)
+        val priceWithEuro = texts.find { it.matches(Regex("\\d+[,.]\\d+€")) }
         
-        val allText = texts.joinToString(" ").lowercase()
-        val isBlacklisted = blacklistPatterns.any { allText.contains(it) }
-        
-        if (isBlacklisted) {
-            return // Ignorer ce nœud et ses enfants
-        }
-        
-        // Chercher un vrai nom de produit (pas un prix, pas une promo, pas un bouton)
-        val productName = texts.find { text ->
-            val t = text.lowercase()
-            t.length > 8 && // Au moins 8 caractères pour un vrai produit
-            !t.matches(Regex("\\d+[,.]?\\d*\\s*€?")) && // Pas un prix
-            !t.matches(Regex("\\d+\\s*euros?.*centimes?.*")) && // Pas "X euros et Y centimes"
-            !t.contains("club") && // Pas une promo
-            !t.contains("promotion") &&
-            !t.contains("cagnott") &&
-            !t.matches(Regex("\\d+\\s*(max|produits?)")) && // Pas juste un compteur
-            !t.contains("ajouter") &&
-            !t.contains("retirer") &&
-            !t.contains("supprimer")
-        }
-        
-        // Chercher le prix (format X,XX)
-        val price = texts.find { it.matches(Regex("\\d+[,.]\\d+")) }
-        
-        // Chercher la quantité
-        val quantity = texts.find { it.matches(Regex("\\d+\\s*(MAX|produits?)")) }
-        
-        // Ajouter seulement si on a un vrai nom de produit ET un prix
-        if (productName != null && price != null) {
-            // Vérifier que ce n'est pas un doublon
-            val isDuplicate = products.any { it["name"] == productName && it["price"] == price }
+        // Si on trouve un prix avec €, c'est probablement un vrai produit du panier
+        if (priceWithEuro != null) {
+            // Vérifier la position X : les vrais produits commencent à X < 100
+            // Les produits à remplacer commencent à X > 100
+            if (bounds.left > 100) {
+                Log.d("CrossAppTracking", "⚠️ Produit ignoré (X=${bounds.left} > 100, probablement à remplacer)")
+                // Scanner quand même les enfants
+                for (i in 0 until node.childCount) {
+                    scanNodeForProducts(node.getChild(i), products)
+                }
+                return
+            }
             
-            if (!isDuplicate) {
-                products.add(mapOf(
-                    "name" to productName,
-                    "price" to price,
-                    "quantity" to (quantity ?: "1")
-                ))
-                Log.d("CrossAppTracking", "✅ Produit ajouté au snapshot: $productName - $price")
+            // Extraire le prix sans €
+            val price = priceWithEuro.replace("€", "")
+            
+            // Chercher le nom du produit (texte long, pas un prix, pas un bouton)
+            val productName = texts.find { text ->
+                val t = text.lowercase()
+                t.length > 8 && 
+                !t.contains("€") &&
+                !t.matches(Regex("\\d+[,.]?\\d*")) &&
+                !t.contains("à remplacer") && // Pas "2 produits à remplacer"
+                !t.contains("euros") &&
+                !t.contains("centimes") &&
+                !t.contains("club") &&
+                !t.contains("promotion") &&
+                !t.contains("cagnott") &&
+                !t.contains("acheter") &&
+                !t.contains("supprimer") &&
+                !t.contains("vider") &&
+                !t.contains("valider") &&
+                !t.contains("sponsorisé") &&
+                !t.contains("découvrez") &&
+                !t.contains("alternatives") &&
+                !t.contains("indisponibles") &&
+                !t.contains("rien oublié") &&
+                !t.contains("voir tout") &&
+                !t.contains("détail commande") &&
+                !t.contains("total panier") &&
+                !t.contains("provision")
+            }
+            
+            if (productName != null) {
+                // Vérifier que ce n'est pas un doublon
+                val isDuplicate = products.any { it["name"] == productName && it["price"] == price }
+                
+                if (!isDuplicate) {
+                    products.add(mapOf(
+                        "name" to productName,
+                        "price" to price,
+                        "quantity" to "1"
+                    ))
+                    Log.d("CrossAppTracking", "✅ Produit ajouté au snapshot: $productName - $price")
+                }
             }
         }
         

@@ -23,15 +23,14 @@ $isServiceEnabled = $serviceStatus -like "*com.bascule.leclerctracking*"
 
 if ($isServiceEnabled) {
     Write-Host "   Service deja actif - Skip manuel" -ForegroundColor Green
-    Write-Host "   Redemarrage automatique du service..." -ForegroundColor Yellow
+    Write-Host "   Redemarrage du service (force-stop)..." -ForegroundColor Yellow
     
-    # Forcer le redemarrage en desactivant/reactivant
-    adb shell settings put secure enabled_accessibility_services ""
-    Start-Sleep -Milliseconds 500
-    adb shell settings put secure enabled_accessibility_services "com.bascule.leclerctracking/.service.CrossAppTrackingService"
+    # Méthode plus simple : juste force-stop l'app
+    # Le service se relancera automatiquement au prochain événement
+    adb shell am force-stop com.bascule.leclerctracking
     Start-Sleep -Seconds 1
     
-    Write-Host "   Service redemarre automatiquement" -ForegroundColor Green
+    Write-Host "   Service pret (relancera au prochain evenement)" -ForegroundColor Green
 } else {
     Write-Host "   Service non actif - Configuration manuelle requise" -ForegroundColor Yellow
     Write-Host ""
