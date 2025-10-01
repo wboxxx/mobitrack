@@ -822,3 +822,252 @@
 10-01 11:16:41.852 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
 10-01 11:16:42.355 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={cartAction=T-Mobile, no signal., productName=T-Mobile, no signal., allTexts=[T-Mobile, no signal.]}, eventType=cross_app_cart_update}
 10-01 11:16:42.358 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: T-Mobile, no signal. - Prix: N/A
+10-01 11:16:52.394 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 33988) after 10000ms
+10-01 11:17:00.127 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:17:00.127 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:17:00.231 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:17:00.231 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:17:00.633 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:17 AM, allTexts=[11:17, 11:17 AM]}, eventType=cross_app_cart_update}
+10-01 11:17:00.634 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:17 AM - Prix: N/A
+10-01 11:17:00.740 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:17 AM, allTexts=[11:17, 11:17 AM]}, eventType=cross_app_cart_update}
+10-01 11:17:00.741 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:17 AM - Prix: N/A
+10-01 11:17:10.649 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 54362) after 10000ms
+10-01 11:17:10.761 11357 11823 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 54374) after 10000ms
+10-01 11:17:21.849 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:17:21.850 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:17:22.352 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={cartAction=T-Mobile, signal full., productName=T-Mobile, signal full., allTexts=[T-Mobile, signal full.]}, eventType=cross_app_cart_update}
+10-01 11:17:22.354 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: T-Mobile, signal full. - Prix: N/A
+10-01 11:17:32.370 11357 11823 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 35892) after 10000ms
+10-01 11:18:00.129 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:18:00.129 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:18:00.238 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:18:00.238 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:18:00.639 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:18 AM, allTexts=[11:18, 11:18 AM]}, eventType=cross_app_cart_update}
+10-01 11:18:00.644 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:18 AM - Prix: N/A
+10-01 11:18:00.752 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:18 AM, allTexts=[11:18, 11:18 AM]}, eventType=cross_app_cart_update}
+10-01 11:18:00.753 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:18 AM - Prix: N/A
+10-01 11:18:10.675 11357 11823 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 38308) after 10000ms
+10-01 11:18:10.771 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 38324) after 10000ms
+10-01 11:18:11.845 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:18:11.845 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:18:12.351 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={cartAction=T-Mobile, three bars., productName=T-Mobile, three bars., allTexts=[T-Mobile, three bars.]}, eventType=cross_app_cart_update}
+10-01 11:18:12.357 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: T-Mobile, three bars. - Prix: N/A
+10-01 11:18:22.382 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 51512) after 10000ms
+10-01 11:18:41.854 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:18:41.854 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:18:42.357 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={cartAction=T-Mobile, two bars., productName=T-Mobile, two bars., allTexts=[T-Mobile, two bars.]}, eventType=cross_app_cart_update}
+10-01 11:18:42.360 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: T-Mobile, two bars. - Prix: N/A
+10-01 11:18:52.365 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 49786) after 9999ms
+10-01 11:19:00.129 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:19:00.130 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:19:00.225 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:19:00.225 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:19:00.635 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:19 AM, allTexts=[11:19, 11:19 AM]}, eventType=cross_app_cart_update}
+10-01 11:19:00.639 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:19 AM - Prix: N/A
+10-01 11:19:00.731 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={productName=11:19 AM, allTexts=[11:19, 11:19 AM]}, eventType=cross_app_cart_update}
+10-01 11:19:00.732 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: 11:19 AM - Prix: N/A
+10-01 11:19:01.847 11357 11357 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:19:01.848 11357 11357 D CrossAppTracking: ✅ App ciblée détectée: com.android.systemui
+10-01 11:19:02.353 11357 11357 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.systemui, packageName=com.android.systemui, productInfo={cartAction=T-Mobile, one bar., productName=T-Mobile, one bar., allTexts=[T-Mobile, one bar.]}, eventType=cross_app_cart_update}
+10-01 11:19:02.359 11357 11357 D CrossAppTracking: 🛒 Produit envoyé: T-Mobile, one bar. - Prix: N/A
+10-01 11:19:10.654 11357 12001 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 50354) after 9999ms
+10-01 11:19:10.746 11357 11823 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 50360) after 10000ms
+10-01 11:19:12.381 11357 12026 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 50374) after 10000ms
+10-01 11:19:21.222 12068 12068 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759310361152_c4404f61, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:19:21.354 12068 12068 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:19:21.557 12068 12068 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:19:21.575 12068 12068 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:19:21.578 12068 12068 D CrossAppTracking: 📋 Event types: -1
+10-01 11:19:21.579 12068 12068 D CrossAppTracking: 📋 Flags: 80
+10-01 11:19:31.521 12068 12129 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 49878) after 10000ms
+10-01 11:19:42.296 12068 12068 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:19:42.299 12068 12068 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:20:12.361 12202 12202 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759310412092_7ad30342, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:20:12.559 12202 12202 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:20:12.725 12202 12202 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:20:12.791 12202 12202 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:20:12.794 12202 12202 D CrossAppTracking: 📋 Event types: -1
+10-01 11:20:12.794 12202 12202 D CrossAppTracking: 📋 Flags: 80
+10-01 11:20:15.543 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.settings
+10-01 11:20:15.543 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.android.settings
+10-01 11:20:15.779 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.settings
+10-01 11:20:15.779 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.android.settings
+10-01 11:20:16.334 12202 12202 D CrossAppTracking: 📱 Événement reçu: 32 - com.android.settings
+10-01 11:20:16.335 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.android.settings
+10-01 11:20:16.787 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.settings, packageName=com.android.settings, productInfo={cartAction=🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement., productName=About Bascule Cross-App Tracking
+10-01 11:20:16.787 12202 12202 D AndroidTracking: 
+10-01 11:20:16.787 12202 12202 D AndroidTracking: 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement., allTexts=[Bascule Cross-App Tracking, Navigate up, Bascule Cross-App Tracking, Use Bascule Cross-App Tracking, Options, Bascule Cross-App Tracking shortcut, Off, Shortcut settings, App info, 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement.]}, eventType=cross_app_cart_update}
+10-01 11:20:16.799 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: About Bascule Cross-App Tracking
+10-01 11:20:16.799 12202 12202 D CrossAppTracking: 
+10-01 11:20:16.799 12202 12202 D CrossAppTracking: 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement. - Prix: N/A
+10-01 11:20:16.891 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.android.settings, packageName=com.android.settings, productInfo={cartAction=🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement., productName=About Bascule Cross-App Tracking
+10-01 11:20:16.891 12202 12202 D AndroidTracking: 
+10-01 11:20:16.891 12202 12202 D AndroidTracking: 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement., allTexts=[Bascule Cross-App Tracking, Navigate up, Bascule Cross-App Tracking, Use Bascule Cross-App Tracking, Options, Bascule Cross-App Tracking shortcut, Off, Shortcut settings, App info, 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement.]}, eventType=cross_app_cart_update}
+10-01 11:20:16.894 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: About Bascule Cross-App Tracking
+10-01 11:20:16.894 12202 12202 D CrossAppTracking: 
+10-01 11:20:16.894 12202 12202 D CrossAppTracking: 🛒 Analyse vos interactions shopping (clics, ajouts panier) sur les apps e-commerce pour optimiser votre expérience d'achat. 🔒 Aucune donnée personnelle ou sensible collectée. ✅ Traitement local uniquement. - Prix: N/A
+10-01 11:20:19.390 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 11:20:19.390 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:20:20.054 12202 12202 D CrossAppTracking: 📱 Événement reçu: 32 - com.carrefour.fid.android
+10-01 11:20:20.061 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:20:20.727 12202 12202 D CrossAppTracking: 📱 Événement reçu: 32 - com.carrefour.fid.android
+10-01 11:20:20.729 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:20:20.822 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 7 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 7 new notifications]}, eventType=cross_app_cart_update}
+10-01 11:20:20.833 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: Panier, 7 new notifications - Prix: N/A
+10-01 11:20:21.228 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 7 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 7 new notifications]}, eventType=cross_app_cart_update}
+10-01 11:20:21.229 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: Panier, 7 new notifications - Prix: N/A
+10-01 11:20:21.330 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 7 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 7 new notifications]}, eventType=cross_app_cart_update}
+10-01 11:20:21.331 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: Panier, 7 new notifications - Prix: N/A
+10-01 11:20:21.934 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:20:21.934 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:20:22.689 12202 12231 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 35740) after 10000ms
+10-01 11:20:26.822 12202 12246 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 35748) after 10000ms
+10-01 11:20:26.912 12202 12248 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 35762) after 10000ms
+10-01 11:20:30.857 12202 12305 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 34662) after 9999ms
+10-01 11:20:31.245 12202 12309 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 34676) after 10000ms
+10-01 11:20:32.707 12202 12349 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 34686) after 10000ms
+10-01 11:21:00.124 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:21:00.124 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:21:00.223 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:21:00.223 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:21:11.846 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:21:11.846 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:21:41.852 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:21:41.852 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:22:11.842 12202 12202 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759310531842_8eff7a4d, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:22:11.846 12202 12202 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:22:11.938 12202 12202 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:22:11.960 12202 12202 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:22:11.960 12202 12202 D CrossAppTracking: 📋 Event types: -1
+10-01 11:22:11.960 12202 12202 D CrossAppTracking: 📋 Flags: 80
+10-01 11:22:21.869 12202 12614 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 48522) after 10000ms
+10-01 11:22:41.850 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:22:41.850 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:23:00.128 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:23:00.128 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:23:00.233 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:23:00.233 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:23:05.368 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 11:23:05.369 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:06.050 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=13,93€, cartAction=13,93€, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[1 produit à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU]}, eventType=cross_app_cart_update}
+10-01 11:23:06.054 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 13,93€
+10-01 11:23:06.371 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:06.372 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:07.347 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:07.352 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:09.234 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:09.234 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:10.183 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:10.184 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:11.031 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:11.032 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:11.992 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:11.993 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:12.853 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:12.854 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:15.582 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:23:15.582 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:23:16.077 12202 12614 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 37236) after 10000ms
+10-01 11:23:21.856 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:23:21.856 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:23:51.765 12202 12202 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759310631765_2c3efec5, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:23:51.785 12202 12202 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:23:51.902 12202 12202 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:23:51.919 12202 12202 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:23:51.919 12202 12202 D CrossAppTracking: 📋 Event types: -1
+10-01 11:23:51.919 12202 12202 D CrossAppTracking: 📋 Flags: 80
+10-01 11:24:00.127 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:24:00.127 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:24:00.229 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:24:00.229 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:24:01.800 12202 12875 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 56580) after 10000ms
+10-01 11:24:11.849 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:24:11.849 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:24:41.851 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:24:41.851 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:25:00.123 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:25:00.124 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:25:00.226 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:25:00.226 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:25:01.875 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:25:01.876 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:25:41.860 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:25:41.860 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:26:00.140 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:26:00.140 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:26:00.242 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:26:00.243 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:26:21.866 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:26:21.867 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:27:00.121 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:27:00.122 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:27:00.224 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:27:00.224 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:27:11.853 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:27:11.853 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:27:41.855 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:27:41.855 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:28:00.123 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:28:00.123 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:28:00.226 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:28:00.226 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:28:01.865 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:28:01.865 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:28:41.855 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:28:41.855 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:28:59.074 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:28:59.075 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:29:00.123 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:29:00.123 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:29:00.225 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:29:00.225 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:29:21.862 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:29:21.862 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:30:00.144 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:30:00.144 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:30:00.243 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:30:00.243 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:30:03.388 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 11:30:03.389 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:30:04.262 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:30:04.262 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:30:04.765 12202 12202 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=7,36€, cartAction=7,36€, productName=3 produits déjà ajoutés au panier, allTexts=[Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 5,97, 5 euros et 97 centimes., €, Retirer un produit du panier, 3]}, eventType=cross_app_cart_update}
+10-01 11:30:04.773 12202 12202 D CrossAppTracking: 🛒 Produit envoyé: 3 produits déjà ajoutés au panier - Prix: 7,36€
+10-01 11:30:06.314 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:30:06.314 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:30:08.508 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:30:08.508 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:30:10.220 12202 12202 D CrossAppTracking: 📱 Événement reçu: 16384 - com.carrefour.fid.android
+10-01 11:30:10.220 12202 12202 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 11:30:11.858 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:30:11.858 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:30:14.796 12202 13067 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 54608) after 10000ms
+10-01 11:30:41.860 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:30:41.860 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:00.137 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:00.138 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:00.242 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:00.242 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:01.868 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:01.868 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:31:20.606 12202 12202 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759311080603_5bce7b1a, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 11:31:20.615 12202 12202 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 11:31:20.763 12202 12202 D CrossAppTracking: 🚀 Accessibility Service connecté !
+10-01 11:31:20.777 12202 12202 D CrossAppTracking: Service d'accessibilité configuré pour TOUTES les apps
+10-01 11:31:20.777 12202 12202 D CrossAppTracking: 📋 Event types: -1
+10-01 11:31:20.778 12202 12202 D CrossAppTracking: 📋 Flags: 80
+10-01 11:31:30.649 12202 13317 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 58626) after 10000ms
+10-01 11:31:41.860 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:31:41.860 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:00.127 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:00.127 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:00.229 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:00.229 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:32:21.875 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:32:21.875 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:00.122 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:00.122 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:00.225 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:00.225 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui
+10-01 11:33:11.865 12202 12202 D CrossAppTracking: 📱 Événement reçu: 2048 - com.android.systemui
+10-01 11:33:11.865 12202 12202 D CrossAppTracking: ❌ App non ciblée: com.android.systemui

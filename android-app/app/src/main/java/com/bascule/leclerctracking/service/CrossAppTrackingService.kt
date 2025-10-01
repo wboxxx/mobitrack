@@ -2,10 +2,17 @@ package com.bascule.leclerctracking.service
 
 import android.accessibilityservice.AccessibilityService
 import android.accessibilityservice.AccessibilityServiceInfo
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
+import androidx.core.app.NotificationCompat
+import com.bascule.leclerctracking.R
 import com.bascule.leclerctracking.tracking.AndroidTrackingManager
 import com.bascule.leclerctracking.models.TrackingEventType
 import java.security.MessageDigest
@@ -69,7 +76,16 @@ class CrossAppTrackingService : AccessibilityService() {
     override fun onCreate() {
         super.onCreate()
         trackingManager = AndroidTrackingManager(this, null)
+        
+        // Version du service pour identifier les builds
+        val buildTimestamp = "2025-10-01 11:47 - Foreground Service v1.0"
+        Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
+        Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
+        Log.d("CrossAppTracking", "========================================")
+        
+        // Démarrer en foreground pour éviter d'être gelé par Android
+        startForegroundService()
     }
     
     override fun onServiceConnected() {
@@ -90,6 +106,41 @@ class CrossAppTrackingService : AccessibilityService() {
         Log.d("CrossAppTracking", "Service d'accessibilité configuré pour TOUTES les apps")
         Log.d("CrossAppTracking", "📋 Event types: ${info.eventTypes}")
         Log.d("CrossAppTracking", "📋 Flags: ${info.flags}")
+    }
+    
+    private fun startForegroundService() {
+        val channelId = "cross_app_tracking_channel"
+        
+        // Créer le canal de notification (Android 8+)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                channelId,
+                "Cross-App Tracking Service",
+                NotificationManager.IMPORTANCE_LOW
+            ).apply {
+                description = "Service de tracking des ajouts au panier"
+            }
+            
+            val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            notificationManager.createNotificationChannel(channel)
+        }
+        
+        // Créer la notification
+        val notification = NotificationCompat.Builder(this, channelId)
+            .setContentTitle("Tracking actif")
+            .setContentText("Surveillance des ajouts au panier en cours...")
+            .setSmallIcon(android.R.drawable.ic_menu_info_details)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .setOngoing(true)
+            .build()
+        
+        // Démarrer en foreground avec le type specialUse (Android 14+)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            startForeground(1, notification, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE)
+        } else {
+            startForeground(1, notification)
+        }
+        Log.d("CrossAppTracking", "✅ Service démarré en foreground (ne sera pas gelé)")
     }
     
     private fun isTargetApp(packageName: String): Boolean {
