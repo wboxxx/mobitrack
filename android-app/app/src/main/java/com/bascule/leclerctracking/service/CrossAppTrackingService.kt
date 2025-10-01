@@ -125,6 +125,10 @@ class CrossAppTrackingService : AccessibilityService() {
             AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED -> {
                 trackContentChange(event, packageName)
             }
+            AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED -> {
+                // Carrefour envoie ce type d'événement lors des clics
+                trackContentChange(event, packageName)
+            }
             AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED -> {
                 trackTextInput(event, packageName)
             }
