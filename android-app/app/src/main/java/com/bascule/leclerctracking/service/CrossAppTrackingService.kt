@@ -278,17 +278,67 @@ class CrossAppTrackingService : AccessibilityService() {
         // Chercher des patterns de produits (nom + prix + quantité)
         val texts = getAllTextsFromNode(node)
         
-        // Si on trouve un pattern produit, l'ajouter
-        val productName = texts.find { it.length > 5 && !it.matches(Regex("\\d+[,.]?\\d*\\s*€?")) }
-        val price = texts.find { it.matches(Regex("\\d+[,.]?\\d+")) }
+        // Blacklist : ignorer les sections non-panier
+        val blacklistPatterns = listOf(
+            "produits à remplacer",
+            "découvrez nos meilleurs alternatives",
+            "sponsorisé",
+            "rien oublié",
+            "voir tout",
+            "acheter",
+            "supprimer",
+            "vider tout le panier",
+            "valider mon panier",
+            "détail commande",
+            "total panier",
+            "provision produits",
+            "accueil",
+            "rechercher",
+            "mes produits",
+            "promotions"
+        )
+        
+        val allText = texts.joinToString(" ").lowercase()
+        val isBlacklisted = blacklistPatterns.any { allText.contains(it) }
+        
+        if (isBlacklisted) {
+            return // Ignorer ce nœud et ses enfants
+        }
+        
+        // Chercher un vrai nom de produit (pas un prix, pas une promo, pas un bouton)
+        val productName = texts.find { text ->
+            val t = text.lowercase()
+            t.length > 8 && // Au moins 8 caractères pour un vrai produit
+            !t.matches(Regex("\\d+[,.]?\\d*\\s*€?")) && // Pas un prix
+            !t.matches(Regex("\\d+\\s*euros?.*centimes?.*")) && // Pas "X euros et Y centimes"
+            !t.contains("club") && // Pas une promo
+            !t.contains("promotion") &&
+            !t.contains("cagnott") &&
+            !t.matches(Regex("\\d+\\s*(max|produits?)")) && // Pas juste un compteur
+            !t.contains("ajouter") &&
+            !t.contains("retirer") &&
+            !t.contains("supprimer")
+        }
+        
+        // Chercher le prix (format X,XX)
+        val price = texts.find { it.matches(Regex("\\d+[,.]\\d+")) }
+        
+        // Chercher la quantité
         val quantity = texts.find { it.matches(Regex("\\d+\\s*(MAX|produits?)")) }
         
+        // Ajouter seulement si on a un vrai nom de produit ET un prix
         if (productName != null && price != null) {
-            products.add(mapOf(
-                "name" to productName,
-                "price" to price,
-                "quantity" to (quantity ?: "1")
-            ))
+            // Vérifier que ce n'est pas un doublon
+            val isDuplicate = products.any { it["name"] == productName && it["price"] == price }
+            
+            if (!isDuplicate) {
+                products.add(mapOf(
+                    "name" to productName,
+                    "price" to price,
+                    "quantity" to (quantity ?: "1")
+                ))
+                Log.d("CrossAppTracking", "✅ Produit ajouté au snapshot: $productName - $price")
+            }
         }
         
         // Scanner récursivement les enfants

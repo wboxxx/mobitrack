@@ -1,0 +1,845 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 15:51:28
+Duration: 15 seconds
+========================================
+
+[15:51:28.988] [SYSTEM] Starting Node.js server...
+[15:51:32.269] [SYSTEM] Node.js server started (Job ID: 1)
+[15:51:32.274] [SYSTEM] Starting APK log capture...
+[15:51:33.417] [SYSTEM] APK log capture started (Job ID: 3)
+[15:51:33.420] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[15:51:33.844] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:33.846] [SERVER] node:events:496
+[15:51:33.860] [SERVER] throw er; // Unhandled 'error' event
+[15:51:33.862] [SERVER] ^
+[15:51:33.864] [SERVER] System.Management.Automation.RemoteException
+[15:51:33.894] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:33.897] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:33.900] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:33.901] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:33.904] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:33.907] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:33.908] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:33.910] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:33.912] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:33.915] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:33.917] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:33.920] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:33.924] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:33.927] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:33.931] [SERVER] code: 'EADDRINUSE',
+[15:51:33.934] [SERVER] errno: -4091,
+[15:51:33.937] [SERVER] syscall: 'listen',
+[15:51:33.939] [SERVER] address: '::',
+[15:51:33.942] [SERVER] port: 3001
+[15:51:33.944] [SERVER] }
+[15:51:33.947] [SERVER] System.Management.Automation.RemoteException
+[15:51:33.949] [SERVER] Node.js v22.14.0
+[15:51:33.953] [APK] --------- beginning of main
+[15:51:33.955] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:33.956] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:33.959] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:33.961] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:34.482] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:34.484] [SERVER] node:events:496
+[15:51:34.488] [SERVER] throw er; // Unhandled 'error' event
+[15:51:34.490] [SERVER] ^
+[15:51:34.492] [SERVER] System.Management.Automation.RemoteException
+[15:51:34.495] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:34.497] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:34.498] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:34.500] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:34.504] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:34.506] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:34.510] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:34.512] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:34.515] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:34.518] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:34.521] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:34.525] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:34.527] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:34.529] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:34.532] [SERVER] code: 'EADDRINUSE',
+[15:51:34.534] [SERVER] errno: -4091,
+[15:51:34.537] [SERVER] syscall: 'listen',
+[15:51:34.540] [SERVER] address: '::',
+[15:51:34.541] [SERVER] port: 3001
+[15:51:34.543] [SERVER] }
+[15:51:34.545] [SERVER] System.Management.Automation.RemoteException
+[15:51:34.549] [SERVER] Node.js v22.14.0
+[15:51:34.556] [APK] --------- beginning of main
+[15:51:34.558] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:34.561] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:34.563] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:34.567] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:35.089] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:35.093] [SERVER] node:events:496
+[15:51:35.095] [SERVER] throw er; // Unhandled 'error' event
+[15:51:35.097] [SERVER] ^
+[15:51:35.100] [SERVER] System.Management.Automation.RemoteException
+[15:51:35.101] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:35.104] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:35.106] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:35.108] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:35.110] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:35.112] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:35.114] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:35.116] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:35.118] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:35.120] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:35.122] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:35.123] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:35.126] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:35.129] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:35.132] [SERVER] code: 'EADDRINUSE',
+[15:51:35.134] [SERVER] errno: -4091,
+[15:51:35.138] [SERVER] syscall: 'listen',
+[15:51:35.140] [SERVER] address: '::',
+[15:51:35.142] [SERVER] port: 3001
+[15:51:35.145] [SERVER] }
+[15:51:35.147] [SERVER] System.Management.Automation.RemoteException
+[15:51:35.149] [SERVER] Node.js v22.14.0
+[15:51:35.152] [APK] --------- beginning of main
+[15:51:35.154] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:35.156] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:35.158] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:35.160] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:35.673] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:35.675] [SERVER] node:events:496
+[15:51:35.677] [SERVER] throw er; // Unhandled 'error' event
+[15:51:35.680] [SERVER] ^
+[15:51:35.682] [SERVER] System.Management.Automation.RemoteException
+[15:51:35.683] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:35.684] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:35.688] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:35.690] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:35.691] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:35.693] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:35.699] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:35.703] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:35.708] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:35.711] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:35.717] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:35.720] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:35.724] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:35.728] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:35.731] [SERVER] code: 'EADDRINUSE',
+[15:51:35.736] [SERVER] errno: -4091,
+[15:51:35.739] [SERVER] syscall: 'listen',
+[15:51:35.741] [SERVER] address: '::',
+[15:51:35.745] [SERVER] port: 3001
+[15:51:35.749] [SERVER] }
+[15:51:35.753] [SERVER] System.Management.Automation.RemoteException
+[15:51:35.756] [SERVER] Node.js v22.14.0
+[15:51:35.760] [APK] --------- beginning of main
+[15:51:35.762] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:35.766] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:35.769] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:35.774] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:36.293] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:36.311] [SERVER] node:events:496
+[15:51:36.313] [SERVER] throw er; // Unhandled 'error' event
+[15:51:36.315] [SERVER] ^
+[15:51:36.317] [SERVER] System.Management.Automation.RemoteException
+[15:51:36.318] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:36.319] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:36.321] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:36.324] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:36.326] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:36.328] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:36.329] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:36.332] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:36.333] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:36.334] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:36.336] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:36.338] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:36.340] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:36.342] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:36.344] [SERVER] code: 'EADDRINUSE',
+[15:51:36.345] [SERVER] errno: -4091,
+[15:51:36.347] [SERVER] syscall: 'listen',
+[15:51:36.349] [SERVER] address: '::',
+[15:51:36.350] [SERVER] port: 3001
+[15:51:36.352] [SERVER] }
+[15:51:36.355] [SERVER] System.Management.Automation.RemoteException
+[15:51:36.356] [SERVER] Node.js v22.14.0
+[15:51:36.359] [APK] --------- beginning of main
+[15:51:36.361] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:36.362] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:36.364] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:36.366] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:36.881] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:36.884] [SERVER] node:events:496
+[15:51:36.889] [SERVER] throw er; // Unhandled 'error' event
+[15:51:36.890] [SERVER] ^
+[15:51:36.891] [SERVER] System.Management.Automation.RemoteException
+[15:51:36.892] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:36.894] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:36.897] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:36.898] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:36.900] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:36.901] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:36.902] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:36.904] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:36.906] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:36.907] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:36.909] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:36.911] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:36.912] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:36.913] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:36.915] [SERVER] code: 'EADDRINUSE',
+[15:51:36.916] [SERVER] errno: -4091,
+[15:51:36.918] [SERVER] syscall: 'listen',
+[15:51:36.919] [SERVER] address: '::',
+[15:51:36.921] [SERVER] port: 3001
+[15:51:36.922] [SERVER] }
+[15:51:36.924] [SERVER] System.Management.Automation.RemoteException
+[15:51:36.925] [SERVER] Node.js v22.14.0
+[15:51:36.929] [APK] --------- beginning of main
+[15:51:36.931] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:36.932] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:36.933] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:36.934] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:37.439] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:37.441] [SERVER] node:events:496
+[15:51:37.444] [SERVER] throw er; // Unhandled 'error' event
+[15:51:37.445] [SERVER] ^
+[15:51:37.448] [SERVER] System.Management.Automation.RemoteException
+[15:51:37.450] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:37.451] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:37.453] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:37.455] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:37.457] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:37.459] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:37.461] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:37.462] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:37.463] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:37.465] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:37.467] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:37.467] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:37.471] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:37.473] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:37.475] [SERVER] code: 'EADDRINUSE',
+[15:51:37.476] [SERVER] errno: -4091,
+[15:51:37.478] [SERVER] syscall: 'listen',
+[15:51:37.480] [SERVER] address: '::',
+[15:51:37.482] [SERVER] port: 3001
+[15:51:37.483] [SERVER] }
+[15:51:37.484] [SERVER] System.Management.Automation.RemoteException
+[15:51:37.487] [SERVER] Node.js v22.14.0
+[15:51:37.489] [APK] --------- beginning of main
+[15:51:37.491] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:37.492] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:37.494] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:37.495] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:38.000] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:38.002] [SERVER] node:events:496
+[15:51:38.003] [SERVER] throw er; // Unhandled 'error' event
+[15:51:38.004] [SERVER] ^
+[15:51:38.006] [SERVER] System.Management.Automation.RemoteException
+[15:51:38.009] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:38.011] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:38.013] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:38.015] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:38.016] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:38.017] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:38.020] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:38.021] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:38.023] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:38.025] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:38.026] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:38.027] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:38.029] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:38.031] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:38.032] [SERVER] code: 'EADDRINUSE',
+[15:51:38.033] [SERVER] errno: -4091,
+[15:51:38.037] [SERVER] syscall: 'listen',
+[15:51:38.038] [SERVER] address: '::',
+[15:51:38.040] [SERVER] port: 3001
+[15:51:38.041] [SERVER] }
+[15:51:38.043] [SERVER] System.Management.Automation.RemoteException
+[15:51:38.045] [SERVER] Node.js v22.14.0
+[15:51:38.047] [APK] --------- beginning of main
+[15:51:38.049] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:38.050] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:38.052] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:38.053] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:38.560] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:38.563] [SERVER] node:events:496
+[15:51:38.566] [SERVER] throw er; // Unhandled 'error' event
+[15:51:38.569] [SERVER] ^
+[15:51:38.571] [SERVER] System.Management.Automation.RemoteException
+[15:51:38.575] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:38.577] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:38.580] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:38.582] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:38.582] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:38.584] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:38.584] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:38.587] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:38.587] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:38.588] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:38.590] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:38.591] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:38.593] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:38.594] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:38.596] [SERVER] code: 'EADDRINUSE',
+[15:51:38.598] [SERVER] errno: -4091,
+[15:51:38.600] [SERVER] syscall: 'listen',
+[15:51:38.601] [SERVER] address: '::',
+[15:51:38.603] [SERVER] port: 3001
+[15:51:38.604] [SERVER] }
+[15:51:38.606] [SERVER] System.Management.Automation.RemoteException
+[15:51:38.608] [SERVER] Node.js v22.14.0
+[15:51:38.609] [APK] --------- beginning of main
+[15:51:38.611] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:38.612] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:38.613] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:38.616] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:39.122] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:39.126] [SERVER] node:events:496
+[15:51:39.129] [SERVER] throw er; // Unhandled 'error' event
+[15:51:39.132] [SERVER] ^
+[15:51:39.136] [SERVER] System.Management.Automation.RemoteException
+[15:51:39.138] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:39.141] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:39.142] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:39.147] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:39.150] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:39.151] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:39.152] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:39.154] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:39.156] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:39.158] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:39.158] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:39.160] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:39.162] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:39.163] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:39.165] [SERVER] code: 'EADDRINUSE',
+[15:51:39.166] [SERVER] errno: -4091,
+[15:51:39.167] [SERVER] syscall: 'listen',
+[15:51:39.169] [SERVER] address: '::',
+[15:51:39.170] [SERVER] port: 3001
+[15:51:39.171] [SERVER] }
+[15:51:39.172] [SERVER] System.Management.Automation.RemoteException
+[15:51:39.174] [SERVER] Node.js v22.14.0
+[15:51:39.176] [APK] --------- beginning of main
+[15:51:39.177] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:39.178] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:39.179] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:39.180] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:39.695] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:39.697] [SERVER] node:events:496
+[15:51:39.699] [SERVER] throw er; // Unhandled 'error' event
+[15:51:39.701] [SERVER] ^
+[15:51:39.702] [SERVER] System.Management.Automation.RemoteException
+[15:51:39.704] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:39.705] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:39.706] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:39.708] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:39.712] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:39.714] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:39.715] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:39.716] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:39.718] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:39.719] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:39.720] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:39.722] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:39.724] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:39.726] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:39.728] [SERVER] code: 'EADDRINUSE',
+[15:51:39.729] [SERVER] errno: -4091,
+[15:51:39.730] [SERVER] syscall: 'listen',
+[15:51:39.732] [SERVER] address: '::',
+[15:51:39.734] [SERVER] port: 3001
+[15:51:39.734] [SERVER] }
+[15:51:39.736] [SERVER] System.Management.Automation.RemoteException
+[15:51:39.738] [SERVER] Node.js v22.14.0
+[15:51:39.740] [APK] --------- beginning of main
+[15:51:39.741] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:39.743] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:39.745] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:39.747] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:40.255] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:40.258] [SERVER] node:events:496
+[15:51:40.260] [SERVER] throw er; // Unhandled 'error' event
+[15:51:40.261] [SERVER] ^
+[15:51:40.264] [SERVER] System.Management.Automation.RemoteException
+[15:51:40.266] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:40.268] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:40.271] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:40.273] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:40.275] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:40.277] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:40.281] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:40.282] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:40.283] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:40.286] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:40.288] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:40.289] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:40.290] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:40.292] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:40.294] [SERVER] code: 'EADDRINUSE',
+[15:51:40.295] [SERVER] errno: -4091,
+[15:51:40.296] [SERVER] syscall: 'listen',
+[15:51:40.297] [SERVER] address: '::',
+[15:51:40.298] [SERVER] port: 3001
+[15:51:40.300] [SERVER] }
+[15:51:40.301] [SERVER] System.Management.Automation.RemoteException
+[15:51:40.302] [SERVER] Node.js v22.14.0
+[15:51:40.305] [APK] --------- beginning of main
+[15:51:40.306] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:40.307] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:40.308] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:40.310] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:40.815] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:40.819] [SERVER] node:events:496
+[15:51:40.821] [SERVER] throw er; // Unhandled 'error' event
+[15:51:40.823] [SERVER] ^
+[15:51:40.825] [SERVER] System.Management.Automation.RemoteException
+[15:51:40.827] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:40.828] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:40.830] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:40.832] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:40.832] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:40.834] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:40.837] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:40.839] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:40.842] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:40.845] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:40.849] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:40.851] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:40.852] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:40.855] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:40.857] [SERVER] code: 'EADDRINUSE',
+[15:51:40.858] [SERVER] errno: -4091,
+[15:51:40.859] [SERVER] syscall: 'listen',
+[15:51:40.862] [SERVER] address: '::',
+[15:51:40.864] [SERVER] port: 3001
+[15:51:40.866] [SERVER] }
+[15:51:40.867] [SERVER] System.Management.Automation.RemoteException
+[15:51:40.869] [SERVER] Node.js v22.14.0
+[15:51:40.871] [APK] --------- beginning of main
+[15:51:40.872] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:40.874] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:40.875] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:40.876] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:41.391] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:41.394] [SERVER] node:events:496
+[15:51:41.396] [SERVER] throw er; // Unhandled 'error' event
+[15:51:41.397] [SERVER] ^
+[15:51:41.399] [SERVER] System.Management.Automation.RemoteException
+[15:51:41.401] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:41.402] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:41.405] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:41.408] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:41.410] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:41.411] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:41.412] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:41.414] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:41.415] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:41.420] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:41.422] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:41.423] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:41.425] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:41.426] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:41.427] [SERVER] code: 'EADDRINUSE',
+[15:51:41.428] [SERVER] errno: -4091,
+[15:51:41.429] [SERVER] syscall: 'listen',
+[15:51:41.430] [SERVER] address: '::',
+[15:51:41.432] [SERVER] port: 3001
+[15:51:41.433] [SERVER] }
+[15:51:41.434] [SERVER] System.Management.Automation.RemoteException
+[15:51:41.436] [SERVER] Node.js v22.14.0
+[15:51:41.438] [APK] --------- beginning of main
+[15:51:41.439] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:41.439] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:41.440] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:41.441] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:41.953] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:41.956] [SERVER] node:events:496
+[15:51:41.959] [SERVER] throw er; // Unhandled 'error' event
+[15:51:41.961] [SERVER] ^
+[15:51:41.963] [SERVER] System.Management.Automation.RemoteException
+[15:51:41.966] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:41.968] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:41.970] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:41.971] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:41.974] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:41.975] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:41.977] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:41.979] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:41.982] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:41.984] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:41.988] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:41.989] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:41.990] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:41.991] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:41.994] [SERVER] code: 'EADDRINUSE',
+[15:51:41.995] [SERVER] errno: -4091,
+[15:51:41.997] [SERVER] syscall: 'listen',
+[15:51:41.999] [SERVER] address: '::',
+[15:51:42.000] [SERVER] port: 3001
+[15:51:42.001] [SERVER] }
+[15:51:42.003] [SERVER] System.Management.Automation.RemoteException
+[15:51:42.005] [SERVER] Node.js v22.14.0
+[15:51:42.007] [APK] --------- beginning of main
+[15:51:42.008] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:42.010] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:42.011] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:42.013] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:42.524] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:42.526] [SERVER] node:events:496
+[15:51:42.527] [SERVER] throw er; // Unhandled 'error' event
+[15:51:42.529] [SERVER] ^
+[15:51:42.531] [SERVER] System.Management.Automation.RemoteException
+[15:51:42.532] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:42.534] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:42.535] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:42.538] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:42.540] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:42.543] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:42.545] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:42.547] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:42.548] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:42.549] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:42.551] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:42.552] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:42.557] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:42.558] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:42.560] [SERVER] code: 'EADDRINUSE',
+[15:51:42.561] [SERVER] errno: -4091,
+[15:51:42.562] [SERVER] syscall: 'listen',
+[15:51:42.564] [SERVER] address: '::',
+[15:51:42.565] [SERVER] port: 3001
+[15:51:42.567] [SERVER] }
+[15:51:42.569] [SERVER] System.Management.Automation.RemoteException
+[15:51:42.571] [SERVER] Node.js v22.14.0
+[15:51:42.572] [APK] --------- beginning of main
+[15:51:42.574] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:42.576] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:42.580] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:42.582] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:43.089] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:43.091] [SERVER] node:events:496
+[15:51:43.095] [SERVER] throw er; // Unhandled 'error' event
+[15:51:43.096] [SERVER] ^
+[15:51:43.099] [SERVER] System.Management.Automation.RemoteException
+[15:51:43.101] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:43.102] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:43.104] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:43.106] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:43.108] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:43.111] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:43.112] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:43.113] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:43.115] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:43.116] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:43.118] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:43.120] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:43.122] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:43.122] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:43.124] [SERVER] code: 'EADDRINUSE',
+[15:51:43.125] [SERVER] errno: -4091,
+[15:51:43.127] [SERVER] syscall: 'listen',
+[15:51:43.128] [SERVER] address: '::',
+[15:51:43.128] [SERVER] port: 3001
+[15:51:43.130] [SERVER] }
+[15:51:43.132] [SERVER] System.Management.Automation.RemoteException
+[15:51:43.133] [SERVER] Node.js v22.14.0
+[15:51:43.135] [APK] --------- beginning of main
+[15:51:43.137] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:43.139] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:43.140] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:43.142] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:43.650] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:43.655] [SERVER] node:events:496
+[15:51:43.657] [SERVER] throw er; // Unhandled 'error' event
+[15:51:43.660] [SERVER] ^
+[15:51:43.661] [SERVER] System.Management.Automation.RemoteException
+[15:51:43.662] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:43.668] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:43.669] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:43.670] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:43.672] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:43.673] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:43.674] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:43.675] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:43.676] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:43.678] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:43.678] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:43.680] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:43.682] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:43.682] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:43.685] [SERVER] code: 'EADDRINUSE',
+[15:51:43.686] [SERVER] errno: -4091,
+[15:51:43.687] [SERVER] syscall: 'listen',
+[15:51:43.688] [SERVER] address: '::',
+[15:51:43.689] [SERVER] port: 3001
+[15:51:43.690] [SERVER] }
+[15:51:43.692] [SERVER] System.Management.Automation.RemoteException
+[15:51:43.693] [SERVER] Node.js v22.14.0
+[15:51:43.695] [APK] --------- beginning of main
+[15:51:43.697] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:43.698] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:43.699] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:43.700] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:44.210] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:44.212] [SERVER] node:events:496
+[15:51:44.215] [SERVER] throw er; // Unhandled 'error' event
+[15:51:44.216] [SERVER] ^
+[15:51:44.218] [SERVER] System.Management.Automation.RemoteException
+[15:51:44.220] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:44.222] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:44.224] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:44.226] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:44.228] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:44.229] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:44.232] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:44.232] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:44.234] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:44.235] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:44.237] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:44.239] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:44.240] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:44.241] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:44.243] [SERVER] code: 'EADDRINUSE',
+[15:51:44.244] [SERVER] errno: -4091,
+[15:51:44.246] [SERVER] syscall: 'listen',
+[15:51:44.247] [SERVER] address: '::',
+[15:51:44.249] [SERVER] port: 3001
+[15:51:44.250] [SERVER] }
+[15:51:44.251] [SERVER] System.Management.Automation.RemoteException
+[15:51:44.253] [SERVER] Node.js v22.14.0
+[15:51:44.256] [APK] --------- beginning of main
+[15:51:44.257] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:44.258] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:44.260] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:44.261] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:44.766] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:44.769] [SERVER] node:events:496
+[15:51:44.771] [SERVER] throw er; // Unhandled 'error' event
+[15:51:44.772] [SERVER] ^
+[15:51:44.774] [SERVER] System.Management.Automation.RemoteException
+[15:51:44.776] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:44.777] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:44.778] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:44.780] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:44.783] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:44.785] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:44.786] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:44.788] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:44.790] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:44.792] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:44.793] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:44.795] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:44.797] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:44.799] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:44.800] [SERVER] code: 'EADDRINUSE',
+[15:51:44.802] [SERVER] errno: -4091,
+[15:51:44.804] [SERVER] syscall: 'listen',
+[15:51:44.806] [SERVER] address: '::',
+[15:51:44.808] [SERVER] port: 3001
+[15:51:44.809] [SERVER] }
+[15:51:44.811] [SERVER] System.Management.Automation.RemoteException
+[15:51:44.812] [SERVER] Node.js v22.14.0
+[15:51:44.814] [APK] --------- beginning of main
+[15:51:44.816] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:44.818] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:44.819] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:44.821] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:45.331] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:45.332] [SERVER] node:events:496
+[15:51:45.333] [SERVER] throw er; // Unhandled 'error' event
+[15:51:45.336] [SERVER] ^
+[15:51:45.338] [SERVER] System.Management.Automation.RemoteException
+[15:51:45.339] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:45.345] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:45.348] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:45.350] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:45.351] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:45.352] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:45.358] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:45.359] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:45.360] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:45.362] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:45.364] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:45.366] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:45.366] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:45.369] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:45.370] [SERVER] code: 'EADDRINUSE',
+[15:51:45.372] [SERVER] errno: -4091,
+[15:51:45.374] [SERVER] syscall: 'listen',
+[15:51:45.375] [SERVER] address: '::',
+[15:51:45.377] [SERVER] port: 3001
+[15:51:45.380] [SERVER] }
+[15:51:45.381] [SERVER] System.Management.Automation.RemoteException
+[15:51:45.382] [SERVER] Node.js v22.14.0
+[15:51:45.384] [APK] --------- beginning of main
+[15:51:45.386] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:45.387] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:45.388] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:45.390] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:45.907] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:45.908] [SERVER] node:events:496
+[15:51:45.910] [SERVER] throw er; // Unhandled 'error' event
+[15:51:45.911] [SERVER] ^
+[15:51:45.914] [SERVER] System.Management.Automation.RemoteException
+[15:51:45.915] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:45.918] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:45.920] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:45.921] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:45.922] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:45.925] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:45.926] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:45.941] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:45.942] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:45.944] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:45.946] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:45.948] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:45.949] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:45.950] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:45.953] [SERVER] code: 'EADDRINUSE',
+[15:51:45.956] [SERVER] errno: -4091,
+[15:51:45.958] [SERVER] syscall: 'listen',
+[15:51:45.960] [SERVER] address: '::',
+[15:51:45.961] [SERVER] port: 3001
+[15:51:45.963] [SERVER] }
+[15:51:45.964] [SERVER] System.Management.Automation.RemoteException
+[15:51:45.966] [SERVER] Node.js v22.14.0
+[15:51:45.967] [APK] --------- beginning of main
+[15:51:45.970] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:45.972] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:45.974] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:45.975] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:46.480] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:46.483] [SERVER] node:events:496
+[15:51:46.484] [SERVER] throw er; // Unhandled 'error' event
+[15:51:46.488] [SERVER] ^
+[15:51:46.491] [SERVER] System.Management.Automation.RemoteException
+[15:51:46.496] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:46.497] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:46.499] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:46.501] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:46.502] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:46.505] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:46.508] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:46.511] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:46.517] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:46.520] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:46.523] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:46.527] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:46.528] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:46.530] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:46.531] [SERVER] code: 'EADDRINUSE',
+[15:51:46.533] [SERVER] errno: -4091,
+[15:51:46.533] [SERVER] syscall: 'listen',
+[15:51:46.535] [SERVER] address: '::',
+[15:51:46.538] [SERVER] port: 3001
+[15:51:46.540] [SERVER] }
+[15:51:46.543] [SERVER] System.Management.Automation.RemoteException
+[15:51:46.544] [SERVER] Node.js v22.14.0
+[15:51:46.545] [APK] --------- beginning of main
+[15:51:46.548] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:46.549] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:46.550] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:46.552] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:47.057] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:47.059] [SERVER] node:events:496
+[15:51:47.061] [SERVER] throw er; // Unhandled 'error' event
+[15:51:47.062] [SERVER] ^
+[15:51:47.064] [SERVER] System.Management.Automation.RemoteException
+[15:51:47.065] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:47.067] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:47.070] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:47.071] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:47.073] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:47.077] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:47.078] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:47.081] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:47.084] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:47.085] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:47.090] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:47.093] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:47.094] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:47.096] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:47.098] [SERVER] code: 'EADDRINUSE',
+[15:51:47.099] [SERVER] errno: -4091,
+[15:51:47.100] [SERVER] syscall: 'listen',
+[15:51:47.104] [SERVER] address: '::',
+[15:51:47.105] [SERVER] port: 3001
+[15:51:47.107] [SERVER] }
+[15:51:47.108] [SERVER] System.Management.Automation.RemoteException
+[15:51:47.110] [SERVER] Node.js v22.14.0
+[15:51:47.112] [APK] --------- beginning of main
+[15:51:47.114] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:47.116] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:47.117] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:47.119] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:47.640] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:47.645] [SERVER] node:events:496
+[15:51:47.648] [SERVER] throw er; // Unhandled 'error' event
+[15:51:47.650] [SERVER] ^
+[15:51:47.653] [SERVER] System.Management.Automation.RemoteException
+[15:51:47.655] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:47.657] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:47.658] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:47.660] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:47.660] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:47.662] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:47.663] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:47.665] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:47.666] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:47.667] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:47.669] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:47.672] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:47.673] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:47.674] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:47.675] [SERVER] code: 'EADDRINUSE',
+[15:51:47.677] [SERVER] errno: -4091,
+[15:51:47.677] [SERVER] syscall: 'listen',
+[15:51:47.680] [SERVER] address: '::',
+[15:51:47.681] [SERVER] port: 3001
+[15:51:47.682] [SERVER] }
+[15:51:47.683] [SERVER] System.Management.Automation.RemoteException
+[15:51:47.684] [SERVER] Node.js v22.14.0
+[15:51:47.687] [APK] --------- beginning of main
+[15:51:47.688] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:47.689] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:47.690] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:47.691] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:48.200] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:51:48.202] [SERVER] node:events:496
+[15:51:48.203] [SERVER] throw er; // Unhandled 'error' event
+[15:51:48.207] [SERVER] ^
+[15:51:48.208] [SERVER] System.Management.Automation.RemoteException
+[15:51:48.210] [SERVER] Error: listen EADDRINUSE: address already in use :::3001
+[15:51:48.211] [SERVER] at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+[15:51:48.212] [SERVER] at listenInCluster (node:net:1994:12)
+[15:51:48.214] [SERVER] at Server.listen (node:net:2099:7)
+[15:51:48.215] [SERVER] at Object.<anonymous> (C:\Users\Vincent B\CascadeProjects\web-tracking-system\server.js:1232:8)
+[15:51:48.217] [SERVER] at Module._compile (node:internal/modules/cjs/loader:1554:14)
+[15:51:48.217] [SERVER] at Object..js (node:internal/modules/cjs/loader:1706:10)
+[15:51:48.221] [SERVER] at Module.load (node:internal/modules/cjs/loader:1289:32)
+[15:51:48.228] [SERVER] at Function._load (node:internal/modules/cjs/loader:1108:12)
+[15:51:48.230] [SERVER] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[15:51:48.231] [SERVER] at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+[15:51:48.232] [SERVER] Emitted 'error' event on Server instance at:
+[15:51:48.233] [SERVER] at emitErrorNT (node:net:1973:8)
+[15:51:48.238] [SERVER] at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+[15:51:48.239] [SERVER] code: 'EADDRINUSE',
+[15:51:48.240] [SERVER] errno: -4091,
+[15:51:48.242] [SERVER] syscall: 'listen',
+[15:51:48.244] [SERVER] address: '::',
+[15:51:48.246] [SERVER] port: 3001
+[15:51:48.247] [SERVER] }
+[15:51:48.249] [SERVER] System.Management.Automation.RemoteException
+[15:51:48.250] [SERVER] Node.js v22.14.0
+[15:51:48.253] [APK] --------- beginning of main
+[15:51:48.254] [APK] 10-01 15:51:21.059 24999 24999 D CrossAppTracking: ========================================
+[15:51:48.256] [APK] 10-01 15:51:21.060 24999 24999 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:51:48.257] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:51:48.258] [APK] 10-01 15:51:21.061 24999 24999 D CrossAppTracking: ========================================
+[15:51:48.771] [SYSTEM] Stopping monitoring...
+[15:51:53.283] [SYSTEM] Monitoring completed
