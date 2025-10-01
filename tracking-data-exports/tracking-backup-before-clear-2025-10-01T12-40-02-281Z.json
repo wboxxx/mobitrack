@@ -1,0 +1,125 @@
+{
+  "events": [
+    {
+      "id": 1759322317313,
+      "timestamp": 1759322317042,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3",
+          "productName": "3 produits déjà ajoutés au panier",
+          "allTexts": [
+            "3",
+            "3 produits déjà ajoutés au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759322318307,
+      "timestamp": 1759322318064,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "3,98",
+            "3 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759322318398,
+      "timestamp": 1759322318164,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759322318447,
+      "timestamp": 1759322318211,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "3 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "5,97",
+            "5 euros et 97 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "3",
+            "3 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759322318582,
+      "timestamp": 1759322318303,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "5 euros et 97 centimes.",
+          "allTexts": [
+            "5,97",
+            "5 euros et 97 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 5,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 5
+  },
+  "exportedAt": "2025-10-01T12:40:02.281Z",
+  "exportedBy": "auto-clear"
+}

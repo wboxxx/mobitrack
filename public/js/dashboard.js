@@ -5,6 +5,8 @@ class TrackingDashboard {
         this.events = [];
         this.sessions = [];
         this.currentFilter = 'all';
+        this.productSearchAll = '';
+        this.productSearchFiltered = '';
         this.stats = {
             totalEvents: 0,
             activeSessions: 0,
@@ -26,6 +28,7 @@ class TrackingDashboard {
     init() {
         this.setupSocketListeners();
         this.setupEventFilters();
+        this.setupProductSearch();
         this.loadInitialData();
         this.loadCartAnalysis();
         this.updateConnectionStatus(true);
@@ -78,6 +81,25 @@ class TrackingDashboard {
                 this.renderEvents();
             });
         });
+    }
+
+    setupProductSearch() {
+        const searchInputAll = document.getElementById('productSearchAll');
+        const searchInputFiltered = document.getElementById('productSearchFiltered');
+        
+        if (searchInputAll) {
+            searchInputAll.addEventListener('input', (e) => {
+                this.productSearchAll = e.target.value.toLowerCase();
+                this.renderEvents();
+            });
+        }
+        
+        if (searchInputFiltered) {
+            searchInputFiltered.addEventListener('input', (e) => {
+                this.productSearchFiltered = e.target.value.toLowerCase();
+                this.renderEvents();
+            });
+        }
     }
 
     async loadInitialData() {
@@ -148,6 +170,16 @@ class TrackingDashboard {
             });
         }
 
+        // Apply product search filter
+        if (this.productSearchAll) {
+            filteredEvents = filteredEvents.filter(event => {
+                const productName = event.data?.productInfo?.productName || '';
+                const cartAction = event.data?.productInfo?.cartAction || '';
+                const searchText = (productName + ' ' + cartAction).toLowerCase();
+                return searchText.includes(this.productSearchAll);
+            });
+        }
+
         if (filteredEvents.length === 0) {
             allEventsPanel.innerHTML = '<p style="color: #666; text-align: center; padding: 2rem;">Aucun événement trouvé</p>';
             return;
@@ -176,22 +208,49 @@ class TrackingDashboard {
         if (!filteredEventsPanel) return;
 
         // Filter only relevant events (real cart additions, product clicks, etc.)
-        const relevantEvents = this.events.filter(event => {
+        let relevantEvents = this.events.filter(event => {
             // Only show Carrefour events with real data
             if (event.data && event.data.packageName === 'com.carrefour.fid.android') {
                 if (event.eventType === 'ADD_TO_CART') {
-                    // Only real cart additions with prices > 0
-                    const price = event.data.productInfo?.price || '';
+                    const cartAction = event.data.productInfo?.cartAction || '';
                     const productName = event.data.productInfo?.productName || '';
+                    const allTexts = event.data.productInfo?.allTexts || [];
                     
-                    // Filter out navigation elements
-                    const navigationTerms = ['accueil', 'rechercher', 'drive', 'livraison', 'compte', 'notification', 'ferme', 'ouvert'];
-                    const isNavigation = navigationTerms.some(term => productName.toLowerCase().includes(term));
+                    // ❌ Ignorer les événements de RÉSULTAT (mises à jour UI)
+                    const resultPatterns = [
+                        'produits déjà ajoutés',  // Compteur
+                        'retirer un produit',      // Bouton -
+                        'valider mon panier',      // Bouton validation
+                        'euros et',                // Prix seul
+                        'centimes'                 // Prix seul
+                    ];
                     
-                    // Check for real price (not 0,00 € or corrupted)
-                    const hasRealPrice = price && !price.includes('0,00') && !price.includes('???') && price.match(/\d+[,.]?\d*\s*€/);
+                    const isResult = resultPatterns.some(pattern => 
+                        productName.toLowerCase().includes(pattern) ||
+                        cartAction.toLowerCase().includes(pattern)
+                    );
                     
-                    return !isNavigation && hasRealPrice;
+                    if (isResult) {
+                        return false; // Ignorer les résultats
+                    }
+                    
+                    // ✅ Ne garder QUE les vraies ACTIONS d'ajout
+                    const isAddAction = cartAction.toLowerCase().includes('ajouter un produit dans le panier');
+                    
+                    // ✅ Vérifier qu'il y a un vrai nom de produit dans allTexts
+                    const hasRealProduct = allTexts.some(text => {
+                        const t = text.toLowerCase();
+                        // Un vrai produit = pas un prix, pas un bouton, pas un compteur
+                        return t.length > 3 && 
+                               !t.match(/^\d+[,.]?\d*\s*€?$/) &&  // Pas juste un prix
+                               !t.includes('ajouter') && 
+                               !t.includes('retirer') &&
+                               !t.includes('euros') &&
+                               !t.includes('centimes') &&
+                               !t.match(/^\d+$/);  // Pas juste un chiffre
+                    });
+                    
+                    return isAddAction && hasRealProduct;
                 }
                 
                 if (event.eventType === 'VIEW_CLICKED') {
@@ -213,6 +272,16 @@ class TrackingDashboard {
             
             return false;
         });
+
+        // Apply product search filter
+        if (this.productSearchFiltered) {
+            relevantEvents = relevantEvents.filter(event => {
+                const productName = event.data?.productInfo?.productName || '';
+                const cartAction = event.data?.productInfo?.cartAction || '';
+                const searchText = (productName + ' ' + cartAction).toLowerCase();
+                return searchText.includes(this.productSearchFiltered);
+            });
+        }
 
         if (relevantEvents.length === 0) {
             filteredEventsPanel.innerHTML = '<p style="color: #666; text-align: center; padding: 2rem;">Aucun événement pertinent détecté</p>';

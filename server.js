@@ -377,6 +377,47 @@ class ServerEventFilter {
 
 const eventFilter = new ServerEventFilter();
 
+// Déduplication des événements
+const recentEvents = new Map(); // key: hash, value: timestamp
+const DEDUP_WINDOW_MS = 2000; // 2 secondes
+
+function getEventHash(event) {
+  // Créer une signature unique pour l'événement
+  const productName = event.data?.productInfo?.productName || '';
+  const cartAction = event.data?.productInfo?.cartAction || '';
+  const price = event.data?.productInfo?.price || '';
+  const eventType = event.eventType || '';
+  
+  return `${eventType}:${productName}:${cartAction}:${price}`;
+}
+
+function isDuplicate(event) {
+  const hash = getEventHash(event);
+  const now = Date.now();
+  
+  // Nettoyer les anciens événements
+  for (const [key, timestamp] of recentEvents.entries()) {
+    if (now - timestamp > DEDUP_WINDOW_MS) {
+      recentEvents.delete(key);
+    }
+  }
+  
+  // Vérifier si c'est un doublon
+  if (recentEvents.has(hash)) {
+    const lastTimestamp = recentEvents.get(hash);
+    const timeDiff = now - lastTimestamp;
+    
+    if (timeDiff < DEDUP_WINDOW_MS) {
+      console.log(`🔄 DEDUP: Événement dupliqué ignoré (${timeDiff}ms) - ${hash.substring(0, 60)}`);
+      return true;
+    }
+  }
+  
+  // Enregistrer cet événement
+  recentEvents.set(hash, now);
+  return false;
+}
+
 // API endpoints
 app.post('/api/track', (req, res) => {
   const rawEvent = {
@@ -384,6 +425,11 @@ app.post('/api/track', (req, res) => {
     timestamp: new Date().toISOString(),
     ...req.body
   };
+  
+  // Vérifier si c'est un doublon
+  if (isDuplicate(rawEvent)) {
+    return res.json({ success: true, eventId: rawEvent.id, deduplicated: true });
+  }
   
   // TOUJOURS envoyer au dashboard - le filtrage se fait côté client
   trackingData.push(rawEvent);
@@ -397,7 +443,7 @@ app.post('/api/track', (req, res) => {
   
   // Logger simplifié
   const productName = rawEvent.data?.productInfo?.productName || rawEvent.data?.element?.text || '';
-  console.log(`📊 ${rawEvent.eventType} - ${productName.substring(0, 40)}`);
+  console.log(`✅ ${rawEvent.eventType} - ${productName.substring(0, 40)}`);
   
   res.json({ success: true, eventId: rawEvent.id });
 });
@@ -482,22 +528,79 @@ app.post('/api/clear-data', (req, res) => {
   }
 });
 
+// Fonction pour déterminer si un événement est pertinent (colonne 2)
+function isRelevantEvent(event) {
+  if (event.data && event.data.packageName === 'com.carrefour.fid.android' && event.eventType === 'ADD_TO_CART') {
+    const cartAction = event.data.productInfo?.cartAction || '';
+    const productName = event.data.productInfo?.productName || '';
+    const allTexts = event.data.productInfo?.allTexts || [];
+    
+    // ❌ Ignorer les événements de RÉSULTAT
+    const resultPatterns = [
+      'produits déjà ajoutés',
+      'retirer un produit',
+      'valider mon panier',
+      'euros et',
+      'centimes'
+    ];
+    
+    const isResult = resultPatterns.some(pattern => 
+      productName.toLowerCase().includes(pattern) ||
+      cartAction.toLowerCase().includes(pattern)
+    );
+    
+    if (isResult) return false;
+    
+    // ✅ Vérifier que c'est une vraie action d'ajout
+    const isAddAction = cartAction.toLowerCase().includes('ajouter un produit dans le panier');
+    
+    // ✅ Vérifier qu'il y a un vrai produit
+    const hasRealProduct = allTexts.some(text => {
+      const t = text.toLowerCase();
+      return t.length > 3 && 
+             !t.match(/^\d+[,.]?\d*\s*€?$/) &&
+             !t.includes('ajouter') && 
+             !t.includes('retirer') &&
+             !t.includes('euros') &&
+             !t.includes('centimes') &&
+             !t.match(/^\d+$/);
+    });
+    
+    return isAddAction && hasRealProduct;
+  }
+  
+  return false;
+}
+
 // Endpoint pour exporter les données vers le dossier du projet
 app.post('/api/export-data', (req, res) => {
   const fs = require('fs');
   const path = require('path');
   
+  // Enrichir chaque événement avec isRelevant
+  const enrichedEvents = trackingData.map(event => ({
+    ...event,
+    isRelevant: isRelevantEvent(event)
+  }));
+  
+  const relevantCount = enrichedEvents.filter(e => e.isRelevant).length;
+  
   const exportData = {
-    events: trackingData,
+    events: enrichedEvents,
     sessions: sessions,
     stats: {
       totalEvents: trackingData.length,
+      relevantEvents: relevantCount,
       activeSessions: sessions.length,
       productClicks: trackingData.filter(e => e.eventType === 'VIEW_CLICKED').length,
       conversions: trackingData.filter(e => e.eventType === 'ADD_TO_CART').length
     },
     exportedAt: new Date().toISOString(),
-    exportedBy: 'dashboard'
+    exportedBy: 'dashboard',
+    columns: {
+      column1_all: trackingData.length,
+      column2_relevant: relevantCount
+    }
   };
   
   // Créer le dossier s'il n'existe pas
