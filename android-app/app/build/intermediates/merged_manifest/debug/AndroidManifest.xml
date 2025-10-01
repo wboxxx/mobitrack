@@ -56,6 +56,13 @@
             android:exported="false"
             android:theme="@style/Theme.LeclercTracking" />
 
+        <!-- Activité de test automatique -->
+        <activity
+            android:name="com.bascule.leclerctracking.ui.AutoTestActivity"
+            android:exported="false"
+            android:label="Test Automatique"
+            android:theme="@style/Theme.LeclercTracking" />
+
         <!-- Service de tracking cross-app -->
         <service
             android:name="com.bascule.leclerctracking.service.CrossAppTrackingService"

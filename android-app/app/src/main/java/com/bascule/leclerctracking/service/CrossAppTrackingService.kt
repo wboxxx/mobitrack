@@ -93,6 +93,9 @@ class CrossAppTrackingService : AccessibilityService() {
         
         Log.d("CrossAppTracking", "🚀 Accessibility Service connecté !")
         
+        // Enregistrer l'instance pour les tests automatiques
+        AutoTestHelper.setServiceInstance(this)
+        
         val info = AccessibilityServiceInfo().apply {
             eventTypes = AccessibilityEvent.TYPES_ALL_MASK
             feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
@@ -106,6 +109,11 @@ class CrossAppTrackingService : AccessibilityService() {
         Log.d("CrossAppTracking", "Service d'accessibilité configuré pour TOUTES les apps")
         Log.d("CrossAppTracking", "📋 Event types: ${info.eventTypes}")
         Log.d("CrossAppTracking", "📋 Flags: ${info.flags}")
+    }
+    
+    override fun onDestroy() {
+        super.onDestroy()
+        AutoTestHelper.setServiceInstance(null)
     }
     
     private fun startForegroundService() {

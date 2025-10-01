@@ -56,6 +56,10 @@ class ConsentActivity : AppCompatActivity() {
                 openAccessibilitySettings()
             }
             
+            autoTestButton.setOnClickListener {
+                startAutoTest()
+            }
+            
             // Informations sur les permissions
             permissionInfoText.text = """
                 Permissions requises:
@@ -176,6 +180,28 @@ class ConsentActivity : AppCompatActivity() {
         }
         startActivity(intent)
         finish()
+    }
+    
+    private fun startAutoTest() {
+        // Vérifier que le service d'accessibilité est activé
+        val isEnabled = AccessibilityUtils.isAccessibilityServiceEnabled(
+            this,
+            CrossAppTrackingService::class.java
+        )
+        
+        if (!isEnabled) {
+            Toast.makeText(
+                this,
+                "⚠️ Active d'abord le service d'accessibilité",
+                Toast.LENGTH_LONG
+            ).show()
+            openAccessibilitySettings()
+            return
+        }
+        
+        // Lancer l'activité de test automatique
+        val intent = Intent(this, AutoTestActivity::class.java)
+        startActivity(intent)
     }
     
     override fun onResume() {

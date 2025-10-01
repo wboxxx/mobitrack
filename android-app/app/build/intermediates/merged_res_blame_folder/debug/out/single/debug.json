@@ -64,6 +64,10 @@
         "source": "com.bascule.leclerctracking.app-main-37:/drawable/ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.bascule.leclerctracking.app-merged_res-35:/layout_activity_auto_test.xml.flat",
+        "source": "com.bascule.leclerctracking.app-main-37:/layout/activity_auto_test.xml"
+    },
+    {
         "merged": "com.bascule.leclerctracking.app-merged_res-35:/drawable_ic_analytics.xml.flat",
         "source": "com.bascule.leclerctracking.app-main-37:/drawable/ic_analytics.xml"
     }

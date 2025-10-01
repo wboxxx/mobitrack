@@ -3184,6 +3184,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id autoTestButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3341,6 +3342,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logTextView
 id m3_side_sheet
 id marquee
 id masked
@@ -3522,6 +3524,7 @@ id src_over
 id standard
 id start
 id startHorizontal
+id startTestButton
 id startToEnd
 id startVertical
 id staticLayout
@@ -3719,6 +3722,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_auto_test
 layout activity_consent
 layout activity_main
 layout custom_dialog

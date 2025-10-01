@@ -24,6 +24,9 @@ public final class ActivityConsentBinding implements ViewBinding {
   public final Button acceptButton;
 
   @NonNull
+  public final Button autoTestButton;
+
+  @NonNull
   public final Button declineButton;
 
   @NonNull
@@ -42,11 +45,12 @@ public final class ActivityConsentBinding implements ViewBinding {
   public final TextView titleText;
 
   private ActivityConsentBinding(@NonNull ScrollView rootView, @NonNull Button acceptButton,
-      @NonNull Button declineButton, @NonNull TextView descriptionText,
-      @NonNull TextView permissionInfoText, @NonNull Button settingsButton,
-      @NonNull TextView statusText, @NonNull TextView titleText) {
+      @NonNull Button autoTestButton, @NonNull Button declineButton,
+      @NonNull TextView descriptionText, @NonNull TextView permissionInfoText,
+      @NonNull Button settingsButton, @NonNull TextView statusText, @NonNull TextView titleText) {
     this.rootView = rootView;
     this.acceptButton = acceptButton;
+    this.autoTestButton = autoTestButton;
     this.declineButton = declineButton;
     this.descriptionText = descriptionText;
     this.permissionInfoText = permissionInfoText;
@@ -88,6 +92,12 @@ public final class ActivityConsentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.autoTestButton;
+      Button autoTestButton = ViewBindings.findChildViewById(rootView, id);
+      if (autoTestButton == null) {
+        break missingId;
+      }
+
       id = R.id.declineButton;
       Button declineButton = ViewBindings.findChildViewById(rootView, id);
       if (declineButton == null) {
@@ -124,8 +134,9 @@ public final class ActivityConsentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityConsentBinding((ScrollView) rootView, acceptButton, declineButton,
-          descriptionText, permissionInfoText, settingsButton, statusText, titleText);
+      return new ActivityConsentBinding((ScrollView) rootView, acceptButton, autoTestButton,
+          declineButton, descriptionText, permissionInfoText, settingsButton, statusText,
+          titleText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

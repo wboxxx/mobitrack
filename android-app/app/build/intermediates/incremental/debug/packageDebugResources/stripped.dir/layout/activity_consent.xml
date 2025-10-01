@@ -147,7 +147,17 @@
                 android:text="Mode Intra-App Seulement"
                 android:textSize="14sp"
                 android:background="@drawable/button_outline"
-                android:textColor="#666" />
+                android:textColor="#666"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/autoTestButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="🧪 Test Automatique Carrefour"
+                android:textSize="14sp"
+                android:background="@drawable/button_outline"
+                android:textColor="#FF6600" />
 
         </LinearLayout>
 
