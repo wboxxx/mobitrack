@@ -231,8 +231,17 @@ class CrossAppTrackingService : AccessibilityService() {
         val isCartPage = allText.contains("panier") || allText.contains("valider mon panier")
         
         if (isCartPage) {
-            Log.d("CrossAppTracking", "📸 Page panier détectée, capture du snapshot...")
-            captureCartSnapshot(nodeInfo, packageName)
+            Log.d("CrossAppTracking", "📸 Page panier détectée, attente du chargement des produits...")
+            
+            // Attendre 2 secondes pour que les produits se chargent
+            android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+                val freshNodeInfo = rootInActiveWindow
+                if (freshNodeInfo != null) {
+                    Log.d("CrossAppTracking", "📸 Capture du snapshot après chargement...")
+                    captureCartSnapshot(freshNodeInfo, packageName)
+                }
+            }, 2000)
+            
             lastCartSnapshotTime = currentTime
         }
     }
@@ -241,7 +250,9 @@ class CrossAppTrackingService : AccessibilityService() {
         val products = mutableListOf<Map<String, Any>>()
         
         // Scanner tous les produits visibles dans le panier
+        Log.d("CrossAppTracking", "📸 Début du scan des produits...")
         scanNodeForProducts(nodeInfo, products)
+        Log.d("CrossAppTracking", "📸 Fin du scan: ${products.size} produits trouvés")
         
         if (products.isNotEmpty()) {
             Log.d("CrossAppTracking", "📸 Snapshot capturé: ${products.size} produits trouvés")
@@ -253,6 +264,11 @@ class CrossAppTrackingService : AccessibilityService() {
                 "products" to products,
                 "snapshotTime" to System.currentTimeMillis()
             ))
+        } else {
+            Log.d("CrossAppTracking", "⚠️ Snapshot vide: aucun produit trouvé dans le panier")
+            // Logger tous les textes pour debug
+            val allTexts = getAllTextsFromNode(nodeInfo)
+            Log.d("CrossAppTracking", "📝 Textes trouvés (${allTexts.size}): ${allTexts.take(20).joinToString(", ")}")
         }
     }
     

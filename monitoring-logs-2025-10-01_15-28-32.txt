@@ -1,0 +1,301 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 15:28:32
+Duration: 10 seconds
+========================================
+
+[15:28:32.239] [SYSTEM] Starting Node.js server...
+[15:28:35.359] [SYSTEM] Node.js server started (Job ID: 13)
+[15:28:35.385] [SYSTEM] Starting APK log capture...
+[15:28:36.515] [SYSTEM] APK log capture started (Job ID: 15)
+[15:28:36.518] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[15:28:36.523] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:36.526] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:36.538] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:36.541] [SERVER] Client connected to dashboard
+[15:28:36.545] [APK] --------- beginning of main
+[15:28:36.548] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:36.550] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:36.553] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:36.555] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:36.557] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:36.559] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:36.561] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:36.563] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:36.565] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:36.567] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:36.570] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:37.076] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:37.080] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:37.083] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:37.085] [SERVER] Client connected to dashboard
+[15:28:37.088] [APK] --------- beginning of main
+[15:28:37.091] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.092] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:37.095] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:37.097] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.100] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.101] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:37.104] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:37.112] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:37.114] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.117] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:37.119] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:37.637] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:37.641] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:37.644] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:37.648] [SERVER] Client connected to dashboard
+[15:28:37.651] [APK] --------- beginning of main
+[15:28:37.654] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.656] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:37.660] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:37.662] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.664] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.666] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:37.668] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:37.670] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:37.671] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:37.674] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:37.675] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:38.180] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:38.185] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:38.189] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:38.194] [SERVER] Client connected to dashboard
+[15:28:38.199] [APK] --------- beginning of main
+[15:28:38.203] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.204] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:38.207] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:38.211] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.215] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.217] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:38.219] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:38.221] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:38.222] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.223] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:38.226] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:38.741] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:38.747] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:38.750] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:38.753] [SERVER] Client connected to dashboard
+[15:28:38.758] [APK] --------- beginning of main
+[15:28:38.760] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.763] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:38.765] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:38.767] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.769] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.773] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:38.774] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:38.776] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:38.778] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:38.780] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:38.781] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:39.287] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:39.293] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:39.294] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:39.298] [SERVER] Client connected to dashboard
+[15:28:39.303] [APK] --------- beginning of main
+[15:28:39.305] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.308] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:39.310] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:39.313] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.316] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.318] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:39.320] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:39.323] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:39.325] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.326] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:39.327] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:39.831] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:39.834] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:39.836] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:39.838] [SERVER] Client connected to dashboard
+[15:28:39.841] [APK] --------- beginning of main
+[15:28:39.844] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.848] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:39.851] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:39.854] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.857] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.860] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:39.865] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:39.871] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:39.874] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:39.877] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:39.881] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:40.393] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:40.396] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:40.397] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:40.400] [SERVER] Client connected to dashboard
+[15:28:40.408] [APK] --------- beginning of main
+[15:28:40.411] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:40.415] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:40.417] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:40.420] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:40.424] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:40.428] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:40.431] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:40.435] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:40.440] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:40.443] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:40.448] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:40.969] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:40.974] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:40.978] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:40.981] [SERVER] Client connected to dashboard
+[15:28:40.987] [APK] --------- beginning of main
+[15:28:40.992] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:40.997] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:41.003] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:41.008] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.011] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.016] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:41.020] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:41.025] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:41.029] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.034] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:41.039] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:41.558] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:41.562] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:41.565] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:41.566] [SERVER] Client connected to dashboard
+[15:28:41.570] [APK] --------- beginning of main
+[15:28:41.572] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.575] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:41.578] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:41.582] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.584] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.588] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:41.590] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:41.594] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:41.597] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:41.600] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:41.603] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:42.116] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:42.119] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:42.122] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:42.124] [SERVER] Client connected to dashboard
+[15:28:42.127] [APK] --------- beginning of main
+[15:28:42.129] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.131] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:42.135] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:42.138] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.140] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.144] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:42.147] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:42.149] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:42.155] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.156] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:42.160] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:42.672] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:42.674] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:42.676] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:42.678] [SERVER] Client connected to dashboard
+[15:28:42.679] [APK] --------- beginning of main
+[15:28:42.681] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.685] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:42.687] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:42.690] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.694] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.698] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:42.700] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:42.702] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:42.703] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:42.704] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:42.707] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:43.215] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:43.218] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:43.220] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:43.222] [SERVER] Client connected to dashboard
+[15:28:43.225] [APK] --------- beginning of main
+[15:28:43.228] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.232] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:43.236] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:43.239] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.243] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.247] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:43.252] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:43.255] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:43.268] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.273] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:43.278] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:43.794] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:43.801] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:43.804] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:43.807] [SERVER] Client connected to dashboard
+[15:28:43.812] [APK] --------- beginning of main
+[15:28:43.814] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.816] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:43.819] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:43.821] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.823] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.825] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:43.829] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:43.831] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:43.834] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:43.835] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:43.837] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:44.354] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:44.362] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:44.369] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:44.375] [SERVER] Client connected to dashboard
+[15:28:44.380] [APK] --------- beginning of main
+[15:28:44.384] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.388] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:44.391] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:44.394] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.397] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.400] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:44.401] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:44.404] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:44.406] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.408] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:44.411] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:44.918] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:44.924] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:44.928] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:44.930] [SERVER] Client connected to dashboard
+[15:28:44.934] [APK] --------- beginning of main
+[15:28:44.936] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.941] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:44.947] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:44.951] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.954] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.955] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:44.958] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:44.961] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:44.963] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:44.966] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:44.969] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:45.480] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:45.485] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:45.489] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:45.492] [SERVER] Client connected to dashboard
+[15:28:45.498] [APK] --------- beginning of main
+[15:28:45.502] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:45.512] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:45.516] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:45.519] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:45.522] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:45.525] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:45.528] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:45.529] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:45.531] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:45.534] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:45.536] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:46.039] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[15:28:46.044] [SERVER] Web tracking system running on http://localhost:3001
+[15:28:46.046] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[15:28:46.049] [SERVER] Client connected to dashboard
+[15:28:46.051] [APK] --------- beginning of main
+[15:28:46.053] [APK] 10-01 15:28:00.306 23143 23143 D CrossAppTracking: ========================================
+[15:28:46.055] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[15:28:46.058] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 15:15 - Snapshot v2.0
+[15:28:46.060] [APK] 10-01 15:28:00.308 23143 23143 D CrossAppTracking: ========================================
+[15:28:46.062] [APK] 10-01 15:28:02.062 23143 23143 D CrossAppTracking: ========================================
+[15:28:46.066] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[15:28:46.067] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒöû Build: BUILD_1759325282
+[15:28:46.068] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[15:28:46.071] [APK] 10-01 15:28:02.063 23143 23143 D CrossAppTracking: ========================================
+[15:28:46.073] [APK] 10-01 15:28:02.185 23143 23143 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[15:28:46.074] [APK] 10-01 15:28:02.187 23143 23143 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[15:28:46.583] [SYSTEM] Stopping monitoring...
+[15:28:54.571] [SYSTEM] Monitoring completed

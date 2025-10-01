@@ -16,40 +16,61 @@ adb logcat -c
 Write-Host "   Cache vide" -ForegroundColor Green
 Write-Host ""
 
-# Etape 3 : Ouvrir les parametres d accessibilite
-Write-Host "3. Ouverture des parametres d accessibilite..." -ForegroundColor Yellow
-adb shell am start -a android.settings.ACCESSIBILITY_SETTINGS
-Start-Sleep -Seconds 2
-Write-Host "   Parametres ouverts" -ForegroundColor Green
+# Etape 3 : Verifier si le service est deja actif
+Write-Host "3. Verification du service d'accessibilite..." -ForegroundColor Yellow
+$serviceStatus = adb shell settings get secure enabled_accessibility_services
+$isServiceEnabled = $serviceStatus -like "*com.bascule.leclerctracking*"
+
+if ($isServiceEnabled) {
+    Write-Host "   Service deja actif - Skip manuel" -ForegroundColor Green
+    Write-Host "   Redemarrage automatique du service..." -ForegroundColor Yellow
+    
+    # Forcer le redemarrage en desactivant/reactivant
+    adb shell settings put secure enabled_accessibility_services ""
+    Start-Sleep -Milliseconds 500
+    adb shell settings put secure enabled_accessibility_services "com.bascule.leclerctracking/.service.CrossAppTrackingService"
+    Start-Sleep -Seconds 1
+    
+    Write-Host "   Service redemarre automatiquement" -ForegroundColor Green
+} else {
+    Write-Host "   Service non actif - Configuration manuelle requise" -ForegroundColor Yellow
+    Write-Host ""
+    
+    # Ouvrir les parametres d accessibilite
+    Write-Host "4. Ouverture des parametres d accessibilite..." -ForegroundColor Yellow
+    adb shell am start -a android.settings.ACCESSIBILITY_SETTINGS
+    Start-Sleep -Seconds 2
+    Write-Host "   Parametres ouverts" -ForegroundColor Green
+    Write-Host ""
+    
+    # Instructions manuelles
+    Write-Host "5. SUR L EMULATEUR:" -ForegroundColor Yellow
+    Write-Host "   a) Trouve 'Bascule Cross-App Tracking'" -ForegroundColor Cyan
+    Write-Host "   b) Active le switch" -ForegroundColor Cyan
+    Write-Host "   c) Confirme OK si popup" -ForegroundColor Cyan
+    Write-Host ""
+    
+    Read-Host "Appuie sur Enter quand c est fait"
+}
+
 Write-Host ""
 
-# Etape 4 : Instructions manuelles
-Write-Host "4. SUR L EMULATEUR:" -ForegroundColor Yellow
-Write-Host "   a) Trouve 'Bascule Cross-App Tracking'" -ForegroundColor Cyan
-Write-Host "   b) Si ACTIVE : Desactive le switch" -ForegroundColor Cyan
-Write-Host "   c) Reactive le switch" -ForegroundColor Cyan
-Write-Host "   d) Confirme OK si popup" -ForegroundColor Cyan
-Write-Host ""
-
-Read-Host "Appuie sur Enter quand c est fait"
-
-# Etape 5 : Retour a l accueil
-Write-Host ""
-Write-Host "5. Retour a l ecran d accueil..." -ForegroundColor Yellow
+# Retour a l accueil
+Write-Host "4. Retour a l ecran d accueil..." -ForegroundColor Yellow
 adb shell input keyevent KEYCODE_HOME
 Start-Sleep -Seconds 1
 Write-Host "   Retour accueil OK" -ForegroundColor Green
 Write-Host ""
 
-# Etape 6 : Lancer l app de tracking
-Write-Host "6. Lancement de l app de tracking..." -ForegroundColor Yellow
+# Lancer l app de tracking
+Write-Host "5. Lancement de l app de tracking..." -ForegroundColor Yellow
 adb shell monkey -p com.bascule.leclerctracking -c android.intent.category.LAUNCHER 1
 Start-Sleep -Seconds 2
 Write-Host "   App lancee" -ForegroundColor Green
 Write-Host ""
 
-# Etape 7 : Lancer Carrefour
-Write-Host "7. Lancement de Carrefour..." -ForegroundColor Yellow
+# Lancer Carrefour
+Write-Host "6. Lancement de Carrefour..." -ForegroundColor Yellow
 adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1
 Write-Host "   Carrefour lance" -ForegroundColor Green
 Write-Host ""

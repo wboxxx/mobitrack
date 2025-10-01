@@ -1,0 +1,601 @@
+{
+  "events": [
+    {
+      "id": 1759325729981,
+      "timestamp": 1759325648671,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730002,
+      "timestamp": 1759325648675,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730026,
+      "timestamp": 1759325648676,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "-10% Club",
+          "productName": "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+          "allTexts": [
+            "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+            "Ananas en morceaux CARREFOUR LE MARCHE",
+            "Supprimer",
+            "Bouton de substitution",
+            "Poires CARREFOUR BIO",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club",
+            "Bananes Bio Cavendish"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730046,
+      "timestamp": 1759325648677,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "3,98",
+            "3 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": true
+    },
+    {
+      "id": 1759325730072,
+      "timestamp": 1759325648696,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730350,
+      "timestamp": 1759325649091,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 256,
+        "eventType": "cross_app_scroll"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730382,
+      "timestamp": 1759325649292,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "-10% Club",
+          "productName": "Drapeau français",
+          "allTexts": [
+            "-10% Club",
+            "Drapeau français"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730466,
+      "timestamp": 1759325649299,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759325648265
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730543,
+      "timestamp": 1759325651270,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "Vider tout le panier",
+          "productName": "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+          "allTexts": [
+            "2 produits à remplacer",
+            "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+            "Ananas en morceaux CARREFOUR LE MARCHE",
+            "Supprimer",
+            "Bouton de substitution",
+            "Poires CARREFOUR BIO",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730786,
+      "timestamp": 1759325651343,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "4,39€",
+          "cartAction": "4,39€",
+          "productName": "4 euros et 39 centimes.",
+          "allTexts": [
+            "3x40g",
+            "4,39€",
+            "4 euros et 39 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730799,
+      "timestamp": 1759325651338,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "3,49€",
+          "cartAction": "3,49€",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Supprimer",
+            "Poires CARREFOUR BIO",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club",
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "3,98"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730815,
+      "timestamp": 1759325651331,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3,49€",
+          "price": "3,49€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Drapeau français"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730897,
+      "timestamp": 1759325652083,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "3,49€",
+          "cartAction": "Ajouter au panier",
+          "productName": "Barres Céréales Cacahuètes Amandes et Caramel Salé EAT NATURAL",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club",
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "3,98",
+            "3 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730938,
+      "timestamp": 1759325652150,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cart_snapshot",
+        "products": [
+          {
+            "name": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "Bananes Bio Cavendish",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "3 euros et 98 centimes.",
+            "price": "3,98",
+            "quantity": "1"
+          },
+          {
+            "name": "Kiwi Hayward ",
+            "price": "2,78",
+            "quantity": "1"
+          },
+          {
+            "name": "2 euros et 78 centimes.",
+            "price": "2,78",
+            "quantity": "1"
+          }
+        ],
+        "snapshotTime": 1759325652150
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325730946,
+      "timestamp": 1759325652084,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter au panier",
+          "price": "3,49€",
+          "productName": "3 euros et 49 centimes.",
+          "allTexts": [
+            "LabelBio",
+            "4 pièces",
+            "-10% Club",
+            "3,49€",
+            "3 euros et 49 centimes.",
+            "Poires Bio",
+            "Ajouter au panier",
+            "Acheter",
+            "Drapeau français"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325731025,
+      "timestamp": 1759325652991,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "4,39€",
+          "cartAction": "Ajouter au panier",
+          "productName": "Barres Céréales Cacahuètes Amandes et Caramel Salé EAT NATURAL",
+          "allTexts": [
+            "3x40g",
+            "4,39€",
+            "4 euros et 39 centimes.",
+            "Barres Céréales Cacahuètes Amandes et Caramel Salé EAT NATURAL",
+            "Sponsorisé",
+            "Ajouter au panier",
+            "Acheter"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325731993,
+      "timestamp": 1759325656382,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325732035,
+      "timestamp": 1759325656385,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325732046,
+      "timestamp": 1759325656399,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Kiwi Hayward ",
+            "la pièce",
+            "FRANCE",
+            "2,78",
+            "2 euros et 78 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": true
+    },
+    {
+      "id": 1759325732099,
+      "timestamp": 1759325656582,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759325732367,
+      "timestamp": 1759325657778,
+      "sessionId": "android_session_1759325490193_fdbd8e2f",
+      "eventType": "SCROLL",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "scrollX": 0,
+        "scrollY": 673,
+        "eventType": "cross_app_scroll"
+      },
+      "isRelevant": false
+    }
+  ],
+  "sessions": [],
+  "cartAnalysis": {
+    "products": [
+      {
+        "name": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+        "quantity": 1,
+        "price": 3.98,
+        "unitPrice": 3.98,
+        "lastUpdate": 1759325652150
+      },
+      {
+        "name": "Bananes Bio Cavendish",
+        "quantity": 2,
+        "price": 3.98,
+        "unitPrice": 1.99,
+        "lastUpdate": 1759325648677
+      },
+      {
+        "name": "3 euros et 98 centimes.",
+        "quantity": 1,
+        "price": 3.98,
+        "unitPrice": 3.98,
+        "lastUpdate": 1759325652150
+      },
+      {
+        "name": "Kiwi Hayward ",
+        "quantity": 2,
+        "price": 2.78,
+        "unitPrice": 1.39,
+        "lastUpdate": 1759325656399
+      },
+      {
+        "name": "2 euros et 78 centimes.",
+        "quantity": 1,
+        "price": 2.78,
+        "unitPrice": 2.78,
+        "lastUpdate": 1759325652150
+      }
+    ],
+    "replacements": [],
+    "promotions": [],
+    "suggestions": [],
+    "totals": {
+      "subtotal": 17.5,
+      "cagnotte": 0,
+      "finalTotal": 17.5
+    }
+  },
+  "stats": {
+    "totalEvents": 21,
+    "relevantEvents": 2,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 18,
+    "cartProducts": 5,
+    "cartTotal": 17.5
+  },
+  "exportedAt": "2025-10-01T13:35:45.235Z",
+  "exportedBy": "dashboard",
+  "columns": {
+    "column1_all": 21,
+    "column2_relevant": 2
+  }
+}
