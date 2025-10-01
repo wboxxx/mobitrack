@@ -78,7 +78,7 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 16:56 - Snapshot v3.0 XPosition"
+        val buildTimestamp = "2025-10-01 17:36 - Snapshot v3.1 PriceNoEuro"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
@@ -280,11 +280,11 @@ class CrossAppTrackingService : AccessibilityService() {
         val bounds = android.graphics.Rect()
         node.getBoundsInScreen(bounds)
         
-        // Chercher un prix avec € (format X,XX€)
-        val priceWithEuro = texts.find { it.matches(Regex("\\d+[,.]\\d+€")) }
+        // Chercher un prix (format X,XX avec ou sans €)
+        val priceText = texts.find { it.matches(Regex("\\d+[,.]\\d+€?")) }
         
-        // Si on trouve un prix avec €, c'est probablement un vrai produit du panier
-        if (priceWithEuro != null) {
+        // Si on trouve un prix, c'est probablement un vrai produit du panier
+        if (priceText != null) {
             // Vérifier la position X : les vrais produits commencent à X < 100
             // Les produits à remplacer commencent à X > 100
             if (bounds.left > 100) {
@@ -296,8 +296,8 @@ class CrossAppTrackingService : AccessibilityService() {
                 return
             }
             
-            // Extraire le prix sans €
-            val price = priceWithEuro.replace("€", "")
+            // Extraire le prix sans € (si présent)
+            val price = priceText.replace("€", "")
             
             // Chercher le nom du produit (texte long, pas un prix, pas un bouton)
             val productName = texts.find { text ->

@@ -22,15 +22,20 @@ $serviceStatus = adb shell settings get secure enabled_accessibility_services
 $isServiceEnabled = $serviceStatus -like "*com.bascule.leclerctracking*"
 
 if ($isServiceEnabled) {
-    Write-Host "   Service deja actif - Skip manuel" -ForegroundColor Green
-    Write-Host "   Redemarrage du service (force-stop)..." -ForegroundColor Yellow
+    Write-Host "   Service deja actif - Redemarrage force..." -ForegroundColor Green
     
-    # Méthode plus simple : juste force-stop l'app
-    # Le service se relancera automatiquement au prochain événement
+    # Killer le processus pour forcer le rechargement du nouveau code
+    # Android relancera automatiquement le service (permissions preservees)
+    Write-Host "   Kill du processus..." -ForegroundColor Yellow
     adb shell am force-stop com.bascule.leclerctracking
     Start-Sleep -Seconds 1
     
-    Write-Host "   Service pret (relancera au prochain evenement)" -ForegroundColor Green
+    # Forcer le redemarrage immediat en lançant l'app
+    Write-Host "   Relancement du service..." -ForegroundColor Yellow
+    adb shell monkey -p com.bascule.leclerctracking -c android.intent.category.LAUNCHER 1 2>$null
+    Start-Sleep -Seconds 2
+    
+    Write-Host "   Service redemarre avec nouveau code (permissions preservees)" -ForegroundColor Green
 } else {
     Write-Host "   Service non actif - Configuration manuelle requise" -ForegroundColor Yellow
     Write-Host ""

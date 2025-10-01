@@ -20401,3 +20401,415 @@
 10-01 17:32:18.670 30551 30551 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=Vider tout le panier, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
 10-01 17:32:18.675 30551 30551 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
 10-01 17:32:18.702 30551 30728 D AndroidTracking: Event sent to server successfully
+10-01 17:41:06.135 31315 31315 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759333265955_c7ca4ec9, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-01 17:41:06.328 31315 31315 D CrossAppTracking: ========================================
+10-01 17:41:06.328 31315 31315 D CrossAppTracking: Service de tracking cross-app démarré
+10-01 17:41:06.328 31315 31315 D CrossAppTracking: 📦 Build: 2025-10-01 17:36 - Snapshot v3.1 PriceNoEuro
+10-01 17:41:06.328 31315 31315 D CrossAppTracking: ========================================
+10-01 17:41:06.859 31315 31315 D CrossAppTracking: ========================================
+10-01 17:41:06.889 31315 31315 D CrossAppTracking: ✅ Service d'accessibilité connecté
+10-01 17:41:06.890 31315 31315 D CrossAppTracking: 🔖 Build: BUILD_1759333266
+10-01 17:41:06.894 31315 31315 D CrossAppTracking: 📸 Snapshot feature: ENABLED ✅
+10-01 17:41:06.895 31315 31315 D CrossAppTracking: ========================================
+10-01 17:41:07.235 31315 31315 D CrossAppTracking: ✅ Service démarré en foreground (ne sera pas gelé)
+10-01 17:41:07.235 31315 31315 D CrossAppTracking: 🎯 Service configuré et prêt à tracker
+10-01 17:41:08.754 31315 31315 D CrossAppTracking: 📱 Événement reçu: 32 - com.bascule.leclerctracking
+10-01 17:41:08.754 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.bascule.leclerctracking
+10-01 17:41:09.260 31315 31315 D CrossAppTracking: 📱 Événement reçu: 32 - com.bascule.leclerctracking
+10-01 17:41:09.261 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.bascule.leclerctracking
+10-01 17:41:09.547 31315 31315 D CrossAppTracking: 📱 Événement reçu: 32 - com.bascule.leclerctracking
+10-01 17:41:09.555 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.bascule.leclerctracking
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.bascule.leclerctracking, packageName=com.bascule.leclerctracking, productInfo={cartAction=En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée., productName=Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Apps supportées:
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • E.Leclerc Drive
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Carrefour
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Auchan Drive  
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Casino Drive
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Amazon Shopping
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Cdiscount
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Monoprix
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Vos données restent privées et anonymes., allTexts=[Bascule Cross-App Tracking, ✅ Service activé - Tracking cross-app fonctionnel, 📱 Tracking Cross-App, Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Apps supportées:
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • E.Leclerc Drive
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Carrefour
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Auchan Drive  
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Casino Drive
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Amazon Shopping
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Cdiscount
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Monoprix
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Vos données restent privées et anonymes., 🔒 Confidentialité et Permissions, Permissions requises:
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 🔍 Service d'Accessibilité
+10-01 17:41:09.905 31315 31315 D AndroidTracking: Permet de détecter les interactions dans les autres apps
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 
+10-01 17:41:09.905 31315 31315 D AndroidTracking: 🔒 Confidentialité Garantie
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Aucune donnée personnelle collectée
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Pas d'accès aux mots de passe
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Tracking anonyme uniquement
+10-01 17:41:09.905 31315 31315 D AndroidTracking: • Données stockées localement, DÉSACTIVER LE SERVICE, OUVRIR PARAMÈTRES D'ACCESSIBILITÉ, MODE INTRA-APP SEULEMENT, 🧪 TEST AUTOMATIQUE CARREFOUR]}, eventType=cross_app_cart_update}
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: 
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: Apps supportées:
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • E.Leclerc Drive
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Carrefour
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Auchan Drive  
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Casino Drive
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Amazon Shopping
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Cdiscount
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: • Monoprix
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: 
+10-01 17:41:09.935 31315 31315 D CrossAppTracking: Vos données restent privées et anonymes. - Prix: N/A
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=com.bascule.leclerctracking, packageName=com.bascule.leclerctracking, productInfo={cartAction=En activant ce service, vous acceptez que Bascule analyse vos interactions dans les apps e-commerce pour améliorer l'expérience utilisateur. Aucune donnée personnelle n'est collectée., productName=Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Apps supportées:
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • E.Leclerc Drive
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Carrefour
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Auchan Drive  
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Casino Drive
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Amazon Shopping
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Cdiscount
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Monoprix
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Vos données restent privées et anonymes., allTexts=[Bascule Cross-App Tracking, ✅ Service activé - Tracking cross-app fonctionnel, 📱 Tracking Cross-App, Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Apps supportées:
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • E.Leclerc Drive
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Carrefour
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Auchan Drive  
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Casino Drive
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Amazon Shopping
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Cdiscount
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Monoprix
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Vos données restent privées et anonymes., 🔒 Confidentialité et Permissions, Permissions requises:
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 🔍 Service d'Accessibilité
+10-01 17:41:10.257 31315 31315 D AndroidTracking: Permet de détecter les interactions dans les autres apps
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 
+10-01 17:41:10.257 31315 31315 D AndroidTracking: 🔒 Confidentialité Garantie
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Aucune donnée personnelle collectée
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Pas d'accès aux mots de passe
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Tracking anonyme uniquement
+10-01 17:41:10.257 31315 31315 D AndroidTracking: • Données stockées localement, DÉSACTIVER LE SERVICE, OUVRIR PARAMÈTRES D'ACCESSIBILITÉ, MODE INTRA-APP SEULEMENT, 🧪 TEST AUTOMATIQUE CARREFOUR]}, eventType=cross_app_cart_update}
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Cette application peut analyser vos interactions sur les apps e-commerce 
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: pour améliorer votre expérience d'achat.
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: 
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: Apps supportées:
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • E.Leclerc Drive
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Carrefour
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Auchan Drive  
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Casino Drive
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Amazon Shopping
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Cdiscount
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: • Monoprix
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: 
+10-01 17:41:10.273 31315 31315 D CrossAppTracking: Vos données restent privées et anonymes. - Prix: N/A
+10-01 17:41:12.385 31315 31315 D CrossAppTracking: 📱 Événement reçu: 32 - com.carrefour.fid.android
+10-01 17:41:12.385 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:13.260 31315 31315 D CrossAppTracking: 📸 Page panier détectée, attente du chargement des produits...
+10-01 17:41:13.290 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:13.291 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:13.938 31315 31315 D CrossAppTracking: 📱 Événement reçu: 32 - com.carrefour.fid.android
+10-01 17:41:13.939 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:14.366 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 4 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 4 new notifications]}, eventType=cross_app_cart_update}
+10-01 17:41:14.438 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier, 4 new notifications - Prix: N/A
+10-01 17:41:14.439 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:14.520 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:14.812 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 4 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 4 new notifications]}, eventType=cross_app_cart_update}
+10-01 17:41:14.813 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier, 4 new notifications - Prix: N/A
+10-01 17:41:16.275 31315 31315 D CrossAppTracking: 📸 Capture du snapshot après chargement...
+10-01 17:41:16.275 31315 31315 D CrossAppTracking: 📸 Début du scan des produits...
+10-01 17:41:16.469 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Ananas en morceaux CARREFOUR LE MARCHE - 3,98
+10-01 17:41:16.477 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Bananes Bio Cavendish - 3,98
+10-01 17:41:16.478 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=937 > 100, probablement à remplacer)
+10-01 17:41:16.479 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Kiwi Hayward  - 2,78
+10-01 17:41:16.480 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=937 > 100, probablement à remplacer)
+10-01 17:41:16.492 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=901 > 100, probablement à remplacer)
+10-01 17:41:16.493 31315 31315 D CrossAppTracking: 📸 Fin du scan: 3 produits trouvés
+10-01 17:41:16.494 31315 31315 D CrossAppTracking: 📸 Snapshot capturé: 3 produits trouvés
+10-01 17:41:16.496 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cart_snapshot, products=[{name=Ananas en morceaux CARREFOUR LE MARCHE, price=3,98, quantity=1}, {name=Bananes Bio Cavendish, price=3,98, quantity=1}, {name=Kiwi Hayward , price=2,78, quantity=1}], snapshotTime=1759333276494}
+10-01 17:41:16.765 31315 31356 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 53752) after 10000ms
+10-01 17:41:18.424 31315 31473 D AndroidTracking: Event sent to server successfully
+10-01 17:41:18.458 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:20.028 31315 31371 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 41598) after 10000ms
+10-01 17:41:20.321 31315 31372 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 41600) after 10000ms
+10-01 17:41:20.884 31315 31315 D CrossAppTracking: 📱 Événement reçu: 1 - com.carrefour.fid.android
+10-01 17:41:20.885 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:20.887 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:20.887 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.127 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.129 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.250 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.250 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.397 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.398 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.514 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.518 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.815 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.815 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.878 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.879 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:21.950 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:21.950 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:22.051 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:22.051 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:22.209 31315 31315 D AndroidTracking: Event tracked: VIEW_CLICKED - {app=Carrefour, packageName=com.carrefour.fid.android, element={className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}, eventType=cross_app_click, timestamp=1759333280885}
+10-01 17:41:22.229 31315 31315 D CrossAppTracking: Click envoyé dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+10-01 17:41:22.231 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, productName=Panier, 4 new notifications, allTexts=[0, 0,00€, 0, 0,00€, 0, 0,00€, Accueil, Rechercher, Mes produits, Promotions]}, eventType=cross_app_cart_update}
+10-01 17:41:22.233 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier, 4 new notifications - Prix: 0,00€
+10-01 17:41:22.233 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, allTexts=[0, 0,00€]}, eventType=cross_app_cart_update}
+10-01 17:41:22.238 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Inconnu - Prix: 0,00€
+10-01 17:41:22.238 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, allTexts=[0, 0,00€]}, eventType=cross_app_cart_update}
+10-01 17:41:22.246 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Inconnu - Prix: 0,00€
+10-01 17:41:22.249 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:22.254 31315 31315 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759333281512}
+10-01 17:41:22.266 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:22.269 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:22.270 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:22.302 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:22.339 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:22.341 31315 31473 D AndroidTracking: Event sent to server successfully
+10-01 17:41:22.777 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:22.777 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:23.019 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:23.020 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:23.177 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:23.178 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:23.366 31315 31315 D CrossAppTracking: 📸 Page panier détectée, attente du chargement des produits...
+10-01 17:41:23.366 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:23.366 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:24.477 31315 31422 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 41604) after 10000ms
+10-01 17:41:24.540 31315 31423 W AndroidTracking: Failed to send event to server: failed to connect to /10.0.2.2 (port 3001) from /10.0.2.16 (port 41612) after 10000ms
+10-01 17:41:24.581 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:24.581 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:24.777 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, allTexts=[0, 0,00€]}, eventType=cross_app_cart_update}
+10-01 17:41:24.778 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Inconnu - Prix: 0,00€
+10-01 17:41:24.782 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, allTexts=[0, 0,00€, 0, 0,00€, 0, 0,00€]}, eventType=cross_app_cart_update}
+10-01 17:41:24.790 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Inconnu - Prix: 0,00€
+10-01 17:41:24.790 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=0,00€, cartAction=0,00€, allTexts=[0, 0,00€, 0, 0,00€, 0, 0,00€]}, eventType=cross_app_cart_update}
+10-01 17:41:24.792 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Inconnu - Prix: 0,00€
+10-01 17:41:24.793 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 4 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 4 new notifications]}, eventType=cross_app_cart_update}
+10-01 17:41:24.795 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier, 4 new notifications - Prix: N/A
+10-01 17:41:24.796 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 4 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 4 new notifications]}, eventType=cross_app_cart_update}
+10-01 17:41:24.805 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier, 4 new notifications - Prix: N/A
+10-01 17:41:24.805 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:24.806 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:24.809 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:24.813 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:24.815 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:24.817 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:24.821 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:24.822 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:24.830 31315 31473 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.842 31315 31422 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.854 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.914 31315 31422 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.926 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.931 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:24.937 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:24.940 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.954 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:24.961 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:25.128 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=6,76€, cartAction=6,76€, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:25.130 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76€
+10-01 17:41:25.130 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.130 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.154 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:25.197 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.197 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.218 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.218 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.238 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.238 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.320 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.320 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.367 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.367 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.394 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.394 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.416 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.416 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.436 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.438 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.462 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.462 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.491 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.491 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.509 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.510 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.544 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.544 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.573 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.573 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.583 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.583 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.598 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.598 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.624 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.624 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.653 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.653 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.666 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.668 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.680 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.681 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.710 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.713 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.727 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.729 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.803 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.804 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.820 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.822 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.827 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.830 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:25.953 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:25.953 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.071 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.072 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.110 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=6,76€, cartAction=6,76€, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.111 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76€
+10-01 17:41:26.111 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=2 produits à remplacer, allTexts=[2 produits à remplacer]}, eventType=cross_app_cart_update}
+10-01 17:41:26.111 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: 2 produits à remplacer - Prix: N/A
+10-01 17:41:26.111 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=6,76€, cartAction=6,76€, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.112 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76€
+10-01 17:41:26.112 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=2 produits déjà ajoutés au panier, allTexts=[Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., €, Retirer un produit du panier, 2, 2 produits déjà ajoutés au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.114 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: 2 produits déjà ajoutés au panier - Prix: N/A
+10-01 17:41:26.118 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Bouton de substitution, allTexts=[Bouton de substitution]}, eventType=cross_app_cart_update}
+10-01 17:41:26.121 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Bouton de substitution - Prix: N/A
+10-01 17:41:26.122 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=6,76€, price=6,76€, productName=Valider mon panier, allTexts=[Valider mon panier, 6,76€]}, eventType=cross_app_cart_update}
+10-01 17:41:26.122 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Valider mon panier - Prix: 6,76€
+10-01 17:41:26.123 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=Vider tout le panier, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.126 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
+10-01 17:41:26.127 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=2 produits déjà ajoutés au panier, allTexts=[Kiwi Hayward , la pièce, FRANCE, 2,78, 2 euros et 78 centimes., €, Retirer un produit du panier, 2, 2 produits déjà ajoutés au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.130 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: 2 produits déjà ajoutés au panier - Prix: N/A
+10-01 17:41:26.131 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.137 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:26.138 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Vider tout le panier, productName=Vider tout le panier, allTexts=[Vider tout le panier, Vider tout le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.140 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Vider tout le panier - Prix: N/A
+10-01 17:41:26.141 31315 31315 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759333285434}
+10-01 17:41:26.141 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.142 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.144 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.144 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.146 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Retirer un produit du panier - Prix: N/A
+10-01 17:41:26.148 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=-10% Club, productName=-10% Club, allTexts=[Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.149 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: -10% Club - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
+10-01 17:41:26.150 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ananas en morceaux CARREFOUR LE MARCHE, allTexts=[Ananas en morceaux CARREFOUR LE MARCHE]}, eventType=cross_app_cart_update}
+10-01 17:41:26.154 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Ananas en morceaux CARREFOUR LE MARCHE - Prix: N/A
+10-01 17:41:26.154 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., cartAction=-10% Club, productName=-10% Club, allTexts=[Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.158 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: -10% Club - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.
+10-01 17:41:26.158 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Bouton de substitution, allTexts=[Bouton de substitution]}, eventType=cross_app_cart_update}
+10-01 17:41:26.158 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.163 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Bouton de substitution - Prix: N/A
+10-01 17:41:26.163 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.165 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.166 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Ajouter un produit dans le panier - Prix: N/A
+10-01 17:41:26.166 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Supprimer, allTexts=[Supprimer]}, eventType=cross_app_cart_update}
+10-01 17:41:26.167 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Supprimer - Prix: N/A
+10-01 17:41:26.173 31315 31422 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.177 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.178 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.195 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.210 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.214 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.215 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.216 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.221 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.226 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.238 31315 31422 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.240 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.240 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.258 31315 31372 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.262 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.262 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.278 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.282 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.288 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.289 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.294 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.314 31315 31473 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.330 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.422 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.422 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.441 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.442 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.455 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.457 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.465 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.466 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.479 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.481 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.498 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.498 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.609 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.609 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.624 31315 31315 D CrossAppTracking: 📱 Événement reçu: 2048 - com.carrefour.fid.android
+10-01 17:41:26.624 31315 31315 D CrossAppTracking: ✅ App ciblée détectée: com.carrefour.fid.android
+10-01 17:41:26.639 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.641 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Ajouter un produit dans le panier - Prix: N/A
+10-01 17:41:26.642 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.646 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Retirer un produit du panier - Prix: N/A
+10-01 17:41:26.647 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Supprimer, allTexts=[Supprimer]}, eventType=cross_app_cart_update}
+10-01 17:41:26.661 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Supprimer - Prix: N/A
+10-01 17:41:26.662 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Poires CARREFOUR BIO, allTexts=[Poires CARREFOUR BIO]}, eventType=cross_app_cart_update}
+10-01 17:41:26.664 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Poires CARREFOUR BIO - Prix: N/A
+10-01 17:41:26.665 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.]}, eventType=cross_app_cart_update}
+10-01 17:41:26.672 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.674 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: N/A
+10-01 17:41:26.675 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.679 31315 31473 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.696 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Panier - Prix: N/A
+10-01 17:41:26.697 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=2 produits déjà ajoutés au panier, allTexts=[Kiwi Hayward , la pièce, FRANCE, 2,78, 2 euros et 78 centimes., €, Retirer un produit du panier, 2, 2 produits déjà ajoutés au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.698 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.699 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.713 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.715 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: 2 produits déjà ajoutés au panier - Prix: N/A
+10-01 17:41:26.716 31315 31315 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759333285820}
+10-01 17:41:26.717 31315 31315 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759333285825}
+10-01 17:41:26.721 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.758 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=Vider tout le panier, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.760 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.760 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.761 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.762 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
+10-01 17:41:26.763 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=6,76€, cartAction=6,76€, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:26.770 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76€
+10-01 17:41:26.771 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=2 produits déjà ajoutés au panier, allTexts=[Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., €, Retirer un produit du panier, 2, 2 produits déjà ajoutés au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-01 17:41:26.771 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: 2 produits déjà ajoutés au panier - Prix: N/A
+10-01 17:41:26.795 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.807 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.822 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:26.831 31315 31315 D CrossAppTracking: 📸 Capture du snapshot après chargement...
+10-01 17:41:26.831 31315 31315 D CrossAppTracking: 📸 Début du scan des produits...
+10-01 17:41:26.993 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Ananas en morceaux CARREFOUR LE MARCHE - 3,98
+10-01 17:41:27.002 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Bananes Bio Cavendish - 3,98
+10-01 17:41:27.003 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=937 > 100, probablement à remplacer)
+10-01 17:41:27.010 31315 31315 D CrossAppTracking: ✅ Produit ajouté au snapshot: Kiwi Hayward  - 2,78
+10-01 17:41:27.012 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=937 > 100, probablement à remplacer)
+10-01 17:41:27.015 31315 31315 D CrossAppTracking: ⚠️ Produit ignoré (X=901 > 100, probablement à remplacer)
+10-01 17:41:27.017 31315 31315 D CrossAppTracking: 📸 Fin du scan: 3 produits trouvés
+10-01 17:41:27.017 31315 31315 D CrossAppTracking: 📸 Snapshot capturé: 3 produits trouvés
+10-01 17:41:27.019 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cart_snapshot, products=[{name=Ananas en morceaux CARREFOUR LE MARCHE, price=3,98, quantity=1}, {name=Bananes Bio Cavendish, price=3,98, quantity=1}, {name=Kiwi Hayward , price=2,78, quantity=1}], snapshotTime=1759333287017}
+10-01 17:41:27.026 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=Vider tout le panier, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:27.042 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
+10-01 17:41:27.042 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Rien oublié ?, allTexts=[Rien oublié ?]}, eventType=cross_app_cart_update}
+10-01 17:41:27.045 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Rien oublié ? - Prix: N/A
+10-01 17:41:27.046 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Voir tout, allTexts=[Voir tout]}, eventType=cross_app_cart_update}
+10-01 17:41:27.050 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Voir tout - Prix: N/A
+10-01 17:41:27.063 31315 31371 D AndroidTracking: Event sent to server successfully
+10-01 17:41:27.070 31315 31537 D AndroidTracking: Event sent to server successfully
+10-01 17:41:27.091 31315 31356 D AndroidTracking: Event sent to server successfully
+10-01 17:41:27.093 31315 31423 D AndroidTracking: Event sent to server successfully
+10-01 17:41:27.111 31315 31315 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward ., cartAction=Vider tout le panier, productName=Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[2 produits à remplacer, Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish., -10% Club]}, eventType=cross_app_cart_update}
+10-01 17:41:27.115 31315 31315 D CrossAppTracking: 🛒 Produit envoyé: Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .
+10-01 17:41:27.149 31315 31423 D AndroidTracking: Event sent to server successfully

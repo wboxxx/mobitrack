@@ -1,0 +1,165 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 17:37:48
+Duration: 20 seconds
+========================================
+
+[17:37:48.892] [SYSTEM] Starting Node.js server...
+[17:37:52.138] [SYSTEM] Node.js server started (Job ID: 1)
+[17:37:52.141] [SYSTEM] Starting APK log capture...
+[17:37:53.274] [SYSTEM] APK log capture started (Job ID: 3)
+[17:37:53.276] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[17:37:53.645] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:53.649] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:53.661] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:53.665] [SERVER] Client connected to dashboard
+[17:37:54.184] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:54.186] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:54.188] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:54.190] [SERVER] Client connected to dashboard
+[17:37:54.704] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:54.706] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:54.735] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:54.736] [SERVER] Client connected to dashboard
+[17:37:55.249] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:55.252] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:55.254] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:55.257] [SERVER] Client connected to dashboard
+[17:37:55.762] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:55.766] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:55.768] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:55.771] [SERVER] Client connected to dashboard
+[17:37:56.278] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:56.281] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:56.284] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:56.286] [SERVER] Client connected to dashboard
+[17:37:56.794] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:56.799] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:56.803] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:56.808] [SERVER] Client connected to dashboard
+[17:37:57.319] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:57.323] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:57.327] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:57.329] [SERVER] Client connected to dashboard
+[17:37:57.849] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:57.852] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:57.855] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:57.858] [SERVER] Client connected to dashboard
+[17:37:58.377] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:58.383] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:58.386] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:58.389] [SERVER] Client connected to dashboard
+[17:37:58.894] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:58.899] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:58.904] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:58.908] [SERVER] Client connected to dashboard
+[17:37:59.421] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:59.423] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:59.426] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:59.427] [SERVER] Client connected to dashboard
+[17:37:59.950] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:37:59.952] [SERVER] Web tracking system running on http://localhost:3001
+[17:37:59.953] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:37:59.954] [SERVER] Client connected to dashboard
+[17:38:00.466] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:00.469] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:00.470] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:00.471] [SERVER] Client connected to dashboard
+[17:38:00.999] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:01.001] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:01.002] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:01.004] [SERVER] Client connected to dashboard
+[17:38:01.523] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:01.524] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:01.525] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:01.526] [SERVER] Client connected to dashboard
+[17:38:02.039] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:02.042] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:02.045] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:02.050] [SERVER] Client connected to dashboard
+[17:38:02.566] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:02.568] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:02.570] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:02.572] [SERVER] Client connected to dashboard
+[17:38:03.084] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:03.087] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:03.090] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:03.093] [SERVER] Client connected to dashboard
+[17:38:03.609] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:03.612] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:03.616] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:03.620] [SERVER] Client connected to dashboard
+[17:38:04.137] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:04.141] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:04.144] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:04.147] [SERVER] Client connected to dashboard
+[17:38:04.656] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:04.660] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:04.664] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:04.668] [SERVER] Client connected to dashboard
+[17:38:05.185] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:05.189] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:05.191] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:05.192] [SERVER] Client connected to dashboard
+[17:38:05.699] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:05.703] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:05.707] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:05.710] [SERVER] Client connected to dashboard
+[17:38:06.226] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:06.228] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:06.234] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:06.237] [SERVER] Client connected to dashboard
+[17:38:06.754] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:06.757] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:06.760] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:06.764] [SERVER] Client connected to dashboard
+[17:38:07.283] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:07.286] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:07.290] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:07.293] [SERVER] Client connected to dashboard
+[17:38:07.809] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:07.812] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:07.816] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:07.819] [SERVER] Client connected to dashboard
+[17:38:08.338] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:08.340] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:08.343] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:08.346] [SERVER] Client connected to dashboard
+[17:38:08.852] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:08.854] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:08.858] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:08.861] [SERVER] Client connected to dashboard
+[17:38:09.369] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:09.372] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:09.375] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:09.382] [SERVER] Client connected to dashboard
+[17:38:09.902] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:09.905] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:09.908] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:09.911] [SERVER] Client connected to dashboard
+[17:38:10.427] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:10.434] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:10.438] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:10.441] [SERVER] Client connected to dashboard
+[17:38:10.954] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:10.959] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:10.962] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:10.966] [SERVER] Client connected to dashboard
+[17:38:11.484] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:11.488] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:11.491] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:11.494] [SERVER] Client connected to dashboard
+[17:38:12.009] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:12.012] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:12.016] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:12.020] [SERVER] Client connected to dashboard
+[17:38:12.537] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:12.541] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:12.544] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:12.547] [SERVER] Client connected to dashboard
+[17:38:13.054] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:38:13.056] [SERVER] Web tracking system running on http://localhost:3001
+[17:38:13.058] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:38:13.059] [SERVER] Client connected to dashboard
+[17:38:13.564] [SYSTEM] Stopping monitoring...
+[17:38:22.333] [SYSTEM] Monitoring completed
