@@ -532,41 +532,29 @@ app.post('/api/clear-data', (req, res) => {
 function isRelevantEvent(event) {
   if (event.data && event.data.packageName === 'com.carrefour.fid.android' && event.eventType === 'ADD_TO_CART') {
     const cartAction = event.data.productInfo?.cartAction || '';
-    const productName = event.data.productInfo?.productName || '';
     const allTexts = event.data.productInfo?.allTexts || [];
-    
-    // ❌ Ignorer les événements de RÉSULTAT
-    const resultPatterns = [
-      'produits déjà ajoutés',
-      'retirer un produit',
-      'valider mon panier',
-      'euros et',
-      'centimes'
-    ];
-    
-    const isResult = resultPatterns.some(pattern => 
-      productName.toLowerCase().includes(pattern) ||
-      cartAction.toLowerCase().includes(pattern)
-    );
-    
-    if (isResult) return false;
     
     // ✅ Vérifier que c'est une vraie action d'ajout
     const isAddAction = cartAction.toLowerCase().includes('ajouter un produit dans le panier');
     
-    // ✅ Vérifier qu'il y a un vrai produit
-    const hasRealProduct = allTexts.some(text => {
+    if (!isAddAction) return false;
+    
+    // ✅ Chercher un vrai nom de produit dans allTexts (pas dans productName qui peut être "X produits déjà ajoutés")
+    const realProductName = allTexts.find(text => {
       const t = text.toLowerCase();
-      return t.length > 3 && 
-             !t.match(/^\d+[,.]?\d*\s*€?$/) &&
+      // Un vrai produit = texte long, pas un prix, pas un bouton, pas un compteur
+      return t.length > 5 && 
+             !t.match(/^\d+[,.]?\d*\s*€?$/) &&  // Pas un prix
              !t.includes('ajouter') && 
              !t.includes('retirer') &&
              !t.includes('euros') &&
              !t.includes('centimes') &&
-             !t.match(/^\d+$/);
+             !t.includes('déjà ajoutés') &&
+             !t.includes('valider') &&
+             !t.match(/^\d+\s*(max|produits?)?$/i);  // Pas juste un chiffre
     });
     
-    return isAddAction && hasRealProduct;
+    return realProductName !== undefined;
   }
   
   return false;
@@ -585,15 +573,21 @@ app.post('/api/export-data', (req, res) => {
   
   const relevantCount = enrichedEvents.filter(e => e.isRelevant).length;
   
+  // Analyser le panier utilisateur
+  const cartAnalysis = analyzeCartFromEvents();
+  
   const exportData = {
     events: enrichedEvents,
     sessions: sessions,
+    cartAnalysis: cartAnalysis,
     stats: {
       totalEvents: trackingData.length,
       relevantEvents: relevantCount,
       activeSessions: sessions.length,
       productClicks: trackingData.filter(e => e.eventType === 'VIEW_CLICKED').length,
-      conversions: trackingData.filter(e => e.eventType === 'ADD_TO_CART').length
+      conversions: trackingData.filter(e => e.eventType === 'ADD_TO_CART').length,
+      cartProducts: cartAnalysis.products.length,
+      cartTotal: cartAnalysis.totals.finalTotal
     },
     exportedAt: new Date().toISOString(),
     exportedBy: 'dashboard',
@@ -929,12 +923,133 @@ app.get('/api/filtered-events', (req, res) => {
   }
 });
 
+// Fonction pour reconstituer l'état du panier à partir des événements
+function analyzeCartFromEvents() {
+  const cartItems = new Map(); // key: productName, value: {name, quantity, price, lastUpdate}
+  let totalCagnotte = 0;
+  const promotions = [];
+  
+  // D'abord, chercher le dernier snapshot pour initialiser l'état
+  const snapshots = trackingData.filter(e => e.data?.eventType === 'cart_snapshot');
+  if (snapshots.length > 0) {
+    const latestSnapshot = snapshots[snapshots.length - 1];
+    const snapshotProducts = latestSnapshot.data?.products || [];
+    
+    snapshotProducts.forEach(product => {
+      const name = product.name || 'Produit inconnu';
+      const priceStr = product.price?.toString().replace(',', '.') || '0';
+      const price = parseFloat(priceStr);
+      const quantityMatch = product.quantity?.toString().match(/(\d+)/);
+      const quantity = quantityMatch ? parseInt(quantityMatch[1]) : 1;
+      
+      cartItems.set(name, {
+        name: name,
+        quantity: quantity,
+        price: price,
+        unitPrice: quantity > 0 ? price / quantity : price,
+        lastUpdate: latestSnapshot.timestamp
+      });
+    });
+    
+    console.log(`📸 Snapshot chargé: ${cartItems.size} produits initiaux`);
+  }
+  
+  // Ensuite, appliquer les événements pertinents après le snapshot
+  trackingData.forEach(event => {
+    // Ignorer les snapshots (déjà traités)
+    if (event.data?.eventType === 'cart_snapshot') return;
+    
+    if (!isRelevantEvent(event)) return;
+    
+    const allTexts = event.data?.productInfo?.allTexts || [];
+    const cartAction = event.data?.productInfo?.cartAction || '';
+    
+    // Extraire le nom du produit (premier texte qui n'est pas un prix/bouton)
+    const productName = allTexts.find(text => {
+      const t = text.toLowerCase();
+      return t.length > 3 && 
+             !t.match(/^\d+[,.]?\d*\s*€?$/) &&
+             !t.includes('ajouter') && 
+             !t.includes('retirer') &&
+             !t.includes('euros') &&
+             !t.includes('centimes') &&
+             !t.match(/^\d+$/);
+    }) || 'Produit inconnu';
+    
+    // Extraire le prix
+    const priceText = allTexts.find(text => text.match(/^\d+[,.]?\d+$/));
+    const price = priceText ? parseFloat(priceText.replace(',', '.')) : 0;
+    
+    // Extraire la quantité actuelle depuis "X produits déjà ajoutés" ou "X MAX"
+    let currentQuantity = 1;
+    const quantityMatch = allTexts.join(' ').match(/(\d+)\s*(produits déjà ajoutés|MAX)/i);
+    if (quantityMatch) {
+      currentQuantity = parseInt(quantityMatch[1]);
+    }
+    
+    // Déterminer l'action
+    if (cartAction.toLowerCase().includes('ajouter')) {
+      // Mettre à jour avec la quantité actuelle du panier
+      cartItems.set(productName, {
+        name: productName,
+        quantity: currentQuantity,
+        price: price,
+        unitPrice: currentQuantity > 0 ? price / currentQuantity : price,
+        lastUpdate: event.timestamp
+      });
+    } else if (cartAction.toLowerCase().includes('retirer')) {
+      // Décrémenter ou retirer
+      if (cartItems.has(productName)) {
+        const item = cartItems.get(productName);
+        item.quantity--;
+        if (item.quantity <= 0) {
+          cartItems.delete(productName);
+        }
+      }
+    }
+    
+    // Détecter les promotions
+    const promotionText = allTexts.find(text => text.toLowerCase().includes('club') || text.toLowerCase().includes('promo'));
+    if (promotionText) {
+      const cagnotteMatch = allTexts.join(' ').match(/cagnott[ée]s?\s*(\d+[,.]?\d*)/i);
+      if (cagnotteMatch) {
+        totalCagnotte = parseFloat(cagnotteMatch[1].replace(',', '.'));
+      }
+      
+      if (!promotions.find(p => p.name === promotionText)) {
+        promotions.push({
+          name: promotionText,
+          cagnotte: totalCagnotte
+        });
+      }
+    }
+  });
+  
+  // Convertir en tableau et calculer les totaux
+  const products = Array.from(cartItems.values());
+  const subtotal = products.reduce((sum, item) => sum + item.price, 0);
+  const finalTotal = subtotal; // Pour l'instant, pas de réduction appliquée
+  
+  return {
+    products: products,
+    replacements: [],
+    promotions: promotions,
+    suggestions: [],
+    totals: {
+      subtotal: subtotal,
+      cagnotte: totalCagnotte,
+      finalTotal: finalTotal
+    }
+  };
+}
+
 // Endpoint pour obtenir l'analyse du panier utilisateur
 app.get('/api/cart-analysis', (req, res) => {
-  const cartData = dashboardReader.getCurrentContent().cartAnalysis;
+  const cartAnalysis = analyzeCartFromEvents();
+  
   res.json({
     success: true,
-    cartAnalysis: cartData,
+    cartAnalysis: cartAnalysis,
     timestamp: new Date().toISOString()
   });
 });

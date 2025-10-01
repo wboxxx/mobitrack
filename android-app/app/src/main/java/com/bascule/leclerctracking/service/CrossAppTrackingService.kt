@@ -78,42 +78,48 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 11:47 - Foreground Service v1.0"
+        val buildTimestamp = "2025-10-01 15:15 - Snapshot v2.0"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
         Log.d("CrossAppTracking", "========================================")
-        
-        // Démarrer en foreground pour éviter d'être gelé par Android
-        startForegroundService()
     }
     
     override fun onServiceConnected() {
         super.onServiceConnected()
         
-        Log.d("CrossAppTracking", "🚀 Accessibility Service connecté !")
-        
-        // Enregistrer l'instance pour les tests automatiques
-        AutoTestHelper.setServiceInstance(this)
-        
-        val info = AccessibilityServiceInfo().apply {
-            eventTypes = AccessibilityEvent.TYPES_ALL_MASK
-            feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
-            flags = AccessibilityServiceInfo.FLAG_REPORT_VIEW_IDS or
-                    AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS
-            notificationTimeout = 100
+        // Afficher le fingerprint de build
+        val buildFingerprint = "BUILD_${System.currentTimeMillis() / 1000}" // Timestamp de compilation
+        val hasSnapshot = try {
+            this::class.java.getDeclaredMethod("captureCartSnapshot", AccessibilityNodeInfo::class.java, String::class.java)
+            true
+        } catch (e: Exception) {
+            false
         }
         
-        serviceInfo = info
+        Log.d("CrossAppTracking", "========================================")
+        Log.d("CrossAppTracking", "✅ Service d'accessibilité connecté")
+        Log.d("CrossAppTracking", "🔖 Build: $buildFingerprint")
+        Log.d("CrossAppTracking", "📸 Snapshot feature: ${if (hasSnapshot) "ENABLED ✅" else "DISABLED ❌"}")
+        Log.d("CrossAppTracking", "========================================")
         
-        Log.d("CrossAppTracking", "Service d'accessibilité configuré pour TOUTES les apps")
-        Log.d("CrossAppTracking", "📋 Event types: ${info.eventTypes}")
-        Log.d("CrossAppTracking", "📋 Flags: ${info.flags}")
-    }
-    
-    override fun onDestroy() {
-        super.onDestroy()
-        AutoTestHelper.setServiceInstance(null)
+        // Configuration du service
+        val info = AccessibilityServiceInfo()
+        info.eventTypes = AccessibilityEvent.TYPE_VIEW_CLICKED or
+                         AccessibilityEvent.TYPE_VIEW_SCROLLED or
+                         AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED or
+                         AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED or
+                         AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED
+        
+        info.feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
+        info.notificationTimeout = 100
+        
+        this.serviceInfo = info
+        
+        // Démarrer le foreground service
+        startForegroundService()
+        
+        Log.d("CrossAppTracking", "🎯 Service configuré et prêt à tracker")
     }
     
     private fun startForegroundService() {
@@ -182,6 +188,9 @@ class CrossAppTrackingService : AccessibilityService() {
         }
     }
     
+    private var lastCartSnapshotTime = 0L
+    private val CART_SNAPSHOT_COOLDOWN = 10000L // 10 secondes entre snapshots
+    
     private fun handleECommerceEvent(event: AccessibilityEvent, packageName: String) {
         when (event.eventType) {
             AccessibilityEvent.TYPE_VIEW_CLICKED -> {
@@ -192,15 +201,98 @@ class CrossAppTrackingService : AccessibilityService() {
             }
             AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED -> {
                 trackContentChange(event, packageName)
+                // Détecter si on est sur la page panier et capturer un snapshot
+                detectAndCaptureCartSnapshot(event, packageName)
             }
             AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED -> {
                 // Carrefour envoie ce type d'événement lors des clics
                 trackContentChange(event, packageName)
+                // Aussi vérifier pour snapshot lors des changements d'état
+                detectAndCaptureCartSnapshot(event, packageName)
             }
             AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED -> {
                 trackTextInput(event, packageName)
             }
         }
+    }
+    
+    private fun detectAndCaptureCartSnapshot(event: AccessibilityEvent, packageName: String) {
+        val currentTime = System.currentTimeMillis()
+        
+        // Éviter de capturer trop souvent
+        if (currentTime - lastCartSnapshotTime < CART_SNAPSHOT_COOLDOWN) {
+            return
+        }
+        
+        val nodeInfo = event.source ?: rootInActiveWindow ?: return
+        
+        // Détecter si on est sur la page panier (chercher "Panier" dans le titre ou les textes)
+        val allText = getAllTextsFromNode(nodeInfo).joinToString(" ").lowercase()
+        val isCartPage = allText.contains("panier") || allText.contains("valider mon panier")
+        
+        if (isCartPage) {
+            Log.d("CrossAppTracking", "📸 Page panier détectée, capture du snapshot...")
+            captureCartSnapshot(nodeInfo, packageName)
+            lastCartSnapshotTime = currentTime
+        }
+    }
+    
+    private fun captureCartSnapshot(nodeInfo: AccessibilityNodeInfo, packageName: String) {
+        val products = mutableListOf<Map<String, Any>>()
+        
+        // Scanner tous les produits visibles dans le panier
+        scanNodeForProducts(nodeInfo, products)
+        
+        if (products.isNotEmpty()) {
+            Log.d("CrossAppTracking", "📸 Snapshot capturé: ${products.size} produits trouvés")
+            
+            trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                "app" to getAppName(packageName),
+                "packageName" to packageName,
+                "eventType" to "cart_snapshot",
+                "products" to products,
+                "snapshotTime" to System.currentTimeMillis()
+            ))
+        }
+    }
+    
+    private fun scanNodeForProducts(node: AccessibilityNodeInfo?, products: MutableList<Map<String, Any>>) {
+        if (node == null) return
+        
+        // Chercher des patterns de produits (nom + prix + quantité)
+        val texts = getAllTextsFromNode(node)
+        
+        // Si on trouve un pattern produit, l'ajouter
+        val productName = texts.find { it.length > 5 && !it.matches(Regex("\\d+[,.]?\\d*\\s*€?")) }
+        val price = texts.find { it.matches(Regex("\\d+[,.]?\\d+")) }
+        val quantity = texts.find { it.matches(Regex("\\d+\\s*(MAX|produits?)")) }
+        
+        if (productName != null && price != null) {
+            products.add(mapOf(
+                "name" to productName,
+                "price" to price,
+                "quantity" to (quantity ?: "1")
+            ))
+        }
+        
+        // Scanner récursivement les enfants
+        for (i in 0 until node.childCount) {
+            scanNodeForProducts(node.getChild(i), products)
+        }
+    }
+    
+    private fun getAllTextsFromNode(node: AccessibilityNodeInfo?): List<String> {
+        if (node == null) return emptyList()
+        
+        val texts = mutableListOf<String>()
+        node.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+        node.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+        
+        for (i in 0 until node.childCount) {
+            texts.addAll(getAllTextsFromNode(node.getChild(i)))
+        }
+        
+        return texts
     }
     
     private fun trackClickEvent(event: AccessibilityEvent, packageName: String) {

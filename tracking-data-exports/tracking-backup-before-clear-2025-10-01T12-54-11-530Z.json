@@ -1,0 +1,176 @@
+{
+  "events": [
+    {
+      "id": 1759323237676,
+      "timestamp": 1759323237346,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "3",
+          "productName": "3 produits déjà ajoutés au panier",
+          "allTexts": [
+            "3",
+            "3 produits déjà ajoutés au panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323237682,
+      "timestamp": 1759323237348,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323237686,
+      "timestamp": 1759323237331,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "14,72€",
+          "cartAction": "14,72€",
+          "productName": "6 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club",
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "11,94",
+            "11 euros et 94 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "6"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323238080,
+      "timestamp": 1759323237827,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "price": "1,39€",
+          "productName": "3 produits déjà ajoutés au panier",
+          "allTexts": [
+            "la pièce",
+            "-10% Club",
+            "1,39€",
+            "1 euros et 39 centimes.",
+            "Kiwi Hayward ",
+            "Vendu au détail",
+            "Retirer un produit du panier",
+            "3",
+            "3 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323238143,
+      "timestamp": 1759323237905,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323238225,
+      "timestamp": 1759323237989,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "3 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Kiwi Hayward ",
+            "la pièce",
+            "FRANCE",
+            "4,17",
+            "4 euros et 17 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "3",
+            "3 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    },
+    {
+      "id": 1759323238378,
+      "timestamp": 1759323238140,
+      "sessionId": "android_session_1759315104604_ba0845dd",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "4 euros et 17 centimes.",
+          "allTexts": [
+            "4,17",
+            "4 euros et 17 centimes."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      }
+    }
+  ],
+  "sessions": [],
+  "stats": {
+    "totalEvents": 7,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 7
+  },
+  "exportedAt": "2025-10-01T12:54:11.530Z",
+  "exportedBy": "auto-clear"
+}

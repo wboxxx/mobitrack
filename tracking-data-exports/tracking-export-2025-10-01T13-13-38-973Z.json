@@ -1,0 +1,521 @@
+{
+  "events": [
+    {
+      "id": 1759324376200,
+      "timestamp": 1759324375918,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "0,00€",
+          "cartAction": "0,00€",
+          "productName": "Panier, 4 new notifications",
+          "allTexts": [
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "0",
+            "0,00€",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324376207,
+      "timestamp": 1759324375916,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "VIEW_CLICKED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "element": {
+          "className": "android.widget.FrameLayout",
+          "contentDescription": "Panier, 4 new notifications",
+          "text": "",
+          "resourceId": "com.carrefour.fid.android:id/basket_graph",
+          "clickable": false,
+          "bounds": {
+            "left": 864,
+            "top": 2190,
+            "right": 1080,
+            "bottom": 2337
+          }
+        },
+        "eventType": "cross_app_click",
+        "timestamp": 1759324373675
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324376210,
+      "timestamp": 1759324375926,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier, 4 new notifications",
+          "allTexts": [
+            "Panier",
+            "Accueil",
+            "Rechercher",
+            "Mes produits",
+            "Promotions",
+            "Panier, 4 new notifications"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324376213,
+      "timestamp": 1759324375923,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "CONTENT_CHANGED",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "eventType": "cross_app_content_change",
+        "timestamp": 1759324374361
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324376962,
+      "timestamp": 1759324376724,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "6,76€",
+          "cartAction": "6,76€",
+          "productName": "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+          "allTexts": [
+            "2 produits à remplacer",
+            "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+            "Ananas en morceaux CARREFOUR LE MARCHE",
+            "Supprimer",
+            "Bouton de substitution",
+            "Poires CARREFOUR BIO",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324376973,
+      "timestamp": 1759324376736,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "2 produits déjà ajoutés au panier",
+          "allTexts": [
+            "Bananes Bio Cavendish",
+            "le sachet de 5 fruits",
+            "PEROU",
+            "3,98",
+            "3 euros et 98 centimes.",
+            "€",
+            "Retirer un produit du panier",
+            "2",
+            "2 produits déjà ajoutés au panier",
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": true
+    },
+    {
+      "id": 1759324376987,
+      "timestamp": 1759324376747,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "Vider tout le panier",
+          "productName": "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+          "allTexts": [
+            "2 produits à remplacer",
+            "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+            "Ananas en morceaux CARREFOUR LE MARCHE",
+            "Supprimer",
+            "Bouton de substitution",
+            "Poires CARREFOUR BIO",
+            "Supprimer",
+            "Bouton de substitution",
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377036,
+      "timestamp": 1759324376740,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Retirer un produit du panier",
+          "productName": "Retirer un produit du panier",
+          "allTexts": [
+            "Retirer un produit du panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377040,
+      "timestamp": 1759324376753,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Poires CARREFOUR BIO",
+          "allTexts": [
+            "Poires CARREFOUR BIO"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377260,
+      "timestamp": 1759324377021,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "2 produits à remplacer",
+          "allTexts": [
+            "2 produits à remplacer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377274,
+      "timestamp": 1759324377038,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Kiwi Hayward .",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377277,
+      "timestamp": 1759324377028,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "6,76€",
+          "price": "6,76€",
+          "productName": "Valider mon panier",
+          "allTexts": [
+            "Valider mon panier",
+            "6,76€"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377279,
+      "timestamp": 1759324377041,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Supprimer",
+          "allTexts": [
+            "Supprimer"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377297,
+      "timestamp": 1759324377042,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Ajouter un produit dans le panier",
+          "productName": "Ajouter un produit dans le panier",
+          "allTexts": [
+            "Ajouter un produit dans le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377321,
+      "timestamp": 1759324377051,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Bouton de substitution",
+          "allTexts": [
+            "Bouton de substitution"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377324,
+      "timestamp": 1759324377046,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Panier",
+          "allTexts": [
+            "Panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377355,
+      "timestamp": 1759324377059,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Ananas en morceaux CARREFOUR LE MARCHE",
+          "allTexts": [
+            "Ananas en morceaux CARREFOUR LE MARCHE"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377377,
+      "timestamp": 1759324377055,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "cartAction": "Vider tout le panier",
+          "productName": "Vider tout le panier",
+          "allTexts": [
+            "Vider tout le panier",
+            "Vider tout le panier"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377393,
+      "timestamp": 1759324377064,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "price": "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+          "cartAction": "-10% Club",
+          "productName": "-10% Club",
+          "allTexts": [
+            "Promotion: -10% Club. vous avez cagnottés0.0€. produits concernés: Bananes Bio Cavendish.",
+            "-10% Club"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377441,
+      "timestamp": 1759324377078,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.",
+          "allTexts": [
+            "Découvrez nos meilleurs alternatives pour remplacer vos produits indisponibles."
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377613,
+      "timestamp": 1759324377372,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Voir tout",
+          "allTexts": [
+            "Voir tout"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    },
+    {
+      "id": 1759324377644,
+      "timestamp": 1759324377399,
+      "sessionId": "android_session_1759323839071_95b59e9e",
+      "eventType": "ADD_TO_CART",
+      "platform": "android_native",
+      "data": {
+        "app": "Carrefour",
+        "packageName": "com.carrefour.fid.android",
+        "productInfo": {
+          "productName": "Rien oublié ?",
+          "allTexts": [
+            "Rien oublié ?"
+          ]
+        },
+        "eventType": "cross_app_cart_update"
+      },
+      "isRelevant": false
+    }
+  ],
+  "sessions": [],
+  "cartAnalysis": {
+    "products": [
+      {
+        "name": "Bananes Bio Cavendish",
+        "quantity": 2,
+        "price": 3.98,
+        "unitPrice": 1.99,
+        "lastUpdate": 1759324376736
+      }
+    ],
+    "replacements": [],
+    "promotions": [],
+    "suggestions": [],
+    "totals": {
+      "subtotal": 3.98,
+      "cagnotte": 0,
+      "finalTotal": 3.98
+    }
+  },
+  "stats": {
+    "totalEvents": 22,
+    "relevantEvents": 1,
+    "activeSessions": 0,
+    "productClicks": 1,
+    "conversions": 20,
+    "cartProducts": 1,
+    "cartTotal": 3.98
+  },
+  "exportedAt": "2025-10-01T13:13:38.972Z",
+  "exportedBy": "dashboard",
+  "columns": {
+    "column1_all": 22,
+    "column2_relevant": 1
+  }
+}
