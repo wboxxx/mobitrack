@@ -41,7 +41,7 @@ Write-Host ""
 Write-Host "5. Demarrage du monitoring (20s)..." -ForegroundColor Yellow
 $monitoringJob = Start-Job -ScriptBlock {
     Set-Location $using:PWD
-    .\start-monitoring.ps1 -DurationSeconds 20
+    .\start-monitoring.ps1 -DurationSeconds 10
 }
 Start-Sleep -Seconds 3
 Write-Host "   Monitoring actif" -ForegroundColor Green
@@ -68,7 +68,7 @@ Write-Host "========================================" -ForegroundColor Green
 Write-Host ""
 
 # Désactiver le feedback visuel (optionnel)
-Write-Host "Désactiver le feedback visuel? (O/N)" -ForegroundColor Yellow
+<# Write-Host "Désactiver le feedback visuel? (O/N)" -ForegroundColor Yellow
 $response = Read-Host
 if ($response -eq "O" -or $response -eq "o") {
     adb shell settings put system show_touches 0
@@ -81,3 +81,4 @@ Write-Host "Verifie les logs pour voir le snapshot:" -ForegroundColor Cyan
 Write-Host "  - Cherche 'Snapshot capture'" -ForegroundColor Gray
 Write-Host "  - Cherche 'Produit ajoute au snapshot'" -ForegroundColor Gray
 Write-Host ""
+ #>

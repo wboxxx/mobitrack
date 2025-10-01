@@ -78,7 +78,7 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 17:36 - Snapshot v3.1 PriceNoEuro"
+        val buildTimestamp = "2025-10-01 17:47 - Snapshot v3.3 Depth2"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
@@ -276,7 +276,8 @@ class CrossAppTrackingService : AccessibilityService() {
         if (node == null) return
         
         // Chercher des patterns de produits (nom + prix + quantité)
-        val texts = getAllTextsFromNode(node)
+        // NE PAS chercher récursivement pour éviter de mélanger les produits
+        val texts = getDirectTextsFromNode(node)
         val bounds = android.graphics.Rect()
         node.getBoundsInScreen(bounds)
         
@@ -345,6 +346,34 @@ class CrossAppTrackingService : AccessibilityService() {
         for (i in 0 until node.childCount) {
             scanNodeForProducts(node.getChild(i), products)
         }
+    }
+    
+    private fun getDirectTextsFromNode(node: AccessibilityNodeInfo?): List<String> {
+        if (node == null) return emptyList()
+        
+        val texts = mutableListOf<String>()
+        
+        // Texte du nœud lui-même
+        node.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+        node.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+        
+        // Textes des enfants directs ET petits-enfants (profondeur 2 max)
+        for (i in 0 until node.childCount) {
+            val child = node.getChild(i)
+            child?.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+            child?.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+            
+            // Ajouter aussi les petits-enfants (profondeur 2)
+            if (child != null) {
+                for (j in 0 until child.childCount) {
+                    val grandchild = child.getChild(j)
+                    grandchild?.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+                    grandchild?.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
+                }
+            }
+        }
+        
+        return texts
     }
     
     private fun getAllTextsFromNode(node: AccessibilityNodeInfo?): List<String> {
