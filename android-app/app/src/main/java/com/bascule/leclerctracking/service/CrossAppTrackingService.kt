@@ -78,7 +78,7 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 17:47 - Snapshot v3.3 Depth2"
+        val buildTimestamp = "2025-10-01 17:55 - Snapshot v3.2 STABLE"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
@@ -233,6 +233,9 @@ class CrossAppTrackingService : AccessibilityService() {
         if (isCartPage) {
             Log.d("CrossAppTracking", "📸 Page panier détectée, attente du chargement des produits...")
             
+            // Mettre à jour le timestamp AVANT de lancer le Handler pour éviter les doublons
+            lastCartSnapshotTime = currentTime
+            
             // Attendre 3 secondes pour que les produits se chargent
             android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
                 val freshNodeInfo = rootInActiveWindow
@@ -241,8 +244,6 @@ class CrossAppTrackingService : AccessibilityService() {
                     captureCartSnapshot(freshNodeInfo, packageName)
                 }
             }, 3000)
-            
-            lastCartSnapshotTime = currentTime
         }
     }
     
@@ -357,20 +358,11 @@ class CrossAppTrackingService : AccessibilityService() {
         node.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
         node.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
         
-        // Textes des enfants directs ET petits-enfants (profondeur 2 max)
+        // Textes des enfants directs SEULEMENT (profondeur 1)
         for (i in 0 until node.childCount) {
             val child = node.getChild(i)
             child?.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
             child?.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
-            
-            // Ajouter aussi les petits-enfants (profondeur 2)
-            if (child != null) {
-                for (j in 0 until child.childCount) {
-                    val grandchild = child.getChild(j)
-                    grandchild?.text?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
-                    grandchild?.contentDescription?.toString()?.let { if (it.isNotEmpty()) texts.add(it) }
-                }
-            }
         }
         
         return texts

@@ -1,0 +1,1337 @@
+﻿========================================
+TRACKING SYSTEM MONITORING LOG
+Started: 2025-10-01 17:54:27
+Duration: 10 seconds
+========================================
+
+[17:54:27.800] [SYSTEM] Starting Node.js server...
+[17:54:31.093] [SYSTEM] Node.js server started (Job ID: 1)
+[17:54:31.096] [SYSTEM] Starting APK log capture...
+[17:54:32.227] [SYSTEM] APK log capture started (Job ID: 3)
+[17:54:32.229] [SYSTEM] Monitoring active - Press Ctrl+C to stop early
+[17:54:32.617] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:32.620] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:32.634] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:32.638] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:32.640] [SERVER] Client connected to dashboard
+[17:54:32.643] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:32.671] [APK] --------- beginning of main
+[17:54:32.674] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:32.676] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:32.678] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:32.681] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:32.682] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:32.684] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:32.687] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:32.689] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:32.691] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:32.692] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:32.694] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:32.696] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:32.698] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:32.700] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:32.702] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:32.704] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:32.706] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:32.708] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:32.710] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:32.712] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:32.716] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:32.719] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:32.722] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:32.726] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:32.730] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:32.732] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:32.736] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:32.737] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:32.739] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:32.740] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:32.741] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:32.744] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:32.746] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:32.748] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:32.751] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:32.754] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:32.757] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:32.760] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:32.763] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:32.765] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:32.766] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:32.774] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:32.777] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:32.778] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:32.780] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:32.782] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:32.784] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:32.786] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:32.788] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:32.789] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:32.791] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:32.794] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:32.794] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:32.797] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:32.799] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:33.321] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:33.324] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:33.326] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:33.329] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:33.332] [SERVER] Client connected to dashboard
+[17:54:33.334] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:33.347] [APK] --------- beginning of main
+[17:54:33.350] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:33.354] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:33.356] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:33.359] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:33.362] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:33.364] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:33.366] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:33.368] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:33.369] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:33.370] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:33.373] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:33.374] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:33.377] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:33.379] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:33.380] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:33.388] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:33.389] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:33.390] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:33.393] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:33.396] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:33.398] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:33.400] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:33.401] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:33.404] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:33.406] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:33.408] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:33.409] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:33.411] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:33.414] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:33.416] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:33.418] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:33.420] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:33.422] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:33.424] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:33.426] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:33.428] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:33.430] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:33.434] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:33.437] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:33.439] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:33.441] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:33.443] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:33.447] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:33.448] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:33.449] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:33.452] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:33.455] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:33.458] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:33.459] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:33.461] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:33.479] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:33.481] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:33.483] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:33.487] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:33.489] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:33.997] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:34.001] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:34.004] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:34.006] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:34.008] [SERVER] Client connected to dashboard
+[17:54:34.011] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:34.016] [APK] --------- beginning of main
+[17:54:34.021] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.023] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:34.024] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:34.027] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.029] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.032] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:34.035] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:34.037] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:34.038] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.040] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:34.046] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:34.048] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.050] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.053] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.055] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.056] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.058] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.061] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:34.063] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:34.065] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:34.066] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:34.067] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:34.071] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:34.072] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:34.074] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:34.079] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:34.082] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:34.085] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:34.087] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:34.089] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:34.091] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:34.092] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:34.095] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:34.098] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:34.100] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:34.102] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:34.104] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:34.106] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:34.109] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:34.111] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:34.115] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:34.116] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:34.118] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:34.120] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:34.122] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:34.124] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:34.127] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:34.129] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:34.130] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:34.132] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:34.134] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:34.136] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:34.137] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:34.139] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:34.142] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:34.654] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:34.655] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:34.658] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:34.659] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:34.661] [SERVER] Client connected to dashboard
+[17:54:34.663] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:34.668] [APK] --------- beginning of main
+[17:54:34.671] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.674] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:34.677] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:34.679] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.681] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.684] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:34.688] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:34.691] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:34.692] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:34.694] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:34.697] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:34.701] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.703] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.705] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.707] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.709] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:34.712] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:34.714] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:34.716] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:34.718] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:34.720] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:34.721] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:34.724] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:34.727] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:34.730] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:34.732] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:34.733] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:34.736] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:34.737] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:34.739] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:34.741] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:34.745] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:34.747] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:34.748] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:34.751] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:34.754] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:34.755] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:34.757] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:34.758] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:34.760] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:34.762] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:34.766] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:34.768] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:34.770] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:34.772] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:34.774] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:34.776] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:34.778] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:34.780] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:34.782] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:34.784] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:34.787] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:34.789] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:34.791] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:34.793] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:34.796] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:34.798] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:34.801] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:34.804] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:35.323] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:35.325] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:35.327] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:35.329] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:35.332] [SERVER] Client connected to dashboard
+[17:54:35.334] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:35.342] [APK] --------- beginning of main
+[17:54:35.344] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:35.347] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:35.350] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:35.352] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:35.354] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:35.357] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:35.359] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:35.360] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:35.362] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:35.364] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:35.366] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:35.367] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:35.370] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:35.372] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:35.374] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:35.374] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:35.377] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:35.379] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:35.381] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:35.383] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:35.384] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:35.387] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:35.388] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:35.389] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:35.390] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:35.392] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:35.395] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:35.396] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:35.397] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:35.399] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:35.402] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:35.403] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:35.404] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:35.407] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:35.409] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:35.410] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:35.412] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:35.414] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:35.415] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:35.420] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:35.421] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:35.424] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:35.426] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:35.427] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:35.430] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:35.433] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:35.434] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:35.436] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:35.438] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:35.440] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:35.443] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:35.446] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:35.448] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:35.452] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:35.454] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:35.455] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:35.456] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:35.458] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:35.460] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:35.978] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:35.980] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:35.982] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:35.984] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:35.986] [SERVER] Client connected to dashboard
+[17:54:35.988] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:35.996] [APK] --------- beginning of main
+[17:54:35.999] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.002] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:36.004] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:36.006] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.008] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.009] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:36.011] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:36.013] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:36.016] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.017] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:36.019] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:36.021] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.023] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.026] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.028] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.029] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.031] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.033] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:36.034] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:36.037] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:36.038] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:36.042] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:36.045] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:36.047] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:36.049] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:36.051] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:36.053] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:36.054] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:36.056] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:36.058] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:36.060] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:36.065] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:36.066] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:36.069] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:36.071] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:36.072] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:36.074] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:36.075] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:36.077] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:36.079] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:36.081] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:36.082] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:36.084] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:36.086] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:36.087] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.088] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:36.089] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:36.091] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.093] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:36.094] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:36.096] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:36.097] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:36.100] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:36.102] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:36.104] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:36.108] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:36.110] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.111] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.113] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.115] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.117] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.628] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:36.630] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:36.632] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:36.636] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:36.637] [SERVER] Client connected to dashboard
+[17:54:36.639] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:36.648] [APK] --------- beginning of main
+[17:54:36.650] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.651] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:36.652] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:36.655] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.657] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.659] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:36.659] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:36.662] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:36.664] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:36.666] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:36.668] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:36.671] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.673] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.676] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.679] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.681] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:36.682] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:36.684] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:36.686] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:36.687] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:36.689] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:36.691] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:36.692] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:36.696] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:36.697] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:36.699] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:36.700] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:36.702] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:36.703] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:36.706] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:36.708] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:36.708] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:36.710] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:36.712] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:36.715] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:36.717] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:36.720] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:36.722] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:36.724] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:36.729] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:36.731] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:36.733] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:36.736] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:36.737] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:36.739] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.742] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:36.746] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:36.748] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.751] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:36.754] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:36.757] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:36.759] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:36.763] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:36.765] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:36.766] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:36.770] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:36.773] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.775] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.777] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.780] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.782] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.784] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:36.786] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.787] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:36.791] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:36.792] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.297] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:37.299] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:37.302] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:37.304] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:37.305] [SERVER] Client connected to dashboard
+[17:54:37.306] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:37.316] [APK] --------- beginning of main
+[17:54:37.318] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:37.320] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:37.322] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:37.324] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:37.325] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:37.327] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:37.329] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:37.330] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:37.334] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:37.335] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:37.337] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:37.338] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:37.340] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:37.341] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:37.344] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:37.346] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:37.348] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:37.351] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:37.354] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:37.356] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:37.359] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:37.362] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:37.364] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:37.366] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:37.368] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:37.370] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:37.374] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:37.376] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:37.379] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:37.382] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:37.384] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:37.387] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:37.389] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:37.390] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:37.392] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:37.394] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:37.397] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:37.399] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:37.401] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:37.402] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:37.404] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:37.407] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:37.408] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:37.410] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:37.412] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.414] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:37.417] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:37.419] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.422] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:37.424] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:37.427] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:37.431] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:37.434] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:37.436] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:37.438] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:37.440] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:37.441] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.443] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.446] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.449] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.453] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.456] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:37.459] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.462] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.465] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.468] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.471] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.473] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.474] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.476] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.478] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.480] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.487] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.489] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.491] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.492] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:37.495] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:37.497] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.013] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:38.016] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:38.018] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:38.020] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:38.022] [SERVER] Client connected to dashboard
+[17:54:38.024] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:38.026] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:38.028] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:38.030] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:38.041] [APK] --------- beginning of main
+[17:54:38.046] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.048] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:38.051] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:38.053] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.055] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.057] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:38.058] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:38.062] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:38.064] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.066] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:38.067] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:38.068] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.071] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.072] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.076] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.077] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.080] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.081] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:38.083] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:38.084] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:38.087] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:38.089] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:38.090] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:38.092] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:38.095] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:38.097] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:38.099] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:38.100] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:38.102] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:38.104] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:38.106] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:38.107] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:38.108] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:38.110] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:38.113] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:38.115] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:38.118] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:38.120] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:38.123] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:38.125] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:38.127] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:38.128] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:38.130] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:38.131] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:38.134] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.136] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:38.138] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:38.140] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.142] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:38.145] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:38.148] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:38.150] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:38.153] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:38.154] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:38.156] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:38.158] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:38.159] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.161] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.164] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.166] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.168] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.170] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:38.172] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.175] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.176] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.177] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.180] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.181] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.183] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.185] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.187] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.188] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.190] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.191] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.193] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.195] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.197] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.199] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.200] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:38.202] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:38.203] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:38.204] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.207] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.714] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:38.718] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:38.720] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:38.722] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:38.724] [SERVER] Client connected to dashboard
+[17:54:38.726] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:38.728] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:38.730] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:38.731] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:38.745] [APK] --------- beginning of main
+[17:54:38.748] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.750] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:38.752] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:38.753] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.755] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.757] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:38.759] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:38.760] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:38.762] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:38.764] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:38.766] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:38.769] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.771] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.772] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.774] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.777] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:38.779] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:38.780] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:38.782] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:38.784] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:38.786] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:38.788] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:38.789] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:38.792] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:38.793] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:38.796] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:38.798] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:38.799] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:38.801] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:38.803] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:38.805] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:38.806] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:38.808] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:38.810] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:38.811] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:38.812] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:38.815] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:38.818] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:38.819] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:38.821] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:38.823] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:38.825] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:38.827] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:38.829] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:38.830] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.831] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:38.835] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:38.838] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.839] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:38.840] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:38.842] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:38.846] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:38.847] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:38.849] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:38.851] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:38.852] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:38.853] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.856] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.858] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.859] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.860] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.862] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:38.864] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.867] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.869] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.871] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.872] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.875] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.876] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.878] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.880] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.882] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.883] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.885] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.888] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.889] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.890] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.893] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.894] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:38.896] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:38.898] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:38.901] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.904] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:38.906] [APK] 10-01 17:54:38.407 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:38.907] [APK] 10-01 17:54:38.408 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.412] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:39.414] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:39.416] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:39.419] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:39.421] [SERVER] Client connected to dashboard
+[17:54:39.422] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:39.424] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:39.427] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:39.429] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:39.441] [APK] --------- beginning of main
+[17:54:39.444] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:39.447] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:39.450] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:39.452] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:39.454] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:39.457] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:39.459] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:39.461] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:39.463] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:39.464] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:39.466] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:39.468] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:39.472] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:39.474] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:39.478] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:39.479] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:39.483] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:39.486] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:39.488] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:39.490] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:39.492] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:39.494] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:39.496] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:39.497] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:39.499] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:39.501] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:39.502] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:39.504] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:39.505] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:39.507] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:39.508] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:39.510] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:39.512] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:39.514] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:39.516] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:39.518] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:39.519] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:39.521] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:39.522] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:39.527] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:39.530] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:39.532] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:39.534] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:39.536] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:39.539] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.541] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:39.542] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:39.545] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.546] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:39.548] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:39.550] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:39.553] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:39.555] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:39.558] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:39.560] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:39.563] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:39.565] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.569] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.571] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.572] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.574] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.576] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:39.578] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.581] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.582] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.585] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.587] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.589] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.591] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.593] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.596] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.598] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.600] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.602] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.606] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.607] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.608] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.610] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.613] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:39.614] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:39.616] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:39.617] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.620] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:39.622] [APK] 10-01 17:54:38.407 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:39.623] [APK] 10-01 17:54:38.408 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.140] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:40.142] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:40.146] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:40.148] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.150] [SERVER] Client connected to dashboard
+[17:54:40.152] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:40.154] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.156] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:40.158] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:40.160] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.172] [APK] --------- beginning of main
+[17:54:40.174] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.176] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:40.177] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:40.180] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.182] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.183] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:40.186] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:40.188] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:40.189] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.190] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:40.191] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:40.193] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.196] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.197] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.198] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.200] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.202] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.204] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:40.208] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:40.209] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:40.212] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:40.214] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:40.214] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:40.216] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:40.217] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:40.220] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:40.222] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:40.225] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:40.226] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:40.229] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:40.231] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:40.233] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:40.234] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:40.237] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:40.239] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:40.240] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:40.242] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:40.244] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:40.246] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:40.248] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:40.250] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:40.252] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:40.254] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:40.256] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:40.257] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.258] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:40.260] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:40.263] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.264] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:40.266] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:40.269] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:40.271] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:40.271] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:40.274] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:40.276] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:40.278] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:40.279] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.282] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.285] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.287] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.289] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.291] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:40.292] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.294] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.296] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.298] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.300] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.302] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.304] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.305] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.306] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.308] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.309] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.311] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.313] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.314] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.316] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.318] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.320] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:40.322] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:40.323] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:40.324] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.326] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.327] [APK] 10-01 17:54:38.407 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.329] [APK] 10-01 17:54:38.408 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.331] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.333] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.333] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.337] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.338] [APK] 10-01 17:54:39.571 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.339] [APK] 10-01 17:54:39.573 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.341] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.347] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.348] [APK] 10-01 17:54:39.767 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.350] [APK] 10-01 17:54:39.768 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.354] [APK] 10-01 17:54:39.867 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:40.355] [APK] 10-01 17:54:39.868 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:40.357] [APK] 10-01 17:54:39.869 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.868] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:40.870] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:40.872] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:40.874] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.875] [SERVER] Client connected to dashboard
+[17:54:40.876] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:40.878] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.879] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:40.881] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:40.882] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:40.901] [APK] --------- beginning of main
+[17:54:40.903] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.904] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:40.906] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:40.907] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.908] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.910] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:40.911] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:40.913] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:40.914] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:40.916] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:40.917] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:40.919] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.921] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.922] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.924] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.924] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:40.926] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:40.927] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:40.929] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:40.931] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:40.932] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:40.936] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:40.938] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:40.940] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:40.942] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:40.946] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:40.949] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:40.951] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:40.953] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:40.954] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:40.956] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:40.957] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:40.958] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:40.959] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:40.962] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:40.963] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:40.964] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:40.966] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:40.968] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:40.970] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:40.970] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:40.972] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:40.973] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:40.976] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:40.977] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.979] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:40.980] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:40.982] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:40.983] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:40.985] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:40.987] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:40.989] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:40.990] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:40.992] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:40.994] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:40.995] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:40.998] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.000] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.001] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.003] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.004] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.006] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:41.008] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.009] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.010] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.012] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.014] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.015] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.016] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.018] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.020] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.021] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.023] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.024] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.026] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.027] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.029] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.030] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.032] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:41.034] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:41.035] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:41.036] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.037] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.039] [APK] 10-01 17:54:38.407 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.041] [APK] 10-01 17:54:38.408 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.042] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.045] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.046] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.047] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.050] [APK] 10-01 17:54:39.571 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.050] [APK] 10-01 17:54:39.573 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.054] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.056] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.058] [APK] 10-01 17:54:39.767 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.060] [APK] 10-01 17:54:39.768 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.062] [APK] 10-01 17:54:39.867 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:41.066] [APK] 10-01 17:54:39.868 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.068] [APK] 10-01 17:54:39.869 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.070] [APK] 10-01 17:54:39.989 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.072] [APK] 10-01 17:54:39.989 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.074] [APK] 10-01 17:54:40.118 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.076] [APK] 10-01 17:54:40.118 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.079] [APK] 10-01 17:54:40.143 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.082] [APK] 10-01 17:54:40.143 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.088] [APK] 10-01 17:54:40.190 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.091] [APK] 10-01 17:54:40.191 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.093] [APK] 10-01 17:54:40.207 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.096] [APK] 10-01 17:54:40.207 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.098] [APK] 10-01 17:54:40.217 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.100] [APK] 10-01 17:54:40.219 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.102] [APK] 10-01 17:54:40.270 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.105] [APK] 10-01 17:54:40.270 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.109] [APK] 10-01 17:54:40.289 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.112] [APK] 10-01 17:54:40.289 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.115] [APK] 10-01 17:54:40.311 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.118] [APK] 10-01 17:54:40.311 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.120] [APK] 10-01 17:54:40.335 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.122] [APK] 10-01 17:54:40.335 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.125] [APK] 10-01 17:54:40.362 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.127] [APK] 10-01 17:54:40.375 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.130] [APK] 10-01 17:54:40.396 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.132] [APK] 10-01 17:54:40.396 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.135] [APK] 10-01 17:54:40.413 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.137] [APK] 10-01 17:54:40.413 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.141] [APK] 10-01 17:54:40.427 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.145] [APK] 10-01 17:54:40.430 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.148] [APK] 10-01 17:54:40.449 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.150] [APK] 10-01 17:54:40.449 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.152] [APK] 10-01 17:54:40.456 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.154] [APK] 10-01 17:54:40.457 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.158] [APK] 10-01 17:54:40.488 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.160] [APK] 10-01 17:54:40.488 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.163] [APK] 10-01 17:54:40.499 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.166] [APK] 10-01 17:54:40.499 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.169] [APK] 10-01 17:54:40.507 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.172] [APK] 10-01 17:54:40.507 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.175] [APK] 10-01 17:54:40.531 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.176] [APK] 10-01 17:54:40.531 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.181] [APK] 10-01 17:54:40.557 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.184] [APK] 10-01 17:54:40.557 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.187] [APK] 10-01 17:54:40.571 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.190] [APK] 10-01 17:54:40.573 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.193] [APK] 10-01 17:54:40.595 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.196] [APK] 10-01 17:54:40.595 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.708] [SERVER] Γ£à Configuration charg├⌐e: 5 apps disponibles
+[17:54:41.711] [SERVER] Web tracking system running on http://localhost:3001
+[17:54:41.714] [SERVER] Dashboard available at http://localhost:3001/dashboard
+[17:54:41.718] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:41.720] [SERVER] Client connected to dashboard
+[17:54:41.722] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (207ms) - ADD_TO_CART:Panier, 4 new notifications::
+[17:54:41.724] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:41.728] [SERVER] Γ£à VIEW_CLICKED -
+[17:54:41.730] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:Panier, 4 new notifications:0,00Γé¼:0,00Γé¼
+[17:54:41.733] [SERVER] Γ£à ADD_TO_CART - Panier, 4 new notifications
+[17:54:41.737] [SERVER] Γ£à ADD_TO_CART - D├⌐couvrez nos meilleurs alternatives pou
+[17:54:41.741] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (12ms) - ADD_TO_CART:D├⌐couvrez nos meilleurs alternatives pour rempla
+[17:54:41.742] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (31ms) - ADD_TO_CART:D├⌐couvrez nos meilleurs alternatives pour rempla
+[17:54:41.746] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.749] [SERVER] Γ£à ADD_TO_CART - D├⌐couvrez nos meilleurs alternatives pou
+[17:54:41.752] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (76ms) - ADD_TO_CART:D├⌐couvrez nos meilleurs alternatives pour rempla
+[17:54:41.754] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.758] [SERVER] Γ£à ADD_TO_CART - 2 produits d├⌐j├á ajout├⌐s au panier
+[17:54:41.761] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.765] [SERVER] Γ£à ADD_TO_CART - Bouton de substitution
+[17:54:41.768] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.771] [SERVER] Γ£à CONTENT_CHANGED -
+[17:54:41.772] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.774] [SERVER] Γ£à ADD_TO_CART - Ajouter un produit dans le panier
+[17:54:41.776] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.778] [SERVER] Γ£à ADD_TO_CART - Panier
+[17:54:41.780] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.782] [SERVER] Γ£à ADD_TO_CART - Valider mon panier
+[17:54:41.783] [SERVER] ≡ƒöä DEDUP: ├ëv├⌐nement dupliqu├⌐ ignor├⌐ (119ms) - ADD_TO_CART:2 produits d├⌐j├á ajout├⌐s au panier:Ajouter un pro
+[17:54:41.784] [SERVER] ≡ƒùæ∩╕Å Panier vid├⌐ d├⌐tect├⌐ ├á 5:54:40 PM, analyse des ├⌐v├⌐nements suivants uniquement
+[17:54:41.787] [SERVER] Γ£à ADD_TO_CART -
+[17:54:41.789] [SERVER] ≡ƒô╕ Snapshot charg├⌐: 3 produits initiaux
+[17:54:41.825] [APK] --------- beginning of main
+[17:54:41.828] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: ========================================
+[17:54:41.829] [APK] 10-01 17:54:10.357 32203 32203 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+[17:54:41.830] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ≡ƒôª Build: 2025-10-01 17:52 - Snapshot v3.4 NoDuplicates
+[17:54:41.832] [APK] 10-01 17:54:10.372 32203 32203 D CrossAppTracking: ========================================
+[17:54:41.834] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ========================================
+[17:54:41.836] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+[17:54:41.837] [APK] 10-01 17:54:11.119 32203 32203 D CrossAppTracking: ≡ƒöû Build: BUILD_1759334051
+[17:54:41.839] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+[17:54:41.841] [APK] 10-01 17:54:11.120 32203 32203 D CrossAppTracking: ========================================
+[17:54:41.843] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+[17:54:41.845] [APK] 10-01 17:54:11.506 32203 32203 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+[17:54:41.847] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:41.849] [APK] 10-01 17:54:15.157 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:41.850] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:41.851] [APK] 10-01 17:54:16.211 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:41.853] [APK] 10-01 17:54:16.673 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.bascule.leclerctracking
+[17:54:41.854] [APK] 10-01 17:54:16.674 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.bascule.leclerctracking
+[17:54:41.856] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:41.858] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:41.859] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:41.860] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:41.862] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:41.863] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:41.864] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:41.867] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:41.869] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:41.870] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:41.871] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:41.873] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking:
+[17:54:41.876] [APK] 10-01 17:54:17.186 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:41.878] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Cette application peut analyser vos interactions sur les apps e-commerce
+[17:54:41.879] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: pour am├⌐liorer votre exp├⌐rience d'achat.
+[17:54:41.880] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:41.882] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Apps support├⌐es:
+[17:54:41.885] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó E.Leclerc Drive
+[17:54:41.886] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Carrefour
+[17:54:41.887] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Auchan Drive
+[17:54:41.889] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Casino Drive
+[17:54:41.891] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Amazon Shopping
+[17:54:41.891] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Cdiscount
+[17:54:41.892] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: ΓÇó Monoprix
+[17:54:41.895] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking:
+[17:54:41.896] [APK] 10-01 17:54:17.728 32203 32203 D CrossAppTracking: Vos donn├⌐es restent priv├⌐es et anonymes. - Prix: N/A
+[17:54:41.898] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:41.899] [APK] 10-01 17:54:23.051 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.901] [APK] 10-01 17:54:25.621 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:41.902] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 32 - com.carrefour.fid.android
+[17:54:41.903] [APK] 10-01 17:54:25.765 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.904] [APK] 10-01 17:54:27.622 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:41.907] [APK] 10-01 17:54:27.878 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:41.910] [APK] 10-01 17:54:28.633 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:41.913] [APK] 10-01 17:54:28.636 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:41.916] [APK] 10-01 17:54:28.714 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 0 produits trouv├⌐s
+[17:54:41.919] [APK] 10-01 17:54:28.716 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Snapshot vide: aucun produit trouv├⌐ dans le panier
+[17:54:41.920] [APK] 10-01 17:54:28.921 32203 32203 D CrossAppTracking: ≡ƒô¥ Textes trouv├⌐s (44): 2 produits ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Ananas en morceaux CARREFOUR LE MARCHE, Supprimer, Bouton de substitution, Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Bananes Bio Cavendish., -10% Club, Bananes Bio Cavendish, le sachet de 5 fruits, PEROU, 3,98, 3 euros et 98 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier
+[17:54:41.922] [APK] 10-01 17:54:34.039 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+[17:54:41.924] [APK] 10-01 17:54:34.110 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.925] [APK] 10-01 17:54:34.268 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.928] [APK] 10-01 17:54:34.275 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.929] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.932] [APK] 10-01 17:54:35.282 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.934] [APK] 10-01 17:54:36.195 32203 32203 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+[17:54:41.936] [APK] 10-01 17:54:36.199 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.938] [APK] 10-01 17:54:36.201 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.944] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.945] [APK] 10-01 17:54:36.345 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.948] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.950] [APK] 10-01 17:54:36.490 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.954] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.958] [APK] 10-01 17:54:36.644 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.960] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.964] [APK] 10-01 17:54:36.734 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.965] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.968] [APK] 10-01 17:54:36.791 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.971] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.974] [APK] 10-01 17:54:36.939 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.979] [APK] 10-01 17:54:37.009 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.983] [APK] 10-01 17:54:37.010 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:41.987] [APK] 10-01 17:54:37.138 32203 32203 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 4 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+[17:54:41.989] [APK] 10-01 17:54:37.139 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:41.992] [APK] 10-01 17:54:37.144 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: 0,00Γé¼
+[17:54:41.996] [APK] 10-01 17:54:37.145 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:41.998] [APK] 10-01 17:54:37.149 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.001] [APK] 10-01 17:54:38.407 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.006] [APK] 10-01 17:54:38.408 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.008] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.010] [APK] 10-01 17:54:39.566 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.012] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.015] [APK] 10-01 17:54:39.568 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.017] [APK] 10-01 17:54:39.571 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.020] [APK] 10-01 17:54:39.573 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.023] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.026] [APK] 10-01 17:54:39.755 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.030] [APK] 10-01 17:54:39.767 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.033] [APK] 10-01 17:54:39.768 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.037] [APK] 10-01 17:54:39.867 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 4 new notifications - Prix: N/A
+[17:54:42.041] [APK] 10-01 17:54:39.868 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.046] [APK] 10-01 17:54:39.869 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.050] [APK] 10-01 17:54:39.989 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.054] [APK] 10-01 17:54:39.989 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.057] [APK] 10-01 17:54:40.118 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.061] [APK] 10-01 17:54:40.118 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.064] [APK] 10-01 17:54:40.143 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.067] [APK] 10-01 17:54:40.143 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.070] [APK] 10-01 17:54:40.190 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.073] [APK] 10-01 17:54:40.191 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.075] [APK] 10-01 17:54:40.207 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.078] [APK] 10-01 17:54:40.207 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.081] [APK] 10-01 17:54:40.217 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.083] [APK] 10-01 17:54:40.219 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.084] [APK] 10-01 17:54:40.270 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.088] [APK] 10-01 17:54:40.270 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.090] [APK] 10-01 17:54:40.289 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.092] [APK] 10-01 17:54:40.289 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.093] [APK] 10-01 17:54:40.311 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.097] [APK] 10-01 17:54:40.311 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.100] [APK] 10-01 17:54:40.335 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.104] [APK] 10-01 17:54:40.335 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.107] [APK] 10-01 17:54:40.362 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.109] [APK] 10-01 17:54:40.375 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.112] [APK] 10-01 17:54:40.396 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.113] [APK] 10-01 17:54:40.396 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.116] [APK] 10-01 17:54:40.413 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.120] [APK] 10-01 17:54:40.413 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.122] [APK] 10-01 17:54:40.427 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.124] [APK] 10-01 17:54:40.430 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.126] [APK] 10-01 17:54:40.449 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.129] [APK] 10-01 17:54:40.449 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.132] [APK] 10-01 17:54:40.456 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.136] [APK] 10-01 17:54:40.457 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.139] [APK] 10-01 17:54:40.488 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.146] [APK] 10-01 17:54:40.488 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.148] [APK] 10-01 17:54:40.499 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.150] [APK] 10-01 17:54:40.499 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.152] [APK] 10-01 17:54:40.507 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.154] [APK] 10-01 17:54:40.507 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.156] [APK] 10-01 17:54:40.531 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.158] [APK] 10-01 17:54:40.531 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.159] [APK] 10-01 17:54:40.557 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.161] [APK] 10-01 17:54:40.557 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.166] [APK] 10-01 17:54:40.571 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.169] [APK] 10-01 17:54:40.573 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.172] [APK] 10-01 17:54:40.595 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.173] [APK] 10-01 17:54:40.595 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.175] [APK] 10-01 17:54:40.701 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.177] [APK] 10-01 17:54:40.701 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.182] [APK] 10-01 17:54:40.822 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76Γé¼
+[17:54:42.184] [APK] 10-01 17:54:40.823 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76Γé¼
+[17:54:42.187] [APK] 10-01 17:54:40.828 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76Γé¼
+[17:54:42.189] [APK] 10-01 17:54:40.833 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -10% Club. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Kiwi Hayward .
+[17:54:42.191] [APK] 10-01 17:54:40.837 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 6,76Γé¼
+[17:54:42.192] [APK] 10-01 17:54:40.864 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Bouton de substitution - Prix: N/A
+[17:54:42.196] [APK] 10-01 17:54:40.876 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[17:54:42.198] [APK] 10-01 17:54:40.884 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+[17:54:42.200] [APK] 10-01 17:54:40.888 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 2 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+[17:54:42.202] [APK] 10-01 17:54:40.888 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+[17:54:42.204] [APK] 10-01 17:54:40.899 32203 32203 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Valider mon panier - Prix: 6,76Γé¼
+[17:54:42.206] [APK] 10-01 17:54:40.904 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.208] [APK] 10-01 17:54:40.904 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.210] [APK] 10-01 17:54:41.068 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.212] [APK] 10-01 17:54:41.068 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.215] [APK] 10-01 17:54:41.078 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.217] [APK] 10-01 17:54:41.079 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.220] [APK] 10-01 17:54:41.136 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.222] [APK] 10-01 17:54:41.136 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.226] [APK] 10-01 17:54:41.146 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.227] [APK] 10-01 17:54:41.147 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.230] [APK] 10-01 17:54:41.230 32203 32203 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+[17:54:42.232] [APK] 10-01 17:54:41.230 32203 32203 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+[17:54:42.233] [APK] 10-01 17:54:41.254 32203 32203 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Ananas en morceaux CARREFOUR LE MARCHE - 6,76
+[17:54:42.235] [APK] 10-01 17:54:41.257 32203 32203 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Ananas en morceaux CARREFOUR LE MARCHE - 3,98
+[17:54:42.238] [APK] 10-01 17:54:41.261 32203 32203 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Bananes Bio Cavendish - 3,98
+[17:54:42.240] [APK] 10-01 17:54:41.261 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=937 > 100, probablement ├á remplacer)
+[17:54:42.241] [APK] 10-01 17:54:41.265 32203 32203 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Kiwi Hayward  - 2,78
+[17:54:42.245] [APK] 10-01 17:54:41.265 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=937 > 100, probablement ├á remplacer)
+[17:54:42.247] [APK] 10-01 17:54:41.267 32203 32203 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=901 > 100, probablement ├á remplacer)
+[17:54:42.249] [APK] 10-01 17:54:41.269 32203 32203 D CrossAppTracking: ≡ƒô╕ Fin du scan: 4 produits trouv├⌐s
+[17:54:42.251] [APK] 10-01 17:54:41.269 32203 32203 D CrossAppTracking: ≡ƒô╕ Snapshot captur├⌐: 4 produits trouv├⌐s
+[17:54:42.252] [APK] 10-01 17:54:41.271 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.256] [APK] 10-01 17:54:41.273 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.258] [APK] 10-01 17:54:41.291 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.259] [APK] 10-01 17:54:41.291 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.261] [APK] 10-01 17:54:41.302 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.264] [APK] 10-01 17:54:41.302 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.266] [APK] 10-01 17:54:41.313 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.267] [APK] 10-01 17:54:41.313 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.270] [APK] 10-01 17:54:41.325 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.272] [APK] 10-01 17:54:41.326 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.276] [APK] 10-01 17:54:41.338 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.279] [APK] 10-01 17:54:41.340 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.283] [APK] 10-01 17:54:41.350 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.285] [APK] 10-01 17:54:41.350 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.288] [APK] 10-01 17:54:41.474 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.289] [APK] 10-01 17:54:41.474 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.292] [APK] 10-01 17:54:41.484 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.295] [APK] 10-01 17:54:41.484 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.296] [APK] 10-01 17:54:41.500 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.299] [APK] 10-01 17:54:41.501 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.303] [APK] 10-01 17:54:41.517 32203 32203 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+[17:54:42.309] [APK] 10-01 17:54:41.517 32203 32203 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+[17:54:42.814] [SYSTEM] Stopping monitoring...
+[17:54:51.773] [SYSTEM] Monitoring completed

@@ -25,8 +25,8 @@ Write-Host "2. Redémarrage du service..." -ForegroundColor Yellow
 .\force-restart-service.ps1
 Write-Host ""
 
-# 3. Attendre que Carrefour soit lancé
-Write-Host "3. Attente du lancement de Carrefour (5s)..." -ForegroundColor Yellow
+# 3. Attendre que Carrefour soit bien lancé
+Write-Host "3. Attente du chargement de Carrefour (5s)..." -ForegroundColor Yellow
 Start-Sleep -Seconds 5
 Write-Host ""
 
@@ -51,8 +51,8 @@ Write-Host ""
 Write-Host "6. Clic sur le panier (tu verras le cercle blanc)..." -ForegroundColor Yellow
 # Coordonnées de l'icône panier (bas droite de l'écran)
 adb shell input tap 972 2263
-Write-Host "   Clic effectue - Attente du snapshot (5s)..." -ForegroundColor Green
-Start-Sleep -Seconds 5
+Write-Host "   Clic effectue - Attente du chargement complet (8s)..." -ForegroundColor Green
+Start-Sleep -Seconds 8
 Write-Host ""
 
 # 7. Attendre la fin du monitoring
