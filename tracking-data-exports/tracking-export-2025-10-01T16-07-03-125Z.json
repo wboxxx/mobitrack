@@ -1,0 +1,30 @@
+{
+  "events": [],
+  "sessions": [],
+  "cartAnalysis": {
+    "products": [],
+    "replacements": [],
+    "promotions": [],
+    "suggestions": [],
+    "totals": {
+      "subtotal": 0,
+      "cagnotte": 0,
+      "finalTotal": 0
+    }
+  },
+  "stats": {
+    "totalEvents": 0,
+    "relevantEvents": 0,
+    "activeSessions": 0,
+    "productClicks": 0,
+    "conversions": 0,
+    "cartProducts": 0,
+    "cartTotal": 0
+  },
+  "exportedAt": "2025-10-01T16:07:03.125Z",
+  "exportedBy": "dashboard",
+  "columns": {
+    "column1_all": 0,
+    "column2_relevant": 0
+  }
+}

@@ -78,7 +78,7 @@ class CrossAppTrackingService : AccessibilityService() {
         trackingManager = AndroidTrackingManager(this, null)
         
         // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 17:55 - Snapshot v3.2 STABLE"
+        val buildTimestamp = "2025-10-01 18:21 - Snapshot v3.3 IncompleteWarning"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
         Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
@@ -250,10 +250,23 @@ class CrossAppTrackingService : AccessibilityService() {
     private fun captureCartSnapshot(nodeInfo: AccessibilityNodeInfo, packageName: String) {
         val products = mutableListOf<Map<String, Any>>()
         
+        // Chercher le nombre total d'articles dans le badge panier
+        val allTexts = getAllTextsFromNode(nodeInfo)
+        val totalItemsInCart = extractTotalItemsFromBadge(allTexts)
+        
         // Scanner tous les produits visibles dans le panier
         Log.d("CrossAppTracking", "📸 Début du scan des produits...")
         scanNodeForProducts(nodeInfo, products)
         Log.d("CrossAppTracking", "📸 Fin du scan: ${products.size} produits trouvés")
+        
+        // Vérifier si on a capturé tous les produits
+        if (totalItemsInCart > 0 && products.size < totalItemsInCart) {
+            Log.w("CrossAppTracking", "⚠️ ATTENTION: Snapshot incomplet!")
+            Log.w("CrossAppTracking", "   Produits détectés: ${products.size}")
+            Log.w("CrossAppTracking", "   Total dans le panier: $totalItemsInCart")
+            Log.w("CrossAppTracking", "   ${totalItemsInCart - products.size} produit(s) non visible(s) à l'écran")
+            Log.w("CrossAppTracking", "   💡 L'utilisateur doit scroller pour voir tous les produits")
+        }
         
         if (products.isNotEmpty()) {
             Log.d("CrossAppTracking", "📸 Snapshot capturé: ${products.size} produits trouvés")
@@ -263,14 +276,33 @@ class CrossAppTrackingService : AccessibilityService() {
                 "packageName" to packageName,
                 "eventType" to "cart_snapshot",
                 "products" to products,
+                "totalItemsInCart" to totalItemsInCart,
+                "isComplete" to (totalItemsInCart == 0 || products.size >= totalItemsInCart),
                 "snapshotTime" to System.currentTimeMillis()
             ))
         } else {
             Log.d("CrossAppTracking", "⚠️ Snapshot vide: aucun produit trouvé dans le panier")
             // Logger tous les textes pour debug
-            val allTexts = getAllTextsFromNode(nodeInfo)
             Log.d("CrossAppTracking", "📝 Textes trouvés (${allTexts.size}): ${allTexts.take(20).joinToString(", ")}")
         }
+    }
+    
+    private fun extractTotalItemsFromBadge(texts: List<String>): Int {
+        // Chercher "Panier, X new notifications" ou "X produits déjà ajoutés"
+        for (text in texts) {
+            // Pattern: "Panier, 9 new notifications"
+            val badgeMatch = Regex("Panier,\\s*(\\d+)\\s*new").find(text)
+            if (badgeMatch != null) {
+                return badgeMatch.groupValues[1].toIntOrNull() ?: 0
+            }
+            
+            // Pattern: "9 produits déjà ajoutés au panier"
+            val productsMatch = Regex("(\\d+)\\s*produits?\\s*déjà\\s*ajoutés").find(text)
+            if (productsMatch != null) {
+                return productsMatch.groupValues[1].toIntOrNull() ?: 0
+            }
+        }
+        return 0
     }
     
     private fun scanNodeForProducts(node: AccessibilityNodeInfo?, products: MutableList<Map<String, Any>>) {

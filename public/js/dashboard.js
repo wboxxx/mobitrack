@@ -735,12 +735,13 @@ class TrackingDashboard {
     }
 
     renderCartAnalysis(cartData) {
-        // Render products
+        // Render products (filtrer les produits à 0€ qui sont du bruit)
         const productsContainer = document.getElementById('cartProducts');
-        if (cartData.products.length === 0) {
+        const validProducts = cartData.products.filter(p => p.price > 0 && p.name.trim() !== '');
+        if (validProducts.length === 0) {
             productsContainer.innerHTML = '<p style="color: #666; text-align: center; padding: 1rem;">Aucun produit détecté</p>';
         } else {
-            productsContainer.innerHTML = cartData.products.map(product => `
+            productsContainer.innerHTML = validProducts.map(product => `
                 <div class="product-item">
                     <div class="product-name">${product.name}</div>
                     <div class="product-details">

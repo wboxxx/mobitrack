@@ -75,7 +75,7 @@ Write-Host ""
 
 # Lancer Carrefour
 Write-Host "6. Lancement de Carrefour..." -ForegroundColor Yellow
-adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1 2>$null
+adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1
 Write-Host "   Carrefour lance" -ForegroundColor Green
 Write-Host ""
 

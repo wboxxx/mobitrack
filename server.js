@@ -743,8 +743,10 @@ class DashboardContentReader {
       
       const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : 0;
 
-      // Détecter les produits à remplacer
-      if (finalLowerName.includes('produits à remplacer') || finalLowerName.includes('alternatives')) {
+      // Détecter les produits à remplacer (mais ignorer les textes promotionnels)
+      if ((finalLowerName.includes('produits à remplacer') || finalLowerName.includes('alternatives')) &&
+          !finalLowerName.includes('découvrez') && 
+          !finalLowerName.includes('meilleurs')) {
         const countMatch = finalProductName.match(/(\d+)\s*produits?\s*à\s*remplacer/i);
         const count = countMatch ? parseInt(countMatch[1]) : 1;
         this.cartAnalysis.replacements.push({
