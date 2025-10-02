@@ -18,10 +18,11 @@ Write-Host "2. Redemarrage du service..." -ForegroundColor Yellow
 .\force-restart-service.ps1
 Write-Host ""
 
-# 3. Wait for Carrefour to be opened
-Write-Host "3. OUVRE CARREFOUR et va sur la page d'accueil" -ForegroundColor Yellow
-Write-Host "   (Appuie sur Enter quand c'est pret)" -ForegroundColor Gray
-Read-Host
+# 3. Launch Carrefour automatically
+Write-Host "3. Lancement de Carrefour..." -ForegroundColor Yellow
+cmd /c "adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1 >nul 2>&1"
+Start-Sleep -Seconds 3
+Write-Host "   Carrefour lance" -ForegroundColor Green
 Write-Host ""
 
 # 4. Take initial snapshot

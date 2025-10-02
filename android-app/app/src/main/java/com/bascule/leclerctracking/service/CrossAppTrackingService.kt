@@ -92,11 +92,13 @@ class CrossAppTrackingService : AccessibilityService() {
         super.onCreate()
         trackingManager = AndroidTrackingManager(this, null)
         
-        // Version du service pour identifier les builds
-        val buildTimestamp = "2025-10-01 17:55 - Snapshot v3.2 STABLE"
+        // Fingerprint du build pour identifier les versions
+        val buildTimestamp = System.currentTimeMillis()
+        val buildFingerprint = "BUILD_${buildTimestamp / 1000}_DIFF_v1"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
-        Log.d("CrossAppTracking", "📦 Build: $buildTimestamp")
+        Log.d("CrossAppTracking", "🔧 Build Fingerprint: $buildFingerprint")
+        Log.d("CrossAppTracking", "📦 Features: DIFF detection, Badge filtering")
         Log.d("CrossAppTracking", "========================================")
     }
     
@@ -645,32 +647,41 @@ class CrossAppTrackingService : AccessibilityService() {
             if (node == null) return
             
             // Chercher les patterns de boutons produit
-            val texts = getDirectTextsFromNode(node)
+            val allTexts = getAllTextsFromNode(node)
             val bounds = android.graphics.Rect()
             node.getBoundsInScreen(bounds)
             
             // Chercher un prix (indique un produit)
-            val priceText = texts.find { it.matches(Regex("\\d+[,.]\\d+€?")) }
+            val priceText = allTexts.find { it.matches(Regex("\\d+[,.]\\d+€?")) }
             
             if (priceText != null) {
-                // Chercher le nom du produit
-                val productName = texts.find { text ->
-                    text.length > 8 &&
+                // Filtrer les badges et labels (content-desc)
+                val badgeKeywords = listOf("nutriscore", "label", "bio", "sans", "gluten", "sucres", "commerce", "équitable")
+                
+                // Chercher le nom du produit (privilégier les TextView longs)
+                val productName = allTexts.find { text ->
+                    text.length > 15 && // Nom de produit généralement long
                     !text.contains("€") &&
                     !text.matches(Regex("\\d+[,.]?\\d*")) &&
-                    !text.contains("Ajouter", ignoreCase = true)
+                    !text.contains("Ajouter", ignoreCase = true) &&
+                    !text.contains("Retirer", ignoreCase = true) &&
+                    !text.contains("panier", ignoreCase = true) &&
+                    !text.contains("produits déjà", ignoreCase = true) &&
+                    !text.contains("euros et", ignoreCase = true) &&
+                    !text.contains("centimes", ignoreCase = true) &&
+                    !badgeKeywords.any { keyword -> text.contains(keyword, ignoreCase = true) }
                 }
                 
                 // Chercher le bouton ("+Acheter", "1", "2", etc.)
-                val buttonText = texts.find { text ->
+                val buttonText = allTexts.find { text ->
                     text.matches(Regex("\\d+")) || // Quantité numérique
                     text.contains("+", ignoreCase = false) ||
                     text.contains("Acheter", ignoreCase = true)
                 } ?: ""
                 
                 // Vérifier présence des boutons - et max
-                val hasMinusButton = texts.any { it.contains("-") && it.length <= 3 }
-                val hasMaxButton = texts.any { it.contains("max", ignoreCase = true) }
+                val hasMinusButton = allTexts.any { it.contains("-") && it.length <= 3 }
+                val hasMaxButton = allTexts.any { it.contains("max", ignoreCase = true) }
                 
                 if (productName != null) {
                     products.add(ProductButtonState(
