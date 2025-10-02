@@ -250,10 +250,28 @@ class CrossAppTrackingService : AccessibilityService() {
     private fun captureCartSnapshot(nodeInfo: AccessibilityNodeInfo, packageName: String) {
         val products = mutableListOf<Map<String, Any>>()
         
+        // Récupérer tous les textes pour extraire les métadonnées
+        val allTexts = getAllTextsFromNode(nodeInfo)
+        val totalItemsInCart = extractTotalItemsFromBadge(allTexts)
+        val totalCartValue = extractTotalCartValue(allTexts)
+        
         // Scanner tous les produits visibles dans le panier
         Log.d("CrossAppTracking", "📸 Début du scan des produits...")
         scanNodeForProducts(nodeInfo, products)
         Log.d("CrossAppTracking", "📸 Fin du scan: ${products.size} produits trouvés")
+        
+        // Calculer la somme des produits détectés
+        val detectedTotal = products.sumOf { 
+            (it["price"] as? String)?.replace(",", ".")?.toDoubleOrNull() ?: 0.0 
+        }
+        
+        // Vérifier si le snapshot est incomplet
+        val isIncomplete = (totalItemsInCart > 0 && products.size < totalItemsInCart) ||
+                          (totalCartValue > 0 && detectedTotal < totalCartValue - 0.01)
+        
+        if (isIncomplete) {
+            Log.w("CrossAppTracking", "⚠️ Snapshot incomplet: ${products.size}/${totalItemsInCart} articles, ${String.format("%.2f", detectedTotal)}€/${String.format("%.2f", totalCartValue)}€")
+        }
         
         if (products.isNotEmpty()) {
             Log.d("CrossAppTracking", "📸 Snapshot capturé: ${products.size} produits trouvés")
@@ -263,14 +281,44 @@ class CrossAppTrackingService : AccessibilityService() {
                 "packageName" to packageName,
                 "eventType" to "cart_snapshot",
                 "products" to products,
+                "totalItemsInCart" to totalItemsInCart,
+                "totalCartValue" to totalCartValue,
+                "detectedValue" to detectedTotal,
+                "isComplete" to !isIncomplete,
                 "snapshotTime" to System.currentTimeMillis()
             ))
         } else {
             Log.d("CrossAppTracking", "⚠️ Snapshot vide: aucun produit trouvé dans le panier")
-            // Logger tous les textes pour debug
-            val allTexts = getAllTextsFromNode(nodeInfo)
             Log.d("CrossAppTracking", "📝 Textes trouvés (${allTexts.size}): ${allTexts.take(20).joinToString(", ")}")
         }
+    }
+    
+    private fun extractTotalItemsFromBadge(texts: List<String>): Int {
+        for (text in texts) {
+            val badgeMatch = Regex("Panier,\\s*(\\d+)\\s*new").find(text)
+            if (badgeMatch != null) {
+                return badgeMatch.groupValues[1].toIntOrNull() ?: 0
+            }
+            val productsMatch = Regex("(\\d+)\\s*produits?\\s*déjà\\s*ajoutés").find(text)
+            if (productsMatch != null) {
+                return productsMatch.groupValues[1].toIntOrNull() ?: 0
+            }
+        }
+        return 0
+    }
+    
+    private fun extractTotalCartValue(texts: List<String>): Double {
+        for (text in texts) {
+            val priceMatch = Regex("(\\d+[,.]\\d+)€").find(text)
+            if (priceMatch != null) {
+                val priceStr = priceMatch.groupValues[1].replace(",", ".")
+                val price = priceStr.toDoubleOrNull() ?: 0.0
+                if (price >= 1.0) {
+                    return price
+                }
+            }
+        }
+        return 0.0
     }
     
     private fun scanNodeForProducts(node: AccessibilityNodeInfo?, products: MutableList<Map<String, Any>>) {
