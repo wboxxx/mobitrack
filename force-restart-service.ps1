@@ -68,14 +68,14 @@ Write-Host ""
 
 # Lancer l app de tracking
 Write-Host "5. Lancement de l app de tracking..." -ForegroundColor Yellow
-adb shell monkey -p com.bascule.leclerctracking -c android.intent.category.LAUNCHER 1
+cmd /c "adb shell monkey -p com.bascule.leclerctracking -c android.intent.category.LAUNCHER 1 >nul 2>&1"
 Start-Sleep -Seconds 2
 Write-Host "   App lancee" -ForegroundColor Green
 Write-Host ""
 
 # Lancer Carrefour
 Write-Host "6. Lancement de Carrefour..." -ForegroundColor Yellow
-adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1 2>$null
+cmd /c "adb shell monkey -p com.carrefour.fid.android -c android.intent.category.LAUNCHER 1 >nul 2>&1"
 Write-Host "   Carrefour lance" -ForegroundColor Green
 Write-Host ""
 
