@@ -8,6 +8,7 @@ import android.app.NotificationManager
 import android.content.Context
 import android.content.Intent
 import android.os.Build
+import android.graphics.Rect
 import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
@@ -74,7 +75,11 @@ class SimpleEventBuffer {
 
 class CrossAppTrackingService : AccessibilityService() {
     
-    private lateinit var trackingManager: AndroidTrackingManager
+    private var trackingManager: AndroidTrackingManager? = null
+    private var lastStartupTime: Long = 0
+    private val MIN_STARTUP_INTERVAL = 5000L // 5 secondes minimum entre les redémarrages
+    private var lastEventTime: Long = 0
+    private val MIN_EVENT_INTERVAL = 100L // 100ms minimum entre les événements
     private val eventBuffer = SimpleEventBuffer()
     private var previousWindowState: WindowState? = null
     
@@ -90,6 +95,16 @@ class CrossAppTrackingService : AccessibilityService() {
     
     override fun onCreate() {
         super.onCreate()
+        
+        val currentTime = System.currentTimeMillis()
+        
+        // Déduplication des redémarrages trop fréquents
+        if (currentTime - lastStartupTime < MIN_STARTUP_INTERVAL) {
+            Log.d("CrossAppTracking", "⚠️ Redémarrage trop fréquent ignoré (${currentTime - lastStartupTime}ms)")
+            return
+        }
+        
+        lastStartupTime = currentTime
         trackingManager = AndroidTrackingManager(this, null)
         
         // Fingerprint du build pour identifier les versions
@@ -97,8 +112,9 @@ class CrossAppTrackingService : AccessibilityService() {
         val buildFingerprint = "BUILD_${buildTimestamp / 1000}_DIFF_v1"
         Log.d("CrossAppTracking", "========================================")
         Log.d("CrossAppTracking", "Service de tracking cross-app démarré")
-        Log.d("CrossAppTracking", "🔧 Build Fingerprint: $buildFingerprint")
-        Log.d("CrossAppTracking", "📦 Features: DIFF detection, Badge filtering")
+        // Logs de redémarrage supprimés pour réduire la taille des logs
+        // Log.d("CrossAppTracking", "🔧 Build Fingerprint: $buildFingerprint")
+        // Log.d("CrossAppTracking", "📦 Features: DIFF detection, Badge filtering")
         Log.d("CrossAppTracking", "========================================")
     }
     
@@ -120,7 +136,7 @@ class CrossAppTrackingService : AccessibilityService() {
         Log.d("CrossAppTracking", "📸 Snapshot feature: ${if (hasSnapshot) "ENABLED ✅" else "DISABLED ❌"}")
         Log.d("CrossAppTracking", "========================================")
         
-        // Configuration du service
+        // Configuration du service optimisée pour la stabilité
         val info = AccessibilityServiceInfo()
         info.eventTypes = AccessibilityEvent.TYPE_VIEW_CLICKED or
                          AccessibilityEvent.TYPE_VIEW_SCROLLED or
@@ -129,7 +145,10 @@ class CrossAppTrackingService : AccessibilityService() {
                          AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED
         
         info.feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
-        info.notificationTimeout = 100
+        info.notificationTimeout = 200 // Augmenté pour réduire la charge
+        info.flags = AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS or
+                    AccessibilityServiceInfo.FLAG_REPORT_VIEW_IDS or
+                    AccessibilityServiceInfo.FLAG_REQUEST_FILTER_KEY_EVENTS
         
         this.serviceInfo = info
         
@@ -191,6 +210,14 @@ class CrossAppTrackingService : AccessibilityService() {
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         event?.let {
+            val currentTime = System.currentTimeMillis()
+            
+            // Throttling des événements pour éviter la surcharge
+            if (currentTime - lastEventTime < MIN_EVENT_INTERVAL) {
+                return
+            }
+            lastEventTime = currentTime
+            
             val packageName = it.packageName?.toString() ?: return
             
             Log.d("CrossAppTracking", "📱 Événement reçu: ${it.eventType} - $packageName")
@@ -293,7 +320,7 @@ class CrossAppTrackingService : AccessibilityService() {
         if (products.isNotEmpty()) {
             Log.d("CrossAppTracking", "📸 Snapshot capturé: ${products.size} produits trouvés")
             
-            trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+            trackingManager?.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
                 "app" to getAppName(packageName),
                 "packageName" to packageName,
                 "eventType" to "cart_snapshot",
@@ -374,32 +401,8 @@ class CrossAppTrackingService : AccessibilityService() {
             // Extraire le prix sans € (si présent)
             val price = priceText.replace("€", "")
             
-            // Chercher le nom du produit (texte long, pas un prix, pas un bouton)
-            val productName = texts.find { text ->
-                val t = text.lowercase()
-                t.length > 8 && 
-                !t.contains("€") &&
-                !t.matches(Regex("\\d+[,.]?\\d*")) &&
-                !t.contains("à remplacer") && // Pas "2 produits à remplacer"
-                !t.contains("euros") &&
-                !t.contains("centimes") &&
-                !t.contains("club") &&
-                !t.contains("promotion") &&
-                !t.contains("cagnott") &&
-                !t.contains("acheter") &&
-                !t.contains("supprimer") &&
-                !t.contains("vider") &&
-                !t.contains("valider") &&
-                !t.contains("sponsorisé") &&
-                !t.contains("découvrez") &&
-                !t.contains("alternatives") &&
-                !t.contains("indisponibles") &&
-                !t.contains("rien oublié") &&
-                !t.contains("voir tout") &&
-                !t.contains("détail commande") &&
-                !t.contains("total panier") &&
-                !t.contains("provision")
-            }
+            // Chercher le nom du produit avec une logique basée sur la position
+            val productName = findBestProductNameByPosition(node, bounds)
             
             if (productName != null) {
                 // Vérifier que ce n'est pas un doublon
@@ -476,7 +479,7 @@ class CrossAppTrackingService : AccessibilityService() {
             )
             
             eventBuffer.bufferEvent(eventSignature) {
-                trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                trackingManager?.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
                     "app" to getAppName(packageName),
                     "packageName" to packageName,
                     "productInfo" to productInfo,
@@ -496,7 +499,7 @@ class CrossAppTrackingService : AccessibilityService() {
             )
             
             eventBuffer.bufferEvent(eventSignature) {
-                trackingManager.trackEvent(TrackingEventType.VIEW_CLICKED, mapOf(
+                trackingManager?.trackEvent(TrackingEventType.VIEW_CLICKED, mapOf(
                     "app" to getAppName(packageName),
                     "packageName" to packageName,
                     "element" to elementInfo,
@@ -510,7 +513,7 @@ class CrossAppTrackingService : AccessibilityService() {
     }
     
     private fun trackScrollEvent(event: AccessibilityEvent, packageName: String) {
-        trackingManager.trackEvent(TrackingEventType.SCROLL, mapOf(
+        trackingManager?.trackEvent(TrackingEventType.SCROLL, mapOf(
             "app" to getAppName(packageName),
             "packageName" to packageName,
             "scrollX" to event.scrollX,
@@ -543,7 +546,7 @@ class CrossAppTrackingService : AccessibilityService() {
                     )
                     
                     eventBuffer.bufferEvent(eventSignature) {
-                        trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                        trackingManager?.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
                             "app" to getAppName(packageName),
                             "packageName" to packageName,
                             "productInfo" to change,
@@ -581,7 +584,7 @@ class CrossAppTrackingService : AccessibilityService() {
                 
                 // Utiliser le buffer simple (le serveur fera le filtrage)
                 eventBuffer.bufferEvent(eventSignature) {
-                    trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                    trackingManager?.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
                         "app" to getAppName(packageName),
                         "packageName" to packageName,
                         "productInfo" to productInfo,
@@ -604,7 +607,7 @@ class CrossAppTrackingService : AccessibilityService() {
                 )
                 
                 eventBuffer.bufferEvent(eventSignature) {
-                    trackingManager.trackEvent(TrackingEventType.CONTENT_CHANGED, mapOf(
+                    trackingManager?.trackEvent(TrackingEventType.CONTENT_CHANGED, mapOf(
                         "app" to getAppName(packageName),
                         "packageName" to packageName,
                         "eventType" to "cross_app_content_change",
@@ -618,7 +621,7 @@ class CrossAppTrackingService : AccessibilityService() {
     private fun trackTextInput(event: AccessibilityEvent, packageName: String) {
         // Tracking des recherches (sans contenu sensible)
         if (event.text?.isNotEmpty() == true) {
-            trackingManager.trackEvent(TrackingEventType.SEARCH, mapOf(
+            trackingManager?.trackEvent(TrackingEventType.SEARCH, mapOf(
                 "app" to getAppName(packageName),
                 "packageName" to packageName,
                 "searchLength" to event.text.toString().length,
@@ -703,10 +706,13 @@ class CrossAppTrackingService : AccessibilityService() {
         
         scanForProducts(nodeInfo)
         
-        // Debug: Logger les produits trouvés
-        Log.d("CrossAppTracking", "🔍 DIFF STATE: ${products.size} produits trouvés")
-        products.forEachIndexed { index, product ->
-            Log.d("CrossAppTracking", "  [$index] ${product.productName} - ${product.price}€ - btn='${product.buttonText}' - minus=${product.hasMinusButton}")
+        // Debug: Logger les produits trouvés seulement s'il y en a
+        if (products.isNotEmpty()) {
+            Log.d("CrossAppTracking", "🔍 DIFF STATE: ${products.size} produits trouvés")
+            // Log détaillé supprimé pour réduire la taille des logs
+            // products.forEachIndexed { index, product ->
+            //     Log.d("CrossAppTracking", "  [$index] ${product.productName} - ${product.price}€ - btn='${product.buttonText}' - minus=${product.hasMinusButton}")
+            // }
         }
         
         return WindowState(products, System.currentTimeMillis())
@@ -723,7 +729,18 @@ class CrossAppTrackingService : AccessibilityService() {
             
             if (oldProduct == null) {
                 // Nouveau produit apparu (rare, mais possible si on scroll)
-                Log.d("CrossAppTracking", "⚠️ DIFF: Produit non trouvé dans l'état précédent: ${newProduct.productName}")
+                // Log seulement si c'est un vrai produit (filtrage strict)
+                if (!newProduct.productName.contains("produit à remplacer") && 
+                    !newProduct.productName.contains("bouteille de") &&
+                    !newProduct.productName.contains("noté") &&
+                    !newProduct.productName.contains("avis") &&
+                    !newProduct.productName.contains("utilisateurs") &&
+                    !newProduct.productName.contains("répartition") &&
+                    !newProduct.productName.contains("ORIGINE") &&
+                    !newProduct.productName.contains("PAYS TIERS") &&
+                    newProduct.productName.length > 15) {
+                    Log.d("CrossAppTracking", "⚠️ DIFF: Nouveau produit détecté: ${newProduct.productName}")
+                }
                 continue
             }
             
@@ -745,12 +762,171 @@ class CrossAppTrackingService : AccessibilityService() {
                 ))
                 
                 Log.d("CrossAppTracking", ">>> DIFF: ${newProduct.productName} - $oldQuantity → $newQuantity ($action)")
-            } else {
-                Log.d("CrossAppTracking", "🔄 DIFF: ${newProduct.productName} - Aucun changement ($oldQuantity → $newQuantity)")
+            }
+            // Supprimé: Log des "Aucun changement" pour réduire le bruit
+        }
+        
+        // Log résumé des changements détectés
+        if (changes.isNotEmpty()) {
+            Log.d("CrossAppTracking", "🎯 RÉSUMÉ DIFF: ${changes.size} changement(s) détecté(s)")
+            changes.forEach { change ->
+                Log.d("CrossAppTracking", "  ✅ ${change["action"]}: ${change["productName"]} (${change["oldQuantity"]} → ${change["newQuantity"]})")
             }
         }
         
         return changes
+    }
+    
+    private fun findBestProductNameByPosition(nodeInfo: AccessibilityNodeInfo, bounds: Rect): String? {
+        // Approche basée sur la position spatiale des éléments
+        // Le nom du produit est le premier TextView long à droite de l'image
+        
+        val textElements = mutableListOf<Pair<String, Rect>>()
+        
+        // Collecter tous les TextView avec leurs positions
+        fun collectTextViews(node: AccessibilityNodeInfo?) {
+            if (node == null) return
+            
+            val text = node.text?.toString()
+            if (!text.isNullOrEmpty() && text.length > 5) {
+                val nodeBounds = Rect()
+                node.getBoundsInScreen(nodeBounds)
+                textElements.add(Pair(text, nodeBounds))
+            }
+            
+            for (i in 0 until node.childCount) {
+                collectTextViews(node.getChild(i))
+            }
+        }
+        
+        collectTextViews(nodeInfo)
+        
+        if (textElements.isEmpty()) return null
+        
+        // Filtrer les éléments qui sont à droite de l'image (X > 400)
+        // et qui ne sont pas des prix, quantités, boutons, avis, ou labels
+        val candidates = textElements.filter { (text: String, textBounds: Rect) ->
+            val t = text.lowercase()
+            textBounds.left > 400 && // À droite de l'image
+            text.length > 15 && // Assez long pour être un nom de produit
+            !t.contains("€") &&
+            !t.matches(Regex("\\d+[,.]?\\d*")) &&
+            !t.contains("produit") &&
+            !t.contains("ajouter") &&
+            !t.contains("retirer") &&
+            !t.contains("acheter") &&
+            !t.contains("noté") &&
+            !t.contains("avis") &&
+            !t.contains("utilisateurs") &&
+            !t.contains("répartition") &&
+            !t.contains("aller à") &&
+            !t.contains("ORIGINE") &&
+            !t.contains("PAYS TIERS") &&
+            !t.contains("FRANCE") &&
+            !t.contains("le sachet") &&
+            !t.contains("la pièce") &&
+            !t.contains("les 5 fruits") &&
+            !t.contains("1L") &&
+            !t.contains("50cL") &&
+            !t.contains("48cL") &&
+            !t.contains("Nutriscore") &&
+            !t.contains("Label") &&
+            !t.contains("Drapeau") &&
+            !t.contains("français") &&
+            !t.contains("Accueil") &&
+            !t.contains("Rechercher") &&
+            !t.contains("Mes produits") &&
+            !t.contains("Promotions") &&
+            !t.contains("Panier") &&
+            !t.contains("Filtrer") &&
+            !t.contains("Ouvre") &&
+            !t.contains("Pain, lait") &&
+            !t.contains("Soupes fraîches") &&
+            // Filtres plus stricts pour les avis et labels
+            !t.matches(Regex(".*noté.*sur.*par.*utilisateurs.*")) &&
+            !t.matches(Regex(".*avis.*aller.*répartition.*")) &&
+            !t.contains("drapeau") &&
+            !t.contains("français")
+        }
+        
+        if (candidates.isEmpty()) return null
+        
+        // Logique de sélection intelligente
+        // 1. Prioriser les textes qui ressemblent à des noms de produits
+        val productLikeTexts = candidates.filter { (text, _) ->
+            val t = text.lowercase()
+            // Un nom de produit contient généralement des mots de 3+ caractères
+            val words = t.split(" ").filter { it.length >= 3 }
+            words.size >= 2 && // Au moins 2 mots significatifs
+            !t.contains("du moment") && // Éviter les descriptions génériques
+            !t.contains("bacon") && // Éviter les ingrédients spécifiques
+            !t.contains("végétal") &&
+            text.length > 20 // Assez long pour être un vrai nom
+        }
+        
+        if (productLikeTexts.isNotEmpty()) {
+            return productLikeTexts.maxByOrNull { it.first.length }?.first
+        }
+        
+        // 2. Sinon, prendre le plus long parmi les candidats restants
+        return candidates.maxByOrNull { it.first.length }?.first
+    }
+    
+    private fun findBestProductName(texts: List<String>, bounds: Rect): String? {
+        // Approche basée sur la position et la structure, pas sur les mots-clés
+        
+        // 1. Filtrer les textes évidents (prix, quantités, boutons)
+        val filteredTexts = texts.filter { text ->
+            val t = text.lowercase()
+            !t.contains("€") &&
+            !t.matches(Regex("\\d+[,.]?\\d*")) &&
+            !t.contains("produit") &&
+            !t.contains("ajouter") &&
+            !t.contains("retirer") &&
+            !t.contains("acheter") &&
+            !t.contains("noté") &&
+            !t.contains("avis") &&
+            !t.contains("utilisateurs") &&
+            !t.contains("répartition") &&
+            !t.contains("ORIGINE") &&
+            !t.contains("PAYS TIERS") &&
+            !t.contains("FRANCE") &&
+            !t.contains("le sachet") &&
+            !t.contains("la pièce") &&
+            !t.contains("les 5 fruits") &&
+            !t.contains("1L") &&
+            !t.contains("50cL") &&
+            !t.contains("48cL") &&
+            !t.contains("Nutriscore") &&
+            !t.contains("Label") &&
+            !t.contains("Accueil") &&
+            !t.contains("Rechercher") &&
+            !t.contains("Mes produits") &&
+            !t.contains("Promotions") &&
+            !t.contains("Panier") &&
+            !t.contains("Filtrer") &&
+            !t.contains("Ouvre") &&
+            !t.contains("Pain, lait") &&
+            !t.contains("Soupes fraîches") &&
+            text.length > 10 // Minimum 10 caractères
+        }
+        
+        if (filteredTexts.isEmpty()) return null
+        
+        // 2. Logique basée sur la position et la structure
+        // Le nom du produit est généralement :
+        // - Le texte le plus long parmi les candidats
+        // - Positionné à droite de l'image (X > 400 dans le XML)
+        // - Pas un prix ou une quantité
+        
+        // Prioriser les textes longs (noms de produits complets)
+        val longTexts = filteredTexts.filter { it.length > 20 }
+        if (longTexts.isNotEmpty()) {
+            return longTexts.maxByOrNull { it.length }
+        }
+        
+        // Sinon, prendre le plus long disponible
+        return filteredTexts.maxByOrNull { it.length }
     }
     
     private fun extractQuantity(buttonText: String, hasMinusButton: Boolean): Int {
@@ -1136,5 +1312,13 @@ class CrossAppTrackingService : AccessibilityService() {
 
     override fun onInterrupt() {
         Log.d("CrossAppTracking", "Service de tracking interrompu")
+    }
+    
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("CrossAppTracking", "Service détruit")
+        // Nettoyer les ressources
+        trackingManager = null
+        previousWindowState = null
     }
 }

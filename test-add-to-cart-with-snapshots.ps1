@@ -15,6 +15,10 @@ Write-Host ""
 
 # 2. Restart service
 Write-Host "2. Redemarrage du service..." -ForegroundColor Yellow
+Write-Host "   (Le script va ouvrir les parametres d'accessibilite)" -ForegroundColor Gray
+Write-Host "   (Activez manuellement le service 'Bascule Cross-App Tracking')" -ForegroundColor Gray
+Write-Host "   (Confirmez dans le terminal quand c'est fait)" -ForegroundColor Gray
+Write-Host ""
 .\force-restart-service.ps1
 Write-Host ""
 
