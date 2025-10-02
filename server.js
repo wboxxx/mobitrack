@@ -59,6 +59,10 @@ app.get('/test-dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'test-dashboard.html'));
 });
 
+app.get('/cart-detection-test', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'cart-detection-test.html'));
+});
+
 // Système de filtrage intelligent côté serveur
 class ServerEventFilter {
   constructor() {
@@ -67,33 +71,78 @@ class ServerEventFilter {
     this.minIntervalBetweenSameType = 2000; // 2 secondes minimum pour panier
     this.cartEventBuffer = new Map(); // Buffer pour consolider les événements panier
     this.cartConsolidationDelay = 1500; // 1.5 secondes pour consolider
+    
+    // Nouveau système de score de confiance
+    this.confidenceThresholds = {
+      high: 80,    // Très fiable
+      medium: 60,  // Fiable
+      low: 40,     // Suspect
+      reject: 20   // Rejeter
+    };
+    
+    // Patterns de validation avancés
+    this.advancedPatterns = {
+      realProductIndicators: [
+        /^[A-Za-zÀ-ÿ\s]+$/,  // Lettres et espaces uniquement
+        /^[A-Za-zÀ-ÿ\s]+\s+\d+[,.]?\d*\s*€/,  // Nom + prix
+        /^[A-Za-zÀ-ÿ\s]+\s+\d+\s*(kg|g|L|ml|pièces?)/i  // Nom + quantité
+      ],
+      fakeProductIndicators: [
+        /^\d+[,.]?\d*\s*€$/,  // Prix seul
+        /^ajouter/i,  // Bouton d'ajout
+        /^panier/i,   // Navigation panier
+        /^rechercher/i,  // Navigation recherche
+        /^\d+\s*(produits?|articles?)/i,  // Compteurs
+        /^prix\s*n\/a/i,  // Prix non disponible
+        /^0[,.]?00\s*€/i  // Prix zéro
+      ],
+      priceValidation: [
+        /^\d+[,.]?\d{1,2}\s*€$/,  // Format EUR standard
+        /^\d+[,.]?\d{1,2}€\/kg$/i,  // Prix au kilo
+        /^\d+[,.]?\d{1,2}€\/L$/i,  // Prix au litre
+        /^\d+[,.]?\d{1,2}\s*euros?$/i  // Format texte
+      ]
+    };
   }
 
   shouldProcessEvent(event) {
     const currentTime = Date.now();
+    
+    // Calculer le score de confiance global
+    const confidenceAnalysis = this.calculateConfidenceScore(event);
     
     // Différencier clairement navigation vs vrais ajouts au panier
     const productName = event.data?.productInfo?.productName || event.data?.element?.text || '';
     const isNavigationElement = this.isNavigationElement(productName);
     
     if (event.eventType === 'ADD_TO_CART') {
-      if (isNavigationElement) {
+      // Décision basée sur le score de confiance
+      if (confidenceAnalysis.score < this.confidenceThresholds.reject) {
+        console.log(`🚫 ADD_TO_CART rejeté - score trop bas: ${confidenceAnalysis.score} (${confidenceAnalysis.reasons.join(', ')})`);
+        return false;
+      }
+      
+      if (isNavigationElement || confidenceAnalysis.score < this.confidenceThresholds.low) {
         // Convertir les faux ADD_TO_CART en VIEW_CLICKED pour la navigation
         event.eventType = 'VIEW_CLICKED';
-        console.log(`🔄 Navigation détectée: ${productName.substring(0, 50)} - Converti en VIEW_CLICKED`);
+        console.log(`🔄 Navigation détectée: ${productName.substring(0, 50)} - Converti en VIEW_CLICKED (score: ${confidenceAnalysis.score})`);
       } else {
-        // Vrai ajout au panier avec prix
+        // Vrai ajout au panier avec validation renforcée
         const hasPrice = this.hasRealPrice(event);
-        if (hasPrice) {
-          console.log(`🛒 VRAI ajout panier détecté: ${productName.substring(0, 50)}`);
+        const isValidProduct = this.isValidProductName(productName);
+        
+        if (hasPrice && isValidProduct && confidenceAnalysis.score >= this.confidenceThresholds.medium) {
+          console.log(`🛒 VRAI ajout panier détecté: ${productName.substring(0, 50)} (score: ${confidenceAnalysis.score})`);
         } else {
-          console.log(`⚠️ ADD_TO_CART sans prix: ${productName.substring(0, 50)}`);
+          console.log(`⚠️ ADD_TO_CART suspect: ${productName.substring(0, 50)} (prix: ${hasPrice}, produit: ${isValidProduct}, score: ${confidenceAnalysis.score})`);
+          // Convertir en VIEW_CLICKED si suspect
+          event.eventType = 'VIEW_CLICKED';
         }
       }
     }
     
-    // DEBUG: Logger tous les événements avec leur type final
-    console.log(`🔍 ${event.eventType} - ${productName.substring(0, 50)}`);
+    // DEBUG: Logger tous les événements avec leur type final et score
+    console.log(`🔍 ${event.eventType} - ${productName.substring(0, 50)} (confiance: ${confidenceAnalysis.score})`);
     
     // Traitement spécial pour les événements panier
     if (this.isCartEvent(event)) {
@@ -118,7 +167,7 @@ class ServerEventFilter {
       return false;
     }
 
-    // Calculer le score de qualité
+    // Calculer le score de qualité (legacy)
     const qualityScore = this.calculateQualityScore(event);
     if (qualityScore < 0) {
       console.log(`🚫 Événement ${event.eventType} filtré - score négatif (${qualityScore})`);
@@ -131,7 +180,7 @@ class ServerEventFilter {
     // Nettoyer les anciens événements
     this.cleanupOldEvents(currentTime);
     
-    console.log(`✅ Événement ${event.eventType} accepté - score: ${qualityScore}`);
+    console.log(`✅ Événement ${event.eventType} accepté - score: ${qualityScore}, confiance: ${confidenceAnalysis.score}`);
     return true;
   }
 
@@ -173,6 +222,146 @@ class ServerEventFilter {
     return false;
   }
 
+  /**
+   * Nouvelle méthode de validation des prix avec patterns avancés
+   */
+  validatePrice(priceText) {
+    if (!priceText) return { isValid: false, value: 0, confidence: 0 };
+    
+    // Tester tous les patterns de validation de prix
+    for (const pattern of this.advancedPatterns.priceValidation) {
+      const match = priceText.match(pattern);
+      if (match) {
+        const value = parseFloat(match[0].replace(/[€,\s]/g, '').replace(',', '.'));
+        if (value > 0) {
+          return { 
+            isValid: true, 
+            value: value, 
+            confidence: value > 100 ? 90 : 70,  // Plus de confiance pour prix élevés
+            format: match[0]
+          };
+        }
+      }
+    }
+    
+    return { isValid: false, value: 0, confidence: 0 };
+  }
+
+  /**
+   * Validation du nom de produit avec patterns avancés
+   */
+  isValidProductName(productName) {
+    if (!productName || productName.length < 3) return false;
+    
+    const cleanName = productName.trim();
+    
+    // Vérifier les indicateurs de faux produit
+    for (const pattern of this.advancedPatterns.fakeProductIndicators) {
+      if (pattern.test(cleanName)) {
+        return false;
+      }
+    }
+    
+    // Vérifier les indicateurs de vrai produit
+    for (const pattern of this.advancedPatterns.realProductIndicators) {
+      if (pattern.test(cleanName)) {
+        return true;
+      }
+    }
+    
+    // Validation basique : au moins 3 caractères, pas que des chiffres
+    return cleanName.length >= 3 && !/^\d+$/.test(cleanName);
+  }
+
+  /**
+   * Calcul du score de confiance global pour un événement
+   */
+  calculateConfidenceScore(event) {
+    let score = 0;
+    const reasons = [];
+    
+    const productName = event.data?.productInfo?.productName || event.data?.element?.text || '';
+    const allTexts = event.data?.productInfo?.allTexts || [];
+    const price = event.data?.productInfo?.price || '';
+    const cartAction = event.data?.productInfo?.cartAction || '';
+    
+    // 1. Validation du nom de produit (40 points max)
+    if (this.isValidProductName(productName)) {
+      score += 40;
+      reasons.push('nom_produit_valide');
+    } else {
+      reasons.push('nom_produit_invalide');
+    }
+    
+    // 2. Validation du prix (30 points max)
+    const priceValidation = this.validatePrice(price);
+    if (priceValidation.isValid) {
+      score += 30;
+      reasons.push(`prix_valide_${priceValidation.value}€`);
+    } else {
+      // Chercher le prix dans allTexts
+      let foundPrice = false;
+      for (const text of allTexts) {
+        const textPriceValidation = this.validatePrice(text);
+        if (textPriceValidation.isValid) {
+          score += 25; // Moins de points si prix trouvé ailleurs
+          reasons.push(`prix_trouve_ailleurs_${textPriceValidation.value}€`);
+          foundPrice = true;
+          break;
+        }
+      }
+      if (!foundPrice) {
+        reasons.push('prix_manquant');
+      }
+    }
+    
+    // 3. Validation de l'action panier (20 points max)
+    if (cartAction && cartAction.toLowerCase().includes('ajouter')) {
+      score += 20;
+      reasons.push('action_ajout_valide');
+    } else {
+      reasons.push('action_ajout_manquante');
+    }
+    
+    // 4. Validation contextuelle (10 points max)
+    if (allTexts.length > 2) {
+      score += 10;
+      reasons.push('contexte_riche');
+    }
+    
+    // 5. Pénalités
+    if (productName.toLowerCase().includes('prix n/a') || 
+        productName.toLowerCase().includes('0,00€')) {
+      score -= 30;
+      reasons.push('prix_zero_ou_na');
+    }
+    
+    if (productName.length < 5) {
+      score -= 20;
+      reasons.push('nom_trop_court');
+    }
+    
+    // 6. Bonus pour patterns spécifiques
+    if (productName.match(/\d+[,.]?\d*\s*€/)) {
+      score += 15;
+      reasons.push('prix_dans_nom');
+    }
+    
+    // Limiter le score entre 0 et 100
+    score = Math.max(0, Math.min(100, score));
+    
+    return {
+      score: Math.round(score),
+      reasons: reasons,
+      details: {
+        productName: productName.substring(0, 50),
+        priceValidation: priceValidation,
+        isValidProduct: this.isValidProductName(productName),
+        allTextsCount: allTexts.length
+      }
+    };
+  }
+
   handleScrollEvent(event, currentTime) {
     // Filtrage intelligent des scrolls pour éviter le spam
     const scrollKey = `scroll_${event.data?.packageName || 'unknown'}`;
@@ -198,12 +387,15 @@ class ServerEventFilter {
   handleCartEvent(event, currentTime) {
     const productName = event.data?.productInfo?.productName || event.data?.element?.text || '';
     
+    // Calculer le score de confiance pour cet événement panier
+    const confidenceAnalysis = this.calculateConfidenceScore(event);
+    
     // Filtrage préliminaire pour événements système Android
     if (productName.toLowerCase().includes('com.android.systemui') ||
         productName.toLowerCase().includes('t-mobile') ||
         productName.match(/\d+:\d+\s*(am|pm)/i)) {
       this.storeFilteredEvent(event, 'system');
-      console.log(`🚫 Événement système Android filtré: ${productName.substring(0, 50)}...`);
+      console.log(`🚫 Événement système Android filtré: ${productName.substring(0, 50)}... (confiance: ${confidenceAnalysis.score})`);
       return false;
     }
     
@@ -213,7 +405,14 @@ class ServerEventFilter {
         productName.toLowerCase().includes('club -') ||
         productName.toLowerCase().includes('mardi pass')) {
       this.storeFilteredEvent(event, 'promotion');
-      console.log(`🚫 Événement promotion filtré: ${productName.substring(0, 50)}...`);
+      console.log(`🚫 Événement promotion filtré: ${productName.substring(0, 50)}... (confiance: ${confidenceAnalysis.score})`);
+      return false;
+    }
+    
+    // Rejeter si score de confiance trop bas
+    if (confidenceAnalysis.score < this.confidenceThresholds.reject) {
+      this.storeFilteredEvent(event, 'generic');
+      console.log(`🚫 Événement panier rejeté - confiance trop basse: ${confidenceAnalysis.score} (${confidenceAnalysis.reasons.join(', ')})`);
       return false;
     }
     
@@ -223,7 +422,7 @@ class ServerEventFilter {
     // Si c'est un événement générique sans valeur, le filtrer
     if (!realProductName || this.calculateQualityScore(event) < 0) {
       this.storeFilteredEvent(event, 'generic');
-      console.log(`🚫 Événement panier filtré - produit générique: ${productName.substring(0, 50)}...`);
+      console.log(`🚫 Événement panier filtré - produit générique: ${productName.substring(0, 50)}... (confiance: ${confidenceAnalysis.score})`);
       return false;
     }
     
@@ -233,14 +432,19 @@ class ServerEventFilter {
     // Vérifier si on a déjà un événement pour ce produit récemment
     const lastCartTime = this.recentEvents.get(cartKey) || 0;
     if (currentTime - lastCartTime < this.minIntervalBetweenSameType) {
-      console.log(`🚫 Événement panier filtré - produit déjà ajouté récemment: ${realProductName}`);
+      console.log(`🚫 Événement panier filtré - produit déjà ajouté récemment: ${realProductName} (confiance: ${confidenceAnalysis.score})`);
       return false;
     }
     
     // Marquer ce produit comme traité
     this.recentEvents.set(cartKey, currentTime);
     
-    console.log(`✅ Événement panier accepté: ${realProductName}`);
+    // Logger avec niveau de confiance
+    const confidenceLevel = confidenceAnalysis.score >= this.confidenceThresholds.high ? '🟢 HAUTE' :
+                           confidenceAnalysis.score >= this.confidenceThresholds.medium ? '🟡 MOYENNE' :
+                           '🟠 FAIBLE';
+    
+    console.log(`✅ Événement panier accepté: ${realProductName} (confiance: ${confidenceLevel} ${confidenceAnalysis.score})`);
     return true;
   }
 
@@ -919,6 +1123,114 @@ app.get('/api/filtered-events', (req, res) => {
         generic: filteredEvents.generic.length,
         total: filteredEvents.system.length + filteredEvents.promotion.length + filteredEvents.generic.length
       }
+    });
+  }
+});
+
+// Nouvel endpoint pour tester la détection d'ajout panier
+app.post('/api/test-cart-detection', (req, res) => {
+  try {
+    const { testEvents } = req.body;
+    
+    if (!testEvents || !Array.isArray(testEvents)) {
+      return res.status(400).json({
+        success: false,
+        error: 'Paramètre "testEvents" requis (array d\'événements de test)'
+      });
+    }
+    
+    const results = testEvents.map(event => {
+      const confidenceAnalysis = eventFilter.calculateConfidenceScore(event);
+      const isValidProduct = eventFilter.isValidProductName(event.data?.productInfo?.productName || '');
+      const hasPrice = eventFilter.hasRealPrice(event);
+      const isNavigation = eventFilter.isNavigationElement(event.data?.productInfo?.productName || '');
+      
+      return {
+        eventId: event.id || Date.now(),
+        productName: event.data?.productInfo?.productName || event.data?.element?.text || '',
+        confidenceScore: confidenceAnalysis.score,
+        confidenceLevel: confidenceAnalysis.score >= 80 ? 'HIGH' : 
+                        confidenceAnalysis.score >= 60 ? 'MEDIUM' : 
+                        confidenceAnalysis.score >= 40 ? 'LOW' : 'REJECT',
+        isValidProduct: isValidProduct,
+        hasPrice: hasPrice,
+        isNavigation: isNavigation,
+        reasons: confidenceAnalysis.reasons,
+        details: confidenceAnalysis.details,
+        recommendation: confidenceAnalysis.score >= 60 ? 'ACCEPT' : 
+                       confidenceAnalysis.score >= 40 ? 'CONVERT_TO_VIEW' : 'REJECT'
+      };
+    });
+    
+    // Statistiques globales
+    const stats = {
+      total: results.length,
+      accepted: results.filter(r => r.recommendation === 'ACCEPT').length,
+      converted: results.filter(r => r.recommendation === 'CONVERT_TO_VIEW').length,
+      rejected: results.filter(r => r.recommendation === 'REJECT').length,
+      averageConfidence: Math.round(results.reduce((sum, r) => sum + r.confidenceScore, 0) / results.length),
+      highConfidence: results.filter(r => r.confidenceLevel === 'HIGH').length,
+      mediumConfidence: results.filter(r => r.confidenceLevel === 'MEDIUM').length,
+      lowConfidence: results.filter(r => r.confidenceLevel === 'LOW').length
+    };
+    
+    res.json({
+      success: true,
+      results: results,
+      stats: stats,
+      thresholds: eventFilter.confidenceThresholds
+    });
+    
+  } catch (error) {
+    console.error('Erreur lors du test de détection:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erreur lors du test de détection d\'ajout panier'
+    });
+  }
+});
+
+// Endpoint pour obtenir les statistiques de confiance des événements récents
+app.get('/api/confidence-stats', (req, res) => {
+  try {
+    const recentEvents = trackingData.slice(-100); // 100 derniers événements
+    const cartEvents = recentEvents.filter(e => e.eventType === 'ADD_TO_CART');
+    
+    const confidenceStats = cartEvents.map(event => {
+      const confidenceAnalysis = eventFilter.calculateConfidenceScore(event);
+      return {
+        timestamp: event.timestamp,
+        productName: event.data?.productInfo?.productName || '',
+        confidenceScore: confidenceAnalysis.score,
+        confidenceLevel: confidenceAnalysis.score >= 80 ? 'HIGH' : 
+                        confidenceAnalysis.score >= 60 ? 'MEDIUM' : 
+                        confidenceAnalysis.score >= 40 ? 'LOW' : 'REJECT',
+        reasons: confidenceAnalysis.reasons
+      };
+    });
+    
+    const stats = {
+      totalCartEvents: cartEvents.length,
+      highConfidence: confidenceStats.filter(s => s.confidenceLevel === 'HIGH').length,
+      mediumConfidence: confidenceStats.filter(s => s.confidenceLevel === 'MEDIUM').length,
+      lowConfidence: confidenceStats.filter(s => s.confidenceLevel === 'LOW').length,
+      rejected: confidenceStats.filter(s => s.confidenceLevel === 'REJECT').length,
+      averageConfidence: confidenceStats.length > 0 ? 
+        Math.round(confidenceStats.reduce((sum, s) => sum + s.confidenceScore, 0) / confidenceStats.length) : 0
+    };
+    
+    res.json({
+      success: true,
+      stats: stats,
+      recentEvents: confidenceStats.slice(-20), // 20 derniers
+      thresholds: eventFilter.confidenceThresholds
+    });
+    
+  } catch (error) {
+    console.error('Erreur lors du calcul des stats de confiance:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erreur lors du calcul des statistiques de confiance'
     });
   }
 });

@@ -25,6 +25,20 @@ data class EventSignature(
     val timestamp: Long
 )
 
+data class ProductButtonState(
+    val productName: String,
+    val price: String,
+    val buttonText: String, // "+Acheter", "1", "2", etc.
+    val hasMinusButton: Boolean,
+    val hasMaxButton: Boolean,
+    val bounds: android.graphics.Rect
+)
+
+data class WindowState(
+    val products: List<ProductButtonState>,
+    val timestamp: Long
+)
+
 class SimpleEventBuffer {
     private val eventBuffer = mutableListOf<Pair<EventSignature, () -> Unit>>()
     private val bufferDelay = 500L // Juste 500ms pour éviter les doublons immédiats
@@ -62,6 +76,7 @@ class CrossAppTrackingService : AccessibilityService() {
     
     private lateinit var trackingManager: AndroidTrackingManager
     private val eventBuffer = SimpleEventBuffer()
+    private var previousWindowState: WindowState? = null
     
     private val targetApps = listOf(
         "com.leclerc.drive",
@@ -506,6 +521,46 @@ class CrossAppTrackingService : AccessibilityService() {
         // Détecter les changements de contenu (ajout panier, navigation, etc.)
         val nodeInfo = event.source
         
+        // NOUVEAU: Détection par DIFF pour Carrefour
+        if (nodeInfo != null && packageName == "com.carrefour.fid.android") {
+            val currentState = captureWindowState(nodeInfo)
+            val previousState = previousWindowState
+            
+            if (previousState != null) {
+                val changes = detectProductChanges(previousState, currentState)
+                for (change in changes) {
+                    val currentTime = System.currentTimeMillis()
+                    val contentHash = generateContentHash(change)
+                    
+                    val eventSignature = EventSignature(
+                        eventType = "ADD_TO_CART",
+                        productName = change["productName"] as? String,
+                        cartAction = change["action"] as? String,
+                        contentHash = contentHash,
+                        timestamp = currentTime
+                    )
+                    
+                    eventBuffer.bufferEvent(eventSignature) {
+                        trackingManager.trackEvent(TrackingEventType.ADD_TO_CART, mapOf(
+                            "app" to getAppName(packageName),
+                            "packageName" to packageName,
+                            "productInfo" to change,
+                            "eventType" to "cross_app_cart_update"
+                        ))
+                        
+                        Log.d("CrossAppTracking", "🛒 DIFF DETECTE: ${change["action"]} - ${change["productName"]} (${change["oldQuantity"]} → ${change["newQuantity"]})")
+                    }
+                }
+            }
+            
+            previousWindowState = currentState
+            
+            // Si des changements ont été détectés, ne pas continuer avec la détection générique
+            if (previousState != null && detectProductChanges(previousState, currentState).isNotEmpty()) {
+                return
+            }
+        }
+        
         // Vérifier spécifiquement les éléments de panier avec filtrage intelligent
         if (nodeInfo != null) {
             val cartElements = findCartElements(nodeInfo)
@@ -581,6 +636,116 @@ class CrossAppTrackingService : AccessibilityService() {
             "clickable" to nodeInfo.isClickable,
             "bounds" to getBounds(nodeInfo)
         )
+    }
+    
+    private fun captureWindowState(nodeInfo: AccessibilityNodeInfo): WindowState {
+        val products = mutableListOf<ProductButtonState>()
+        
+        fun scanForProducts(node: AccessibilityNodeInfo?) {
+            if (node == null) return
+            
+            // Chercher les patterns de boutons produit
+            val texts = getDirectTextsFromNode(node)
+            val bounds = android.graphics.Rect()
+            node.getBoundsInScreen(bounds)
+            
+            // Chercher un prix (indique un produit)
+            val priceText = texts.find { it.matches(Regex("\\d+[,.]\\d+€?")) }
+            
+            if (priceText != null) {
+                // Chercher le nom du produit
+                val productName = texts.find { text ->
+                    text.length > 8 &&
+                    !text.contains("€") &&
+                    !text.matches(Regex("\\d+[,.]?\\d*")) &&
+                    !text.contains("Ajouter", ignoreCase = true)
+                }
+                
+                // Chercher le bouton ("+Acheter", "1", "2", etc.)
+                val buttonText = texts.find { text ->
+                    text.matches(Regex("\\d+")) || // Quantité numérique
+                    text.contains("+", ignoreCase = false) ||
+                    text.contains("Acheter", ignoreCase = true)
+                } ?: ""
+                
+                // Vérifier présence des boutons - et max
+                val hasMinusButton = texts.any { it.contains("-") && it.length <= 3 }
+                val hasMaxButton = texts.any { it.contains("max", ignoreCase = true) }
+                
+                if (productName != null) {
+                    products.add(ProductButtonState(
+                        productName = productName,
+                        price = priceText.replace("€", ""),
+                        buttonText = buttonText,
+                        hasMinusButton = hasMinusButton,
+                        hasMaxButton = hasMaxButton,
+                        bounds = bounds
+                    ))
+                }
+            }
+            
+            // Scanner les enfants
+            for (i in 0 until node.childCount) {
+                scanForProducts(node.getChild(i))
+            }
+        }
+        
+        scanForProducts(nodeInfo)
+        return WindowState(products, System.currentTimeMillis())
+    }
+    
+    private fun detectProductChanges(oldState: WindowState, newState: WindowState): List<Map<String, Any>> {
+        val changes = mutableListOf<Map<String, Any>>()
+        
+        // Comparer chaque produit
+        for (newProduct in newState.products) {
+            val oldProduct = oldState.products.find { 
+                it.productName == newProduct.productName && it.price == newProduct.price 
+            }
+            
+            if (oldProduct == null) {
+                // Nouveau produit apparu (rare, mais possible si on scroll)
+                continue
+            }
+            
+            // Détecter les changements de quantité
+            val oldQuantity = extractQuantity(oldProduct.buttonText, oldProduct.hasMinusButton)
+            val newQuantity = extractQuantity(newProduct.buttonText, newProduct.hasMinusButton)
+            
+            if (oldQuantity != newQuantity) {
+                val action = if (newQuantity > oldQuantity) "Ajout au panier" else "Retrait du panier"
+                val quantityDiff = newQuantity - oldQuantity
+                
+                changes.add(mapOf(
+                    "productName" to newProduct.productName,
+                    "price" to newProduct.price,
+                    "action" to action,
+                    "oldQuantity" to oldQuantity.toString(),
+                    "newQuantity" to newQuantity.toString(),
+                    "quantityDiff" to quantityDiff.toString()
+                ))
+                
+                Log.d("CrossAppTracking", ">>> DIFF: ${newProduct.productName} - $oldQuantity → $newQuantity ($action)")
+            }
+        }
+        
+        return changes
+    }
+    
+    private fun extractQuantity(buttonText: String, hasMinusButton: Boolean): Int {
+        // Si le bouton contient un chiffre, c'est la quantité
+        val quantityMatch = Regex("(\\d+)").find(buttonText)
+        if (quantityMatch != null) {
+            return quantityMatch.value.toIntOrNull() ?: 0
+        }
+        
+        // Si pas de bouton "-", c'est 0 (bouton "+Acheter")
+        if (!hasMinusButton) {
+            return 0
+        }
+        
+        // Sinon, on ne sait pas (ne devrait pas arriver)
+        return 0
     }
     
     private fun findCartElements(nodeInfo: AccessibilityNodeInfo): List<Map<String, Any>> {
