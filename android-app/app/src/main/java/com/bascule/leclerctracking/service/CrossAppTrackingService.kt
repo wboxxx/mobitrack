@@ -294,14 +294,22 @@ class CrossAppTrackingService : AccessibilityService() {
     }
     
     private fun extractTotalItemsFromBadge(texts: List<String>): Int {
+        // Priorité 1: Badge "Panier, X new notifications"
         for (text in texts) {
             val badgeMatch = Regex("Panier,\\s*(\\d+)\\s*new").find(text)
             if (badgeMatch != null) {
-                return badgeMatch.groupValues[1].toIntOrNull() ?: 0
+                val count = badgeMatch.groupValues[1].toIntOrNull() ?: 0
+                Log.d("CrossAppTracking", "📊 Badge détecté: $count articles (texte: '$text')")
+                return count
             }
-            val productsMatch = Regex("(\\d+)\\s*produits?\\s*déjà\\s*ajoutés").find(text)
+        }
+        // Priorité 2: Texte "X produits déjà ajoutés"
+        for (text in texts) {
+            val productsMatch = Regex("(\\d+)\\s*produits?\\s*(déjà|deja)\\s*ajoutés").find(text)
             if (productsMatch != null) {
-                return productsMatch.groupValues[1].toIntOrNull() ?: 0
+                val count = productsMatch.groupValues[1].toIntOrNull() ?: 0
+                Log.d("CrossAppTracking", "📊 Produits ajoutés détectés: $count articles (texte: '$text')")
+                return count
             }
         }
         return 0
