@@ -1,0 +1,887 @@
+﻿--------- beginning of main
+10-02 12:44:39.098 18808 18808 D AndroidTracking: Event tracked: SESSION_START - {platform=android_native, sessionId=android_session_1759401879094_88a963fa, deviceInfo={manufacturer=Google, model=sdk_gphone64_x86_64, version=16, sdk=36, screenDensity=2.625, screenWidth=1080, screenHeight=2337}}
+10-02 12:44:39.120 18808 18808 D CrossAppTracking: ========================================
+10-02 12:44:39.120 18808 18808 D CrossAppTracking: Service de tracking cross-app d├⌐marr├⌐
+10-02 12:44:39.120 18808 18808 D CrossAppTracking: ≡ƒöº Build Fingerprint: BUILD_1759401879_DIFF_v1
+10-02 12:44:39.120 18808 18808 D CrossAppTracking: ≡ƒôª Features: DIFF detection, Badge filtering
+10-02 12:44:39.120 18808 18808 D CrossAppTracking: ========================================
+10-02 12:44:39.163 18808 18808 D CrossAppTracking: ========================================
+10-02 12:44:39.163 18808 18808 D CrossAppTracking: Γ£à Service d'accessibilit├⌐ connect├⌐
+10-02 12:44:39.163 18808 18808 D CrossAppTracking: ≡ƒöû Build: BUILD_1759401879
+10-02 12:44:39.163 18808 18808 D CrossAppTracking: ≡ƒô╕ Snapshot feature: ENABLED Γ£à
+10-02 12:44:39.163 18808 18808 D CrossAppTracking: ========================================
+10-02 12:44:39.267 18808 18808 D CrossAppTracking: Γ£à Service d├⌐marr├⌐ en foreground (ne sera pas gel├⌐)
+10-02 12:44:39.267 18808 18808 D CrossAppTracking: ≡ƒÄ» Service configur├⌐ et pr├¬t ├á tracker
+10-02 12:44:41.212 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:44.071 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.071 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.237 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.251 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.253 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.364 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.372 18808 18808 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+10-02 12:44:44.373 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.373 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.382 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.382 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.398 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.410 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.410 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.421 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.421 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.426 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.427 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.438 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.439 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.445 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.446 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.449 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.450 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.460 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.460 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.461 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.468 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.476 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.477 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.489 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.494 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.494 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.497 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.498 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.504 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.505 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.509 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.509 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.513 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.513 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.516 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.516 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.523 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.524 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.530 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.530 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.537 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.537 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.555 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.566 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.569 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.574 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.577 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.577 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.590 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.596 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.598 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.813 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.817 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.818 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:44.967 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:44.969 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:44.970 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:45.052 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:45.054 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:45.055 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:45.220 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:45.224 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:45.224 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:45.319 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:45.324 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:45.324 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:45.464 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:45.470 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:45.471 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:45.504 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:45.508 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Accueil, allTexts=[Accueil]}, eventType=cross_app_cart_update}
+10-02 12:44:45.521 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Accueil - Prix: N/A
+10-02 12:44:45.524 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 16 new notifications, allTexts=[Accueil, Rechercher, Mes produits, Promotions, Panier, 16 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:44:45.530 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 16 new notifications - Prix: N/A
+10-02 12:44:45.533 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.539 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.545 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.545 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre, Accueil, Rechercher, Mes produits, Promotions, Panier, 16 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:44:45.547 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.547 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.552 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.553 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401884574}
+10-02 12:44:45.555 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.557 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.561 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.564 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.565 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre la page pr├⌐c├⌐dente, allTexts=[Ouvre la page pr├⌐c├⌐dente]}, eventType=cross_app_cart_update}
+10-02 12:44:45.566 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.567 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre la page pr├⌐c├⌐dente - Prix: N/A
+10-02 12:44:45.573 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.577 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.617 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.637 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.650 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.660 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.669 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.669 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.674 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.678 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.725 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Pain, lait, ┼ôufsΓÇª, allTexts=[Pain, lait, ┼ôufsΓÇª]}, eventType=cross_app_cart_update}
+10-02 12:44:45.727 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pain, lait, ┼ôufsΓÇª - Prix: N/A
+10-02 12:44:45.738 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.828 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.830 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.840 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:45.973 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:45.976 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:45.985 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:46.007 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401885505}
+10-02 12:44:46.017 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:46.590 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.591 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.638 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.642 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.642 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.688 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:46.690 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:46.690 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:46.691 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:46.705 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.705 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.750 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.754 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.754 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.817 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.824 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.825 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.865 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:46.866 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:46.867 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:46.867 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:46.875 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.875 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.900 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.903 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.904 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.909 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.909 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.940 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.944 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.945 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.961 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.964 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.964 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.973 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.973 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.987 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.988 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:46.988 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:46.997 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:46.998 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.002 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.012 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.023 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.024 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.033 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.039 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.039 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.047 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.049 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.050 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.055 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.056 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 3 produits trouv├⌐s
+10-02 12:44:47.084 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.084 18808 18808 D CrossAppTracking:   [1] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.084 18808 18808 D CrossAppTracking:   [2] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.084 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.095 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.095 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.102 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.104 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.105 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.112 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.112 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.182 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 4 produits trouv├⌐s
+10-02 12:44:47.182 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.183 18808 18808 D CrossAppTracking:   [1] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.183 18808 18808 D CrossAppTracking:   [2] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.183 18808 18808 D CrossAppTracking:   [3] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.183 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.196 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.196 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.205 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.209 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.209 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.218 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.221 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.223 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.231 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.233 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.233 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.246 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.249 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.249 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.255 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.256 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.256 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.268 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.272 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.273 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.293 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.297 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.298 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.305 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.306 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.306 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.319 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.320 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.320 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.326 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.326 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.326 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.406 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 5 produits trouv├⌐s
+10-02 12:44:47.407 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.407 18808 18808 D CrossAppTracking:   [1] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.407 18808 18808 D CrossAppTracking:   [2] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.407 18808 18808 D CrossAppTracking:   [3] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.407 18808 18808 D CrossAppTracking:   [4] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.407 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.427 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.428 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.441 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.444 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.445 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 3 produits trouv├⌐s
+10-02 12:44:47.480 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.480 18808 18808 D CrossAppTracking:   [1] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.480 18808 18808 D CrossAppTracking:   [2] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.480 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.505 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.505 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.514 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.520 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.520 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.539 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.549 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.549 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.562 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:47.566 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.568 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.589 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:47.589 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.589 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.589 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:47.596 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:47.596 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:47.612 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:47.613 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:47.613 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.613 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:47.622 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, productName=Ajouter au panier, allTexts=[Ajouter au panier, Acheter]}, eventType=cross_app_cart_update}
+10-02 12:44:47.626 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter au panier - Prix: N/A
+10-02 12:44:47.627 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,33Γé¼/L, productName=Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:47.629 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis - Prix: 3,33Γé¼/L
+10-02 12:44:47.629 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Jus plus zest d├⌐fense INNOCENT, allTexts=[Sponsoris├⌐, INNOCENT, Jus plus zest d├⌐fense INNOCENT]}, eventType=cross_app_cart_update}
+10-02 12:44:47.634 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus plus zest d├⌐fense INNOCENT - Prix: N/A
+10-02 12:44:47.637 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, productName=Ajouter au panier, allTexts=[Ajouter au panier, Acheter]}, eventType=cross_app_cart_update}
+10-02 12:44:47.637 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.639 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter au panier - Prix: N/A
+10-02 12:44:47.639 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:47.641 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.643 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:47.643 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:47.645 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:47.646 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={allTexts=[Bio]}, eventType=cross_app_cart_update}
+10-02 12:44:47.647 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Inconnu - Prix: N/A
+10-02 12:44:47.647 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Jus de fruits (32), allTexts=[Jus de fruits (32)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.648 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.652 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus de fruits (32) - Prix: N/A
+10-02 12:44:47.652 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre la page pr├⌐c├⌐dente, allTexts=[Ouvre la page pr├⌐c├⌐dente]}, eventType=cross_app_cart_update}
+10-02 12:44:47.653 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.657 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre la page pr├⌐c├⌐dente - Prix: N/A
+10-02 12:44:47.658 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Pain, lait, ┼ôufsΓÇª, allTexts=[Pain, lait, ┼ôufsΓÇª]}, eventType=cross_app_cart_update}
+10-02 12:44:47.662 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.667 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Pain, lait, ┼ôufsΓÇª - Prix: N/A
+10-02 12:44:47.667 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre, Jus de fruits (32), Filtrer & trier, Promotions, Bio, Produits Carrefour]}, eventType=cross_app_cart_update}
+10-02 12:44:47.672 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.675 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.676 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:47.676 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.677 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: N/A
+10-02 12:44:47.677 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Produits Carrefour, allTexts=[Produits Carrefour]}, eventType=cross_app_cart_update}
+10-02 12:44:47.678 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Produits Carrefour - Prix: N/A
+10-02 12:44:47.678 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:47.681 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.681 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:47.681 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Promotions, allTexts=[Promotions]}, eventType=cross_app_cart_update}
+10-02 12:44:47.685 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Promotions - Prix: N/A
+10-02 12:44:47.687 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.689 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:47.694 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:47.705 18808 18808 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+10-02 12:44:47.708 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.708 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.712 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.713 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.721 18808 18896 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.726 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.731 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.745 18808 18808 D CrossAppTracking: ≡ƒôè Badge d├⌐tect├⌐: 16 articles (texte: 'Panier, 16 new notifications')
+10-02 12:44:47.750 18808 18808 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+10-02 12:44:47.753 18808 18808 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: -15% Mardi PASS - 3,33
+10-02 12:44:47.755 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=442 > 100, probablement ├á remplacer)
+10-02 12:44:47.756 18808 18808 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: -15% Mardi PASS - 3,03
+10-02 12:44:47.757 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=442 > 100, probablement ├á remplacer)
+10-02 12:44:47.761 18808 18808 D CrossAppTracking: ≡ƒô╕ Fin du scan: 2 produits trouv├⌐s
+10-02 12:44:47.761 18808 18808 W CrossAppTracking: ΓÜá∩╕Å Snapshot incomplet: 2/16 articles, 6.36Γé¼/3.33Γé¼
+10-02 12:44:47.761 18808 18808 D CrossAppTracking: ≡ƒô╕ Snapshot captur├⌐: 2 produits trouv├⌐s
+10-02 12:44:47.763 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cart_snapshot, products=[{name=-15% Mardi PASS, price=3,33, quantity=1}, {name=-15% Mardi PASS, price=3,03, quantity=1}], totalItemsInCart=16, totalCartValue=3.33, detectedValue=6.359999999999999, isComplete=false, snapshotTime=1759401887761}
+10-02 12:44:47.769 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre la page pr├⌐c├⌐dente, Pain, lait, ┼ôufsΓÇª, Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:47.772 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:47.772 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=(49), allTexts=[(49)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.776 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (49) - Prix: N/A
+10-02 12:44:47.777 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Filtrer & trier, allTexts=[Filtrer & trier]}, eventType=cross_app_cart_update}
+10-02 12:44:47.777 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.778 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Filtrer & trier - Prix: N/A
+10-02 12:44:47.779 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=(329), allTexts=[(329)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.779 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (329) - Prix: N/A
+10-02 12:44:47.779 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401887255}
+10-02 12:44:47.781 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, allTexts=[Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.781 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis - Prix: N/A
+10-02 12:44:47.784 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.791 18808 18896 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.797 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.797 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.799 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Produits Carrefour, allTexts=[Promotions, Bio, Produits Carrefour]}, eventType=cross_app_cart_update}
+10-02 12:44:47.801 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.802 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.805 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Produits Carrefour - Prix: N/A
+10-02 12:44:47.809 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Jus de fruits (32), allTexts=[Jus de fruits (32)]}, eventType=cross_app_cart_update}
+10-02 12:44:47.816 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus de fruits (32) - Prix: N/A
+10-02 12:44:47.823 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ouvre le scanner de code barre, allTexts=[Ouvre le scanner de code barre]}, eventType=cross_app_cart_update}
+10-02 12:44:47.825 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ouvre le scanner de code barre - Prix: N/A
+10-02 12:44:47.826 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.830 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401887326}
+10-02 12:44:47.830 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.845 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.852 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.929 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:47.931 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:47.942 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:47.947 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Jus plus zest d├⌐fense INNOCENT, allTexts=[Sponsoris├⌐, INNOCENT, Jus plus zest d├⌐fense INNOCENT]}, eventType=cross_app_cart_update}
+10-02 12:44:47.950 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus plus zest d├⌐fense INNOCENT - Prix: N/A
+10-02 12:44:47.961 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.007 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:48.008 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:48.017 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.022 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Produits Carrefour, allTexts=[Promotions, Bio, Produits Carrefour]}, eventType=cross_app_cart_update}
+10-02 12:44:48.026 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Produits Carrefour - Prix: N/A
+10-02 12:44:48.037 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.051 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=(49), allTexts=[(49)]}, eventType=cross_app_cart_update}
+10-02 12:44:48.058 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (49) - Prix: N/A
+10-02 12:44:48.064 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.067 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=(329), allTexts=[(329)]}, eventType=cross_app_cart_update}
+10-02 12:44:48.069 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: (329) - Prix: N/A
+10-02 12:44:48.077 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.097 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,33Γé¼/L, productName=Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:48.102 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis - Prix: 3,33Γé¼/L
+10-02 12:44:48.112 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.124 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter au panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:48.125 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:48.136 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:48.448 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:48.448 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.156 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 5 produits trouv├⌐s
+10-02 12:44:49.156 18808 18808 D CrossAppTracking:   [0] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:49.157 18808 18808 D CrossAppTracking:   [1] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:49.157 18808 18808 D CrossAppTracking:   [2] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:49.157 18808 18808 D CrossAppTracking:   [3] Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA - 3,33Γé¼ - btn='Acheter' - minus=false
+10-02 12:44:49.157 18808 18808 D CrossAppTracking:   [4] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='' - minus=false
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (0 ΓåÆ 0)
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA
+10-02 12:44:49.157 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (0 ΓåÆ 0)
+10-02 12:44:49.183 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.183 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.203 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.203 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.207 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.207 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.214 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.214 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.230 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:49.230 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='1' - minus=false
+10-02 12:44:49.230 18808 18808 D CrossAppTracking: >>> DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 0 ΓåÆ 1 (Ajout au panier)
+10-02 12:44:49.231 18808 18808 D CrossAppTracking: >>> DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 0 ΓåÆ 1 (Ajout au panier)
+10-02 12:44:49.233 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.233 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.263 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:49.264 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='1' - minus=false
+10-02 12:44:49.265 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (1 ΓåÆ 1)
+10-02 12:44:49.265 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (1 ΓåÆ 1)
+10-02 12:44:49.277 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.277 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.316 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:49.317 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='1' - minus=false
+10-02 12:44:49.317 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (1 ΓåÆ 1)
+10-02 12:44:49.317 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (1 ΓåÆ 1)
+10-02 12:44:49.329 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.329 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.340 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:49.341 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.342 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.357 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:49.357 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='1' - minus=false
+10-02 12:44:49.357 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:49.357 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:49.375 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:49.375 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:49.380 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:49.686 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'Ananas 100% Pur Jus CARREFOUR EXTRA, Ce produit est not├⌐ 4,49 sur 5 par les utilisateurs, 49 avis, aller ├á la r├⌐partition des avis, (49), 3,33Γé¼, 3 euros et 33 centimes., 3,33Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:49.688 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:49.700 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.730 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, price=3,03, action=Ajout au panier, oldQuantity=0, newQuantity=1, quantityDiff=1}, eventType=cross_app_cart_update}
+10-02 12:44:49.731 18808 18808 D CrossAppTracking: ≡ƒ¢Æ DIFF DETECTE: Ajout au panier - Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis (0 ΓåÆ 1)
+10-02 12:44:49.738 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.778 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:49.781 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:49.800 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.830 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:49.831 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:49.844 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:44:49.844 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.849 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:44:49.861 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.875 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:49.880 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:49.884 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:44:49.892 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:49.893 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+10-02 12:44:49.905 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:50.337 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.337 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.393 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:50.394 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.394 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.477 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:50.479 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.479 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.515 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:50.516 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.520 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.792 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:50.792 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='' - minus=false
+10-02 12:44:50.792 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:50.792 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:50.809 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.809 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.828 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:50.828 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='2' - minus=false
+10-02 12:44:50.828 18808 18808 D CrossAppTracking: >>> DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 0 ΓåÆ 2 (Ajout au panier)
+10-02 12:44:50.829 18808 18808 D CrossAppTracking: >>> DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 0 ΓåÆ 2 (Ajout au panier)
+10-02 12:44:50.857 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.857 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.871 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:50.872 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.873 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.892 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:44:50.893 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.896 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.909 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:50.909 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='2' - minus=false
+10-02 12:44:50.909 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:50.909 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis
+10-02 12:44:50.922 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:44:50.929 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+10-02 12:44:50.943 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:50.960 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:44:50.960 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:44:50.976 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:44:50.976 18808 18808 D CrossAppTracking:   [0] Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - 3,03Γé¼ - btn='2' - minus=false
+10-02 12:44:50.976 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (2 ΓåÆ 2)
+10-02 12:44:50.976 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Aucun changement (2 ΓåÆ 2)
+10-02 12:44:50.988 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:44:50.989 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:44:50.999 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.019 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401890515}
+10-02 12:44:51.028 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.312 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:51.313 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:51.330 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, price=3,03, action=Ajout au panier, oldQuantity=0, newQuantity=2, quantityDiff=2}, eventType=cross_app_cart_update}
+10-02 12:44:51.331 18808 18808 D CrossAppTracking: ≡ƒ¢Æ DIFF DETECTE: Ajout au panier - Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis (0 ΓåÆ 2)
+10-02 12:44:51.333 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.344 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.375 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:44:51.376 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+10-02 12:44:51.394 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.397 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:44:51.400 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:44:51.413 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.424 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:51.426 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:51.433 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:44:51.489 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, price=3,03Γé¼/L, productName=Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, allTexts=[-15% Mardi PASS, 1L, Nutriscore c, CARREFOUR EXTRA, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis, (329), 3,03Γé¼, 3 euros et 03 centimes., 3,03Γé¼/L]}, eventType=cross_app_cart_update}
+10-02 12:44:51.490 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ce produit est not├⌐ 4,39 sur 5 par les utilisateurs, 329 avis, aller ├á la r├⌐partition des avis - Prix: 3,03Γé¼/L
+10-02 12:44:51.497 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:45:08.641 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:08.641 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:08.972 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.000 18808 18808 D CrossAppTracking: ≡ƒô╕ Page panier d├⌐tect├⌐e, attente du chargement des produits...
+10-02 12:45:09.377 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 1 - com.carrefour.fid.android
+10-02 12:45:09.379 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.381 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.381 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.468 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.479 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.480 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.640 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.655 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.655 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.746 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.748 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.748 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.865 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.869 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.869 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:09.911 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:09.914 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:09.914 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.162 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.169 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.177 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.264 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.268 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 18 new notifications, allTexts=[Accueil, Rechercher, Mes produits, Promotions, Panier, 18 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:45:10.272 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 18 new notifications - Prix: N/A
+10-02 12:45:10.273 18808 18808 D AndroidTracking: Event tracked: VIEW_CLICKED - {app=Carrefour, packageName=com.carrefour.fid.android, element={className=android.widget.FrameLayout, contentDescription=Panier, 18 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}, eventType=cross_app_click, timestamp=1759401909380}
+10-02 12:45:10.280 18808 18808 D CrossAppTracking: Click envoy├⌐ dans Carrefour: {className=android.widget.FrameLayout, contentDescription=Panier, 18 new notifications, text=, resourceId=, clickable=false, bounds={left=864, top=2190, right=1080, bottom=2337}}
+10-02 12:45:10.285 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 18 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 18 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:45:10.289 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 18 new notifications - Prix: N/A
+10-02 12:45:10.289 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:10.292 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:10.292 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:10.296 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:10.362 18808 18896 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.370 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.373 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:10.373 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.376 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:10.384 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.399 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.405 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.415 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:10.418 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:10.430 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.672 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 18 new notifications, allTexts=[Panier, Accueil, Rechercher, Mes produits, Promotions, Panier, 18 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:45:10.673 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 18 new notifications - Prix: N/A
+10-02 12:45:10.692 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:10.705 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.705 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.830 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.836 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.836 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 3 produits trouv├⌐s
+10-02 12:45:10.891 18808 18808 D CrossAppTracking:   [0] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:10.891 18808 18808 D CrossAppTracking:   [1] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:10.891 18808 18808 D CrossAppTracking:   [2] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:10.891 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:10.919 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.920 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.926 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.926 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.926 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.938 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:45:10.938 18808 18808 D CrossAppTracking:   [0] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:10.938 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:10.938 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:10.943 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.943 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.947 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.949 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.963 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.965 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.965 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.972 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.973 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.975 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:10.988 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:10.989 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:10.989 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.001 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.006 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.006 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.018 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:45:11.019 18808 18808 D CrossAppTracking:   [0] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:11.020 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.020 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.024 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.024 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.029 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.029 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.038 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.039 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.039 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.051 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.057 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.058 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.061 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.062 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.062 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.083 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.085 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.085 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.102 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.107 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.107 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.109 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.109 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.111 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.111 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.113 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.117 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.117 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.128 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.130 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.130 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.135 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.137 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.137 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.142 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.143 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.143 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.153 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.154 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.157 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 4 produits trouv├⌐s
+10-02 12:45:11.209 18808 18808 D CrossAppTracking:   [0] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.209 18808 18808 D CrossAppTracking:   [1] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.209 18808 18808 D CrossAppTracking:   [2] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:11.209 18808 18808 D CrossAppTracking:   [3] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.209 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.232 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.232 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.239 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.240 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.243 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.259 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.260 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.260 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.267 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.268 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.268 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.282 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.286 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.287 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.300 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.301 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.301 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.311 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.313 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, 18 new notifications, allTexts=[Accueil, Rechercher, Mes produits, Promotions, Panier, 18 new notifications]}, eventType=cross_app_cart_update}
+10-02 12:45:11.314 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier, 18 new notifications - Prix: N/A
+10-02 12:45:11.314 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.314 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.328 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.369 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:45:11.370 18808 18808 D CrossAppTracking:   [0] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:11.370 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.370 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.373 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.373 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.440 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 5 produits trouv├⌐s
+10-02 12:45:11.440 18808 18808 D CrossAppTracking:   [0] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.440 18808 18808 D CrossAppTracking:   [1] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.440 18808 18808 D CrossAppTracking:   [2] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.440 18808 18808 D CrossAppTracking:   [3] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:11.440 18808 18808 D CrossAppTracking:   [4] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:11.440 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.441 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.441 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.444 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Gazpacho L'Original ALVALLE - Aucun changement (5 ΓåÆ 5)
+10-02 12:45:11.444 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.452 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.454 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.454 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.457 18808 18808 D CrossAppTracking: ≡ƒöä DIFF: Gazpacho L'Original ALVALLE - Aucun changement (5 ΓåÆ 5)
+10-02 12:45:11.457 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.476 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.476 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.480 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.481 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.481 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 3 produits trouv├⌐s
+10-02 12:45:11.523 18808 18808 D CrossAppTracking:   [0] 1 produit ├á remplacer - 6,06Γé¼ - btn='2' - minus=false
+10-02 12:45:11.523 18808 18808 D CrossAppTracking:   [1] Gazpacho L'Original ALVALLE - 22,40Γé¼ - btn='5' - minus=false
+10-02 12:45:11.523 18808 18808 D CrossAppTracking:   [2] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: 1 produit ├á remplacer
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: Gazpacho L'Original ALVALLE
+10-02 12:45:11.523 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.548 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.548 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.563 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.566 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.566 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.582 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.585 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.588 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.598 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.600 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.600 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.613 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 1 produits trouv├⌐s
+10-02 12:45:11.613 18808 18808 D CrossAppTracking:   [0] la bouteille de 48cL - 46,75Γé¼ - btn='11' - minus=false
+10-02 12:45:11.613 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.613 18808 18808 D CrossAppTracking: ΓÜá∩╕Å DIFF: Produit non trouv├⌐ dans l'├⌐tat pr├⌐c├⌐dent: la bouteille de 48cL
+10-02 12:45:11.619 18808 18808 D CrossAppTracking: ≡ƒô▒ ├ëv├⌐nement re├ºu: 2048 - com.carrefour.fid.android
+10-02 12:45:11.620 18808 18808 D CrossAppTracking: Γ£à App cibl├⌐e d├⌐tect├⌐e: com.carrefour.fid.android
+10-02 12:45:11.628 18808 18808 D CrossAppTracking: ≡ƒöì DIFF STATE: 0 produits trouv├⌐s
+10-02 12:45:11.628 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, allTexts=[Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06, 6 euros et 06 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.630 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA - Prix: N/A
+10-02 12:45:11.632 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., cartAction=Vider tout le panier, productName=D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[1 produit ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., -15% Mardi PASS, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06]}, eventType=cross_app_cart_update}
+10-02 12:45:11.635 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA.
+10-02 12:45:11.636 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401910926}
+10-02 12:45:11.637 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=5 produits d├⌐j├á ajout├⌐s au panier, allTexts=[Gazpacho L'Original ALVALLE, la brique de 1L, 22,40, 22 euros et 40 centimes., Γé¼, Retirer un produit du panier, 5, 5 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.641 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 5 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+10-02 12:45:11.644 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.644 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:45:11.644 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Bouton de substitution, allTexts=[Bouton de substitution]}, eventType=cross_app_cart_update}
+10-02 12:45:11.645 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Bouton de substitution - Prix: N/A
+10-02 12:45:11.645 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401910988}
+10-02 12:45:11.646 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.650 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.654 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+10-02 12:45:11.656 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=11, productName=11 produits d├⌐j├á ajout├⌐s au panier, allTexts=[Soupe aux 7 l├⌐gumes MARCEL BIO, la bouteille de 48cL, 46,75, 46 euros et 75 centimes., Γé¼, Retirer un produit du panier, 11, 11 produits d├⌐j├á ajout├⌐s au panier, MAX]}, eventType=cross_app_cart_update}
+10-02 12:45:11.657 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 11 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+10-02 12:45:11.657 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Rien oubli├⌐ ?, allTexts=[Rien oubli├⌐ ?]}, eventType=cross_app_cart_update}
+10-02 12:45:11.659 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Rien oubli├⌐ ? - Prix: N/A
+10-02 12:45:11.659 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Ajouter un produit dans le panier, allTexts=[Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.662 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Ajouter un produit dans le panier - Prix: N/A
+10-02 12:45:11.664 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911061}
+10-02 12:45:11.664 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=1 produit ├á remplacer, allTexts=[1 produit ├á remplacer]}, eventType=cross_app_cart_update}
+10-02 12:45:11.665 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 1 produit ├á remplacer - Prix: N/A
+10-02 12:45:11.665 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.665 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:11.666 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Poires CARREFOUR BIO, allTexts=[Poires CARREFOUR BIO]}, eventType=cross_app_cart_update}
+10-02 12:45:11.667 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Poires CARREFOUR BIO - Prix: N/A
+10-02 12:45:11.668 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=75,21Γé¼, price=75,21Γé¼, productName=Valider mon panier, allTexts=[Valider mon panier, 75,21Γé¼]}, eventType=cross_app_cart_update}
+10-02 12:45:11.668 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Valider mon panier - Prix: 75,21Γé¼
+10-02 12:45:11.669 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Supprimer, allTexts=[Supprimer]}, eventType=cross_app_cart_update}
+10-02 12:45:11.669 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Supprimer - Prix: N/A
+10-02 12:45:11.670 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Panier, allTexts=[Panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.670 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Panier - Prix: N/A
+10-02 12:45:11.670 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Vider tout le panier, productName=Vider tout le panier, allTexts=[Vider tout le panier, Vider tout le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.673 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Vider tout le panier - Prix: N/A
+10-02 12:45:11.691 18808 18852 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.691 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.692 18808 18855 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.696 18808 18896 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.701 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.714 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.716 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.719 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.731 18808 18973 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.736 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.736 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.736 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=75,21Γé¼, cartAction=75,21Γé¼, productName=D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[1 produit ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., -15% Mardi PASS, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06]}, eventType=cross_app_cart_update}
+10-02 12:45:11.736 18808 18972 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.737 18808 18823 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.739 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 75,21Γé¼
+10-02 12:45:11.742 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.744 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.744 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:45:11.750 18808 18973 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.752 18808 18896 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.753 18808 18854 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.757 18808 18972 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.760 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.761 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Retirer un produit du panier, productName=Retirer un produit du panier, allTexts=[Retirer un produit du panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.762 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Retirer un produit du panier - Prix: N/A
+10-02 12:45:11.763 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.768 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles.]}, eventType=cross_app_cart_update}
+10-02 12:45:11.771 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.771 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: N/A
+10-02 12:45:11.782 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.788 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., cartAction=-15% Mardi PASS, productName=-15% Mardi PASS, allTexts=[Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., -15% Mardi PASS]}, eventType=cross_app_cart_update}
+10-02 12:45:11.789 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: -15% Mardi PASS - Prix: Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA.
+10-02 12:45:11.800 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.803 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={productName=Voir tout, allTexts=[Voir tout]}, eventType=cross_app_cart_update}
+10-02 12:45:11.809 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Voir tout - Prix: N/A
+10-02 12:45:11.812 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911311}
+10-02 12:45:11.820 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.825 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.874 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=5 produits d├⌐j├á ajout├⌐s au panier, allTexts=[Gazpacho L'Original ALVALLE, la brique de 1L, 22,40, 22 euros et 40 centimes., Γé¼, Retirer un produit du panier, 5, 5 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:11.880 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 5 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+10-02 12:45:11.893 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.977 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=75,21Γé¼, cartAction=75,21Γé¼, productName=D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[1 produit ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., -15% Mardi PASS, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06]}, eventType=cross_app_cart_update}
+10-02 12:45:11.979 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: 75,21Γé¼
+10-02 12:45:11.981 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911480}
+10-02 12:45:11.992 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:11.997 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.007 18808 18808 D CrossAppTracking: ≡ƒô╕ Capture du snapshot apr├¿s chargement...
+10-02 12:45:12.027 18808 18808 D CrossAppTracking: ≡ƒôè Badge d├⌐tect├⌐: 18 articles (texte: 'Panier, 18 new notifications')
+10-02 12:45:12.032 18808 18808 D CrossAppTracking: ≡ƒô╕ D├⌐but du scan des produits...
+10-02 12:45:12.037 18808 18808 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA - 6,06
+10-02 12:45:12.037 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=937 > 100, probablement ├á remplacer)
+10-02 12:45:12.038 18808 18808 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Gazpacho L'Original ALVALLE - 22,40
+10-02 12:45:12.040 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=913 > 100, probablement ├á remplacer)
+10-02 12:45:12.041 18808 18808 D CrossAppTracking: Γ£à Produit ajout├⌐ au snapshot: Soupe aux 7 l├⌐gumes MARCEL BIO - 46,75
+10-02 12:45:12.041 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=913 > 100, probablement ├á remplacer)
+10-02 12:45:12.045 18808 18808 D CrossAppTracking: ΓÜá∩╕Å Produit ignor├⌐ (X=877 > 100, probablement ├á remplacer)
+10-02 12:45:12.047 18808 18808 D CrossAppTracking: ≡ƒô╕ Fin du scan: 3 produits trouv├⌐s
+10-02 12:45:12.047 18808 18808 W CrossAppTracking: ΓÜá∩╕Å Snapshot incomplet: 3/18 articles, 75.21Γé¼/75.21Γé¼
+10-02 12:45:12.047 18808 18808 D CrossAppTracking: ≡ƒô╕ Snapshot captur├⌐: 3 produits trouv├⌐s
+10-02 12:45:12.048 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cart_snapshot, products=[{name=Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, price=6,06, quantity=1}, {name=Gazpacho L'Original ALVALLE, price=22,40, quantity=1}, {name=Soupe aux 7 l├⌐gumes MARCEL BIO, price=46,75, quantity=1}], totalItemsInCart=18, totalCartValue=75.21, detectedValue=75.21, isComplete=false, snapshotTime=1759401912047}
+10-02 12:45:12.049 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={price=Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., cartAction=Vider tout le panier, productName=D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., allTexts=[1 produit ├á remplacer, D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles., Poires CARREFOUR BIO, Supprimer, Bouton de substitution, Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA., -15% Mardi PASS, Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06]}, eventType=cross_app_cart_update}
+10-02 12:45:12.053 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: D├⌐couvrez nos meilleurs alternatives pour remplacer vos produits indisponibles. - Prix: Promotion: -15% Mardi PASS. vous avez cagnott├⌐s0.0Γé¼. produits concern├⌐s: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA.
+10-02 12:45:12.064 18808 18853 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.067 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.068 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=Ajouter un produit dans le panier, productName=Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, allTexts=[Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA, la brique de 1L, 6,06, 6 euros et 06 centimes., Γé¼, Retirer un produit du panier, 2, 2 produits d├⌐j├á ajout├⌐s au panier, Ajouter un produit dans le panier]}, eventType=cross_app_cart_update}
+10-02 12:45:12.069 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: Jus D'orange 1OO%, Sans Pulpe CARREFOUR EXTRA - Prix: N/A
+10-02 12:45:12.077 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.087 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911584}
+10-02 12:45:12.098 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.100 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911599}
+10-02 12:45:12.110 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.120 18808 18808 D AndroidTracking: Event tracked: ADD_TO_CART - {app=Carrefour, packageName=com.carrefour.fid.android, productInfo={cartAction=11, productName=11 produits d├⌐j├á ajout├⌐s au panier, allTexts=[Soupe aux 7 l├⌐gumes MARCEL BIO, la bouteille de 48cL, 46,75, 46 euros et 75 centimes., Γé¼, Retirer un produit du panier, 11, 11 produits d├⌐j├á ajout├⌐s au panier, MAX]}, eventType=cross_app_cart_update}
+10-02 12:45:12.121 18808 18808 D CrossAppTracking: ≡ƒ¢Æ Produit envoy├⌐: 11 produits d├⌐j├á ajout├⌐s au panier - Prix: N/A
+10-02 12:45:12.129 18808 18851 D AndroidTracking: Event sent to server successfully
+10-02 12:45:12.129 18808 18808 D AndroidTracking: Event tracked: CONTENT_CHANGED - {app=Carrefour, packageName=com.carrefour.fid.android, eventType=cross_app_content_change, timestamp=1759401911628}
+10-02 12:45:12.137 18808 18851 D AndroidTracking: Event sent to server successfully
