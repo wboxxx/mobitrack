@@ -702,6 +702,13 @@ class CrossAppTrackingService : AccessibilityService() {
         }
         
         scanForProducts(nodeInfo)
+        
+        // Debug: Logger les produits trouvés
+        Log.d("CrossAppTracking", "🔍 DIFF STATE: ${products.size} produits trouvés")
+        products.forEachIndexed { index, product ->
+            Log.d("CrossAppTracking", "  [$index] ${product.productName} - ${product.price}€ - btn='${product.buttonText}' - minus=${product.hasMinusButton}")
+        }
+        
         return WindowState(products, System.currentTimeMillis())
     }
     
@@ -716,6 +723,7 @@ class CrossAppTrackingService : AccessibilityService() {
             
             if (oldProduct == null) {
                 // Nouveau produit apparu (rare, mais possible si on scroll)
+                Log.d("CrossAppTracking", "⚠️ DIFF: Produit non trouvé dans l'état précédent: ${newProduct.productName}")
                 continue
             }
             
@@ -737,6 +745,8 @@ class CrossAppTrackingService : AccessibilityService() {
                 ))
                 
                 Log.d("CrossAppTracking", ">>> DIFF: ${newProduct.productName} - $oldQuantity → $newQuantity ($action)")
+            } else {
+                Log.d("CrossAppTracking", "🔄 DIFF: ${newProduct.productName} - Aucun changement ($oldQuantity → $newQuantity)")
             }
         }
         
