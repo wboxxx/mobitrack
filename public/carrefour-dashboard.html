@@ -529,7 +529,13 @@
                 this.socket.on('carrefourPageUpdate', (data) => {
                     console.log('🔄 Mise à jour page:', data);
                     if (this.autoRefresh) {
-                        this.updateCurrentPage(data.currentPage);
+                        // Ne pas mettre à jour si on a un filtre de device actif
+                        // car cela peut écraser l'affichage filtré
+                        if (this.selectedDevice === 'all') {
+                            this.updateCurrentPage(data.currentPage);
+                        } else {
+                            console.log('⏸️ Mise à jour globale ignorée (filtre device actif)');
+                        }
                         this.updateStats();
                     }
                 });
@@ -558,7 +564,12 @@
                 this.socket.on('carrefourVisualPageUpdate', (data) => {
                     console.log('🔄 Mise à jour page visuelle:', data);
                     if (this.autoRefresh && this.activeTab === 'visual') {
-                        this.updateCurrentVisualPage(data.currentPage);
+                        // Ne pas mettre à jour si on a un filtre de device actif
+                        if (this.selectedDevice === 'all') {
+                            this.updateCurrentVisualPage(data.currentPage);
+                        } else {
+                            console.log('⏸️ Mise à jour visuelle globale ignorée (filtre device actif)');
+                        }
                         this.updateStats();
                     } else {
                         console.log('⏸️ Auto-refresh désactivé ou onglet différent - mise à jour visuelle ignorée');
