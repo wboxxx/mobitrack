@@ -74,6 +74,50 @@ class HttpClient {
     }
     
     /**
+     * Envoie une page Carrefour HTML (reconstruction visuelle) au serveur Node.js
+     */
+    suspend fun sendCarrefourVisual(
+        htmlContent: String,
+        serverUrl: String = DEFAULT_SERVER_URL
+    ): Boolean = withContext(Dispatchers.IO) {
+        try {
+            Log.d(TAG, "Envoi de la page Carrefour HTML au serveur: $serverUrl")
+            
+            val json = JsonObject().apply {
+                addProperty("html", htmlContent)
+                addProperty("timestamp", System.currentTimeMillis())
+                addProperty("source", "OptimizedCarrefourTrackingService")
+                addProperty("type", "visual")
+            }
+            
+            val mediaType = "application/json; charset=utf-8".toMediaType()
+            val requestBody = gson.toJson(json).toRequestBody(mediaType)
+            
+            val request = Request.Builder()
+                .url("$serverUrl/api/carrefour-visual")
+                .post(requestBody)
+                .addHeader("Content-Type", "application/json")
+                .build()
+            
+            client.newCall(request).execute().use { response ->
+                if (response.isSuccessful) {
+                    Log.d(TAG, "Page HTML envoyée avec succès: ${response.code}")
+                    true
+                } else {
+                    Log.w(TAG, "Erreur lors de l'envoi HTML: ${response.code} - ${response.message}")
+                    false
+                }
+            }
+        } catch (e: IOException) {
+            Log.e(TAG, "Erreur de connexion au serveur pour HTML", e)
+            false
+        } catch (e: Exception) {
+            Log.e(TAG, "Erreur lors de l'envoi de la page HTML", e)
+            false
+        }
+    }
+    
+    /**
      * Teste la connexion au serveur
      */
     suspend fun testConnection(serverUrl: String = DEFAULT_SERVER_URL): Boolean = withContext(Dispatchers.IO) {

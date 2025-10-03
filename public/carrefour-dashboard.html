@@ -246,6 +246,60 @@
             color: #6c757d;
         }
         
+        /* Styles pour les onglets */
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            color: #6c757d;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab:hover {
+            background: #e9ecef;
+            color: #495057;
+        }
+        
+        .tab.active {
+            background: white;
+            color: #E60012;
+            border-bottom-color: #E60012;
+        }
+        
+        .tab-content {
+            display: none;
+            height: calc(100vh - 200px);
+            overflow-y: auto;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .visual-content {
+            padding: 20px;
+            background: white;
+        }
+        
+        .visual-content iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
         .spinner {
             border: 4px solid #f3f3f3;
             border-top: 4px solid #FF6B35;
@@ -380,10 +434,28 @@
             </div>
             
             <div class="main-content">
-                <div id="content">
-                    <div class="loading">
-                        <div class="spinner"></div>
-                        <p>Connexion au serveur...</p>
+                <div class="tabs">
+                    <button class="tab active" onclick="dashboard.switchTab('markdown')">📝 Vue Markdown</button>
+                    <button class="tab" onclick="dashboard.switchTab('visual')">🎨 Vue Visuelle</button>
+                </div>
+                
+                <div id="markdown-tab" class="tab-content active">
+                    <div id="content">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Connexion au serveur...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="visual-tab" class="tab-content">
+                    <div class="visual-content">
+                        <div id="visual-content">
+                            <div class="loading">
+                                <div class="spinner"></div>
+                                <p>En attente de données visuelles...</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -395,9 +467,13 @@
             constructor() {
                 this.pages = [];
                 this.currentPage = null;
+                this.visualPages = [];
+                this.currentVisualPage = null;
                 this.socket = null;
                 this.autoRefresh = true;
                 this.lastPageData = null;
+                this.lastVisualPageData = null;
+                this.activeTab = 'markdown';
                 this.connect();
                 this.setupControls();
             }
@@ -441,10 +517,37 @@
                     console.log('🗑️ Pages effacées');
                     this.clearPages();
                 });
+                
+                // Listeners pour les données visuelles
+                this.socket.on('newCarrefourVisualPage', (pageData) => {
+                    console.log('🎨 Nouvelle page visuelle reçue:', pageData);
+                    this.lastVisualPageData = pageData;
+                    if (this.autoRefresh && this.activeTab === 'visual') {
+                        this.addVisualPage(pageData);
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé ou onglet différent - page visuelle mise en attente');
+                    }
+                });
+                
+                this.socket.on('carrefourVisualPageUpdate', (data) => {
+                    console.log('🔄 Mise à jour page visuelle:', data);
+                    if (this.autoRefresh && this.activeTab === 'visual') {
+                        this.updateCurrentVisualPage(data.currentPage);
+                        this.updateStats();
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé ou onglet différent - mise à jour visuelle ignorée');
+                    }
+                });
+                
+                this.socket.on('carrefourVisualPagesCleared', () => {
+                    console.log('🗑️ Pages visuelles effacées');
+                    this.clearVisualPages();
+                });
             }
             
             async loadData() {
                 try {
+                    // Charger les données Markdown
                     const response = await fetch('/api/carrefour-pages');
                     const data = await response.json();
                     
@@ -453,6 +556,16 @@
                         this.currentPage = data.currentPage || '';
                         this.updateDisplay();
                         this.updateStats();
+                    }
+                    
+                    // Charger les données visuelles
+                    const visualResponse = await fetch('/api/carrefour-visual-pages');
+                    const visualData = await visualResponse.json();
+                    
+                    if (visualData.success) {
+                        this.visualPages = visualData.pages || [];
+                        this.currentVisualPage = visualData.currentPage || '';
+                        this.updateVisualDisplay();
                     }
                 } catch (error) {
                     console.error('Erreur lors du chargement:', error);
@@ -577,11 +690,112 @@
                 });
             }
             
+            // Méthodes pour gérer les onglets
+            switchTab(tabName) {
+                this.activeTab = tabName;
+                
+                // Mettre à jour les onglets
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                document.querySelector(`[onclick="dashboard.switchTab('${tabName}')"]`).classList.add('active');
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+                
+                // Mettre à jour l'affichage selon l'onglet actif
+                if (tabName === 'markdown') {
+                    this.updateDisplay();
+                } else if (tabName === 'visual') {
+                    this.updateVisualDisplay();
+                }
+                
+                console.log(`🔄 Onglet activé: ${tabName}`);
+            }
+            
+            // Méthodes pour les données visuelles
+            addVisualPage(pageData) {
+                this.visualPages.unshift(pageData);
+                this.currentVisualPage = pageData.html;
+                this.updateVisualDisplay();
+                this.renderVisualPages();
+                this.updateStats();
+            }
+            
+            updateCurrentVisualPage(content) {
+                this.currentVisualPage = content;
+                this.showVisualContent(content);
+            }
+            
+            showVisualContent(content) {
+                const visualContentDiv = document.getElementById('visual-content');
+                if (content) {
+                    // Créer un iframe pour afficher le HTML
+                    visualContentDiv.innerHTML = `
+                        <iframe srcdoc="${content.replace(/"/g, '&quot;')}" 
+                                style="width: 100%; height: 100%; border: none;">
+                        </iframe>
+                    `;
+                } else {
+                    visualContentDiv.innerHTML = `
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>En attente de données visuelles...</p>
+                        </div>
+                    `;
+                }
+            }
+            
+            updateVisualDisplay() {
+                if (this.activeTab === 'visual') {
+                    this.showVisualContent(this.currentVisualPage);
+                }
+            }
+            
+            renderVisualPages() {
+                const logList = document.getElementById('log-list');
+                
+                if (this.visualPages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page visuelle capturée</div>';
+                    return;
+                }
+                
+                logList.innerHTML = this.visualPages.map(page => `
+                    <div class="log-item" onclick="dashboard.showVisualPage('${page.id}')">
+                        <div class="log-preview">🎨 ${page.preview.substring(0, 50)}...</div>
+                        <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                    </div>
+                `).join('');
+            }
+            
+            showVisualPage(pageId) {
+                const page = this.visualPages.find(p => p.id === pageId);
+                if (page) {
+                    this.currentVisualPage = page.html;
+                    this.showVisualContent(page.html);
+                    console.log('🎨 Page visuelle affichée:', pageId);
+                }
+            }
+            
+            clearVisualPages() {
+                this.visualPages = [];
+                this.currentVisualPage = null;
+                this.renderVisualPages();
+                this.updateVisualDisplay();
+            }
+            
             async refreshData() {
-                if (this.lastPageData && !this.autoRefresh) {
-                    // Si auto-refresh est désactivé, afficher la dernière page reçue
-                    this.addPage(this.lastPageData);
-                    console.log('🔄 Affichage de la dernière page reçue');
+                if (!this.autoRefresh) {
+                    // Si auto-refresh est désactivé, afficher les dernières pages reçues
+                    if (this.activeTab === 'markdown' && this.lastPageData) {
+                        this.addPage(this.lastPageData);
+                        console.log('🔄 Affichage de la dernière page Markdown reçue');
+                    } else if (this.activeTab === 'visual' && this.lastVisualPageData) {
+                        this.addVisualPage(this.lastVisualPageData);
+                        console.log('🔄 Affichage de la dernière page visuelle reçue');
+                    }
                 } else {
                     await this.loadData();
                     console.log('🔄 Données actualisées');
@@ -589,11 +803,14 @@
             }
             
             showLastPage() {
-                if (this.lastPageData) {
+                if (this.activeTab === 'markdown' && this.lastPageData) {
                     this.addPage(this.lastPageData);
-                    console.log('📄 Affichage de la dernière page capturée');
+                    console.log('📄 Affichage de la dernière page Markdown capturée');
+                } else if (this.activeTab === 'visual' && this.lastVisualPageData) {
+                    this.addVisualPage(this.lastVisualPageData);
+                    console.log('🎨 Affichage de la dernière page visuelle capturée');
                 } else {
-                    console.log('❌ Aucune page en attente');
+                    console.log('❌ Aucune page en attente pour cet onglet');
                 }
             }
         }

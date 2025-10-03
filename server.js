@@ -1453,6 +1453,91 @@ app.post('/api/carrefour-clear', (req, res) => {
   });
 });
 
+// ========== ENDPOINTS CARREFOUR VISUAL ==========
+
+// Store pour les pages Carrefour HTML (reconstruction visuelle)
+let carrefourVisualPages = [];
+let currentCarrefourVisualPage = '';
+
+// Endpoint pour recevoir les pages Carrefour HTML (reconstruction visuelle)
+app.post('/api/carrefour-visual', (req, res) => {
+  const { html, timestamp } = req.body;
+  
+  if (!html) {
+    return res.status(400).json({
+      success: false,
+      error: 'Contenu HTML requis'
+    });
+  }
+  
+  const visualData = {
+    id: Date.now(),
+    timestamp: timestamp || new Date().toISOString(),
+    html: html,
+    preview: html.includes('<title>') ? 
+      html.match(/<title>(.*?)<\/title>/)?.[1] || 'Page Carrefour Visuelle' :
+      'Page Carrefour Visuelle'
+  };
+  
+  carrefourVisualPages.unshift(visualData); // Ajouter au début
+  currentCarrefourVisualPage = html;
+  
+  // Limiter à 50 pages
+  if (carrefourVisualPages.length > 50) {
+    carrefourVisualPages = carrefourVisualPages.slice(0, 50);
+  }
+  
+  console.log(`🎨 Page Carrefour HTML reçue: ${visualData.preview.substring(0, 50)}...`);
+  
+  // Envoyer en temps réel via WebSocket
+  io.emit('newCarrefourVisualPage', visualData);
+  io.emit('carrefourVisualPageUpdate', {
+    currentPage: currentCarrefourVisualPage,
+    pagesCount: carrefourVisualPages.length
+  });
+  
+  res.json({
+    success: true,
+    pageId: visualData.id,
+    pagesCount: carrefourVisualPages.length
+  });
+});
+
+// Endpoint pour récupérer toutes les pages Carrefour HTML
+app.get('/api/carrefour-visual-pages', (req, res) => {
+  res.json({
+    success: true,
+    pages: carrefourVisualPages,
+    currentPage: currentCarrefourVisualPage,
+    count: carrefourVisualPages.length
+  });
+});
+
+// Endpoint pour récupérer la page HTML actuelle
+app.get('/api/carrefour-visual-current', (req, res) => {
+  res.json({
+    success: true,
+    currentPage: currentCarrefourVisualPage,
+    timestamp: carrefourVisualPages.length > 0 ? carrefourVisualPages[0].timestamp : null
+  });
+});
+
+// Endpoint pour effacer les pages Carrefour HTML
+app.post('/api/carrefour-visual-clear', (req, res) => {
+  carrefourVisualPages = [];
+  currentCarrefourVisualPage = '';
+  
+  console.log('🗑️ Pages Carrefour HTML effacées');
+  
+  // Notifier les clients
+  io.emit('carrefourVisualPagesCleared');
+  
+  res.json({
+    success: true,
+    message: 'Pages Carrefour HTML effacées'
+  });
+});
+
 // ========== ENDPOINTS MULTI-APPS ==========
 
 // Lister toutes les apps disponibles
