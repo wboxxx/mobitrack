@@ -3835,7 +3835,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string accessibility_service_description
+string accessibility_service_description_optimized
 string action_clear_data
 string action_comparison
 string action_export
@@ -5250,6 +5250,6 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
-xml accessibility_service_config
+xml accessibility_service_config_optimized
 xml backup_rules
 xml data_extraction_rules

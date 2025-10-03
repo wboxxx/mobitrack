@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.bascule.leclerctracking.databinding.ActivityConsentBinding
-import com.bascule.leclerctracking.service.CrossAppTrackingService
+import com.bascule.leclerctracking.service.OptimizedCarrefourTrackingService
 import com.bascule.leclerctracking.utils.AccessibilityUtils
 
 class ConsentActivity : AppCompatActivity() {
@@ -79,7 +79,7 @@ class ConsentActivity : AppCompatActivity() {
     private fun checkPermissions() {
         val isAccessibilityEnabled = AccessibilityUtils.isAccessibilityServiceEnabled(
             this, 
-            CrossAppTrackingService::class.java
+            OptimizedCarrefourTrackingService::class.java
         )
         
         binding.apply {
@@ -99,7 +99,7 @@ class ConsentActivity : AppCompatActivity() {
     private fun requestAccessibilityPermission() {
         val isEnabled = AccessibilityUtils.isAccessibilityServiceEnabled(
             this, 
-            CrossAppTrackingService::class.java
+            OptimizedCarrefourTrackingService::class.java
         )
         
         if (!isEnabled) {
@@ -186,7 +186,7 @@ class ConsentActivity : AppCompatActivity() {
         // Vérifier que le service d'accessibilité est activé
         val isEnabled = AccessibilityUtils.isAccessibilityServiceEnabled(
             this,
-            CrossAppTrackingService::class.java
+            OptimizedCarrefourTrackingService::class.java
         )
         
         if (!isEnabled) {

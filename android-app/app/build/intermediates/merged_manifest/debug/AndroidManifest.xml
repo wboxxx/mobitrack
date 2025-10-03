@@ -63,9 +63,9 @@
             android:label="Test Automatique"
             android:theme="@style/Theme.LeclercTracking" />
 
-        <!-- Service de tracking cross-app -->
+        <!-- Service de tracking optimise Carrefour -->
         <service
-            android:name="com.bascule.leclerctracking.service.CrossAppTrackingService"
+            android:name="com.bascule.leclerctracking.service.OptimizedCarrefourTrackingService"
             android:exported="false"
             android:foregroundServiceType="specialUse"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
@@ -75,11 +75,11 @@
 
             <meta-data
                 android:name="android.accessibilityservice"
-                android:resource="@xml/accessibility_service_config" />
+                android:resource="@xml/accessibility_service_config_optimized" />
 
             <property
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="Accessibility service for cross-app cart tracking" />
+                android:value="Optimized accessibility service for Carrefour cart tracking" />
         </service>
 
         <provider

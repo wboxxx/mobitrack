@@ -115,11 +115,11 @@
 64            android:theme="@style/Theme.LeclercTracking" />
 64-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:48:13-57
 65
-66        <!-- Service de tracking cross-app -->
+66        <!-- Service de tracking optimise Carrefour -->
 67        <service
 67-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:52:9-66:19
-68            android:name="com.bascule.leclerctracking.service.CrossAppTrackingService"
-68-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:53:13-60
+68            android:name="com.bascule.leclerctracking.service.OptimizedCarrefourTrackingService"
+68-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:53:13-70
 69            android:exported="false"
 69-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:55:13-37
 70            android:foregroundServiceType="specialUse"
@@ -134,18 +134,18 @@
 74            </intent-filter>
 75
 76            <meta-data
-76-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:60:13-62:72
+76-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:60:13-62:82
 77                android:name="android.accessibilityservice"
 77-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:61:17-60
-78                android:resource="@xml/accessibility_service_config" />
-78-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:62:17-69
+78                android:resource="@xml/accessibility_service_config_optimized" />
+78-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:62:17-79
 79
 80            <property
-80-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:63:13-65:85
+80-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:63:13-65:95
 81                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
 81-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:64:17-76
-82                android:value="Accessibility service for cross-app cart tracking" />
-82-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:65:17-82
+82                android:value="Optimized accessibility service for Carrefour cart tracking" />
+82-->C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:65:17-92
 83        </service>
 84
 85        <provider

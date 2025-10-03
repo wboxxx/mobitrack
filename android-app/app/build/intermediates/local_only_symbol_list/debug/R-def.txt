@@ -45,13 +45,13 @@ layout activity_main
 menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
-string accessibility_service_description
+string accessibility_service_description_optimized
 string action_clear_data
 string action_comparison
 string action_export
 string action_refresh
 string app_name
 style Theme.LeclercTracking
-xml accessibility_service_config
+xml accessibility_service_config_optimized
 xml backup_rules
 xml data_extraction_rules

@@ -96,7 +96,7 @@ class AutoTestActivity : AppCompatActivity() {
                 // Étape 2 : Attendre le chargement
                 handler.postDelayed({
                     addLog("📜 Scroll vers les bananes...")
-                    AutoTestHelper.scrollDown()
+                    AutoTestHelper.scrollPage()
                     
                     // Étape 3 : Chercher et cliquer sur le bouton + des bananes
                     handler.postDelayed({

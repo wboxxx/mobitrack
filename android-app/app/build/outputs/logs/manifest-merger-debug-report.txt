@@ -175,7 +175,7 @@ ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\ap
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:48:13-57
 	android:name
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:46:13-48
-service#com.bascule.leclerctracking.service.CrossAppTrackingService
+service#com.bascule.leclerctracking.service.OptimizedCarrefourTrackingService
 ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:52:9-66:19
 	android:exported
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:55:13-37
@@ -184,7 +184,7 @@ ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\ap
 	android:foregroundServiceType
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:56:13-55
 	android:name
-		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:53:13-60
+		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:53:13-70
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
 ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:57:13-59:29
 action#android.accessibilityservice.AccessibilityService
@@ -192,15 +192,15 @@ ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\ap
 	android:name
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:58:25-89
 meta-data#android.accessibilityservice
-ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:60:13-62:72
+ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:60:13-62:82
 	android:resource
-		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:62:17-69
+		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:62:17-79
 	android:name
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:61:17-60
 property
-ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:63:13-65:85
+ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:63:13-65:95
 	android:value
-		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:65:17-82
+		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:65:17-92
 	android:name
 		ADDED from C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\AndroidManifest.xml:64:17-76
 uses-sdk

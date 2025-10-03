@@ -4,6 +4,8 @@ enum class TrackingEventType {
     CLICK,
     SCROLL,
     ADD_TO_CART,
+    REMOVE_FROM_CART,
+    CART_UPDATED,
     SEARCH,
     PAGE_LOAD,
     SESSION_START,

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.bascule.leclerctracking.app-merged_res-35:/xml_accessibility_service_config_optimized.xml.flat",
+        "source": "com.bascule.leclerctracking.app-main-37:/xml/accessibility_service_config_optimized.xml"
+    },
+    {
         "merged": "com.bascule.leclerctracking.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.bascule.leclerctracking.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "com.bascule.leclerctracking.app-merged_res-35:/menu_main_menu.xml.flat",
         "source": "com.bascule.leclerctracking.app-main-37:/menu/main_menu.xml"
-    },
-    {
-        "merged": "com.bascule.leclerctracking.app-merged_res-35:/xml_accessibility_service_config.xml.flat",
-        "source": "com.bascule.leclerctracking.app-main-37:/xml/accessibility_service_config.xml"
     },
     {
         "merged": "com.bascule.leclerctracking.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
