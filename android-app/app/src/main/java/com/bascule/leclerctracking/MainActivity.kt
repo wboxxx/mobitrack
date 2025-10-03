@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
     
     private fun loadLeclercSite() {
         // Try to connect to local server first, fallback to demo
-        val localUrl = "http://10.0.2.2:3001/leclerc-mobile" // Android emulator localhost
+        val localUrl = "http://192.168.1.43:3001/leclerc-mobile" // Device physique sur WiFi
         binding.webView.loadUrl(localUrl)
         updateUrlDisplay(localUrl)
     }
@@ -164,7 +164,7 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.action_comparison -> {
                 // Open comparison dashboard in browser instead
-                val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse("http://10.0.2.2:3001/comparison"))
+                val intent = Intent(Intent.ACTION_VIEW, android.net.Uri.parse("http://192.168.1.43:3001/comparison"))
                 startActivity(intent)
                 true
             }

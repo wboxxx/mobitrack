@@ -22,7 +22,7 @@ class AndroidTrackingManager(
     
     private val gson = Gson()
     private val httpClient = OkHttpClient()
-    private val serverUrl = "http://10.0.2.2:3001" // Android emulator localhost
+    private val serverUrl = "http://192.168.1.43:3001" // Device physique sur WiFi
     private val vibrator: Vibrator? = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
         val vibratorManager = getSystemService(context, VibratorManager::class.java)
         vibratorManager?.defaultVibrator
