@@ -1,3 +1,0 @@
-com.bascule.leclerctracking.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

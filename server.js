@@ -63,6 +63,10 @@ app.get('/cart-detection-test', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'cart-detection-test.html'));
 });
 
+app.get('/carrefour-dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'carrefour-dashboard.html'));
+});
+
 // Système de filtrage intelligent côté serveur
 class ServerEventFilter {
   constructor() {
@@ -1363,6 +1367,89 @@ app.get('/api/cart-analysis', (req, res) => {
     success: true,
     cartAnalysis: cartAnalysis,
     timestamp: new Date().toISOString()
+  });
+});
+
+// ========== ENDPOINTS CARREFOUR MARKDOWN ==========
+
+// Store pour les pages Carrefour en Markdown
+let carrefourPages = [];
+let currentCarrefourPage = '';
+
+// Endpoint pour recevoir les pages Carrefour en Markdown
+app.post('/api/carrefour-page', (req, res) => {
+  const { content, timestamp } = req.body;
+  
+  if (!content) {
+    return res.status(400).json({
+      success: false,
+      error: 'Contenu Markdown requis'
+    });
+  }
+  
+  const pageData = {
+    id: Date.now(),
+    timestamp: timestamp || new Date().toISOString(),
+    content: content,
+    preview: content.split('\n')[0] || 'Page Carrefour'
+  };
+  
+  carrefourPages.unshift(pageData); // Ajouter au début
+  currentCarrefourPage = content;
+  
+  // Limiter à 50 pages
+  if (carrefourPages.length > 50) {
+    carrefourPages = carrefourPages.slice(0, 50);
+  }
+  
+  console.log(`📄 Page Carrefour reçue: ${pageData.preview.substring(0, 50)}...`);
+  
+  // Envoyer en temps réel via WebSocket
+  io.emit('newCarrefourPage', pageData);
+  io.emit('carrefourPageUpdate', {
+    currentPage: currentCarrefourPage,
+    pagesCount: carrefourPages.length
+  });
+  
+  res.json({
+    success: true,
+    pageId: pageData.id,
+    pagesCount: carrefourPages.length
+  });
+});
+
+// Endpoint pour récupérer toutes les pages Carrefour
+app.get('/api/carrefour-pages', (req, res) => {
+  res.json({
+    success: true,
+    pages: carrefourPages,
+    currentPage: currentCarrefourPage,
+    count: carrefourPages.length
+  });
+});
+
+// Endpoint pour récupérer la page actuelle
+app.get('/api/carrefour-current', (req, res) => {
+  res.json({
+    success: true,
+    currentPage: currentCarrefourPage,
+    timestamp: carrefourPages.length > 0 ? carrefourPages[0].timestamp : null
+  });
+});
+
+// Endpoint pour effacer les pages Carrefour
+app.post('/api/carrefour-clear', (req, res) => {
+  carrefourPages = [];
+  currentCarrefourPage = '';
+  
+  console.log('🗑️ Pages Carrefour effacées');
+  
+  // Notifier les clients
+  io.emit('carrefourPagesCleared');
+  
+  res.json({
+    success: true,
+    message: 'Pages Carrefour effacées'
   });
 });
 

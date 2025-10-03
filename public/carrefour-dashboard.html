@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Carrefour Dashboard - Temps Réel</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .controls {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+        }
+        
+        .toggle-switch {
+            position: relative;
+            width: 50px;
+            height: 24px;
+            background: #ccc;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .toggle-switch.active {
+            background: #28a745;
+        }
+        
+        .toggle-slider {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        
+        .toggle-switch.active .toggle-slider {
+            transform: translateX(26px);
+        }
+        
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #28a745;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .btn {
+            background: #FF6B35;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+            margin: 0 5px;
+        }
+        
+        .btn:hover {
+            background: #e55a2b;
+        }
+        
+        .btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .content {
+            display: flex;
+            min-height: 70vh;
+        }
+        
+        .sidebar {
+            width: 300px;
+            background: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .log-entry:hover {
+            border-color: #FF6B35;
+            box-shadow: 0 2px 8px rgba(255, 107, 53, 0.2);
+        }
+        
+        .log-entry.active {
+            border-color: #FF6B35;
+            background: #fff5f2;
+        }
+        
+        .log-timestamp {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        
+        .log-preview {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .markdown-content {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.75em;
+            line-height: 1.3;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+        
+        .markdown-content h1 {
+            color: #FF6B35;
+            border-bottom: 2px solid #FF6B35;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .markdown-content h2 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+        
+        .markdown-content h3 {
+            color: #34495e;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+        
+        .markdown-content strong {
+            color: #e74c3c;
+        }
+        
+        .markdown-content ul {
+            margin: 8px 0;
+            padding-left: 18px;
+        }
+        
+        .markdown-content li {
+            margin: 3px 0;
+        }
+        
+        .no-data {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            padding: 50px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #FF6B35;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .instructions {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .instructions h3 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        
+        .instructions ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 5px 0;
+            color: #424242;
+        }
+        
+        .stats {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .stats h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #FF6B35;
+        }
+        
+        .stat-label {
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛒 Carrefour Dashboard</h1>
+            <p>Visualisation temps réel des pages Carrefour en Markdown</p>
+        </div>
+        
+        <div class="controls">
+            <div class="status">
+                <div class="status-dot"></div>
+                <span id="status-text">Connexion en cours...</span>
+            </div>
+            <div class="control-group">
+                <div class="toggle-container">
+                    <span>Auto-refresh:</span>
+                    <div class="toggle-switch active" id="auto-refresh-toggle">
+                        <div class="toggle-slider"></div>
+                    </div>
+                </div>
+                <button class="btn" onclick="showLastPage()">📄 Dernière page</button>
+                <button class="btn" onclick="clearPages()">🗑️ Effacer</button>
+                <button class="btn" onclick="refreshData()">🔄 Actualiser</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="sidebar">
+                <div class="stats">
+                    <h3>📊 Statistiques</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="pages-count">0</div>
+                            <div class="stat-label">Pages</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="last-update">--</div>
+                            <div class="stat-label">Dernière</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructions">
+                    <h3>📋 Instructions</h3>
+                    <ul>
+                        <li>Lancez le script Python de capture</li>
+                        <li>Naviguez dans l'app Carrefour</li>
+                        <li>Les pages s'affichent automatiquement</li>
+                        <li>Cliquez sur une page pour la voir</li>
+                    </ul>
+                </div>
+                
+                <h3>📄 Pages capturées</h3>
+                <div id="log-list">
+                    <div class="no-data">Aucune page capturée</div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <div id="content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Connexion au serveur...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class CarrefourDashboard {
+            constructor() {
+                this.pages = [];
+                this.currentPage = null;
+                this.socket = null;
+                this.autoRefresh = true;
+                this.lastPageData = null;
+                this.connect();
+                this.setupControls();
+            }
+            
+            connect() {
+                // Connexion WebSocket
+                this.socket = io();
+                
+                this.socket.on('connect', () => {
+                    console.log('✅ Connecté au serveur');
+                    document.getElementById('status-text').textContent = 'Connecté au serveur';
+                    this.loadData();
+                });
+                
+                this.socket.on('disconnect', () => {
+                    console.log('❌ Déconnecté du serveur');
+                    document.getElementById('status-text').textContent = 'Déconnecté du serveur';
+                });
+                
+                this.socket.on('newCarrefourPage', (pageData) => {
+                    console.log('📄 Nouvelle page reçue:', pageData);
+                    this.lastPageData = pageData;
+                    if (this.autoRefresh) {
+                        this.addPage(pageData);
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé - page mise en attente');
+                    }
+                });
+                
+                this.socket.on('carrefourPageUpdate', (data) => {
+                    console.log('🔄 Mise à jour page:', data);
+                    if (this.autoRefresh) {
+                        this.updateCurrentPage(data.currentPage);
+                        this.updateStats();
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé - mise à jour ignorée');
+                    }
+                });
+                
+                this.socket.on('carrefourPagesCleared', () => {
+                    console.log('🗑️ Pages effacées');
+                    this.clearPages();
+                });
+            }
+            
+            async loadData() {
+                try {
+                    const response = await fetch('/api/carrefour-pages');
+                    const data = await response.json();
+                    
+                    if (data.success) {
+                        this.pages = data.pages || [];
+                        this.currentPage = data.currentPage || '';
+                        this.updateDisplay();
+                        this.updateStats();
+                    }
+                } catch (error) {
+                    console.error('Erreur lors du chargement:', error);
+                }
+            }
+            
+            addPage(pageData) {
+                this.pages.unshift(pageData);
+                this.currentPage = pageData.content;
+                this.updateDisplay();
+                this.updateStats();
+            }
+            
+            updateCurrentPage(content) {
+                this.currentPage = content;
+                this.showContent(content);
+            }
+            
+            clearPages() {
+                this.pages = [];
+                this.currentPage = null;
+                this.updateDisplay();
+                this.updateStats();
+            }
+            
+            updateDisplay() {
+                this.updateLogList();
+                if (this.currentPage) {
+                    this.showContent(this.currentPage);
+                } else {
+                    this.showLoading('Aucune page disponible');
+                }
+            }
+            
+            updateLogList() {
+                const listContainer = document.getElementById('log-list');
+                
+                if (this.pages.length === 0) {
+                    listContainer.innerHTML = '<div class="no-data">Aucune page capturée</div>';
+                    return;
+                }
+                
+                listContainer.innerHTML = this.pages.map(page => `
+                    <div class="log-entry" onclick="dashboard.showPage(${page.id})">
+                        <div class="log-timestamp">${page.timestamp}</div>
+                        <div class="log-preview">${page.preview}</div>
+                    </div>
+                `).join('');
+            }
+            
+            showPage(pageId) {
+                const page = this.pages.find(p => p.id === pageId);
+                if (page) {
+                    this.showContent(page.content);
+                }
+            }
+            
+            showContent(content) {
+                const contentDiv = document.getElementById('content');
+                contentDiv.innerHTML = `
+                    <div class="markdown-content">
+                        ${this.formatMarkdown(content)}
+                    </div>
+                `;
+            }
+            
+            showLoading(message) {
+                document.getElementById('content').innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>${message}</p>
+                    </div>
+                `;
+            }
+            
+            formatMarkdown(markdown) {
+                return markdown
+                    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                    .replace(/^\- \*\*(.*?)\*\*: (.*$)/gim, '<li><strong>$1:</strong> $2</li>')
+                    .replace(/^\- (.*$)/gim, '<li>$1</li>')
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                    .replace(/\n/g, '<br>');
+            }
+            
+            updateStats() {
+                document.getElementById('pages-count').textContent = this.pages.length;
+                
+                if (this.pages.length > 0) {
+                    const lastPage = this.pages[0];
+                    const lastTime = new Date(lastPage.timestamp).toLocaleTimeString();
+                    document.getElementById('last-update').textContent = lastTime;
+                } else {
+                    document.getElementById('last-update').textContent = '--';
+                }
+            }
+            
+            async clearAllPages() {
+                try {
+                    const response = await fetch('/api/carrefour-clear', {
+                        method: 'POST'
+                    });
+                    
+                    if (response.ok) {
+                        this.clearPages();
+                        console.log('✅ Pages effacées');
+                    }
+                } catch (error) {
+                    console.error('Erreur lors de l\'effacement:', error);
+                }
+            }
+            
+            setupControls() {
+                // Toggle auto-refresh
+                const toggle = document.getElementById('auto-refresh-toggle');
+                toggle.addEventListener('click', () => {
+                    this.autoRefresh = !this.autoRefresh;
+                    toggle.classList.toggle('active', this.autoRefresh);
+                    console.log('Auto-refresh:', this.autoRefresh ? 'ON' : 'OFF');
+                });
+            }
+            
+            async refreshData() {
+                if (this.lastPageData && !this.autoRefresh) {
+                    // Si auto-refresh est désactivé, afficher la dernière page reçue
+                    this.addPage(this.lastPageData);
+                    console.log('🔄 Affichage de la dernière page reçue');
+                } else {
+                    await this.loadData();
+                    console.log('🔄 Données actualisées');
+                }
+            }
+            
+            showLastPage() {
+                if (this.lastPageData) {
+                    this.addPage(this.lastPageData);
+                    console.log('📄 Affichage de la dernière page capturée');
+                } else {
+                    console.log('❌ Aucune page en attente');
+                }
+            }
+        }
+        
+        // Initialiser le dashboard
+        const dashboard = new CarrefourDashboard();
+        
+        // Fonctions globales pour les boutons
+        function clearPages() {
+            dashboard.clearAllPages();
+        }
+        
+        function refreshData() {
+            dashboard.refreshData();
+        }
+        
+        function showLastPage() {
+            dashboard.showLastPage();
+        }
+    </script>
+</body>
+</html>

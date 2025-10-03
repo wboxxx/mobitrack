@@ -1,9 +1,0 @@
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\MainActivity.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\ui\ConsentActivity.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\service\CrossAppTrackingService.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\utils\AccessibilityUtils.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\models\TrackingEventType.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\tracking\TrackingViewModel.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\tracking\TrackingService.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\models\TrackingEvent.kt
-C:\Users\Vincent B\CascadeProjects\web-tracking-system\android-app\app\src\main\java\com\bascule\leclerctracking\tracking\AndroidTrackingManager.kt
