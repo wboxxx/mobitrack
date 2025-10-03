@@ -51,6 +51,29 @@
             gap: 10px;
         }
         
+        .device-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .device-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            color: #495057;
+            cursor: pointer;
+            min-width: 120px;
+        }
+        
+        .device-selector select:focus {
+            outline: none;
+        }
+        
         .control-group {
             display: flex;
             align-items: center;
@@ -177,6 +200,19 @@
             font-size: 0.8em;
             color: #6c757d;
             margin-bottom: 5px;
+        }
+        
+        .log-time {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        
+        .device-info {
+            font-size: 0.7em;
+            color: #28a745;
+            margin-top: 3px;
+            font-weight: bold;
         }
         
         .log-preview {
@@ -396,6 +432,12 @@
                 <div class="status-dot"></div>
                 <span id="status-text">Connexion en cours...</span>
             </div>
+            <div class="device-selector">
+                <span>📱 Device:</span>
+                <select id="device-selector" onchange="dashboard.switchDevice(this.value)">
+                    <option value="all">Tous les devices</option>
+                </select>
+            </div>
             <div class="control-group">
                 <div class="toggle-container">
                     <span>Auto-refresh:</span>
@@ -482,8 +524,11 @@
                 this.lastPageData = null;
                 this.lastVisualPageData = null;
                 this.activeTab = 'markdown';
+                this.selectedDevice = 'all';
+                this.availableDevices = [];
                 this.connect();
                 this.setupControls();
+                this.loadDevices();
             }
             
             connect() {
@@ -505,7 +550,12 @@
                     console.log('📄 Nouvelle page reçue:', pageData);
                     this.lastPageData = pageData;
                     if (this.autoRefresh) {
-                        this.addPage(pageData);
+                        // Vérifier si cette page correspond au device sélectionné
+                        if (this.shouldShowPage(pageData)) {
+                            this.addPage(pageData);
+                        } else {
+                            console.log('🚫 Page filtrée (device non sélectionné):', pageData.deviceId);
+                        }
                     } else {
                         console.log('⏸️ Auto-refresh désactivé - page mise en attente');
                     }
@@ -531,7 +581,12 @@
                     console.log('🎨 Nouvelle page visuelle reçue:', pageData);
                     this.lastVisualPageData = pageData;
                     if (this.autoRefresh && this.activeTab === 'visual') {
-                        this.addVisualPage(pageData);
+                        // Vérifier si cette page correspond au device sélectionné
+                        if (this.shouldShowPage(pageData)) {
+                            this.addVisualPage(pageData);
+                        } else {
+                            console.log('🚫 Page visuelle filtrée (device non sélectionné):', pageData.deviceId);
+                        }
                     } else {
                         console.log('⏸️ Auto-refresh désactivé ou onglet différent - page visuelle mise en attente');
                     }
@@ -776,32 +831,36 @@
             
             renderPages() {
                 const logList = document.getElementById('log-list');
+                const filteredPages = this.getFilteredPages();
                 
-                if (this.pages.length === 0) {
-                    logList.innerHTML = '<div class="no-data">Aucune page capturée</div>';
+                if (filteredPages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page capturée pour ce device</div>';
                     return;
                 }
                 
-                logList.innerHTML = this.pages.map(page => `
+                logList.innerHTML = filteredPages.map(page => `
                     <div class="log-item" onclick="dashboard.showPage('${page.id}')">
                         <div class="log-preview">📄 ${page.preview.substring(0, 50)}...</div>
                         <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                        <div class="device-info">📱 ${page.deviceId ? page.deviceId.substring(0, 8) + '...' : 'unknown'}</div>
                     </div>
                 `).join('');
             }
             
             renderVisualPages() {
                 const logList = document.getElementById('log-list');
+                const filteredPages = this.getFilteredVisualPages();
                 
-                if (this.visualPages.length === 0) {
-                    logList.innerHTML = '<div class="no-data">Aucune page visuelle capturée</div>';
+                if (filteredPages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page visuelle capturée pour ce device</div>';
                     return;
                 }
                 
-                logList.innerHTML = this.visualPages.map(page => `
+                logList.innerHTML = filteredPages.map(page => `
                     <div class="log-item" onclick="dashboard.showVisualPage('${page.id}')">
                         <div class="log-preview">🎨 ${page.preview.substring(0, 50)}...</div>
                         <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                        <div class="device-info">📱 ${page.deviceId ? page.deviceId.substring(0, 8) + '...' : 'unknown'}</div>
                     </div>
                 `).join('');
             }
@@ -857,6 +916,95 @@
                 } else {
                     console.log('❌ Aucune page en attente pour cet onglet');
                 }
+            }
+            
+            async loadDevices() {
+                try {
+                    console.log('🔍 Chargement des devices...');
+                    const response = await fetch('/api/carrefour-devices');
+                    const data = await response.json();
+                    
+                    console.log('📱 Devices reçus:', data);
+                    
+                    if (data.success) {
+                        this.availableDevices = data.devices;
+                        console.log('✅ Devices chargés:', this.availableDevices);
+                        this.updateDeviceSelector();
+                    } else {
+                        console.error('❌ Erreur serveur:', data);
+                    }
+                } catch (error) {
+                    console.error('❌ Erreur lors du chargement des devices:', error);
+                }
+            }
+            
+            updateDeviceSelector() {
+                const selector = document.getElementById('device-selector');
+                if (!selector) {
+                    console.error('❌ Sélecteur de device non trouvé!');
+                    return;
+                }
+                
+                console.log('🔄 Mise à jour du sélecteur avec', this.availableDevices.length, 'devices');
+                
+                // Sauvegarder la sélection actuelle
+                const currentValue = selector.value;
+                
+                // Vider et remplir le sélecteur
+                selector.innerHTML = '<option value="all">Tous les devices</option>';
+                
+                this.availableDevices.forEach(device => {
+                    const option = document.createElement('option');
+                    option.value = device.id;
+                    option.textContent = `${device.name} (${device.id.substring(0, 8)}...)`;
+                    selector.appendChild(option);
+                    console.log('➕ Device ajouté au sélecteur:', device.name, device.id.substring(0, 8));
+                });
+                
+                // Restaurer la sélection si possible
+                if (currentValue && this.availableDevices.some(d => d.id === currentValue)) {
+                    selector.value = currentValue;
+                }
+                
+                console.log('✅ Sélecteur mis à jour avec', this.availableDevices.length, 'devices');
+            }
+            
+            switchDevice(deviceId) {
+                this.selectedDevice = deviceId;
+                console.log(`📱 Device sélectionné: ${deviceId}`);
+                
+                // Filtrer et afficher les données selon le device
+                this.updateDisplay();
+                this.updateVisualDisplay();
+                this.renderPages();
+                this.renderVisualPages();
+                
+                // Afficher un message de confirmation
+                const deviceName = deviceId === 'all' ? 'Tous les devices' : 
+                    this.availableDevices.find(d => d.id === deviceId)?.name || deviceId;
+                console.log(`✅ Filtre activé: ${deviceName}`);
+            }
+            
+            getFilteredPages() {
+                if (this.selectedDevice === 'all') {
+                    return this.pages;
+                }
+                return this.pages.filter(page => page.deviceId === this.selectedDevice);
+            }
+            
+            getFilteredVisualPages() {
+                if (this.selectedDevice === 'all') {
+                    return this.visualPages;
+                }
+                return this.visualPages.filter(page => page.deviceId === this.selectedDevice);
+            }
+            
+            shouldShowPage(pageData) {
+                // Vérifier si la page doit être affichée selon le filtre de device actuel
+                if (this.selectedDevice === 'all') {
+                    return true; // Afficher toutes les pages
+                }
+                return pageData.deviceId === this.selectedDevice;
             }
         }
         

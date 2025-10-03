@@ -1378,7 +1378,7 @@ let currentCarrefourPage = '';
 
 // Endpoint pour recevoir les pages Carrefour en Markdown
 app.post('/api/carrefour-page', (req, res) => {
-  const { content, timestamp } = req.body;
+  const { content, timestamp, deviceId } = req.body;
   
   if (!content) {
     return res.status(400).json({
@@ -1387,10 +1387,14 @@ app.post('/api/carrefour-page', (req, res) => {
     });
   }
   
+  // Extraire l'ID du device depuis les headers ou body
+  const device = deviceId || req.headers['x-device-id'] || 'unknown';
+  
   const pageData = {
     id: Date.now(),
     timestamp: timestamp || new Date().toISOString(),
     content: content,
+    deviceId: device,
     preview: content.split('\n')[0] || 'Page Carrefour'
   };
   
@@ -1453,6 +1457,37 @@ app.post('/api/carrefour-clear', (req, res) => {
   });
 });
 
+// Endpoint pour récupérer la liste des devices
+app.get('/api/carrefour-devices', (req, res) => {
+  const devices = [...new Set(carrefourPages.map(page => page.deviceId))];
+  
+  res.json({
+    success: true,
+    devices: devices.map(deviceId => {
+      // Détecter le type de device plus intelligemment
+      let deviceName = 'Device inconnu';
+      if (deviceId === 'unknown') {
+        deviceName = 'Device inconnu';
+      } else if (deviceId.startsWith('emulator')) {
+        deviceName = 'Émulateur';
+      } else if (deviceId.includes('google_sdk') || deviceId.includes('sdk')) {
+        deviceName = 'Émulateur SDK';
+      } else {
+        // Pour les vrais téléphones, on peut essayer de détecter le modèle
+        deviceName = 'Téléphone';
+      }
+      
+      return {
+        id: deviceId,
+        name: deviceName,
+        lastActivity: carrefourPages
+          .filter(page => page.deviceId === deviceId)
+          .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))[0]?.timestamp
+      };
+    })
+  });
+});
+
 // ========== ENDPOINTS CARREFOUR VISUAL ==========
 
 // Store pour les pages Carrefour HTML (reconstruction visuelle)
@@ -1461,7 +1496,7 @@ let currentCarrefourVisualPage = '';
 
 // Endpoint pour recevoir les pages Carrefour HTML (reconstruction visuelle)
 app.post('/api/carrefour-visual', (req, res) => {
-  const { html, timestamp } = req.body;
+  const { html, timestamp, deviceId } = req.body;
   
   if (!html) {
     return res.status(400).json({
@@ -1470,10 +1505,14 @@ app.post('/api/carrefour-visual', (req, res) => {
     });
   }
   
+  // Extraire l'ID du device depuis les headers ou body
+  const device = deviceId || req.headers['x-device-id'] || 'unknown';
+  
   const visualData = {
     id: Date.now(),
     timestamp: timestamp || new Date().toISOString(),
     html: html,
+    deviceId: device,
     preview: html.includes('<title>') ? 
       html.match(/<title>(.*?)<\/title>/)?.[1] || 'Page Carrefour Visuelle' :
       'Page Carrefour Visuelle'

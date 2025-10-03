@@ -1,1 +1,21 @@
 node_modules
+
+# Android build files
+android-app/.gradle/
+android-app/app/build/
+android-app/.last_build_hash
+
+# APK files
+*.apk
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+monitoring-*.txt
