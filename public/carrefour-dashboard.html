@@ -290,14 +290,22 @@
         .visual-content {
             padding: 20px;
             background: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
         }
         
         .visual-content iframe {
-            width: 100%;
-            height: 100%;
+            width: 540px; /* Taille émulateur (1080/2) */
+            height: 1200px; /* Taille émulateur (2400/2) */
             border: none;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            background: white;
+            margin: 0 auto;
+            display: block;
+            overflow: hidden;
+            resize: none;
         }
         
         .spinner {
@@ -427,7 +435,7 @@
                     </ul>
                 </div>
                 
-                <h3>📄 Pages capturées</h3>
+                <h3 id="pages-title">📄 Pages capturées</h3>
                 <div id="log-list">
                     <div class="no-data">Aucune page capturée</div>
                 </div>
@@ -705,10 +713,15 @@
                 document.querySelector(`[onclick="dashboard.switchTab('${tabName}')"]`).classList.add('active');
                 document.getElementById(`${tabName}-tab`).classList.add('active');
                 
-                // Mettre à jour l'affichage selon l'onglet actif
+                // Mettre à jour le titre et la liste selon l'onglet
+                const pagesTitle = document.getElementById('pages-title');
                 if (tabName === 'markdown') {
+                    pagesTitle.textContent = '📄 Pages Markdown';
+                    this.renderPages();
                     this.updateDisplay();
                 } else if (tabName === 'visual') {
+                    pagesTitle.textContent = '🎨 Pages Visuelles';
+                    this.renderVisualPages();
                     this.updateVisualDisplay();
                 }
                 
@@ -732,10 +745,17 @@
             showVisualContent(content) {
                 const visualContentDiv = document.getElementById('visual-content');
                 if (content) {
+                    // Modifier le HTML pour forcer la taille mobile
+                    const mobileContent = content.replace(
+                        'width: 375px; height: 812px;',
+                        'width: 375px; height: 812px; min-width: 375px; min-height: 812px;'
+                    );
+                    
                     // Créer un iframe pour afficher le HTML
                     visualContentDiv.innerHTML = `
-                        <iframe srcdoc="${content.replace(/"/g, '&quot;')}" 
-                                style="width: 100%; height: 100%; border: none;">
+                        <iframe srcdoc="${mobileContent.replace(/"/g, '&quot;')}" 
+                                style="width: 540px; height: 1200px; border: none; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);"
+                                scrolling="no">
                         </iframe>
                     `;
                 } else {
@@ -754,6 +774,22 @@
                 }
             }
             
+            renderPages() {
+                const logList = document.getElementById('log-list');
+                
+                if (this.pages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page capturée</div>';
+                    return;
+                }
+                
+                logList.innerHTML = this.pages.map(page => `
+                    <div class="log-item" onclick="dashboard.showPage('${page.id}')">
+                        <div class="log-preview">📄 ${page.preview.substring(0, 50)}...</div>
+                        <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                    </div>
+                `).join('');
+            }
+            
             renderVisualPages() {
                 const logList = document.getElementById('log-list');
                 
@@ -768,6 +804,15 @@
                         <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
                     </div>
                 `).join('');
+            }
+            
+            showPage(pageId) {
+                const page = this.pages.find(p => p.id === pageId);
+                if (page) {
+                    this.currentPage = page.content;
+                    this.showContent(page.content);
+                    console.log('📄 Page Markdown affichée:', pageId);
+                }
             }
             
             showVisualPage(pageId) {
