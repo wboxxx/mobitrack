@@ -192,7 +192,7 @@ def main():
     # Etape 7.5 : Ouvrir les paramètres d'accessibilité
     print("7.5. Ouverture des paramètres d'accessibilité...")
     run_command("adb shell am start -a android.settings.ACCESSIBILITY_SETTINGS")
-    time.sleep(1)
+    time.sleep(3)
     print("   Paramètres ouverts - Activez 'CrossAppTracking' manuellement")
     print()
     
