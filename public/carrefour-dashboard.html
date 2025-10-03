@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Carrefour Dashboard</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #E60012, #FF6B35);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .controls {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .device-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .device-selector select {
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            color: #495057;
+            cursor: pointer;
+            min-width: 120px;
+        }
+        
+        .device-selector select:focus {
+            outline: none;
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+        }
+        
+        .toggle-switch {
+            width: 40px;
+            height: 20px;
+            background: #ccc;
+            border-radius: 10px;
+            position: relative;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .toggle-switch.active {
+            background: #28a745;
+        }
+        
+        .toggle-slider {
+            width: 16px;
+            height: 16px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: transform 0.3s;
+        }
+        
+        .toggle-switch.active .toggle-slider {
+            transform: translateX(20px);
+        }
+        
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+        }
+        
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #28a745;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .btn {
+            background: #FF6B35;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+            margin: 0 5px;
+        }
+        
+        .btn:hover {
+            background: #e55a2b;
+        }
+        
+        .btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .content {
+            display: flex;
+            min-height: 70vh;
+        }
+        
+        .sidebar {
+            width: 300px;
+            background: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .stats {
+            margin-bottom: 20px;
+        }
+        
+        .stats h3 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .stat-item {
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #E60012;
+        }
+        
+        .stat-label {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 2px;
+        }
+        
+        .log-list {
+            margin-top: 20px;
+        }
+        
+        .log-list h3 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .log-item {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .log-item:hover {
+            border-color: #FF6B35;
+            box-shadow: 0 2px 5px rgba(255, 107, 53, 0.2);
+        }
+        
+        .log-entry.active {
+            border-color: #FF6B35;
+            background: #fff5f2;
+        }
+        
+        .log-timestamp {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        
+        .log-time {
+            font-size: 0.8em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+        
+        .device-info {
+            font-size: 0.7em;
+            color: #28a745;
+            margin-top: 3px;
+            font-weight: bold;
+        }
+        
+        .log-preview {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .no-data {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            padding: 20px;
+        }
+        
+        .main-content {
+            flex: 1;
+            background: white;
+            overflow-y: auto;
+        }
+        
+        /* Styles pour les onglets */
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            color: #6c757d;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .tab:hover {
+            background: #e9ecef;
+            color: #495057;
+        }
+        
+        .tab.active {
+            background: white;
+            color: #E60012;
+            border-bottom-color: #E60012;
+        }
+        
+        .tab-content {
+            display: none;
+            height: calc(120vh - 240px);
+            overflow-y: auto;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .visual-content {
+            padding: 20px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        
+        .visual-content iframe {
+            width: 540px; /* Taille émulateur (1080/2) */
+            height: 1200px; /* Taille émulateur (2400/2) */
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            background: white;
+            margin: 0 auto;
+            display: block;
+            overflow: hidden;
+            resize: none;
+        }
+        
+        .markdown-content {
+            padding: 20px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.75em;
+            line-height: 1.1;
+            color: #2c3e50;
+            background: #f8f9fa;
+            max-height: 72vh;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        
+        .markdown-content h1 {
+            color: #E60012;
+            border-bottom: 2px solid #E60012;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .markdown-content h2 {
+            color: #495057;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .markdown-content h3 {
+            color: #6c757d;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            font-size: 1em;
+        }
+        
+        .markdown-content ul {
+            margin: 4px 0;
+            padding-left: 20px;
+        }
+        
+        .markdown-content li {
+            margin: 1px 0;
+        }
+        
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: #6c757d;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #E60012;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🛒 Carrefour Dashboard</h1>
+        <p>Visualisation temps réel des pages Carrefour en Markdown</p>
+    </div>
+    
+    <div class="controls">
+        <div class="status">
+            <div class="status-dot"></div>
+            <span id="status-text">Connexion en cours...</span>
+        </div>
+        <div class="device-selector">
+            <span>📱 Device:</span>
+            <select id="device-selector" onchange="dashboard.switchDevice(this.value)">
+                <option value="all">Tous les devices</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <div class="toggle-container">
+                <span>Auto-refresh:</span>
+                <div class="toggle-switch active" id="auto-refresh-toggle">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <button class="btn" onclick="showLastPage()">📄 Dernière page</button>
+            <button class="btn" onclick="clearPages()">🗑️ Effacer</button>
+            <button class="btn" onclick="refreshData()">🔄 Actualiser</button>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="sidebar">
+            <div class="stats">
+                <h3>📊 Statistiques</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value" id="total-pages">0</div>
+                        <div class="stat-label">Pages</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="current-device">-</div>
+                        <div class="stat-label">Device</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="log-list">
+                <h3 id="pages-title">📄 Pages Markdown</h3>
+                <div id="log-list">
+                    <div class="no-data">Aucune page capturée</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="tabs">
+                <button class="tab active" onclick="dashboard.switchTab('markdown')">📝 Vue Markdown</button>
+                <button class="tab" onclick="dashboard.switchTab('visual')">🎨 Vue Visuelle</button>
+            </div>
+            
+            <div id="markdown-tab" class="tab-content active">
+                <div id="content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Connexion au serveur...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="visual-tab" class="tab-content">
+                <div class="visual-content">
+                    <div id="visual-content">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>En attente de données visuelles...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class CarrefourDashboard {
+            constructor() {
+                this.pages = [];
+                this.currentPage = null;
+                this.visualPages = [];
+                this.currentVisualPage = null;
+                this.socket = null;
+                this.autoRefresh = true;
+                this.lastPageData = null;
+                this.lastVisualPageData = null;
+                this.activeTab = 'markdown';
+                this.selectedDevice = 'all';
+                this.availableDevices = [];
+                this.connect();
+                this.setupControls();
+                this.loadDevices();
+            }
+            
+            connect() {
+                // Connexion WebSocket
+                this.socket = io();
+                
+                this.socket.on('connect', () => {
+                    console.log('✅ Connecté au serveur');
+                    document.getElementById('status-text').textContent = 'Connecté au serveur';
+                    this.loadData();
+                });
+                
+                this.socket.on('disconnect', () => {
+                    console.log('❌ Déconnecté du serveur');
+                    document.getElementById('status-text').textContent = 'Déconnecté du serveur';
+                });
+                
+                this.socket.on('newCarrefourPage', (pageData) => {
+                    console.log('📄 Nouvelle page reçue:', pageData);
+                    this.lastPageData = pageData;
+                    if (this.autoRefresh) {
+                        // Vérifier si cette page correspond au device sélectionné
+                        if (this.shouldShowPage(pageData)) {
+                            this.addPage(pageData);
+                        } else {
+                            console.log('🚫 Page filtrée (device non sélectionné):', pageData.deviceId);
+                        }
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé - page mise en attente');
+                    }
+                });
+                
+                this.socket.on('carrefourPageUpdate', (data) => {
+                    console.log('🔄 Mise à jour page:', data);
+                    if (this.autoRefresh) {
+                        this.updateCurrentPage(data.currentPage);
+                        this.updateStats();
+                    }
+                });
+                
+                this.socket.on('carrefourPagesCleared', () => {
+                    console.log('🗑️ Pages effacées');
+                    this.clearPages();
+                });
+                
+                // Listeners pour les données visuelles
+                this.socket.on('newCarrefourVisualPage', (pageData) => {
+                    console.log('🎨 Nouvelle page visuelle reçue:', pageData);
+                    this.lastVisualPageData = pageData;
+                    if (this.autoRefresh && this.activeTab === 'visual') {
+                        // Vérifier si cette page correspond au device sélectionné
+                        if (this.shouldShowPage(pageData)) {
+                            this.addVisualPage(pageData);
+                        } else {
+                            console.log('🚫 Page visuelle filtrée (device non sélectionné):', pageData.deviceId);
+                        }
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé ou onglet différent - page visuelle mise en attente');
+                    }
+                });
+                
+                this.socket.on('carrefourVisualPageUpdate', (data) => {
+                    console.log('🔄 Mise à jour page visuelle:', data);
+                    if (this.autoRefresh && this.activeTab === 'visual') {
+                        this.updateCurrentVisualPage(data.currentPage);
+                        this.updateStats();
+                    } else {
+                        console.log('⏸️ Auto-refresh désactivé ou onglet différent - mise à jour visuelle ignorée');
+                    }
+                });
+                
+                this.socket.on('carrefourVisualPagesCleared', () => {
+                    console.log('🗑️ Pages visuelles effacées');
+                    this.clearVisualPages();
+                });
+            }
+            
+            async loadData() {
+                try {
+                    // Charger les données Markdown
+                    const response = await fetch('/api/carrefour-pages');
+                    const data = await response.json();
+                    
+                    if (data.success) {
+                        this.pages = data.pages || [];
+                        this.currentPage = data.currentPage || '';
+                        this.updateDisplay();
+                        this.updateStats();
+                    }
+                    
+                    // Charger les données visuelles
+                    const visualResponse = await fetch('/api/carrefour-visual-pages');
+                    const visualData = await visualResponse.json();
+                    
+                    if (visualData.success) {
+                        this.visualPages = visualData.pages || [];
+                        this.currentVisualPage = visualData.currentPage || '';
+                        this.updateVisualDisplay();
+                    }
+                } catch (error) {
+                    console.error('Erreur lors du chargement:', error);
+                }
+            }
+            
+            setupControls() {
+                // Toggle auto-refresh
+                const toggle = document.getElementById('auto-refresh-toggle');
+                toggle.addEventListener('click', () => {
+                    this.autoRefresh = !this.autoRefresh;
+                    toggle.classList.toggle('active', this.autoRefresh);
+                    console.log('Auto-refresh:', this.autoRefresh ? 'activé' : 'désactivé');
+                });
+            }
+            
+            addPage(pageData) {
+                this.pages.unshift(pageData);
+                this.currentPage = pageData.content;
+                this.updateDisplay();
+                this.renderPages();
+                this.updateStats();
+            }
+            
+            updateCurrentPage(content) {
+                this.currentPage = content;
+                this.showContent(content);
+            }
+            
+            showContent(content) {
+                const contentDiv = document.getElementById('content');
+                if (content) {
+                    contentDiv.innerHTML = `<div class="markdown-content">${this.formatMarkdown(content)}</div>`;
+                } else {
+                    contentDiv.innerHTML = `
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Aucune page disponible</p>
+                        </div>
+                    `;
+                }
+            }
+            
+            updateDisplay() {
+                if (this.activeTab === 'markdown') {
+                    this.showContent(this.currentPage);
+                }
+            }
+            
+            formatMarkdown(content) {
+                return content
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                    .replace(/`(.*?)`/g, '<code>$1</code>')
+                    .replace(/\n/g, '<br>');
+            }
+            
+            updateStats() {
+                const filteredPages = this.getFilteredPages();
+                document.getElementById('total-pages').textContent = filteredPages.length;
+                
+                const deviceName = this.selectedDevice === 'all' ? 'Tous' : 
+                    this.availableDevices.find(d => d.id === this.selectedDevice)?.name || this.selectedDevice;
+                document.getElementById('current-device').textContent = deviceName;
+            }
+            
+            clearAllPages() {
+                this.pages = [];
+                this.currentPage = null;
+                this.visualPages = [];
+                this.currentVisualPage = null;
+                this.updateDisplay();
+                this.updateVisualDisplay();
+                this.renderPages();
+                this.renderVisualPages();
+                this.updateStats();
+            }
+            
+            clearPages() {
+                this.pages = [];
+                this.currentPage = null;
+                this.updateDisplay();
+                this.renderPages();
+                this.updateStats();
+            }
+            
+            // Méthodes pour gérer les onglets
+            switchTab(tabName) {
+                this.activeTab = tabName;
+                
+                // Mettre à jour les onglets
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.classList.remove('active');
+                });
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                document.querySelector(`[onclick="dashboard.switchTab('${tabName}')"]`).classList.add('active');
+                document.getElementById(`${tabName}-tab`).classList.add('active');
+                
+                // Mettre à jour le titre et la liste selon l'onglet
+                const pagesTitle = document.getElementById('pages-title');
+                if (tabName === 'markdown') {
+                    pagesTitle.textContent = '📄 Pages Markdown';
+                    this.renderPages();
+                    this.updateDisplay();
+                } else if (tabName === 'visual') {
+                    pagesTitle.textContent = '🎨 Pages Visuelles';
+                    this.renderVisualPages();
+                    this.updateVisualDisplay();
+                }
+                
+                console.log(`🔄 Onglet activé: ${tabName}`);
+            }
+            
+            // Méthodes pour les données visuelles
+            addVisualPage(pageData) {
+                this.visualPages.unshift(pageData);
+                this.currentVisualPage = pageData.html;
+                this.updateVisualDisplay();
+                this.renderVisualPages();
+                this.updateStats();
+            }
+            
+            updateCurrentVisualPage(content) {
+                this.currentVisualPage = content;
+                this.showVisualContent(content);
+            }
+            
+            showVisualContent(content) {
+                const visualContentDiv = document.getElementById('visual-content');
+                if (content) {
+                    // Modifier le HTML pour forcer la taille mobile
+                    const mobileContent = content.replace(
+                        'width: 375px; height: 812px;',
+                        'width: 375px; height: 812px; min-width: 375px; min-height: 812px;'
+                    );
+                    
+                    // Créer un iframe pour afficher le HTML
+                    visualContentDiv.innerHTML = `
+                        <iframe srcdoc="${mobileContent.replace(/"/g, '&quot;')}" 
+                                style="width: 540px; height: 1200px; border: none; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);"
+                                scrolling="no">
+                        </iframe>
+                    `;
+                } else {
+                    visualContentDiv.innerHTML = `
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>En attente de données visuelles...</p>
+                        </div>
+                    `;
+                }
+            }
+            
+            updateVisualDisplay() {
+                if (this.activeTab === 'visual') {
+                    this.showVisualContent(this.currentVisualPage);
+                }
+            }
+            
+            renderPages() {
+                const logList = document.getElementById('log-list');
+                const filteredPages = this.getFilteredPages();
+                
+                if (filteredPages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page capturée pour ce device</div>';
+                    return;
+                }
+                
+                logList.innerHTML = filteredPages.map(page => `
+                    <div class="log-item" onclick="dashboard.showPage('${page.id}')">
+                        <div class="log-preview">📄 ${page.preview.substring(0, 50)}...</div>
+                        <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                        <div class="device-info">📱 ${page.deviceId ? page.deviceId.substring(0, 8) + '...' : 'unknown'}</div>
+                    </div>
+                `).join('');
+            }
+            
+            renderVisualPages() {
+                const logList = document.getElementById('log-list');
+                const filteredPages = this.getFilteredVisualPages();
+                
+                if (filteredPages.length === 0) {
+                    logList.innerHTML = '<div class="no-data">Aucune page visuelle capturée pour ce device</div>';
+                    return;
+                }
+                
+                logList.innerHTML = filteredPages.map(page => `
+                    <div class="log-item" onclick="dashboard.showVisualPage('${page.id}')">
+                        <div class="log-preview">🎨 ${page.preview.substring(0, 50)}...</div>
+                        <div class="log-time">${new Date(page.timestamp).toLocaleTimeString()}</div>
+                        <div class="device-info">📱 ${page.deviceId ? page.deviceId.substring(0, 8) + '...' : 'unknown'}</div>
+                    </div>
+                `).join('');
+            }
+            
+            showPage(pageId) {
+                const page = this.pages.find(p => p.id === pageId);
+                if (page) {
+                    this.currentPage = page.content;
+                    this.showContent(page.content);
+                    console.log('📄 Page Markdown affichée:', pageId);
+                }
+            }
+            
+            showVisualPage(pageId) {
+                const page = this.visualPages.find(p => p.id === pageId);
+                if (page) {
+                    this.currentVisualPage = page.html;
+                    this.showVisualContent(page.html);
+                    console.log('🎨 Page visuelle affichée:', pageId);
+                }
+            }
+            
+            clearVisualPages() {
+                this.visualPages = [];
+                this.currentVisualPage = null;
+                this.renderVisualPages();
+                this.updateVisualDisplay();
+            }
+            
+            async refreshData() {
+                if (!this.autoRefresh) {
+                    // Si auto-refresh est désactivé, afficher les dernières pages reçues
+                    if (this.activeTab === 'markdown' && this.lastPageData) {
+                        this.addPage(this.lastPageData);
+                        console.log('🔄 Affichage de la dernière page Markdown reçue');
+                    } else if (this.activeTab === 'visual' && this.lastVisualPageData) {
+                        this.addVisualPage(this.lastVisualPageData);
+                        console.log('🔄 Affichage de la dernière page visuelle reçue');
+                    }
+                } else {
+                    await this.loadData();
+                    console.log('🔄 Données actualisées');
+                }
+            }
+            
+            showLastPage() {
+                if (this.activeTab === 'markdown' && this.lastPageData) {
+                    this.addPage(this.lastPageData);
+                    console.log('📄 Affichage de la dernière page Markdown capturée');
+                } else if (this.activeTab === 'visual' && this.lastVisualPageData) {
+                    this.addVisualPage(this.lastVisualPageData);
+                    console.log('🎨 Affichage de la dernière page visuelle capturée');
+                } else {
+                    console.log('❌ Aucune page en attente pour cet onglet');
+                }
+            }
+            
+            async loadDevices() {
+                try {
+                    console.log('🔍 Chargement des devices...');
+                    const response = await fetch('/api/carrefour-devices');
+                    const data = await response.json();
+                    
+                    console.log('📱 Devices reçus:', data);
+                    
+                    if (data.success) {
+                        this.availableDevices = data.devices;
+                        console.log('✅ Devices chargés:', this.availableDevices);
+                        this.updateDeviceSelector();
+                    } else {
+                        console.error('❌ Erreur serveur:', data);
+                    }
+                } catch (error) {
+                    console.error('❌ Erreur lors du chargement des devices:', error);
+                }
+            }
+            
+            updateDeviceSelector() {
+                const selector = document.getElementById('device-selector');
+                if (!selector) {
+                    console.error('❌ Sélecteur de device non trouvé!');
+                    return;
+                }
+                
+                console.log('🔄 Mise à jour du sélecteur avec', this.availableDevices.length, 'devices');
+                
+                // Sauvegarder la sélection actuelle
+                const currentValue = selector.value;
+                
+                // Vider et remplir le sélecteur
+                selector.innerHTML = '<option value="all">Tous les devices</option>';
+                
+                this.availableDevices.forEach(device => {
+                    const option = document.createElement('option');
+                    option.value = device.id;
+                    option.textContent = `${device.name} (${device.id.substring(0, 8)}...)`;
+                    selector.appendChild(option);
+                    console.log('➕ Device ajouté au sélecteur:', device.name, device.id.substring(0, 8));
+                });
+                
+                // Restaurer la sélection si possible
+                if (currentValue && this.availableDevices.some(d => d.id === currentValue)) {
+                    selector.value = currentValue;
+                }
+                
+                console.log('✅ Sélecteur mis à jour avec', this.availableDevices.length, 'devices');
+            }
+            
+            switchDevice(deviceId) {
+                this.selectedDevice = deviceId;
+                console.log(`📱 Device sélectionné: ${deviceId}`);
+                
+                // Filtrer et afficher les données selon le device
+                this.updateDisplay();
+                this.updateVisualDisplay();
+                this.renderPages();
+                this.renderVisualPages();
+                
+                // Afficher un message de confirmation
+                const deviceName = deviceId === 'all' ? 'Tous les devices' : 
+                    this.availableDevices.find(d => d.id === deviceId)?.name || deviceId;
+                console.log(`✅ Filtre activé: ${deviceName}`);
+            }
+            
+            getFilteredPages() {
+                if (this.selectedDevice === 'all') {
+                    return this.pages;
+                }
+                return this.pages.filter(page => page.deviceId === this.selectedDevice);
+            }
+            
+            getFilteredVisualPages() {
+                if (this.selectedDevice === 'all') {
+                    return this.visualPages;
+                }
+                return this.visualPages.filter(page => page.deviceId === this.selectedDevice);
+            }
+            
+            shouldShowPage(pageData) {
+                // Vérifier si la page doit être affichée selon le filtre de device actuel
+                if (this.selectedDevice === 'all') {
+                    return true; // Afficher toutes les pages
+                }
+                return pageData.deviceId === this.selectedDevice;
+            }
+        }
+        
+        // Initialiser le dashboard
+        const dashboard = new CarrefourDashboard();
+        
+        // Fonctions globales pour les boutons
+        function clearPages() {
+            dashboard.clearAllPages();
+        }
+        
+        function refreshData() {
+            dashboard.refreshData();
+        }
+        
+        function showLastPage() {
+            dashboard.showLastPage();
+        }
+    </script>
+</body>
+</html>
