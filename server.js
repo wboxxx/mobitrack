@@ -5,6 +5,7 @@ const path = require('path');
 const http = require('http');
 const socketIo = require('socket.io');
 const AppConfigManager = require('./app-config-manager');
+const AccessibilityAuscultation = require('./accessibility-auscultation');
 
 const app = express();
 const server = http.createServer(app);
@@ -19,6 +20,9 @@ const PORT = process.env.PORT || 3001;
 
 // Initialiser le gestionnaire de configuration multi-apps
 const appConfigManager = new AppConfigManager('./app-configs.json');
+
+// Initialiser le module d'auscultation d'accessibilité
+const accessibilityAuscultation = new AccessibilityAuscultation();
 
 // Middleware
 app.use(cors());
@@ -65,6 +69,110 @@ app.get('/cart-detection-test', (req, res) => {
 
 app.get('/carrefour-dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'carrefour-dashboard.html'));
+});
+
+// Dashboard d'auscultation d'accessibilité
+app.get('/accessibility-dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'accessibility-dashboard.html'));
+});
+
+// Dashboard d'auscultation avancé (selon le prompt original)
+app.get('/auscultation-dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'auscultation-dashboard.html'));
+});
+
+// ===== ENDPOINTS D'AUSCULTATION D'ACCESSIBILITÉ =====
+
+// Recevoir des événements d'accessibilité
+app.post('/api/accessibility-events', (req, res) => {
+  try {
+    const result = accessibilityAuscultation.addAccessibilityEvent(req.body);
+    
+    if (result.success) {
+      // Diffuser l'événement en temps réel via WebSocket
+      io.emit('accessibilityEvent', req.body);
+      res.json({ success: true, message: 'Événements d\'accessibilité reçus' });
+    } else {
+      res.status(400).json({ success: false, error: result.error });
+    }
+  } catch (error) {
+    console.error('Erreur lors de la réception d\'événements d\'accessibilité:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
+});
+
+// Générer un rapport d'auscultation
+app.post('/api/auscultation-report', (req, res) => {
+  try {
+    const { deviceId, sessionId } = req.body;
+    const result = accessibilityAuscultation.generateAuscultationReport(deviceId, sessionId);
+    
+    if (result.success) {
+      res.json({ success: true, report: result.report });
+    } else {
+      res.status(400).json({ success: false, error: result.error });
+    }
+  } catch (error) {
+    console.error('Erreur lors de la génération du rapport:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
+});
+
+// Obtenir tous les rapports d'auscultation
+app.get('/api/auscultation-reports', (req, res) => {
+  try {
+    const reports = accessibilityAuscultation.getAllReports();
+    res.json({ success: true, reports: reports });
+  } catch (error) {
+    console.error('Erreur lors de la récupération des rapports:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
+});
+
+// Obtenir un rapport spécifique
+app.get('/api/auscultation-reports/:reportId', (req, res) => {
+  try {
+    const { reportId } = req.params;
+    const report = accessibilityAuscultation.getReport(reportId);
+    
+    if (report) {
+      res.json({ success: true, report: report });
+    } else {
+      res.status(404).json({ success: false, error: 'Rapport non trouvé' });
+    }
+  } catch (error) {
+    console.error('Erreur lors de la récupération du rapport:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
+});
+
+// Effacer les événements d'accessibilité
+app.post('/api/accessibility-events-clear', (req, res) => {
+  try {
+    const { deviceId, sessionId } = req.body;
+    accessibilityAuscultation.clearEvents(deviceId, sessionId);
+    res.json({ success: true, message: 'Événements effacés' });
+  } catch (error) {
+    console.error('Erreur lors de l\'effacement des événements:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
+});
+
+// Obtenir les statistiques d'accessibilité
+app.get('/api/accessibility-stats', (req, res) => {
+  try {
+    const stats = accessibilityAuscultation.getGlobalStats();
+    const recentEvents = accessibilityAuscultation.getRecentEvents(50);
+    
+    res.json({ 
+      success: true, 
+      stats: stats,
+      recentEvents: recentEvents
+    });
+  } catch (error) {
+    console.error('Erreur lors de la récupération des statistiques:', error);
+    res.status(500).json({ success: false, error: 'Erreur serveur' });
+  }
 });
 
 // Système de filtrage intelligent côté serveur

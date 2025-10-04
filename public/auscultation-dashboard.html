@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Auscultation d'App via Accessibility</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+        }
+
+        .app-profile {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .app-profile h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .profile-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #1e3c72;
+        }
+
+        .profile-card h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        .capability-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin: 2px;
+        }
+
+        .capability-badge.disabled {
+            background: #6c757d;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .timeline-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .timeline-panel h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .timeline {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .timeline-event {
+            background: #f8f9fa;
+            border-left: 4px solid #1e3c72;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-event:hover {
+            background: #e3f2fd;
+            transform: translateX(5px);
+        }
+
+        .timeline-event.new {
+            animation: slideIn 0.5s ease;
+            border-left-color: #28a745;
+        }
+
+        .timeline-event.add-to-cart {
+            border-left-color: #ffc107;
+        }
+
+        .timeline-event.product-detail {
+            border-left-color: #17a2b8;
+        }
+
+        .timeline-event.cart-view {
+            border-left-color: #fd7e14;
+        }
+
+        .event-category {
+            font-weight: bold;
+            color: #1e3c72;
+            font-size: 0.9rem;
+        }
+
+        .event-details {
+            margin-top: 5px;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .event-confidence {
+            float: right;
+            font-size: 0.8rem;
+            color: #666;
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+
+        .event-time {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        .inferences-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .inferences-panel h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .inference-item {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .inference-hypothesis {
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 8px;
+        }
+
+        .inference-because {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .inference-confidence {
+            font-size: 0.8rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .confidence-report {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .confidence-report h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .confidence-section {
+            margin-bottom: 20px;
+        }
+
+        .confidence-section h3 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .confidence-section.strong h3 {
+            color: #28a745;
+        }
+
+        .confidence-section.medium h3 {
+            color: #ffc107;
+        }
+
+        .confidence-section.weak h3 {
+            color: #fd7e14;
+        }
+
+        .confidence-section.missing h3 {
+            color: #dc3545;
+        }
+
+        .confidence-item {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .summary-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .summary-section h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .summary-content {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #1e3c72;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #2a5298;
+            transform: translateY(-2px);
+        }
+
+        .btn.secondary {
+            background: #6c757d;
+        }
+
+        .btn.secondary:hover {
+            background: #5a6268;
+        }
+
+        .status {
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .status.connected {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.disconnected {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Auscultation d'App via Accessibility</h1>
+            <p>Analyseur d'interactions d'apps Android basé sur des événements Accessibility</p>
+        </div>
+
+        <div class="status" id="connectionStatus">
+            <span id="statusText">Connexion en cours...</span>
+        </div>
+
+        <!-- Profil de l'app -->
+        <div class="app-profile" id="appProfile">
+            <h2>📱 Profil de l'Application</h2>
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <h3>Informations de base</h3>
+                    <div id="appBasicInfo">
+                        <p><strong>Package:</strong> <span id="appPackage">En attente...</span></p>
+                        <p><strong>Marque:</strong> <span id="appBrand">En attente...</span></p>
+                        <p><strong>Première détection:</strong> <span id="appFirstSeen">En attente...</span></p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <h3>Capacités détectées</h3>
+                    <div id="appCapabilities">
+                        <span class="capability-badge disabled">Clics</span>
+                        <span class="capability-badge disabled">Scrolls</span>
+                        <span class="capability-badge disabled">IDs</span>
+                        <span class="capability-badge disabled">Texte riche</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <!-- Timeline des événements -->
+            <div class="timeline-panel">
+                <h2>📊 Timeline des Événements</h2>
+                <div class="controls">
+                    <button class="btn" onclick="clearTimeline()">Effacer</button>
+                    <button class="btn secondary" onclick="toggleAutoScroll()">Auto-scroll</button>
+                </div>
+                <div class="timeline" id="timeline">
+                    <div class="timeline-event">
+                        <div class="event-details">En attente d'événements d'auscultation...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Inférences -->
+            <div class="inferences-panel">
+                <h2>🧠 Inférences d'Actions Métier</h2>
+                <div id="inferencesList">
+                    <div class="inference-item">
+                        <div class="inference-details">Aucune inférence disponible</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rapport de confiance -->
+        <div class="confidence-report">
+            <h2>📈 Rapport de Confiance</h2>
+            <div class="confidence-section strong">
+                <h3>✅ Détections Fortes</h3>
+                <div id="strongDetections">
+                    <div class="confidence-item">Aucune détection forte</div>
+                </div>
+            </div>
+            <div class="confidence-section medium">
+                <h3>⚠️ Détections Moyennes</h3>
+                <div id="mediumDetections">
+                    <div class="confidence-item">Aucune détection moyenne</div>
+                </div>
+            </div>
+            <div class="confidence-section weak">
+                <h3>🔍 Détections Faibles</h3>
+                <div id="weakDetections">
+                    <div class="confidence-item">Aucune détection faible</div>
+                </div>
+            </div>
+            <div class="confidence-section missing">
+                <h3>❌ Signaux Manquants</h3>
+                <div id="missingSignals">
+                    <div class="confidence-item">Aucun signal manquant</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Résumé d'auscultation -->
+        <div class="summary-section">
+            <h2>📋 Résumé d'Auscultation</h2>
+            <div class="summary-content" id="auscultationSummary">
+                En attente de données d'auscultation...
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        let events = [];
+        let appProfile = null;
+        let autoScroll = true;
+        let sessionStartTime = Date.now();
+
+        // Connexion WebSocket
+        const socket = io();
+        
+        socket.on('connect', function() {
+            updateConnectionStatus(true);
+        });
+
+        socket.on('disconnect', function() {
+            updateConnectionStatus(false);
+        });
+
+        // Écouter les événements d'auscultation
+        socket.on('accessibilityEvent', function(eventData) {
+            if (eventData.events && Array.isArray(eventData.events)) {
+                eventData.events.forEach(event => {
+                    addAuscultationEvent(event);
+                });
+            }
+        });
+
+        function addAuscultationEvent(event) {
+            events.unshift(event);
+            if (events.length > 100) {
+                events = events.slice(0, 100);
+            }
+
+            // Mettre à jour le profil de l'app
+            if (event.appProfile) {
+                updateAppProfile(event.appProfile);
+            }
+
+            // Afficher l'événement dans la timeline
+            displayTimelineEvent(event);
+            
+            // Mettre à jour les inférences
+            updateInferences(event);
+        }
+
+        function updateAppProfile(profile) {
+            appProfile = profile;
+            
+            document.getElementById('appPackage').textContent = profile.packageName || 'Unknown';
+            document.getElementById('appBrand').textContent = profile.likelyBrand || 'Unknown';
+            document.getElementById('appFirstSeen').textContent = new Date(profile.firstSeen).toLocaleString();
+            
+            // Mettre à jour les capacités
+            const capabilities = document.getElementById('appCapabilities');
+            const capabilityMap = profile.capabilityMap || {};
+            
+            capabilities.innerHTML = `
+                <span class="capability-badge ${capabilityMap.emitsClicks ? '' : 'disabled'}">Clics</span>
+                <span class="capability-badge ${capabilityMap.emitsScrolls ? '' : 'disabled'}">Scrolls</span>
+                <span class="capability-badge ${capabilityMap.exposesIds ? '' : 'disabled'}">IDs</span>
+                <span class="capability-badge ${capabilityMap.textRichness === 'HIGH' ? '' : 'disabled'}">Texte riche</span>
+            `;
+        }
+
+        function displayTimelineEvent(event) {
+            const timeline = document.getElementById('timeline');
+            
+            // Supprimer le message d'attente
+            if (timeline.children.length === 1 && timeline.children[0].textContent.includes('En attente')) {
+                timeline.innerHTML = '';
+            }
+            
+            const eventDiv = document.createElement('div');
+            eventDiv.className = `timeline-event ${event.category?.toLowerCase().replace('_', '-')} new`;
+            
+            const time = new Date(event.timestamp).toLocaleTimeString();
+            const category = event.category || 'UNKNOWN';
+            const confidence = event.confidence ? (event.confidence * 100).toFixed(1) + '%' : 'N/A';
+            
+            let eventDetails = '';
+            if (event.widget) {
+                eventDetails = `
+                    <strong>Widget:</strong> ${event.widget.className}<br>
+                    ${event.widget.id ? `<strong>ID:</strong> ${event.widget.id}<br>` : ''}
+                    ${event.widget.text ? `<strong>Texte:</strong> ${event.widget.text}<br>` : ''}
+                    ${event.context?.screenGuess ? `<strong>Écran:</strong> ${event.context.screenGuess}<br>` : ''}
+                `;
+            }
+            
+            if (event.context?.productGuess) {
+                eventDetails += `
+                    <strong>Produit:</strong> ${event.context.productGuess.title || 'N/A'}<br>
+                    <strong>Prix:</strong> ${event.context.productGuess.price || 'N/A'}
+                `;
+            }
+            
+            eventDiv.innerHTML = `
+                <div class="event-category">${category}</div>
+                <div class="event-details">${eventDetails}</div>
+                <div class="event-confidence">Confiance: ${confidence}</div>
+                <div class="event-time">${time}</div>
+            `;
+            
+            timeline.insertBefore(eventDiv, timeline.firstChild);
+            
+            if (autoScroll) {
+                timeline.scrollTop = 0;
+            }
+            
+            // Supprimer la classe "new" après l'animation
+            setTimeout(() => {
+                eventDiv.classList.remove('new');
+            }, 500);
+        }
+
+        function updateInferences(event) {
+            if (!event.inferences || !Array.isArray(event.inferences)) return;
+            
+            const inferencesList = document.getElementById('inferencesList');
+            
+            // Supprimer le message d'attente
+            if (inferencesList.children.length === 1 && inferencesList.children[0].textContent.includes('Aucune')) {
+                inferencesList.innerHTML = '';
+            }
+            
+            event.inferences.forEach(inference => {
+                const inferenceDiv = document.createElement('div');
+                inferenceDiv.className = 'inference-item';
+                
+                const confidence = (inference.confidence * 100).toFixed(1);
+                
+                inferenceDiv.innerHTML = `
+                    <div class="inference-hypothesis">${inference.hypothesis}</div>
+                    <div class="inference-because">Parce que: ${inference.because.join(', ')}</div>
+                    <div class="inference-confidence">Confiance: ${confidence}%</div>
+                `;
+                
+                inferencesList.appendChild(inferenceDiv);
+            });
+        }
+
+        function updateConnectionStatus(connected) {
+            const statusDiv = document.getElementById('connectionStatus');
+            const statusText = document.getElementById('statusText');
+            
+            if (connected) {
+                statusDiv.className = 'status connected';
+                statusText.textContent = '✅ Connecté - Auscultation active';
+            } else {
+                statusDiv.className = 'status disconnected';
+                statusText.textContent = '❌ Déconnecté - Reconnexion en cours...';
+            }
+        }
+
+        function clearTimeline() {
+            events = [];
+            document.getElementById('timeline').innerHTML = `
+                <div class="timeline-event">
+                    <div class="event-details">Timeline effacée</div>
+                </div>
+            `;
+            document.getElementById('inferencesList').innerHTML = `
+                <div class="inference-item">
+                    <div class="inference-details">Aucune inférence disponible</div>
+                </div>
+            `;
+        }
+
+        function toggleAutoScroll() {
+            autoScroll = !autoScroll;
+            const btn = event.target;
+            btn.textContent = autoScroll ? 'Auto-scroll' : 'Scroll manuel';
+            btn.className = autoScroll ? 'btn secondary' : 'btn';
+        }
+
+        // Générer le résumé d'auscultation
+        function generateAuscultationSummary() {
+            if (events.length === 0) {
+                return "Aucun événement d'auscultation disponible.";
+            }
+            
+            const duration = Math.round((Date.now() - sessionStartTime) / 1000);
+            const appName = appProfile?.likelyBrand || 'Unknown App';
+            
+            const categories = [...new Set(events.map(e => e.category).filter(Boolean))];
+            const keyActions = categories.slice(0, 5).join(' → ');
+            
+            const avgConfidence = events.reduce((sum, e) => sum + (e.confidence || 0), 0) / events.length;
+            
+            return `Detected ${appName} app. Session (${duration}s): ${keyActions}. ` +
+                   `Event count: ${events.length}. Average confidence: ${(avgConfidence * 100).toFixed(1)}%. ` +
+                   `Capabilities: ${appProfile?.capabilityMap ? 
+                       Object.entries(appProfile.capabilityMap)
+                           .filter(([k, v]) => typeof v === 'boolean' && v)
+                           .map(([k]) => k)
+                           .join(', ') : 'Unknown'}.`;
+        }
+
+        // Mettre à jour le résumé toutes les 5 secondes
+        setInterval(() => {
+            document.getElementById('auscultationSummary').textContent = generateAuscultationSummary();
+        }, 5000);
+    </script>
+</body>
+</html>
