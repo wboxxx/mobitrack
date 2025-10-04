@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard d'Auscultation d'Accessibilité</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card h3 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .stat-card p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .controls h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .control-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .control-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .control-item label {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .control-item input, .control-item select {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .control-item input:focus, .control-item select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+        }
+
+        .reports-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .reports-section h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .report-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .report-card:hover {
+            transform: translateX(5px);
+        }
+
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .report-title {
+            color: #2c3e50;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .report-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .report-summary {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .report-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .events-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .events-section h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .event-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 4px solid #3498db;
+        }
+
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .event-type {
+            background: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .event-time {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .event-details {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .success {
+            background: #27ae60;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-connected {
+            background: #27ae60;
+        }
+
+        .status-disconnected {
+            background: #e74c3c;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .control-group {
+                grid-template-columns: 1fr;
+            }
+
+            .report-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .report-actions {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Dashboard d'Auscultation d'Accessibilité</h1>
+            <p>Analyse intelligente des événements d'accessibilité Android</p>
+            <div style="margin-top: 15px;">
+                <span class="status-indicator" id="connectionStatus"></span>
+                <span id="connectionText">Connexion en cours...</span>
+            </div>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <h3 id="totalEvents">-</h3>
+                <p>Événements totaux</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="uniqueDevices">-</h3>
+                <p>Périphériques uniques</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="uniqueSessions">-</h3>
+                <p>Sessions uniques</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalReports">-</h3>
+                <p>Rapports générés</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <h3>🎛️ Contrôles</h3>
+            <div class="control-group">
+                <div class="control-item">
+                    <label for="deviceFilter">Périphérique</label>
+                    <select id="deviceFilter">
+                        <option value="">Tous les périphériques</option>
+                    </select>
+                </div>
+                <div class="control-item">
+                    <label for="sessionFilter">Session</label>
+                    <input type="text" id="sessionFilter" placeholder="ID de session">
+                </div>
+                <div class="control-item">
+                    <label for="timeRangeStart">Début</label>
+                    <input type="datetime-local" id="timeRangeStart">
+                </div>
+                <div class="control-item">
+                    <label for="timeRangeEnd">Fin</label>
+                    <input type="datetime-local" id="timeRangeEnd">
+                </div>
+            </div>
+            <div>
+                <button class="btn" onclick="generateReport()">📊 Générer Rapport</button>
+                <button class="btn btn-secondary" onclick="refreshStats()">🔄 Actualiser</button>
+                <button class="btn btn-danger" onclick="clearEvents()">🗑️ Effacer Événements</button>
+            </div>
+        </div>
+
+        <div class="reports-section">
+            <h3>📋 Rapports d'Auscultation</h3>
+            <div id="reportsList">
+                <div class="loading">Chargement des rapports...</div>
+            </div>
+        </div>
+
+        <div class="events-section">
+            <h3>📱 Événements d'Accessibilité</h3>
+            <div id="eventsList">
+                <div class="loading">Chargement des événements...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        // Configuration WebSocket
+        const socket = io();
+        let currentStats = null;
+        let currentReports = [];
+        let currentEvents = [];
+
+        // Éléments DOM
+        const connectionStatus = document.getElementById('connectionStatus');
+        const connectionText = document.getElementById('connectionText');
+        const statsGrid = document.getElementById('statsGrid');
+        const deviceFilter = document.getElementById('deviceFilter');
+        const reportsList = document.getElementById('reportsList');
+        const eventsList = document.getElementById('eventsList');
+
+        // Gestion de la connexion WebSocket
+        socket.on('connect', () => {
+            connectionStatus.className = 'status-indicator status-connected';
+            connectionText.textContent = 'Connecté';
+            refreshStats();
+            loadReports();
+        });
+
+        socket.on('disconnect', () => {
+            connectionStatus.className = 'status-indicator status-disconnected';
+            connectionText.textContent = 'Déconnecté';
+        });
+
+        // Écouter les événements d'accessibilité
+        socket.on('accessibilityEventsReceived', (data) => {
+            console.log('Événements d\'accessibilité reçus:', data);
+            refreshStats();
+        });
+
+        // Écouter les rapports générés
+        socket.on('auscultationReportGenerated', (data) => {
+            console.log('Rapport d\'auscultation généré:', data);
+            loadReports();
+        });
+
+        // Écouter les événements effacés
+        socket.on('accessibilityEventsCleared', (data) => {
+            console.log('Événements d\'accessibilité effacés:', data);
+            refreshStats();
+        });
+
+        // Fonctions utilitaires
+        function formatDate(dateString) {
+            return new Date(dateString).toLocaleString('fr-FR');
+        }
+
+        function formatDuration(seconds) {
+            if (seconds < 60) return `${seconds}s`;
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes}m ${remainingSeconds}s`;
+        }
+
+        // Charger les statistiques
+        async function refreshStats() {
+            try {
+                const response = await fetch('/api/accessibility-stats');
+                const data = await response.json();
+                
+                if (data.success) {
+                    currentStats = data.stats;
+                    updateStatsDisplay();
+                    updateDeviceFilter();
+                }
+            } catch (error) {
+                console.error('Erreur lors du chargement des statistiques:', error);
+            }
+        }
+
+        // Mettre à jour l'affichage des statistiques
+        function updateStatsDisplay() {
+            if (!currentStats) return;
+
+            document.getElementById('totalEvents').textContent = currentStats.totalEvents;
+            document.getElementById('uniqueDevices').textContent = currentStats.uniqueDevices;
+            document.getElementById('uniqueSessions').textContent = currentStats.uniqueSessions;
+            document.getElementById('totalReports').textContent = currentReports.length;
+        }
+
+        // Mettre à jour le filtre des périphériques
+        function updateDeviceFilter() {
+            if (!currentStats) return;
+
+            deviceFilter.innerHTML = '<option value="">Tous les périphériques</option>';
+            
+            Object.keys(currentStats.devices).forEach(deviceId => {
+                const device = currentStats.devices[deviceId];
+                const option = document.createElement('option');
+                option.value = deviceId;
+                option.textContent = `${deviceId} (${device.count} événements)`;
+                deviceFilter.appendChild(option);
+            });
+        }
+
+        // Charger les rapports
+        async function loadReports() {
+            try {
+                const response = await fetch('/api/auscultation-reports');
+                const data = await response.json();
+                
+                if (data.success) {
+                    currentReports = data.reports;
+                    displayReports();
+                }
+            } catch (error) {
+                console.error('Erreur lors du chargement des rapports:', error);
+            }
+        }
+
+        // Afficher les rapports
+        function displayReports() {
+            if (currentReports.length === 0) {
+                reportsList.innerHTML = '<div class="loading">Aucun rapport disponible</div>';
+                return;
+            }
+
+            reportsList.innerHTML = currentReports.map(report => `
+                <div class="report-card">
+                    <div class="report-header">
+                        <div class="report-title">Rapport ${report.id}</div>
+                        <div class="report-meta">
+                            ${formatDate(report.createdAt)} • ${report.eventCount} événements
+                        </div>
+                    </div>
+                    <div class="report-summary">
+                        ${report.summary || 'Aucun résumé disponible'}
+                    </div>
+                    <div class="report-actions">
+                        <button class="btn" onclick="viewReport('${report.id}')">👁️ Voir</button>
+                        <button class="btn btn-secondary" onclick="downloadReport('${report.id}')">📥 Télécharger</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Voir un rapport détaillé
+        async function viewReport(reportId) {
+            try {
+                const response = await fetch(`/api/auscultation-reports/${reportId}`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    const report = data.report;
+                    const reportWindow = window.open('', '_blank', 'width=1200,height=800');
+                    reportWindow.document.write(`
+                        <html>
+                        <head>
+                            <title>Rapport d'Auscultation ${reportId}</title>
+                            <style>
+                                body { font-family: Arial, sans-serif; margin: 20px; }
+                                .section { margin-bottom: 30px; }
+                                .section h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+                                .summary { background: #f8f9fa; padding: 15px; border-radius: 8px; white-space: pre-line; }
+                                .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+                                .stat { background: #e8f4f8; padding: 10px; border-radius: 5px; text-align: center; }
+                            </style>
+                        </head>
+                        <body>
+                            <h1>🔍 Rapport d'Auscultation d'Accessibilité</h1>
+                            <div class="section">
+                                <h2>📊 Résumé</h2>
+                                <div class="summary">${report.report.summary_md}</div>
+                            </div>
+                            <div class="section">
+                                <h2>📱 Profil de l'Application</h2>
+                                <div class="stats">
+                                    <div class="stat">
+                                        <strong>Package:</strong><br>
+                                        ${report.report.app_profile.package || 'N/A'}
+                                    </div>
+                                    <div class="stat">
+                                        <strong>Marque:</strong><br>
+                                        ${report.report.app_profile.likely_brand || 'N/A'}
+                                    </div>
+                                    <div class="stat">
+                                        <strong>Événements:</strong><br>
+                                        ${report.report.app_profile.event_count}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <h2>🎯 Capacités Détectées</h2>
+                                <div class="stats">
+                                    <div class="stat">
+                                        <strong>Clics:</strong><br>
+                                        ${report.report.capability_map.emits_clicks ? '✅' : '❌'}
+                                    </div>
+                                    <div class="stat">
+                                        <strong>Scrolls:</strong><br>
+                                        ${report.report.capability_map.emits_scrolls ? '✅' : '❌'}
+                                    </div>
+                                    <div class="stat">
+                                        <strong>IDs:</strong><br>
+                                        ${report.report.capability_map.exposes_ids ? '✅' : '❌'}
+                                    </div>
+                                    <div class="stat">
+                                        <strong>Richesse du texte:</strong><br>
+                                        ${report.report.capability_map.text_richness}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section">
+                                <h2>📈 Timeline des Événements</h2>
+                                <div class="summary">
+                                    ${report.report.session_timeline.map(event => 
+                                        `${event.ts}: ${event.category} - ${event.label} (confiance: ${(event.confidence * 100).toFixed(1)}%)`
+                                    ).join('\n')}
+                                </div>
+                            </div>
+                        </body>
+                        </html>
+                    `);
+                }
+            } catch (error) {
+                console.error('Erreur lors du chargement du rapport:', error);
+                alert('Erreur lors du chargement du rapport');
+            }
+        }
+
+        // Télécharger un rapport
+        function downloadReport(reportId) {
+            const report = currentReports.find(r => r.id === reportId);
+            if (report) {
+                const data = JSON.stringify(report, null, 2);
+                const blob = new Blob([data], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `auscultation-report-${reportId}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            }
+        }
+
+        // Générer un rapport
+        async function generateReport() {
+            const deviceId = deviceFilter.value;
+            const sessionId = document.getElementById('sessionFilter').value;
+            const timeRangeStart = document.getElementById('timeRangeStart').value;
+            const timeRangeEnd = document.getElementById('timeRangeEnd').value;
+
+            const requestData = {};
+            if (deviceId) requestData.deviceId = deviceId;
+            if (sessionId) requestData.sessionId = sessionId;
+            if (timeRangeStart && timeRangeEnd) {
+                requestData.timeRange = {
+                    start: timeRangeStart,
+                    end: timeRangeEnd
+                };
+            }
+
+            try {
+                const response = await fetch('/api/auscultation-report', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert(`Rapport généré avec succès! ID: ${data.reportId}`);
+                    loadReports();
+                } else {
+                    alert(`Erreur: ${data.message}`);
+                }
+            } catch (error) {
+                console.error('Erreur lors de la génération du rapport:', error);
+                alert('Erreur lors de la génération du rapport');
+            }
+        }
+
+        // Effacer les événements
+        async function clearEvents() {
+            if (!confirm('Êtes-vous sûr de vouloir effacer tous les événements d\'accessibilité?')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/accessibility-events-clear', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({})
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert('Événements effacés avec succès');
+                    refreshStats();
+                } else {
+                    alert(`Erreur: ${data.message}`);
+                }
+            } catch (error) {
+                console.error('Erreur lors de l\'effacement des événements:', error);
+                alert('Erreur lors de l\'effacement des événements');
+            }
+        }
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', () => {
+            refreshStats();
+            loadReports();
+        });
+    </script>
+</body>
+</html>

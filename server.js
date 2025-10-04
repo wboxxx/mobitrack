@@ -35,6 +35,10 @@ let filteredEvents = {
   generic: []
 };
 
+// Store accessibility events for auscultation
+let accessibilityEvents = [];
+let auscultationReports = [];
+
 // Routes
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'leclerc.html'));
@@ -1484,9 +1488,253 @@ app.post('/api/carrefour-visual-clear', (req, res) => {
   });
 });
 
+// ===== ENDPOINTS D'AUSCULTATION D'ACCESSIBILITÉ =====
+
+// Endpoint pour recevoir les événements d'accessibilité
+app.post('/api/accessibility-events', (req, res) => {
+  const { events, deviceId, sessionId } = req.body;
+  
+  if (!events || !Array.isArray(events)) {
+    return res.status(400).json({
+      success: false,
+      message: 'Événements d\'accessibilité requis'
+    });
+  }
+
+  // Ajouter les métadonnées
+  const enrichedEvents = events.map(event => ({
+    ...event,
+    deviceId: deviceId || 'unknown',
+    sessionId: sessionId || Date.now().toString(),
+    receivedAt: new Date().toISOString()
+  }));
+
+  // Stocker les événements
+  accessibilityEvents.push(...enrichedEvents);
+  
+  console.log(`📱 ${enrichedEvents.length} événements d'accessibilité reçus (${deviceId || 'unknown'})`);
+  
+  // Notifier les clients via WebSocket
+  io.emit('accessibilityEventsReceived', {
+    count: enrichedEvents.length,
+    deviceId,
+    sessionId,
+    timestamp: new Date().toISOString()
+  });
+  
+  res.json({
+    success: true,
+    message: `${enrichedEvents.length} événements d'accessibilité reçus`,
+    count: enrichedEvents.length
+  });
+});
+
+// Endpoint pour générer un rapport d'auscultation
+app.post('/api/auscultation-report', (req, res) => {
+  const { deviceId, sessionId, timeRange } = req.body;
+  
+  try {
+    // Filtrer les événements selon les critères
+    let eventsToAnalyze = [...accessibilityEvents];
+    
+    if (deviceId) {
+      eventsToAnalyze = eventsToAnalyze.filter(event => event.deviceId === deviceId);
+    }
+    
+    if (sessionId) {
+      eventsToAnalyze = eventsToAnalyze.filter(event => event.sessionId === sessionId);
+    }
+    
+    if (timeRange && timeRange.start && timeRange.end) {
+      const startTime = new Date(timeRange.start).getTime();
+      const endTime = new Date(timeRange.end).getTime();
+      eventsToAnalyze = eventsToAnalyze.filter(event => {
+        const eventTime = new Date(event.timestamp).getTime();
+        return eventTime >= startTime && eventTime <= endTime;
+      });
+    }
+    
+    if (eventsToAnalyze.length === 0) {
+      return res.json({
+        success: false,
+        message: 'Aucun événement d\'accessibilité trouvé pour les critères donnés',
+        report: null
+      });
+    }
+    
+    // Générer le rapport d'auscultation
+    const report = generateAuscultationReport(eventsToAnalyze, { appConfigManager });
+    
+    // Stocker le rapport
+    const reportId = Date.now().toString();
+    auscultationReports.push({
+      id: reportId,
+      deviceId,
+      sessionId,
+      timeRange,
+      report,
+      createdAt: new Date().toISOString(),
+      eventCount: eventsToAnalyze.length
+    });
+    
+    console.log(`📊 Rapport d'auscultation généré: ${reportId} (${eventsToAnalyze.length} événements)`);
+    
+    // Notifier les clients
+    io.emit('auscultationReportGenerated', {
+      reportId,
+      deviceId,
+      sessionId,
+      eventCount: eventsToAnalyze.length,
+      timestamp: new Date().toISOString()
+    });
+    
+    res.json({
+      success: true,
+      reportId,
+      report,
+      eventCount: eventsToAnalyze.length,
+      message: 'Rapport d\'auscultation généré avec succès'
+    });
+    
+  } catch (error) {
+    console.error('❌ Erreur lors de la génération du rapport:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Erreur lors de la génération du rapport d\'auscultation',
+      error: error.message
+    });
+  }
+});
+
+// Endpoint pour récupérer les rapports d'auscultation
+app.get('/api/auscultation-reports', (req, res) => {
+  const { deviceId, limit = 10 } = req.query;
+  
+  let reports = [...auscultationReports];
+  
+  if (deviceId) {
+    reports = reports.filter(report => report.deviceId === deviceId);
+  }
+  
+  // Trier par date de création (plus récent en premier)
+  reports.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+  
+  // Limiter le nombre de résultats
+  reports = reports.slice(0, parseInt(limit));
+  
+  res.json({
+    success: true,
+    reports: reports.map(({ report, ...meta }) => ({
+      ...meta,
+      summary: report.summary_md,
+      appProfile: report.app_profile,
+      eventCount: meta.eventCount
+    })),
+    total: auscultationReports.length
+  });
+});
+
+// Endpoint pour récupérer un rapport spécifique
+app.get('/api/auscultation-reports/:reportId', (req, res) => {
+  const { reportId } = req.params;
+  
+  const report = auscultationReports.find(r => r.id === reportId);
+  
+  if (!report) {
+    return res.status(404).json({
+      success: false,
+      message: 'Rapport d\'auscultation introuvable'
+    });
+  }
+  
+  res.json({
+    success: true,
+    report
+  });
+});
+
+// Endpoint pour effacer les événements d'accessibilité
+app.post('/api/accessibility-events-clear', (req, res) => {
+  const { deviceId, sessionId } = req.body;
+  
+  if (deviceId) {
+    accessibilityEvents = accessibilityEvents.filter(event => event.deviceId !== deviceId);
+    console.log(`🗑️ Événements d'accessibilité effacés pour le périphérique: ${deviceId}`);
+  } else if (sessionId) {
+    accessibilityEvents = accessibilityEvents.filter(event => event.sessionId !== sessionId);
+    console.log(`🗑️ Événements d'accessibilité effacés pour la session: ${sessionId}`);
+  } else {
+    accessibilityEvents = [];
+    console.log('🗑️ Tous les événements d\'accessibilité effacés');
+  }
+  
+  // Notifier les clients
+  io.emit('accessibilityEventsCleared', { deviceId, sessionId });
+  
+  res.json({
+    success: true,
+    message: 'Événements d\'accessibilité effacés',
+    remainingCount: accessibilityEvents.length
+  });
+});
+
+// Endpoint pour obtenir les statistiques des événements d'accessibilité
+app.get('/api/accessibility-stats', (req, res) => {
+  const { deviceId } = req.query;
+  
+  let events = [...accessibilityEvents];
+  
+  if (deviceId) {
+    events = events.filter(event => event.deviceId === deviceId);
+  }
+  
+  const stats = {
+    totalEvents: events.length,
+    uniqueDevices: [...new Set(events.map(e => e.deviceId))].length,
+    uniqueSessions: [...new Set(events.map(e => e.sessionId))].length,
+    eventTypes: {},
+    devices: {},
+    timeRange: {
+      first: events.length > 0 ? events[0].timestamp : null,
+      last: events.length > 0 ? events[events.length - 1].timestamp : null
+    }
+  };
+  
+  // Compter les types d'événements
+  events.forEach(event => {
+    const type = event.eventType || 'UNKNOWN';
+    stats.eventTypes[type] = (stats.eventTypes[type] || 0) + 1;
+  });
+  
+  // Compter par périphérique
+  events.forEach(event => {
+    const device = event.deviceId || 'unknown';
+    if (!stats.devices[device]) {
+      stats.devices[device] = { count: 0, sessions: new Set() };
+    }
+    stats.devices[device].count++;
+    stats.devices[device].sessions.add(event.sessionId);
+  });
+  
+  // Convertir les sets en arrays
+  Object.keys(stats.devices).forEach(device => {
+    stats.devices[device].sessions = Array.from(stats.devices[device].sessions);
+  });
+  
+  res.json({
+    success: true,
+    stats
+  });
+});
+
 // Route pour le dashboard Carrefour
 app.get('/carrefour-dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'carrefour-dashboard.html'));
+});
+
+// Route pour le dashboard d'auscultation d'accessibilité
+app.get('/accessibility-dashboard', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'accessibility-dashboard.html'));
 });
 
 // Socket.io for real-time updates
