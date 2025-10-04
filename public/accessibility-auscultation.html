@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 Prompt Auscultation - Accessibility</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #1f2933;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            color: #fff;
+            padding: 32px 24px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header p {
+            margin-top: 12px;
+            font-size: 1rem;
+            opacity: 0.85;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 20px 45px rgba(102, 126, 234, 0.25);
+            margin-bottom: 24px;
+        }
+
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #4a5568;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 12px 14px;
+            border-radius: 10px;
+            border: 2px solid rgba(102, 126, 234, 0.25);
+            font-size: 1rem;
+        }
+
+        select {
+            background: #f8f9ff;
+        }
+
+        button {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: none;
+        }
+
+        button:hover:not(:disabled) {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 25px rgba(32, 201, 151, 0.35);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .output-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .summary-box {
+            background: #f8f9ff;
+            border-radius: 14px;
+            padding: 20px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .summary-box strong {
+            color: #3730a3;
+        }
+
+        .json-box {
+            background: #111827;
+            color: #f9fafb;
+            border-radius: 14px;
+            padding: 20px;
+            font-family: 'Fira Code', 'Courier New', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            overflow-x: auto;
+            max-height: 420px;
+        }
+
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .status-label {
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .status-value {
+            font-family: 'Fira Code', monospace;
+            background: rgba(102, 126, 234, 0.12);
+            padding: 6px 10px;
+            border-radius: 6px;
+        }
+
+        .timeline {
+            margin-top: 16px;
+            border-left: 3px solid rgba(102, 126, 234, 0.4);
+            padding-left: 16px;
+        }
+
+        .timeline-item {
+            margin-bottom: 12px;
+        }
+
+        .timeline-item h4 {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #4338ca;
+        }
+
+        .timeline-item small {
+            color: #718096;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .inline-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .inline-actions button.secondary {
+            background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #0f172a;
+                color: #e2e8f0;
+            }
+            .card {
+                background: rgba(15, 23, 42, 0.85);
+                backdrop-filter: blur(18px);
+                color: inherit;
+                box-shadow: 0 20px 45px rgba(15, 23, 42, 0.8);
+            }
+            label {
+                color: #e2e8f0;
+            }
+            select {
+                background: rgba(30, 41, 59, 0.9);
+                color: inherit;
+                border-color: rgba(99, 102, 241, 0.35);
+            }
+            .summary-box {
+                background: rgba(30, 41, 59, 0.8);
+                border-color: rgba(99, 102, 241, 0.25);
+            }
+            .json-box {
+                background: rgba(17, 24, 39, 0.85);
+            }
+            .status-value {
+                background: rgba(99, 102, 241, 0.18);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧠 Prompt Auscultation <span style="font-size:1rem;">(Accessibility)</span></h1>
+        <p>Génère un résumé structuré et un JSON conforme au prompt « Auscultation d’app via Accessibility » à partir des événements capturés.</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="controls">
+                <div>
+                    <label for="appSelect">Application</label>
+                    <select id="appSelect"></select>
+                </div>
+                <div>
+                    <label for="platformSelect">Plateforme</label>
+                    <select id="platformSelect">
+                        <option value="">Toutes</option>
+                        <option value="android_native" selected>Android Accessibility</option>
+                        <option value="web">Web</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="sessionInput">Session ID (optionnel)</label>
+                    <input type="text" id="sessionInput" placeholder="session_..." style="width:100%;padding:12px 14px;border-radius:10px;border:2px solid rgba(102,126,234,0.25);" />
+                </div>
+                <div style="align-self:end;">
+                    <button id="generateBtn">🚀 Générer le rapport</button>
+                </div>
+            </div>
+            <div class="inline-actions">
+                <button class="secondary" id="copyPromptBtn" disabled>📋 Copier le prompt complet</button>
+                <button class="secondary" id="refreshBtn">🔄 Rafraîchir la liste des apps</button>
+            </div>
+        </div>
+
+        <div class="card" id="statusCard">
+            <div class="status-bar">
+                <div>
+                    <span class="status-label">Événements traités :</span>
+                    <span class="status-value" id="eventCount">0</span>
+                </div>
+                <div>
+                    <span class="status-label">Fenêtre :</span>
+                    <span class="status-value" id="durationWindow">-</span>
+                </div>
+                <div>
+                    <span class="status-label">Package :</span>
+                    <span class="status-value" id="packageLabel">-</span>
+                </div>
+            </div>
+            <div class="timeline" id="timeline"></div>
+        </div>
+
+        <div class="output-grid">
+            <div class="card">
+                <h2 style="margin-top:0;">Résumé Markdown</h2>
+                <div class="summary-box" id="summaryBox">Aucun rapport généré pour le moment.</div>
+            </div>
+            <div class="card">
+                <h2 style="margin-top:0;">Payload JSON</h2>
+                <pre class="json-box" id="jsonBox">{\n  "message": "Clique sur \"Générer le rapport\" pour obtenir le JSON."\n}</pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const appSelect = document.getElementById('appSelect');
+        const platformSelect = document.getElementById('platformSelect');
+        const sessionInput = document.getElementById('sessionInput');
+        const generateBtn = document.getElementById('generateBtn');
+        const copyBtn = document.getElementById('copyPromptBtn');
+        const refreshBtn = document.getElementById('refreshBtn');
+        const summaryBox = document.getElementById('summaryBox');
+        const jsonBox = document.getElementById('jsonBox');
+        const eventCountEl = document.getElementById('eventCount');
+        const durationWindowEl = document.getElementById('durationWindow');
+        const packageLabelEl = document.getElementById('packageLabel');
+        const timelineEl = document.getElementById('timeline');
+
+        let lastReport = null;
+        let appsCache = [];
+
+        function escapeHtml(text) {
+            return text
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        function markdownToHtml(markdown) {
+            if (!markdown) return '<em>Aucun contenu.</em>';
+            const lines = markdown.split(/\n+/).filter(Boolean);
+            const items = lines.map(line => {
+                const clean = line.replace(/^[-*]\s*/, '').trim();
+                let html = escapeHtml(clean);
+                html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+                return `<li>${html}</li>`;
+            });
+            return `<ul>${items.join('')}</ul>`;
+        }
+
+        async function loadApps() {
+            try {
+                const response = await fetch('/api/apps');
+                const data = await response.json();
+                if (!data.success) throw new Error(data.error || 'Réponse invalide');
+
+                appsCache = data.apps || [];
+                appSelect.innerHTML = '';
+
+                if (appsCache.length === 0) {
+                    const option = document.createElement('option');
+                    option.value = '';
+                    option.textContent = 'Aucune app configurée';
+                    appSelect.appendChild(option);
+                    generateBtn.disabled = true;
+                    return;
+                }
+
+                appsCache.forEach(app => {
+                    const option = document.createElement('option');
+                    option.value = app.packageName;
+                    option.textContent = `${app.name} (${app.key})`;
+                    if (app.packageName === 'com.carrefour.fid.android') {
+                        option.selected = true;
+                    }
+                    appSelect.appendChild(option);
+                });
+
+                generateBtn.disabled = false;
+            } catch (error) {
+                console.error('Erreur chargement apps', error);
+                appSelect.innerHTML = '<option value="">Erreur de chargement</option>';
+                generateBtn.disabled = true;
+            }
+        }
+
+        function updateTimeline(timeline = []) {
+            if (!timeline.length) {
+                timelineEl.innerHTML = '<p style="color:#6b7280;font-style:italic;">Aucun événement qualifié pour la timeline.</p>';
+                return;
+            }
+
+            const items = timeline.map(item => `
+                <div class="timeline-item">
+                    <h4>${escapeHtml(item.category)}</h4>
+                    <div>${escapeHtml(item.label || '')}</div>
+                    <small>${escapeHtml(item.ts)} · confiance ${(item.confidence * 100).toFixed(0)}%</small>
+                </div>
+            `);
+            timelineEl.innerHTML = items.join('');
+        }
+
+        function updateStatus(report, meta) {
+            eventCountEl.textContent = meta.event_count || 0;
+            durationWindowEl.textContent = report?.app_profile?.first_seen && report?.app_profile?.last_seen
+                ? `${report.app_profile.first_seen} → ${report.app_profile.last_seen}`
+                : '-';
+            packageLabelEl.textContent = report?.app_profile?.package || 'n/a';
+        }
+
+        function enableCopy(report) {
+            copyBtn.disabled = !report;
+        }
+
+        function buildPromptPayload(report) {
+            if (!report) return '';
+            return `${report.summary_md}\n\nJSON:\n${JSON.stringify(report, null, 2)}`;
+        }
+
+        async function generateReport() {
+            const pkg = appSelect.value;
+            const platform = platformSelect.value;
+            const sessionId = sessionInput.value.trim();
+
+            const params = new URLSearchParams();
+            if (pkg) params.set('package', pkg);
+            if (platform) params.set('platform', platform);
+            if (sessionId) params.set('sessionId', sessionId);
+
+            generateBtn.disabled = true;
+            generateBtn.textContent = '⏳ Génération en cours...';
+            summaryBox.innerHTML = '<em>Génération du rapport en cours...</em>';
+            jsonBox.textContent = '...';
+            updateTimeline([]);
+
+            try {
+                const response = await fetch(`/api/auscultation-report?${params.toString()}`);
+                const data = await response.json();
+
+                if (!data.success) {
+                    throw new Error(data.error || 'Erreur serveur');
+                }
+
+                lastReport = data.report;
+                summaryBox.innerHTML = markdownToHtml(lastReport.summary_md);
+                jsonBox.textContent = JSON.stringify(lastReport, null, 2);
+                updateTimeline(lastReport.session_timeline);
+                updateStatus(lastReport, data);
+                enableCopy(lastReport);
+            } catch (error) {
+                console.error('Erreur génération rapport', error);
+                summaryBox.innerHTML = `<strong style="color:#dc2626;">Erreur:</strong> ${escapeHtml(error.message)}`;
+                jsonBox.textContent = JSON.stringify({ error: error.message }, null, 2);
+                lastReport = null;
+                updateTimeline([]);
+                enableCopy(null);
+            } finally {
+                generateBtn.disabled = false;
+                generateBtn.textContent = '🚀 Générer le rapport';
+            }
+        }
+
+        copyBtn.addEventListener('click', async () => {
+            if (!lastReport) return;
+            try {
+                await navigator.clipboard.writeText(buildPromptPayload(lastReport));
+                copyBtn.textContent = '✅ Copié !';
+                setTimeout(() => (copyBtn.textContent = '📋 Copier le prompt complet'), 1500);
+            } catch (error) {
+                console.error('Erreur copie prompt', error);
+                copyBtn.textContent = '⚠️ Impossible de copier';
+                setTimeout(() => (copyBtn.textContent = '📋 Copier le prompt complet'), 2000);
+            }
+        });
+
+        refreshBtn.addEventListener('click', () => {
+            refreshBtn.disabled = true;
+            refreshBtn.textContent = '⏳ Rafraîchissement...';
+            loadApps().finally(() => {
+                refreshBtn.disabled = false;
+                refreshBtn.textContent = '🔄 Rafraîchir la liste des apps';
+            });
+        });
+
+        generateBtn.addEventListener('click', generateReport);
+
+        loadApps();
+    </script>
+</body>
+</html>

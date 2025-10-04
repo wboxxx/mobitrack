@@ -79,6 +79,23 @@ class AppConfigManager {
   }
 
   /**
+   * Recherche une app depuis son package sans modifier l'état courant
+   */
+  findAppByPackage(packageName) {
+    if (!packageName || !this.config?.apps) {
+      return null;
+    }
+
+    for (const [key, app] of Object.entries(this.config.apps)) {
+      if (app.packageName === packageName) {
+        return { key, config: app };
+      }
+    }
+
+    return null;
+  }
+
+  /**
    * Liste toutes les apps disponibles
    */
   listApps() {

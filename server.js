@@ -5,6 +5,7 @@ const path = require('path');
 const http = require('http');
 const socketIo = require('socket.io');
 const AppConfigManager = require('./app-config-manager');
+const { generateAuscultationReport } = require('./accessibility-auscultation');
 
 const app = express();
 const server = http.createServer(app);
@@ -57,6 +58,10 @@ app.get('/dashboard', (req, res) => {
 
 app.get('/test-dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'test-dashboard.html'));
+});
+
+app.get('/accessibility-auscultation', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'accessibility-auscultation.html'));
 });
 
 // Système de filtrage intelligent côté serveur
@@ -419,6 +424,53 @@ function isDuplicate(event) {
 }
 
 // API endpoints
+app.get('/api/auscultation-report', (req, res) => {
+  try {
+    const packageFilter = req.query.package || null;
+    const sessionFilter = req.query.sessionId || null;
+    const platformFilter = req.query.platform ? req.query.platform.toLowerCase() : null;
+
+    const filteredEvents = trackingData.filter(event => {
+      const eventPackage = event.data?.packageName || event.packageName || null;
+      const eventPlatform = (event.platform || '').toLowerCase();
+
+      if (platformFilter && eventPlatform !== platformFilter) {
+        return false;
+      }
+
+      if (packageFilter && eventPackage !== packageFilter) {
+        return false;
+      }
+
+      if (sessionFilter && event.sessionId !== sessionFilter) {
+        return false;
+      }
+
+      // Garder uniquement les événements provenant du service d'accessibilité
+      return Boolean(eventPackage);
+    });
+
+    const report = generateAuscultationReport(filteredEvents, { appConfigManager });
+
+    res.json({
+      success: true,
+      report,
+      filters: {
+        package: packageFilter,
+        sessionId: sessionFilter,
+        platform: platformFilter
+      },
+      event_count: filteredEvents.length
+    });
+  } catch (error) {
+    console.error('Erreur lors de la génération du rapport d\'auscultation:', error);
+    res.status(500).json({
+      success: false,
+      error: "Erreur lors de la génération du rapport d'auscultation"
+    });
+  }
+});
+
 app.post('/api/track', (req, res) => {
   const rawEvent = {
     id: Date.now(),
